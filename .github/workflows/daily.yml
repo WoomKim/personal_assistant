@@ -1,0 +1,51 @@
+name: Daily News Briefing
+
+on:
+  schedule:
+    # 매일 07:00 KST = 22:00 UTC (전날)
+    # GitHub cron은 UTC 기준이며, 부하에 따라 5~20분 지연될 수 있습니다 (정상 동작)
+    - cron: "0 22 * * *"
+  workflow_dispatch: {}   # 수동 실행 버튼
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-briefing
+  cancel-in-progress: false
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 의존성 설치
+        run: pip install -r requirements.txt
+
+      - name: 브리핑 생성
+        env:
+          CEREBRAS_API_KEY: ${{ secrets.CEREBRAS_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+          DASHBOARD_URL: ${{ vars.DASHBOARD_URL }}
+        run: python collect.py
+
+      - name: 결과 커밋
+        run: |
+          git config user.name  "news-bot"
+          git config user.email "news-bot@users.noreply.github.com"
+          git add docs/data seen.json
+          if git diff --staged --quiet; then
+            echo "변경 사항 없음"
+          else
+            git commit -m "brief: $(date -u +%Y-%m-%d)"
+            git push
+          fi

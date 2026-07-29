@@ -1,0 +1,101 @@
+# 뉴스 소스 설정
+# category: ai | security
+# weight: 중요도 가중치 (1.0 기본). 신뢰도 높은 소스는 1.2~1.5
+# max: 이 피드에서 가져올 최대 기사 수
+
+feeds:
+  # ─────────── SECURITY ───────────
+  - name: The Hacker News
+    url: https://feeds.feedburner.com/TheHackersNews
+    category: security
+    weight: 1.2
+    max: 8
+
+  - name: BleepingComputer
+    url: https://www.bleepingcomputer.com/feed/
+    category: security
+    weight: 1.2
+    max: 8
+
+  - name: Krebs on Security
+    url: https://krebsonsecurity.com/feed/
+    category: security
+    weight: 1.4
+    max: 4
+
+  - name: CISA Advisories
+    url: https://www.cisa.gov/cybersecurity-advisories/all.xml
+    category: security
+    weight: 1.5
+    max: 6
+
+  - name: SecurityWeek
+    url: https://www.securityweek.com/feed/
+    category: security
+    weight: 1.0
+    max: 6
+
+  - name: arXiv cs.CR
+    url: http://export.arxiv.org/rss/cs.CR
+    category: security
+    weight: 0.8
+    max: 4
+
+  # ─────────── AI ───────────
+  - name: TechCrunch AI
+    url: https://techcrunch.com/category/artificial-intelligence/feed/
+    category: ai
+    weight: 1.1
+    max: 8
+
+  - name: VentureBeat AI
+    url: https://venturebeat.com/category/ai/feed/
+    category: ai
+    weight: 1.0
+    max: 6
+
+  - name: Hugging Face Blog
+    url: https://huggingface.co/blog/feed.xml
+    category: ai
+    weight: 1.2
+    max: 4
+
+  - name: Simon Willison
+    url: https://simonwillison.net/atom/everything/
+    category: ai
+    weight: 1.3
+    max: 5
+
+  - name: arXiv cs.AI
+    url: http://export.arxiv.org/rss/cs.AI
+    category: ai
+    weight: 0.8
+    max: 4
+
+  - name: MIT Tech Review AI
+    url: https://www.technologyreview.com/topic/artificial-intelligence/feed
+    category: ai
+    weight: 1.1
+    max: 4
+
+# 관심 키워드 — 제목/요약에 포함되면 중요도 보너스 (+1)
+# 본인이 쓰는 스택/제품 이름을 넣어두면 관련 취약점을 놓치지 않습니다
+watchlist:
+  - zero-day
+  - actively exploited
+  - RCE
+  - supply chain
+  - ransomware
+  - CVE-2026
+  - open weights
+  - open source model
+  - agent
+  - prompt injection
+
+limits:
+  ai: 5
+  security: 5
+  # 요약을 위해 LLM에 보낼 최대 기사 수 (시간/레이트리밋 제어)
+  max_articles_to_summarize: 40
+  # 본문 자르기 (Cerebras 무료 티어 8K 컨텍스트 대응)
+  article_char_limit: 5000

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0d1117">
+<title>My Briefing — AI & Security</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📰</text></svg>">
+<style>
+  :root{
+    --bg:#0d1117; --panel:#161b22; --panel-2:#1c2230; --border:#30363d;
+    --fg:#e6edf3; --muted:#8b949e; --accent:#58a6ff;
+    --sec:#f85149; --ai:#58a6ff; --warn:#d29922; --ok:#3fb950;
+    --radius:12px;
+  }
+  @media (prefers-color-scheme: light){
+    :root{ --bg:#f6f8fa; --panel:#fff; --panel-2:#f0f3f6; --border:#d0d7de;
+           --fg:#1f2328; --muted:#636c76; }
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--fg);
+       font-family:-apple-system,BlinkMacSystemFont,"Pretendard","Segoe UI",Roboto,"Apple SD Gothic Neo","Noto Sans KR",sans-serif;
+       line-height:1.6;-webkit-font-smoothing:antialiased}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:960px;margin:0 auto;padding:20px 16px 80px}
+
+  /* ── header ── */
+  header{display:flex;align-items:baseline;gap:12px;flex-wrap:wrap;margin-bottom:4px}
+  h1{font-size:22px;margin:0;letter-spacing:-.02em}
+  .date-sel{margin-left:auto;display:flex;gap:8px;align-items:center}
+  select,input,button{font:inherit;color:var(--fg);background:var(--panel);
+       border:1px solid var(--border);border-radius:8px;padding:7px 10px}
+  button{cursor:pointer}
+  button:hover{border-color:var(--accent)}
+  .meta{color:var(--muted);font-size:13px;margin-bottom:16px}
+
+  /* ── briefing ── */
+  .brief{background:var(--panel);border:1px solid var(--border);border-left:3px solid var(--accent);
+         border-radius:var(--radius);padding:16px 18px;margin-bottom:18px;font-size:15px}
+  .brief h2{margin:0 0 8px;font-size:13px;color:var(--muted);
+            text-transform:uppercase;letter-spacing:.08em;font-weight:600}
+
+  /* ── controls ── */
+  .controls{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px;align-items:center}
+  .chip{padding:6px 13px;border-radius:999px;border:1px solid var(--border);
+        background:var(--panel);font-size:13px;cursor:pointer;user-select:none;transition:.12s}
+  .chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff;font-weight:600}
+  #q{flex:1;min-width:160px}
+
+  /* ── cards ── */
+  .card{background:var(--panel);border:1px solid var(--border);border-radius:var(--radius);
+        padding:14px 16px;margin-bottom:10px;transition:.12s;position:relative;overflow:hidden}
+  .card:hover{border-color:var(--accent);transform:translateY(-1px)}
+  .card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--tag)}
+  .card.security{--tag:var(--sec)} .card.ai{--tag:var(--ai)}
+  .card h3{margin:0 0 6px;font-size:16px;line-height:1.4;font-weight:600;padding-left:4px}
+  .card h3 a:hover{color:var(--accent)}
+  .card p{margin:0 0 8px;color:var(--fg);opacity:.85;font-size:14px;padding-left:4px}
+  .why{font-size:13px;color:var(--muted);border-left:2px solid var(--border);
+       padding-left:10px;margin:0 0 8px 4px;font-style:italic}
+  .row{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:12px;
+       color:var(--muted);padding-left:4px}
+  .badge{padding:2px 8px;border-radius:6px;background:var(--panel-2);
+         border:1px solid var(--border);font-size:11px;font-weight:600}
+  .badge.hot{background:rgba(248,81,73,.15);border-color:var(--sec);color:var(--sec)}
+  .badge.kw{background:rgba(210,153,34,.15);border-color:var(--warn);color:var(--warn)}
+  .imp{font-variant-numeric:tabular-nums;font-weight:700;color:var(--tag)}
+
+  .empty{text-align:center;color:var(--muted);padding:48px 0}
+  .sec-title{font-size:13px;color:var(--muted);text-transform:uppercase;
+             letter-spacing:.08em;margin:24px 0 10px;font-weight:600}
+  footer{margin-top:32px;color:var(--muted);font-size:12px;text-align:center}
+  mark{background:rgba(88,166,255,.3);color:inherit;border-radius:3px;padding:0 2px}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>📰 My Briefing</h1>
+    <div class="date-sel">
+      <select id="dates" aria-label="날짜 선택"></select>
+      <button id="reload" title="새로고침">↻</button>
+    </div>
+  </header>
+  <div class="meta" id="meta">불러오는 중…</div>
+
+  <div class="brief" id="brief" hidden>
+    <h2>오늘의 흐름</h2>
+    <div id="briefText"></div>
+  </div>
+
+  <div class="controls">
+    <span class="chip" id="c-all"  aria-pressed="true"  data-cat="all">전체</span>
+    <span class="chip" id="c-sec"  aria-pressed="false" data-cat="security">🔐 Security</span>
+    <span class="chip" id="c-ai"   aria-pressed="false" data-cat="ai">🤖 AI</span>
+    <span class="chip" id="c-full" aria-pressed="false" data-toggle="full">전체 기사 보기</span>
+    <input id="q" type="search" placeholder="검색 (제목·요약·출처)">
+  </div>
+
+  <div id="list"></div>
+
+  <footer>
+    <span id="foot"></span> · 매일 07:00 KST 자동 갱신 (GitHub Actions)
+  </footer>
+</div>
+
+<script>
+const state = { data:null, cat:"all", q:"", full:false };
+const $ = s => document.querySelector(s);
+
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c =>
+  ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
+
+function highlight(text, q){
+  const safe = esc(text);
+  if(!q) return safe;
+  try{
+    return safe.replace(new RegExp(`(${q.replace(/[.*+?^${}()|[\]\\]/g,"\\$&")})`, "gi"), "<mark>$1</mark>");
+  }catch{ return safe; }
+}
+
+function fmtDate(iso){
+  try{
+    const d = new Date(iso);
+    return d.toLocaleDateString("ko-KR",{month:"short",day:"numeric"}) + " " +
+           d.toLocaleTimeString("ko-KR",{hour:"2-digit",minute:"2-digit"});
+  }catch{ return iso; }
+}
+
+async function loadIndex(){
+  try{
+    const r = await fetch("./data/index.json", {cache:"no-store"});
+    if(!r.ok) throw 0;
+    const { dates } = await r.json();
+    $("#dates").innerHTML = dates.map(d => `<option value="${d}">${d}</option>`).join("");
+  }catch{
+    $("#dates").innerHTML = `<option value="latest">최신</option>`;
+  }
+}
+
+async function load(date){
+  const file = (!date || date === "latest") ? "latest" : date;
+  $("#meta").textContent = "불러오는 중…";
+  try{
+    const r = await fetch(`./data/${file}.json`, {cache:"no-store"});
+    if(!r.ok) throw new Error("데이터 없음");
+    state.data = await r.json();
+    render();
+  }catch(e){
+    $("#meta").textContent = "아직 브리핑 데이터가 없습니다. GitHub Actions를 한 번 실행해 주세요.";
+    $("#list").innerHTML = `<div class="empty">📭<br>데이터 없음</div>`;
+  }
+}
+
+function card(a, q){
+  const hot = a.importance >= 4.5;
+  const kws = (a.matched || []).slice(0,3)
+    .map(k => `<span class="badge kw">${esc(k)}</span>`).join("");
+  return `
+  <article class="card ${esc(a.category)}">
+    <h3><a href="${esc(a.url)}" target="_blank" rel="noopener">${highlight(a.title, q)}</a></h3>
+    <p>${highlight(a.summary || "", q)}</p>
+    ${a.why ? `<div class="why">${esc(a.why)}</div>` : ""}
+    <div class="row">
+      <span class="imp">${a.importance}</span>
+      <span class="badge">${esc(a.source)}</span>
+      ${hot ? `<span class="badge hot">주목</span>` : ""}
+      ${kws}
+    </div>
+  </article>`;
+}
+
+function render(){
+  const d = state.data;
+  if(!d) return;
+
+  $("#meta").textContent =
+    `${d.date} · 수집 ${d.stats.collected}건 → 선별 ${d.stats.picked}건 · 생성 ${fmtDate(d.generated_at)}`
+    + (d.stats.llm === "dry-run" ? " · ⚠ DRY-RUN (LLM 미사용)" : "");
+  $("#foot").textContent = `${d.date} 기준`;
+
+  $("#brief").hidden = !d.briefing;
+  $("#briefText").textContent = d.briefing || "";
+
+  const src = state.full ? (d.all_items || d.items) : d.items;
+  const q = state.q.trim().toLowerCase();
+  let items = src.filter(a => {
+    if(state.cat !== "all" && a.category !== state.cat) return false;
+    if(!q) return true;
+    return `${a.title} ${a.summary} ${a.source}`.toLowerCase().includes(q);
+  });
+
+  if(!items.length){
+    $("#list").innerHTML = `<div class="empty">🔍<br>조건에 맞는 기사가 없습니다</div>`;
+    return;
+  }
+
+  if(state.cat === "all"){
+    const groups = [["security","🔐 Security"],["ai","🤖 AI"]];
+    $("#list").innerHTML = groups.map(([c,label]) => {
+      const g = items.filter(a => a.category === c);
+      if(!g.length) return "";
+      return `<div class="sec-title">${label} · ${g.length}</div>` +
+             g.map(a => card(a, state.q)).join("");
+    }).join("");
+  }else{
+    $("#list").innerHTML = items.map(a => card(a, state.q)).join("");
+  }
+}
+
+/* ── 이벤트 ── */
+document.querySelectorAll(".chip[data-cat]").forEach(chip => {
+  chip.onclick = () => {
+    state.cat = chip.dataset.cat;
+    document.querySelectorAll(".chip[data-cat]").forEach(c =>
+      c.setAttribute("aria-pressed", String(c === chip)));
+    render();
+  };
+});
+
+$("#c-full").onclick = () => {
+  state.full = !state.full;
+  $("#c-full").setAttribute("aria-pressed", String(state.full));
+  $("#c-full").textContent = state.full ? "선별 기사만" : "전체 기사 보기";
+  render();
+};
+
+let t;
+$("#q").oninput = e => {
+  clearTimeout(t);
+  t = setTimeout(() => { state.q = e.target.value; render(); }, 150);
+};
+
+$("#dates").onchange = e => load(e.target.value);
+$("#reload").onclick = () => load($("#dates").value);
+
+/* 키보드 단축키: / 로 검색 포커스 */
+document.addEventListener("keydown", e => {
+  if(e.key === "/" && document.activeElement !== $("#q")){
+    e.preventDefault(); $("#q").focus();
+  }
+});
+
+(async () => { await loadIndex(); await load($("#dates").value); })();
+</script>
+</body>
+</html>
