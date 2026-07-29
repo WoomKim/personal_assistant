@@ -1,0 +1,627 @@
+{
+  "date": "2026-07-30",
+  "generated_at": "2026-07-30T07:46:54.979775+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Felons, Fraudsters Flog Offensive Cybersecurity Startup」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "a862312352299b9d",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
+      "why": "",
+      "importance": 3.8,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Wed, 08 Jul 2026 12:31:39 +0000"
+    },
+    {
+      "id": "3c95f7725d7b9936",
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\nTracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secret",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 29 Jul 2026 23:40:00 +0530"
+    },
+    {
+      "id": "3e57e4f822db077b",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all ver",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026",
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 21:09:30 +0530"
+    },
+    {
+      "id": "dc28e084be7f301f",
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\nThe first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 29 Jul 2026 21:01:15 +0530"
+    },
+    {
+      "id": "98188d77c26a4d3e",
+      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
+      "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\nTracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 29 Jul 2026 17:27:00 +0530"
+    },
+    {
+      "id": "f34faab803310ac4",
+      "title": "AI Worming through Word",
+      "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "29th July 2026 - Link Blog\nAI Worming through Word (via) Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:\nAn attacker places hidden instructions in a document that is later used as source mate",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "prompt injection"
+      ],
+      "published": "2026-07-29T18:43:03+00:00"
+    },
+    {
+      "id": "8ff67d77127ccd24",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident\nWe are publishing this level of detail because the technique matters more than the incident, as it reveals the emerging attack capabilities of the frontier agents, how they could be used by rogue actors, and ho",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 27 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "id": "39de907ded3d528e",
+      "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
+      "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In June, Meta entered the enterprise AI market with a new AI agent aimed at businesses, to help with customer service, support, and other daily operations. But the tech giant’s enterprise AI ambitions are much more expansive, Meta CEO Mark Zuckerberg told investors on Wednesday’s second-quarter earn",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 22:23:12 +0000"
+    },
+    {
+      "id": "ede83952feba6e64",
+      "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI hasn’t just changed how startups build; it’s broken how they sell, secure their data and customers, and scale it more rapidly than ever before. At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for St",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 21:16:39 +0000"
+    },
+    {
+      "id": "a657cafa7eea65b3",
+      "title": "The Hugging Face AI break-in, as told through an increasingly committed bear metaphor",
+      "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Hugging Face on Monday published a technical timeline that walks readers through how an autonomous AI agent, built on OpenAI models and running inside one of OpenAI’s own cybersecurity evaluations, broke into its systems over more than four days earlier this month. It’s the first security incident a",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 19:44:49 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "a862312352299b9d",
+      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
+      "url": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
+      "importance": 3.8,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Wed, 08 Jul 2026 12:31:39 +0000"
+    },
+    {
+      "id": "f34faab803310ac4",
+      "title": "AI Worming through Word",
+      "url": "https://simonwillison.net/2026/Jul/29/ai-worming-through-word/#atom-everything",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "29th July 2026 - Link Blog\nAI Worming through Word (via) Neat new prompt injection variant by Håkon Måløy, who found a way to upgrade prompt injection attacks against Microsoft Word to full self-replicating worms:\nAn attacker places hidden instructions in a document that is later used as source mate",
+      "importance": 3.6,
+      "matched": [
+        "prompt injection"
+      ],
+      "published": "2026-07-29T18:43:03+00:00"
+    },
+    {
+      "id": "3c95f7725d7b9936",
+      "title": "Critical Rails Flaw Could Let Unauthenticated Attackers Read Server Files via Image Uploads",
+      "url": "https://thehackernews.com/2026/07/critical-rails-flaw-could-let.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Ruby on Rails has released fixes for a critical Active Storage vulnerability that could let unauthenticated attackers read arbitrary files from application servers through crafted image uploads.\nTracked as CVE-2026-66066 (CVSS score: 9.5), the flaw can expose the Rails process environment and secret",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 29 Jul 2026 23:40:00 +0530"
+    },
+    {
+      "id": "3e57e4f822db077b",
+      "title": "Ruflo MCP Flaw Lets Unauthenticated Attackers Run Commands and Poison AI Memory",
+      "url": "https://thehackernews.com/2026/07/ruflo-mcp-flaw-lets-unauthenticated.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have flagged a maximum-severity security flaw in Ruflo, an open-source agent meta-harness for Anthropic Claude Code and OpenAI Codex, that could result in unauthenticated remote code execution.\nThe vulnerability, tracked as CVE-2026-59726 (CVSS score: 10.0), impacts all ver",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026",
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 21:09:30 +0530"
+    },
+    {
+      "id": "dc28e084be7f301f",
+      "title": "Three Critical VMware Flaws Allow Auth Bypass, Code Execution, and VM Escape",
+      "url": "https://thehackernews.com/2026/07/three-critical-vmware-flaws-allow-auth.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Broadcom has released security updates to address multiple security flaws impacting VMware ESX, vCenter, Workstation, and Fusion, three of which have been designated as critical in severity.\nThe first of the three critical-rated flaws is CVE-2026-59309 (CVSS score: 9.8), which has been described as ",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 29 Jul 2026 21:01:15 +0530"
+    },
+    {
+      "id": "98188d77c26a4d3e",
+      "title": "Researchers Show a Single Malicious Webpage Visit Can Compromise Tor Browser",
+      "url": "https://thehackernews.com/2026/07/researchers-show-single-malicious.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Nebula Security says a patched Firefox JIT flaw could be triggered by simply visiting a malicious webpage and was also used to compromise Tor Browser.\nTracked as CVE-2026-10702, the bug provides arbitrary code execution inside the browser's renderer process. Mozilla rated it High and fixed it in the",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 29 Jul 2026 17:27:00 +0530"
+    },
+    {
+      "id": "5b47dfb06d8e2d02",
+      "title": "Cisco warns of FMC static credential flaw exploited in zero-day attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-fmc-static-credential-flaw-exploited-in-zero-day-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cisco is warning that a high-severity Secure Firewall Management Center (FMC) static credential vulnerability, tracked as CVE-2026-20316, was actively exploited in zero-day attacks to gain unauthorized access to vulnerable devices.\nThe vulnerability is caused by static credentials for a low-privileg",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited",
+        "CVE-2026"
+      ],
+      "published": "Wed, 29 Jul 2026 17:35:40 -0400"
+    },
+    {
+      "id": "23895b49fa11a67f",
+      "title": "Health-ISAC warns of rising ShinyHunters data theft attacks on healthcare",
+      "url": "https://www.bleepingcomputer.com/news/security/health-isac-warns-of-rising-shinyhunters-data-theft-attacks-on-healthcare/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Health-ISAC, a cybersecurity information-sharing organization for the health sector, is warning healthcare and medical technology organizations of an observed increase in successful attacks by ShinyHunters.\nShinyHunters is an extortion gang that primarily conducts supply chain and identity attacks t",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Wed, 29 Jul 2026 13:54:05 -0400"
+    },
+    {
+      "id": "2cedc8aa80f4a308",
+      "title": "OpenAI agent used exposed credentials at 4 services in Hugging Face breach",
+      "url": "https://www.bleepingcomputer.com/news/security/openai-agent-used-exposed-credentials-at-4-services-in-hugging-face-breach/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "In a new update, OpenAI says its AI models also used publicly exposed credentials to compromise accounts on four third-party services during the recent attack on Hugging Face, expanding the scope of the four-day security incident to other organizations.\nOne account was used as an outbound relay and ",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 12:04:59 -0400"
+    },
+    {
+      "id": "1b37553b3ba2ef0c",
+      "title": "Your AI Agents Are Guessing at Scale: Permissions Decide the Damage",
+      "url": "https://www.bleepingcomputer.com/news/security/your-ai-agents-are-guessing-at-scale-permissions-decide-the-damage/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Watch an agent work through a task, and you’ll see the future of enterprise security.\nWatch Claude work through a long task some time. It can spend 4 minutes trying to read a CSV that turned out to be a folder, give up, write a script to list its contents, and then get there. It works. Just never th",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 10:02:12 -0400"
+    },
+    {
+      "id": "8ff67d77127ccd24",
+      "title": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
+      "url": "https://huggingface.co/blog/agent-intrusion-technical-timeline",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident\nWe are publishing this level of detail because the technique matters more than the incident, as it reveals the emerging attack capabilities of the frontier agents, how they could be used by rogue actors, and ho",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 27 Jul 2026 00:00:00 GMT"
+    },
+    {
+      "id": "39de907ded3d528e",
+      "title": "Zuckerberg says Meta’s enterprise AI opportunity extends beyond agents",
+      "url": "https://techcrunch.com/2026/07/29/zuckerberg-says-metas-enterprise-ai-opportunity-extends-beyond-agents/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In June, Meta entered the enterprise AI market with a new AI agent aimed at businesses, to help with customer service, support, and other daily operations. But the tech giant’s enterprise AI ambitions are much more expansive, Meta CEO Mark Zuckerberg told investors on Wednesday’s second-quarter earn",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 22:23:12 +0000"
+    },
+    {
+      "id": "ede83952feba6e64",
+      "title": "Discover what’s next for AI, from the SaaS reckoning to the agent security gap, at TechCrunch Disrupt 2026",
+      "url": "https://techcrunch.com/2026/07/29/discover-whats-next-for-ai-from-the-saas-reckoning-to-the-agent-security-gap-at-techcrunch-disrupt-2026/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI hasn’t just changed how startups build; it’s broken how they sell, secure their data and customers, and scale it more rapidly than ever before. At TechCrunch Disrupt 2026, the AI Stage is back to dig into the single hottest topic in the community for the past few years, presented by Google for St",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 21:16:39 +0000"
+    },
+    {
+      "id": "a657cafa7eea65b3",
+      "title": "The Hugging Face AI break-in, as told through an increasingly committed bear metaphor",
+      "url": "https://techcrunch.com/2026/07/29/the-hugging-face-ai-break-in-as-told-through-an-increasingly-committed-bear-metaphor/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Hugging Face on Monday published a technical timeline that walks readers through how an autonomous AI agent, built on OpenAI models and running inside one of OpenAI’s own cybersecurity evaluations, broke into its systems over more than four days earlier this month. It’s the first security incident a",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 29 Jul 2026 19:44:49 +0000"
+    },
+    {
+      "id": "76af5b683c70d8f4",
+      "title": "LG to Ban Residential Proxies from Smart TV Apps",
+      "url": "https://krebsonsecurity.com/2026/07/lg-to-ban-residential-proxies-from-smart-tv-apps/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "The home appliance giant LG Electronics USA said this week it plans to suspend any apps built for its smart TVs that turn one’s television into an always-on residential proxy node. The move comes less than a month after researchers found that more than 42 percent of games and other apps available fo",
+      "importance": 2.8,
+      "matched": [],
+      "published": "Wed, 22 Jul 2026 01:10:38 +0000"
+    },
+    {
+      "id": "2c2b2700dd7b44b3",
+      "title": "Microsoft Patches a Record 570 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning p",
+      "importance": 2.8,
+      "matched": [],
+      "published": "Tue, 14 Jul 2026 19:22:42 +0000"
+    },
+    {
+      "id": "7fc7252b143c942e",
+      "title": "Lessons Learned from CISA’s Recent GitHub Leak",
+      "url": "https://krebsonsecurity.com/2026/07/lessons-learned-from-cisas-recent-github-leak/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) has issued a postmortem on a recent data leak in which a contractor published dozens of internal CISA credentials — including AWS Govcloud keys — in a public GitHub repository for almost six months before being notified by KrebsOnSecurity. ",
+      "importance": 2.8,
+      "matched": [],
+      "published": "Mon, 13 Jul 2026 15:03:28 +0000"
+    },
+    {
+      "id": "9d4736f08b005ec2",
+      "title": "Quoting D. Richard Hipp",
+      "url": "https://simonwillison.net/2026/Jul/29/d-richard-hipp/#atom-everything",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "29th July 2026\nYears ago, we didn’t have SQL. There were people whose job was to generate software that would query large data sets. Their job title was COBOL programmer.\nThen SQL comes along—I’m simplifying this only a little bit—and it gives you this convenient way so people could just specify. Wi",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-07-29T21:15:21+00:00"
+    },
+    {
+      "id": "37a1e544eed9524b",
+      "title": "Quoting Matthew Green",
+      "url": "https://simonwillison.net/2026/Jul/29/matthew-green/#atom-everything",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "29th July 2026\nRight now we’re in the midst of a historic transition from traditional public-key algorithms based on EC-based cryptography and RSA, moving over to new post-quantum algorithms based on novel problems. This is why there are so many standards like HAWK being considered. If there was eve",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-07-29T18:18:15+00:00"
+    },
+    {
+      "id": "90749d760640e708",
+      "title": "Adding a custom MCP server to Claude and ChatGPT",
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/#atom-everything",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "29th July 2026\n    \n      TIL\n    \n    Adding a custom MCP server to Claude and ChatGPT\n    — I've started exploring [MCP](https://modelcontextprotocol.io/) in more detail. The web chat UIs for both Claude and ChatGPT can access MCP servers but it's not obvious how to set them up. Here's what I figu",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-07-29T00:13:18+00:00"
+    },
+    {
+      "id": "6a754bccfbb5b496",
+      "title": "Discovering cryptographic weaknesses with Claude",
+      "url": "https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/#atom-everything",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "28th July 2026 - Link Blog\nDiscovering cryptographic weaknesses with Claude (via) The best part of this article (here's the repo) about how Anthropic researchers used Claude Mythos to find mathematical flaws in both HAWK and a weaker version of AES (\"neither of these results has a practical impact o",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-07-28T22:45:37+00:00"
+    },
+    {
+      "id": "b7ec7019895fb4b2",
+      "title": "Coordinated Cyberattack Targets 30+ Minnesota Water Systems as One Plant Goes Offline",
+      "url": "https://thehackernews.com/2026/07/coordinated-cyberattack-targets-30.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A coordinated cyberattack targeted operational technology at more than 30 Minnesota community water systems on July 26 and 27, triggering a statewide cybersecurity response.\nBraham, Plymouth, South St. Paul and Maple Plain have publicly described a plant outage, communications failures or affected a",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 19:18:36 +0530"
+    },
+    {
+      "id": "9fa456aff07038ad",
+      "title": "Nine-Year Fraud Campaign Clones Russian Company Sites to Steal Advance Payments",
+      "url": "https://thehackernews.com/2026/07/nine-year-fraud-campaign.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a large-scale fraud campaign that involves creating lookalike websites of major Russian companies with an aim to siphon funds from international firms for more than nine years.\nAccording to Russian cybersecurity vendor F6, the threat actors have se",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 19:12:57 +0530"
+    },
+    {
+      "id": "3f447d046039337b",
+      "title": "Mythos Asks the Right Question. It Doesn't Answer It.",
+      "url": "https://thehackernews.com/2026/07/mythos-asks-right-question-it-doesnt.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "AI is compressing exploit timelines. The real question isn't whether your vulnerability management playbook needs to change, it's which part of it you've been getting wrong all along.\nThe conversation happening in security circles right now goes something like this: Mythos is here. Exploit timelines",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 17:45:00 +0530"
+    },
+    {
+      "id": "36963e13e8b37ff3",
+      "title": "73% of Organizations Say They Are Not Fully Ready for a Major Cyberattack",
+      "url": "https://thehackernews.com/2026/07/73-of-organizations-say-they-are-not.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Most organizations have incident response plans, security tools, and technical teams in place. Yet new research suggests that many still lack the coordination, visibility, and executive alignment needed to withstand a serious cyberattack.\nAccording to The State of Incident Response Readiness 2026, b",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 16:43:10 +0530"
+    },
+    {
+      "id": "b373298601a4a243",
+      "title": "Anthropic confirms Claude is down worldwide",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Claude is down for some users, with Anthropic confirming elevated errors across multiple AI models. The disruption is causing requests to fail with a “529 Overloaded” message, including in Claude and tools that rely on its API.\nAnthropic began investigating the outage at 7:49 p.m. UTC on July 29. At",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 17:39:29 -0400"
+    },
+    {
+      "id": "65abd9d4a633f693",
+      "title": "Hackers disrupt over 30 Minnesota water utilities in coordinated OT attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-target-over-30-minnesota-water-utilities-in-coordinated-ot-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Minnesota IT Services (MNIT) agency activated its cybersecurity incident response capabilities across the entire state after hackers targeted more than 30 community water systems in “a coordinated cyberattack.”\nThe attacks occurred on Sunday and Monday, July 26 and 27, and targeted operational t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 10:55:57 -0400"
+    },
+    {
+      "id": "acc7d4a1cc421fbe",
+      "title": "Windows 11 KB5101684 update released with 42 changes and fixes",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5101684-update-released-with-42-changes-and-fixes/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft has released the KB5101684 preview cumulative update for Windows 11 24H2 and 25H2, which 42 bug fixes and additional feature improvements for the operating system.\nThe KB5101684 update is part of the company's optional non-security preview update schedule, which releases updates at the end",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 09:56:22 -0400"
+    },
+    {
+      "id": "bf3ec0a23adc9f92",
+      "title": "These near-mint ASUS Chromebook refurbs are only $145",
+      "url": "https://www.bleepingcomputer.com/news/security/these-near-mint-asus-chromebook-refurbs-are-only-145/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Buying a new computer in 2026 is a unique experience. Rather than deal with incredibly high tech prices, more shoppers are opting for high-quality refurbished tech.\nThis ASUS Chromebook CM30 refurb is in near-mint condition with a grade “A” rating, but it still only costs $144.97 (reg. $369.99) on s",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 07:12:19 -0400"
+    },
+    {
+      "id": "92e866603de31506",
+      "title": "The OlmoEarth Platform: Geospatial inference at planetary scale",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-infrastructure",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "The OlmoEarth Platform: Geospatial inference at planetary scale\nThe OlmoEarth models are our family of Earth observation foundation models, pretrained on roughly 10 terabytes of multimodal satellite data. Governments, NGOs, and other mission-driven organizations are already adapting OlmoEarth for ap",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 28 Jul 2026 16:27:42 GMT"
+    },
+    {
+      "id": "85dd02699b255d55",
+      "title": "LFM2.5-Encoders for Fast Long-Context Inference on CPU",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-encoders",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "LFM2.5-Encoders for Fast Long-Context Inference on CPU\nHere's what you get:\n- Strong for their size: match or beat larger encoders on GLUE, SuperGLUE, and multilingual tasks.\n- 8,192-token context with latency that grows slowly as inputs get longer.\n- Fast on CPU: about 3.7× faster than ModernBERT-b",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 28 Jul 2026 15:01:45 GMT"
+    },
+    {
+      "id": "9101339b1ac24639",
+      "title": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
+      "url": "https://huggingface.co/blog/nvidia/cosmos-h-dreams",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics\nWorld foundation models offer a different path. Instead of manually authoring every object and physical interaction, they learn visual dynamics directly from synchronized video and robot kinematics. NVIDIA's Cosmos",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 27 Jul 2026 09:32:20 GMT"
+    },
+    {
+      "id": "520a785ee3962a98",
+      "title": "Thinking Machines co-founder Lilian Weng left the company citing health reasons, then joined OpenAI",
+      "url": "https://techcrunch.com/2026/07/29/thinking-machines-co-founder-lilian-weng-left-the-company-citing-health-reasons-then-joined-openai/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Lilian Weng, co-founder of Thinking Machines, announced this week that she would step down from her role, citing health issues.\n“I don’t feel I’m able to continue at the pace a startup requires,” she wrote in an internal Slack message, which she also shared on X. “After thinking about it for several",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 21:07:48 +0000"
+    },
+    {
+      "id": "1bd342b4b31f1dd8",
+      "title": "Claude Opus 5 became downright ruthless when tasked with running a vending machine",
+      "url": "https://techcrunch.com/2026/07/29/claude-opus-5-became-downright-ruthless-when-tasked-with-running-a-vending-machine/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "For a year now, the AI safety testing firm Andon Labs has given frontier models various real-world tasks to determine how well they do as agents running for long periods with no human supervision.\nOn Wednesday, Andon published a new installment in how things are going in its Vending-Bench research, ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 18:45:27 +0000"
+    },
+    {
+      "id": "b066f12120921c9f",
+      "title": "Hint, a new AI startup co-founded by Martha Stewart, offers an AI assistant for homeowners",
+      "url": "https://techcrunch.com/2026/07/29/hint-a-new-ai-startup-co-founded-by-martha-stewart-offers-an-ai-assistant-for-homeowners/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Martha Stewart is entering the AI software era in the most Martha Stewart way possible: She has joined the co-founding team at Hint, an app that leverages AI technology to manage the tasks surrounding home maintenance and management. With the Hint app, which launches today, homeowners can tackle cha",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 15:35:09 +0000"
+    },
+    {
+      "id": "21cfdc136e07efe4",
+      "title": "Encore AI raises $30M to build AI agents that learn from customer calls",
+      "url": "https://techcrunch.com/2026/07/29/encore-ai-raises-30m-to-build-ai-agents-that-learn-from-customer-calls/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Encore AI, a startup that studies companies’ customer interactions to train and deploy AI voice agents that can work alongside customer support and sales teams, or operate autonomously, has raised $30 million in a Series A round led by Team8.\nFounded in 2022 as Insait IO by CEO Dvir Ginzburg, the co",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 14:41:06 +0000"
+    },
+    {
+      "id": "1fcec19a53a378b8",
+      "title": "As AI content floods the internet, Pangram raises $9M to detect it",
+      "url": "https://techcrunch.com/2026/07/29/as-ai-content-floods-the-internet-pangram-raises-9m-to-detect-it/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "New York-based AI detection startup Pangram is on a mission to combat the AI slop infestation spreading across the internet, and it just raised $9 million on a bet that demand for tools that distinguish human-generated content from AI-generated text will only grow.\nPangram’s fundraise — led by Menlo",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 11:00:00 +0000"
+    },
+    {
+      "id": "d39556b679b69b18",
+      "title": "The AI Hype Index: Unsexy AI",
+      "url": "https://www.technologyreview.com/2026/07/29/1140795/the-ai-hype-index-unsexy-ai/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "The AI Hype Index: Unsexy AI\nMIT Technology Review’s highly subjective take on the latest buzz about AI\nIt feels bad enough when an open letter signed by leading economists warns that AI might steal your job. The fact it may soon be better than you at making dinner? Insult to injury. But that’s exac",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 29 Jul 2026 08:42:57 +0000"
+    },
+    {
+      "id": "427bfd1aa7fcb42c",
+      "title": "Samsung’s chip workers are jumping ship to rival SK Hynix",
+      "url": "https://www.technologyreview.com/2026/07/28/1140853/samsung-chip-workers-exodus-sk-hynix/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Samsung’s chip workers are jumping ship to rival SK Hynix\nAs the battle over the future of AI chips plays out, the fight for top talent is also ramping up.\nLee, an engineer at Samsung’s semiconductor division, clocks out when his shift ends. He used to work longer hours, going the extra mile to exce",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 28 Jul 2026 09:18:57 +0000"
+    },
+    {
+      "id": "7b46dd318f11bf6e",
+      "title": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.",
+      "url": "https://www.technologyreview.com/2026/07/27/1140836/openai-hugging-face-attack-precedent/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "OpenAI called the Hugging Face attack unprecedented. But we’ve been here before.\nA decade-old experiment showed OpenAI how far an AI will go to achieve the goals it’s given.\nThis story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, si",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 27 Jul 2026 18:00:00 +0000"
+    }
+  ]
+}
