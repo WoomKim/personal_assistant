@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T09:47:48.693544+09:00",
+  "briefing": "오늘 6건이 수집되었습니다. 가장 주목할 항목은 「Nippon Columbia malware incident exposes 8.6 million karaoke fan records」입니다.",
+  "stats": {
+    "collected": 6,
+    "summarized": 6,
+    "picked": 6,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "4c28b0c9be31eae9",
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records.\nThe company is the largest karaoke maker in Japan, operating 521 karaoke venues nationwide, including the Bi",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 10:23:46 -0400"
+    },
+    {
+      "id": "a786585932c30cce",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th October 2026\nI remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more. That's art.\nI went looking and I'm sad to rep",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-11T00:52:37+00:00"
+    },
+    {
+      "id": "2a599db62b35d5c3",
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Apple will announce a new smart home hub on Tuesday called the HomeView, according to Bloomberg’s Mark Gurman.\nOver the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date. Gurman described th",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 21:14:40 +0000"
+    },
+    {
+      "id": "e380f02bc291d4d2",
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In less than 48 hours, the doors open for TechCrunch Disrupt 2026 at San Francisco’s Moscone West. Save up to $100 on your ticket before prices increase at the door. Don’t forget to get a second pass at 50% off. Register now.\nOn October 13-15, more than 10,000 founders, investors, and tech leaders w",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 19:00:00 +0000"
+    },
+    {
+      "id": "70688ea0e7a560a0",
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Amazon recently followed Microsoft’s lead and said it will no longer use nondisclosure agreements (NDAs) while negotiating with local governments over data centers.\nOn the latest episode of TechCrunch’s Equity podcast, Sean O’Kane, Rebeccan Bellan and I discussed Amazon’s announcement, which came in",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 16:52:33 +0000"
+    },
+    {
+      "id": "ba5db8106c64fb8b",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The theory of voice being the next big interface has picked up strong momentum, with investors pouring billions of dollars into voice AI startups working on areas ranging from model makers to enterprise customer service providers, and from meeting note-takers to AI-powered dictation.\nEvery week ther",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 14:00:00 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "a786585932c30cce",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th October 2026\nI remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more. That's art.\nI went looking and I'm sad to rep",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-11T00:52:37+00:00"
+    },
+    {
+      "id": "4c28b0c9be31eae9",
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records.\nThe company is the largest karaoke maker in Japan, operating 521 karaoke venues nationwide, including the Bi",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 10:23:46 -0400"
+    },
+    {
+      "id": "2a599db62b35d5c3",
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Apple will announce a new smart home hub on Tuesday called the HomeView, according to Bloomberg’s Mark Gurman.\nOver the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date. Gurman described th",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 21:14:40 +0000"
+    },
+    {
+      "id": "e380f02bc291d4d2",
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In less than 48 hours, the doors open for TechCrunch Disrupt 2026 at San Francisco’s Moscone West. Save up to $100 on your ticket before prices increase at the door. Don’t forget to get a second pass at 50% off. Register now.\nOn October 13-15, more than 10,000 founders, investors, and tech leaders w",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 19:00:00 +0000"
+    },
+    {
+      "id": "70688ea0e7a560a0",
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Amazon recently followed Microsoft’s lead and said it will no longer use nondisclosure agreements (NDAs) while negotiating with local governments over data centers.\nOn the latest episode of TechCrunch’s Equity podcast, Sean O’Kane, Rebeccan Bellan and I discussed Amazon’s announcement, which came in",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 16:52:33 +0000"
+    },
+    {
+      "id": "ba5db8106c64fb8b",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The theory of voice being the next big interface has picked up strong momentum, with investors pouring billions of dollars into voice AI startups working on areas ranging from model makers to enterprise customer service providers, and from meeting note-takers to AI-powered dictation.\nEvery week ther",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 14:00:00 +0000"
+    }
+  ]
+}

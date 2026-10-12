@@ -1,271 +1,153 @@
 {
-  "date": "2026-10-11",
-  "generated_at": "2026-10-11T09:34:11.424653+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't」입니다.",
+  "date": "2026-10-12",
+  "generated_at": "2026-10-12T09:47:48.693544+09:00",
+  "briefing": "오늘 6건이 수집되었습니다. 가장 주목할 항목은 「Nippon Columbia malware incident exposes 8.6 million karaoke fan records」입니다.",
   "stats": {
-    "collected": 12,
-    "summarized": 12,
-    "picked": 10,
+    "collected": 6,
+    "summarized": 6,
+    "picked": 6,
     "llm": "live"
   },
   "items": [
     {
-      "id": "4f95732c4969a235",
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can on",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Sat, 10 Oct 2026 16:30:00 +0530"
-    },
-    {
-      "id": "ebcd6167a2366d08",
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.\nThe AI company said it identified four broad categories ",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 10 Oct 2026 14:48:45 +0530"
-    },
-    {
-      "id": "5d6a58b64149d79d",
-      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "id": "4c28b0c9be31eae9",
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group.\nDubrovsky, 54, has had senior roles at cybersecurity firms that help d",
+      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records.\nThe company is the largest karaoke maker in Japan, operating 521 karaoke venues nationwide, including the Bi",
       "why": "",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 11:07:54 -0400"
+      "published": "Sun, 11 Oct 2026 10:23:46 -0400"
     },
     {
-      "id": "bef374d68721303c",
-      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "A Chinese-speaking hacker launched cyberattacks that shook the South Korean financial sector earlier this month, using the ARTEX AI penetration testing suite and Claude agents.\nThe actor targeted multiple Korean banks, including Shinhan Bank, KB Kookmin Bank, and Hana Bank, exposing clients ' person",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 10 Oct 2026 10:16:17 -0400"
-    },
-    {
-      "id": "bc479026f8262792",
-      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibility to security teams worldwide, will participate in GovWare 2026 in Singapore.\nAs security operations increasingly move beyond asset discovery toward understanding, priorit",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 10 Oct 2026 08:30:39 -0400"
-    },
-    {
-      "id": "ffe9771dd0f2e869",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "id": "a786585932c30cce",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "10th October 2026 - Link Blog\nPython 3.15.0 added to actions/python-versions. Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it:\nClone https://github.com/actions/python-versions  and git pull once an hour until they add the stable  3.15 - ",
+      "summary": "11th October 2026\nI remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more. That's art.\nI went looking and I'm sad to rep",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-10T23:58:04+00:00"
+      "published": "2026-10-11T00:52:37+00:00"
     },
     {
-      "id": "5528ba1d9cba341e",
-      "title": "Quoting The New York Times",
-      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "10th October 2026\nAnthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s webs",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-10T02:04:12+00:00"
-    },
-    {
-      "id": "d05facb80f7a8876",
-      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "id": "2a599db62b35d5c3",
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Microsoft CEO Satya Nadella is the latest tech executive to offer lengthy thoughts on how AI safety might be improved.\nIn a Saturday morning post on X, Nadella wrote that it’s time “to step back and assess the trust architecture” of AI.\n“We can’t treat Super Intelligence as a set of nested black box",
+      "summary": "Apple will announce a new smart home hub on Tuesday called the HomeView, according to Bloomberg’s Mark Gurman.\nOver the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date. Gurman described th",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 21:47:51 +0000"
+      "published": "Sun, 11 Oct 2026 21:14:40 +0000"
     },
     {
-      "id": "9fe15a12a7df7ad0",
-      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "id": "e380f02bc291d4d2",
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Apple revealed in a regulatory filing that it has reached an agreement to bring on team members and technology from personalized audio startup Huxe, in what’s commonly known as a reverse acqui-hire deal.\nAs first reported in MacRumors, Apple disclosed to the European Commission that it has agreed to",
+      "summary": "In less than 48 hours, the doors open for TechCrunch Disrupt 2026 at San Francisco’s Moscone West. Save up to $100 on your ticket before prices increase at the door. Don’t forget to get a second pass at 50% off. Register now.\nOn October 13-15, more than 10,000 founders, investors, and tech leaders w",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 19:50:00 +0000"
+      "published": "Sun, 11 Oct 2026 19:00:00 +0000"
     },
     {
-      "id": "6801da099eadf383",
-      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
-      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "id": "70688ea0e7a560a0",
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "TechCrunch Disrupt 2026 starts in just three days. Moscone West is getting ready, hundreds of startups are preparing to show what they’ve built, and thousands of founders, investors, and tech leaders are heading to San Francisco.\nThe three-day countdown is on, and so are your pass savings of up to $",
+      "summary": "Amazon recently followed Microsoft’s lead and said it will no longer use nondisclosure agreements (NDAs) while negotiating with local governments over data centers.\nOn the latest episode of TechCrunch’s Equity podcast, Sean O’Kane, Rebeccan Bellan and I discussed Amazon’s announcement, which came in",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 15:00:00 +0000"
+      "published": "Sun, 11 Oct 2026 16:52:33 +0000"
+    },
+    {
+      "id": "ba5db8106c64fb8b",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The theory of voice being the next big interface has picked up strong momentum, with investors pouring billions of dollars into voice AI startups working on areas ranging from model makers to enterprise customer service providers, and from meeting note-takers to AI-powered dictation.\nEvery week ther",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 11 Oct 2026 14:00:00 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "4f95732c4969a235",
-      "title": "The Third-Party Agent Problem: Why Security Built for AI You Chose Misses the Agents You Didn't",
-      "url": "https://thehackernews.com/2026/10/the-third-party-agent-problem-why.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "In environments studied for the 2026 State of Agent Security Report, roughly 1,280 third-party products now embed AI. About 282 of them sit behind single sign-on. The other thousand are invisible to identity infrastructure by default, not because anyone hid them, but because an identity stack can on",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Sat, 10 Oct 2026 16:30:00 +0530"
-    },
-    {
-      "id": "ffe9771dd0f2e869",
-      "title": "Python 3.15.0 added to actions/python-versions",
-      "url": "https://simonwillison.net/2026/Oct/10/python-actions/",
+      "id": "a786585932c30cce",
+      "title": "Dwarf Fortress uses version control now",
+      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "10th October 2026 - Link Blog\nPython 3.15.0 added to actions/python-versions. Bit of a niche link, but I've been waiting for this for a couple of days - I even told ChatGPT to check for it:\nClone https://github.com/actions/python-versions  and git pull once an hour until they add the stable  3.15 - ",
+      "summary": "11th October 2026\nI remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more. That's art.\nI went looking and I'm sad to rep",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-10T23:58:04+00:00"
+      "published": "2026-10-11T00:52:37+00:00"
     },
     {
-      "id": "5528ba1d9cba341e",
-      "title": "Quoting The New York Times",
-      "url": "https://simonwillison.net/2026/Oct/10/the-new-york-times/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "10th October 2026\nAnthropic detailed the activity of its A.I. agents in a blog post on Friday, without naming the targeted websites. But two sources with knowledge of the incidents said Anthropic’s A.I. agents had submitted 20 visa applications through a form available on the State Department’s webs",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-10T02:04:12+00:00"
-    },
-    {
-      "id": "ebcd6167a2366d08",
-      "title": "Anthropic Cuts Live Internet Access for Internal AI Tests After Claude Exploits Injection Flaws",
-      "url": "https://thehackernews.com/2026/10/anthropic-cuts-live-internet-access-for.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Anthropic on Friday said it's cutting off live internet access for all its internal evaluations following the discovery of new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior and targeted real websites.\nThe AI company said it identified four broad categories ",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 10 Oct 2026 14:48:45 +0530"
-    },
-    {
-      "id": "5d6a58b64149d79d",
-      "title": "Cyber exec arrested in case allegedly tied to ShinyHunters hackers",
-      "url": "https://www.bleepingcomputer.com/news/security/cyber-exec-arrested-in-case-allegedly-tied-to-shinyhunters-hackers/",
+      "id": "4c28b0c9be31eae9",
+      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
+      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Canadian cybersecurity executive Edward Dubrovsky has been arrested in Pennsylvania in connection with alleged extortion activity that multiple reports have linked to the FBI's ongoing crackdown on the ShinyHunters hacking group.\nDubrovsky, 54, has had senior roles at cybersecurity firms that help d",
+      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records.\nThe company is the largest karaoke maker in Japan, operating 521 karaoke venues nationwide, including the Bi",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 11:07:54 -0400"
+      "published": "Sun, 11 Oct 2026 10:23:46 -0400"
     },
     {
-      "id": "bef374d68721303c",
-      "title": "ARTEX AI, Claude agents used in cyberattacks on South Korean banks",
-      "url": "https://www.bleepingcomputer.com/news/security/hacker-used-artex-ai-and-claude-agents-to-target-south-korean-banks/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "A Chinese-speaking hacker launched cyberattacks that shook the South Korean financial sector earlier this month, using the ARTEX AI penetration testing suite and Claude agents.\nThe actor targeted multiple Korean banks, including Shinhan Bank, KB Kookmin Bank, and Hana Bank, exposing clients ' person",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 10 Oct 2026 10:16:17 -0400"
-    },
-    {
-      "id": "bc479026f8262792",
-      "title": "Criminal IP Introduces AITEM as the Next Evolution of Attack Surface Management",
-      "url": "https://www.bleepingcomputer.com/news/security/criminal-ip-introduces-aitem-as-the-next-evolution-of-attack-surface-management/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Criminal IP by AI SPERA, a cyber threat intelligence platform delivering decision-ready intelligence and attack surface visibility to security teams worldwide, will participate in GovWare 2026 in Singapore.\nAs security operations increasingly move beyond asset discovery toward understanding, priorit",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 10 Oct 2026 08:30:39 -0400"
-    },
-    {
-      "id": "d05facb80f7a8876",
-      "title": "Microsoft’s Satya Nadella says AI models need an ‘emergency brake’",
-      "url": "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+      "id": "2a599db62b35d5c3",
+      "title": "Will the HomeView be Apple’s first smart home success?",
+      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Microsoft CEO Satya Nadella is the latest tech executive to offer lengthy thoughts on how AI safety might be improved.\nIn a Saturday morning post on X, Nadella wrote that it’s time “to step back and assess the trust architecture” of AI.\n“We can’t treat Super Intelligence as a set of nested black box",
+      "summary": "Apple will announce a new smart home hub on Tuesday called the HomeView, according to Bloomberg’s Mark Gurman.\nOver the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date. Gurman described th",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 21:47:51 +0000"
+      "published": "Sun, 11 Oct 2026 21:14:40 +0000"
     },
     {
-      "id": "9fe15a12a7df7ad0",
-      "title": "Apple discloses deal to hire team and license tech from personalized podcast startup Huxe",
-      "url": "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+      "id": "e380f02bc291d4d2",
+      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
+      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Apple revealed in a regulatory filing that it has reached an agreement to bring on team members and technology from personalized audio startup Huxe, in what’s commonly known as a reverse acqui-hire deal.\nAs first reported in MacRumors, Apple disclosed to the European Commission that it has agreed to",
+      "summary": "In less than 48 hours, the doors open for TechCrunch Disrupt 2026 at San Francisco’s Moscone West. Save up to $100 on your ticket before prices increase at the door. Don’t forget to get a second pass at 50% off. Register now.\nOn October 13-15, more than 10,000 founders, investors, and tech leaders w",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 19:50:00 +0000"
+      "published": "Sun, 11 Oct 2026 19:00:00 +0000"
     },
     {
-      "id": "6801da099eadf383",
-      "title": "3 days to TechCrunch Disrupt 2026: Meet the startups before they hit mainstream",
-      "url": "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+      "id": "70688ea0e7a560a0",
+      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
+      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "TechCrunch Disrupt 2026 starts in just three days. Moscone West is getting ready, hundreds of startups are preparing to show what they’ve built, and thousands of founders, investors, and tech leaders are heading to San Francisco.\nThe three-day countdown is on, and so are your pass savings of up to $",
+      "summary": "Amazon recently followed Microsoft’s lead and said it will no longer use nondisclosure agreements (NDAs) while negotiating with local governments over data centers.\nOn the latest episode of TechCrunch’s Equity podcast, Sean O’Kane, Rebeccan Bellan and I discussed Amazon’s announcement, which came in",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 15:00:00 +0000"
+      "published": "Sun, 11 Oct 2026 16:52:33 +0000"
     },
     {
-      "id": "a893947d303d6bf8",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "id": "ba5db8106c64fb8b",
+      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
+      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can mean scheduling an appointment, organizi",
+      "summary": "The theory of voice being the next big interface has picked up strong momentum, with investors pouring billions of dollars into voice AI startups working on areas ranging from model makers to enterprise customer service providers, and from meeting note-takers to AI-powered dictation.\nEvery week ther",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 10 Oct 2026 14:00:00 +0000"
-    },
-    {
-      "id": "bf4931f049834009",
-      "title": "Insider Cyber Extortion Plot Against Industrial Firm Lands Engineer in Prison",
-      "url": "https://www.securityweek.com/insider-cyber-extortion-plot-against-industrial-firm-lands-engineer-in-prison/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "A Kansas City, Missouri man has been sentenced to 32 months in jail for crimes related to a ransom attack against his own company.\nThe DOJ has announced the sentencing of Daniel Rhyne. He had already pleaded guilty to ‘extortion in relation to a threat to cause damage to a protected computer’ and ‘i",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Sat, 10 Oct 2026 11:00:00 +0000"
+      "published": "Sun, 11 Oct 2026 14:00:00 +0000"
     }
   ]
 }
