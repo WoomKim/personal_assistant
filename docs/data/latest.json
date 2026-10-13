@@ -1,153 +1,579 @@
 {
-  "date": "2026-10-12",
-  "generated_at": "2026-10-12T09:47:48.693544+09:00",
-  "briefing": "오늘 6건이 수집되었습니다. 가장 주목할 항목은 「Nippon Columbia malware incident exposes 8.6 million karaoke fan records」입니다.",
+  "date": "2026-10-13",
+  "generated_at": "2026-10-13T11:46:21.105434+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Bring Your Own Agent: Your Employees' Assistants Are Already Logged In」입니다.",
   "stats": {
-    "collected": 6,
-    "summarized": 6,
-    "picked": 6,
+    "collected": 38,
+    "summarized": 38,
+    "picked": 10,
     "llm": "live"
   },
   "items": [
     {
-      "id": "4c28b0c9be31eae9",
-      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
-      "source": "BleepingComputer",
+      "id": "172b933e4740eeca",
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "source": "The Hacker News",
       "category": "security",
-      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records.\nThe company is the largest karaoke maker in Japan, operating 521 karaoke venues nationwide, including the Bi",
+      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up.\nRegardless, the te",
       "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sun, 11 Oct 2026 10:23:46 -0400"
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 12 Oct 2026 17:25:00 +0530"
     },
     {
-      "id": "a786585932c30cce",
-      "title": "Dwarf Fortress uses version control now",
-      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
+      "id": "5124492cfbfbdb10",
+      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure.\nThe vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forge",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 12 Oct 2026 16:06:56 +0530"
+    },
+    {
+      "id": "815b7a94646fc6cb",
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\nThe critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Mon, 12 Oct 2026 14:32:14 +0530"
+    },
+    {
+      "id": "175a7df5c5ccb15a",
+      "title": "GitLab warns of max severity code execution vulnerability",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances.\nTracked as CVE-2026-97229, this critical security flaw was discovered by a security researcher using the ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 12 Oct 2026 09:09:09 -0400"
+    },
+    {
+      "id": "5ffff8d173ed3cf7",
+      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A critical vulnerability in the Bricksforge WordPress plugin is being exploited in the wild, according to WordPress security company Patchstack.\nThe vulnerability is tracked as CVE-2026-85097 and it has a CVSS score of 9.8. Unauthenticated attackers can exploit it to upload arbitrary files and execu",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 12 Oct 2026 13:14:37 +0000"
+    },
+    {
+      "id": "92f57cbc8464c256",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "11th October 2026\nI remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more. That's art.\nI went looking and I'm sad to rep",
+      "summary": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11\n12th October 2026\nPython 3.15 is here! Here’s the essential What’s new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python v",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-11T00:52:37+00:00"
+      "published": "2026-10-12T18:15:38+00:00"
     },
     {
-      "id": "2a599db62b35d5c3",
-      "title": "Will the HomeView be Apple’s first smart home success?",
-      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
+      "id": "93062c67d6f00e76",
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "12th October 2026\nI was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.\nSo... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for vie",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-12T15:54:36+00:00"
+    },
+    {
+      "id": "59e7fc14e8c1a5c7",
+      "title": "datasette-ports 0.4",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "12th October 2026\nMy plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler.\nRecent articles\n- Hello Python 3.15, goodbye 3.10, an",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-12T04:57:07+00:00"
+    },
+    {
+      "id": "80d24e11891767c4",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Apple will announce a new smart home hub on Tuesday called the HomeView, according to Bloomberg’s Mark Gurman.\nOver the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date. Gurman described th",
+      "summary": "Meta’s Superintelligence Lab released a pair of new state-of-the-art models on Monday, Muse Wonder and Muse Wonder Full, representing the company’s first attempt at a frontier model.\nWhere Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and ",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sun, 11 Oct 2026 21:14:40 +0000"
+      "published": "Mon, 12 Oct 2026 17:56:56 +0000"
     },
     {
-      "id": "e380f02bc291d4d2",
-      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
+      "id": "8e8b602fc5f53407",
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "In less than 48 hours, the doors open for TechCrunch Disrupt 2026 at San Francisco’s Moscone West. Save up to $100 on your ticket before prices increase at the door. Don’t forget to get a second pass at 50% off. Register now.\nOn October 13-15, more than 10,000 founders, investors, and tech leaders w",
+      "summary": "The U.S. Air Force will buy data collected by WindBorne Systems‘ fleet of autonomous weather balloons under a new contract that could be worth nearly $50 million to the startup.\nWindBorne currently has about 700 weather balloons flying around the globe, collecting atmospheric sensor readings that th",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sun, 11 Oct 2026 19:00:00 +0000"
-    },
-    {
-      "id": "70688ea0e7a560a0",
-      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Amazon recently followed Microsoft’s lead and said it will no longer use nondisclosure agreements (NDAs) while negotiating with local governments over data centers.\nOn the latest episode of TechCrunch’s Equity podcast, Sean O’Kane, Rebeccan Bellan and I discussed Amazon’s announcement, which came in",
-      "why": "",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sun, 11 Oct 2026 16:52:33 +0000"
-    },
-    {
-      "id": "ba5db8106c64fb8b",
-      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "The theory of voice being the next big interface has picked up strong momentum, with investors pouring billions of dollars into voice AI startups working on areas ranging from model makers to enterprise customer service providers, and from meeting note-takers to AI-powered dictation.\nEvery week ther",
-      "why": "",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sun, 11 Oct 2026 14:00:00 +0000"
+      "published": "Mon, 12 Oct 2026 17:19:14 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "a786585932c30cce",
-      "title": "Dwarf Fortress uses version control now",
-      "url": "https://simonwillison.net/2026/Oct/11/dwarf-fortress/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "11th October 2026\nI remember hearing a while ago that Dwarf Fortress didn't use version control. That fact has been lodged in my head, because given its inherent complexity I have trouble imagining a codebase that would benefit from version control more. That's art.\nI went looking and I'm sad to rep",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-11T00:52:37+00:00"
+      "id": "172b933e4740eeca",
+      "title": "Bring Your Own Agent: Your Employees' Assistants Are Already Logged In",
+      "url": "https://thehackernews.com/2026/10/bring-your-own-agent-your-employees.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The personal AI agents rollout is going about as smoothly as expected: Amazon now blocks Meta's Muse because it doesn't identify itself as a bot while browsing; Instinct keeps raising privacy concerns; and the horror stories from pretty much every personal AI agent keep piling up.\nRegardless, the te",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 12 Oct 2026 17:25:00 +0530"
     },
     {
-      "id": "4c28b0c9be31eae9",
-      "title": "Nippon Columbia malware incident exposes 8.6 million karaoke fan records",
-      "url": "https://www.bleepingcomputer.com/news/security/nippon-columbia-malware-incident-exposes-86-million-karaoke-fan-records/",
+      "id": "5124492cfbfbdb10",
+      "title": "Critical SonicWall SMA 1000 Flaw Targeted in 135 Exploitation Attempts After Patch",
+      "url": "https://thehackernews.com/2026/10/critical-sonicwall-sma-1000-flaw.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors have been observed exploiting a recently disclosed critical security flaw in SonicWall Secure Mobile Access (SMA) 1000 appliances within days of public disclosure.\nThe vulnerability, tracked as CVE-2026-102255 (CVSS score: 10.0), is a case of pre-authenticated server-side request forge",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 12 Oct 2026 16:06:56 +0530"
+    },
+    {
+      "id": "815b7a94646fc6cb",
+      "title": "Attackers Exploit CVSS 10.0 Bricksforge WordPress Flaw Enabling Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-cvss-100-bricksforge.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A maximum-severity security flaw impacting the Bricksforge plugin for WordPress has come under active exploitation in the wild, according to Patchstack.\nThe critical vulnerability in question is CVE-2026-85097 (CVSS score: 10.0), which allows unauthenticated attackers to upload and execute arbitrary",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Mon, 12 Oct 2026 14:32:14 +0530"
+    },
+    {
+      "id": "175a7df5c5ccb15a",
+      "title": "GitLab warns of max severity code execution vulnerability",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-max-severity-rce-flaw-in-regex-compiler-engine/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Daiichi Kosho, a major Japanese entertainment system maker, disclosed that a malware infection at its contractor, Nippon Columbia, exposed more than 8.7 million customer and employee records.\nThe company is the largest karaoke maker in Japan, operating 521 karaoke venues nationwide, including the Bi",
+      "summary": "GitLab warned users today to immediately patch a maximum-severity vulnerability in the CI/CD Regular Expression Compiler that could let remote attackers run arbitrary code on targeted instances.\nTracked as CVE-2026-97229, this critical security flaw was discovered by a security researcher using the ",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 12 Oct 2026 09:09:09 -0400"
+    },
+    {
+      "id": "5ffff8d173ed3cf7",
+      "title": "Bricksforge WordPress Plugin Vulnerability Exploited in the Wild",
+      "url": "https://www.securityweek.com/bricksforge-wordpress-plugin-vulnerability-exploited-in-the-wild/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A critical vulnerability in the Bricksforge WordPress plugin is being exploited in the wild, according to WordPress security company Patchstack.\nThe vulnerability is tracked as CVE-2026-85097 and it has a CVSS score of 9.8. Unauthenticated attackers can exploit it to upload arbitrary files and execu",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 12 Oct 2026 13:14:37 +0000"
+    },
+    {
+      "id": "9ce734d52cdaaf31",
+      "title": "Ransomware Response Expert Arrested in ShinyHunters FBI Hack Probe",
+      "url": "https://www.securityweek.com/ransomware-response-expert-arrested-in-shinyhunters-fbi-hack-probe/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A Canada-based cybersecurity expert was arrested last week in the United States on suspicion of being involved in ShinyHunters attacks, including the recent hacking of FBI systems.\nFBI director Kash Patel announced on Friday that agents had arrested another suspected ShinyHunters co-conspirator.\n“Th",
+      "importance": 3.0,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Mon, 12 Oct 2026 10:32:05 +0000"
+    },
+    {
+      "id": "92f57cbc8464c256",
+      "title": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11",
+      "url": "https://simonwillison.net/2026/Oct/12/python-3-15/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Hello Python 3.15, goodbye 3.10, and now I can use 3.11\n12th October 2026\nPython 3.15 is here! Here’s the essential What’s new in Python 3.15 guide, this year curated by 3.14 and 3.15 release manager Hugo van Kemenade. As someone who builds open source software that works in every supported Python v",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-12T18:15:38+00:00"
+    },
+    {
+      "id": "93062c67d6f00e76",
+      "title": "web-edit 0.1a0",
+      "url": "https://simonwillison.net/2026/Oct/12/web-edit/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "12th October 2026\nI was working on a project from my phone using Codex Remote when I found myself wanting to edit a credentials file without round-tripping those credentials through the LLM itself.\nSo... I had Codex and GPT-6 Astra Extra High build this Python web app which provides a web UI for vie",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-12T15:54:36+00:00"
+    },
+    {
+      "id": "59e7fc14e8c1a5c7",
+      "title": "datasette-ports 0.4",
+      "url": "https://simonwillison.net/2026/Oct/12/datasette-ports/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "12th October 2026\nMy plugin for detecting and listing all Datasette instances on the current machine now works with the latest version, and displays the detected PID as well. Knowing the PID makes it easier to attach the new Python 3.15 profiler.\nRecent articles\n- Hello Python 3.15, goodbye 3.10, an",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-12T04:57:07+00:00"
+    },
+    {
+      "id": "0998efd11bd80649",
+      "title": "An Exploration of Attacks on AI Agent Systems",
+      "url": "https://arxiv.org/abs/2610.12524",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 8 Oct 2026]\nTitle:An Exploration of Attacks on AI Agent Systems\nView PDF HTML (experimental)\n            Abstract:As autonomous AI agents become more integrated into sensitive domains, it is crucial that single and multi-agent AI systems a",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "6e33620606a01d8d",
+      "title": "⚡ Weekly Recap: Helpdesk 0-Days, Rogue Certs, ShinyHunters Arrest, AI-Fooling Malware and More",
+      "url": "https://thehackernews.com/2026/10/weekly-recap-helpdesk-0-days-rogue.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Some meetings last longer than it took attackers to jump on a newly disclosed security flaw this week. Within hours, they were already testing it. That's not much time to read the warning, let alone do something about it.\nBut speed is only part of the problem. A secure connection didn't always mean ",
       "importance": 2.4,
       "matched": [],
-      "published": "Sun, 11 Oct 2026 10:23:46 -0400"
+      "published": "Mon, 12 Oct 2026 20:46:26 +0530"
     },
     {
-      "id": "2a599db62b35d5c3",
-      "title": "Will the HomeView be Apple’s first smart home success?",
-      "url": "https://techcrunch.com/2026/10/11/will-the-homeview-be-apples-first-smart-home-success/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Apple will announce a new smart home hub on Tuesday called the HomeView, according to Bloomberg’s Mark Gurman.\nOver the past couple of years, we’ve seen multiple reports that Apple was working on a new smart home product, but now it seems the product has a name and a launch date. Gurman described th",
-      "importance": 2.2,
+      "id": "7be825a80966799c",
+      "title": "Ledger Finds Unauthorized Hardware Implant in CryptoBilis-Sold Wallet Amid Fund Theft Reports",
+      "url": "https://thehackernews.com/2026/10/ledger-finds-unauthorized-hardware.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cryptocurrency hardware maker Ledger has temporarily paused sales of its products via CryptoBilis following reports of stolen funds linked to devices sold by the reseller.\nOn Friday, the company said it was investigating reports of loss of funds from users in Southeast Asia who had purchased product",
+      "importance": 2.4,
       "matched": [],
-      "published": "Sun, 11 Oct 2026 21:14:40 +0000"
+      "published": "Mon, 12 Oct 2026 16:51:48 +0530"
     },
     {
-      "id": "e380f02bc291d4d2",
-      "title": "48 hours to TechCrunch Disrupt 2026 — hear directly from the people building what’s next",
-      "url": "https://techcrunch.com/2026/10/11/48-hours-to-techcrunch-disrupt-2026-hear-directly-from-the-people-building-whats-next/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "In less than 48 hours, the doors open for TechCrunch Disrupt 2026 at San Francisco’s Moscone West. Save up to $100 on your ticket before prices increase at the door. Don’t forget to get a second pass at 50% off. Register now.\nOn October 13-15, more than 10,000 founders, investors, and tech leaders w",
-      "importance": 2.2,
+      "id": "d261b6b9e669cf36",
+      "title": "CyberXero Uses Claude Code in Campaign That Stole Over 628,000 Ukrainian Records",
+      "url": "https://thehackernews.com/2026/10/cyberxero-uses-claude-code-in-campaign.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a two-pronged artificial intelligence (AI)-augmented initial access campaign targeting WordPress sites, e-commerce platforms, and critical infrastructure entities in Ukraine.\nThe activity, which brings together commodity offensive tools like Cobalt",
+      "importance": 2.4,
       "matched": [],
-      "published": "Sun, 11 Oct 2026 19:00:00 +0000"
+      "published": "Mon, 12 Oct 2026 12:56:12 +0530"
     },
     {
-      "id": "70688ea0e7a560a0",
-      "title": "Can the AI industry persuade data center opponents by getting rid of NDAs?",
-      "url": "https://techcrunch.com/2026/10/11/can-the-ai-industry-persuade-data-center-opponents-by-getting-rid-of-ndas/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Amazon recently followed Microsoft’s lead and said it will no longer use nondisclosure agreements (NDAs) while negotiating with local governments over data centers.\nOn the latest episode of TechCrunch’s Equity podcast, Sean O’Kane, Rebeccan Bellan and I discussed Amazon’s announcement, which came in",
-      "importance": 2.2,
+      "id": "d0137ba408daed3e",
+      "title": "Norway fines Microsoft ad firm $9.6 million over Grindr data sharing",
+      "url": "https://www.bleepingcomputer.com/news/security/norway-fines-microsoft-ad-firm-96-million-over-grindr-data-sharing/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Norway’s Data Protection Authority (Datatilsynet) has fined Xandr, a Microsoft-owned advertising company, $9.6M (NOK 92 million) for unlawfully processing and sharing sensitive data belonging to Grindr users in the country.\nThe data protection authority said this is the largest fine it has ever issu",
+      "importance": 2.4,
       "matched": [],
-      "published": "Sun, 11 Oct 2026 16:52:33 +0000"
+      "published": "Mon, 12 Oct 2026 16:13:52 -0400"
     },
     {
-      "id": "ba5db8106c64fb8b",
-      "title": "These execs think voice AI hasn’t reached its ChatGPT moment yet",
-      "url": "https://techcrunch.com/2026/10/11/these-execs-think-voice-ai-hasnt-reached-its-chatgpt-moment-yet/",
+      "id": "8d0ac34c06d57d46",
+      "title": "Yandex confirms service outage as users lose access to cloud files",
+      "url": "https://www.bleepingcomputer.com/news/security/yandex-confirms-service-outage-as-users-lose-access-to-cloud-files/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Russian cloud services provider Yandex announced that drone attacks damaged three of its data centers, forcing it to shut down two facilities and partially disable a third.\nYandex customers are experiencing service outages, some of them reporting inability to access files stored on the company’s clo",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 15:23:01 -0400"
+    },
+    {
+      "id": "8ba9b8e7a12a6c3d",
+      "title": "Anthropic takes risky AI tests offline after models breach govt sites",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-takes-risky-ai-tests-offline-after-models-breach-govt-sites/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Anthropic announced that its internal AI models under “high-risk and cybersecurity evaluations” no longer have internet access following incidents involving U.S. government websites at the federal, state, and local levels.\nThe instances leading to the decision include AI models that exploited websit",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 14:51:59 -0400"
+    },
+    {
+      "id": "28da8c245f5dca44",
+      "title": "Ledger confirms spy chip implant behind wallet crypto thefts",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-confirms-hardware-wallet-spy-implant-behind-crypto-thefts/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Ledger has confirmed that some of its devices distributed through Southeast Asian reseller CryptoBilis were compromised with a hardware implant that drained users' cryptocurrency wallets.\nThe company has been investigating reports of users losing funds from wallets purchased through CryptoBilis, a m",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 12:27:23 -0400"
+    },
+    {
+      "id": "5ae29bf7b51ae6e4",
+      "title": "Cyberattack shuts down refrigerators at French supermarkets",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-shuts-down-refrigerators-at-french-supermarkets/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Attackers remotely defrosted refrigerators at multiple French supermarket chains overnight in a cyberattack that reportedly targeted Danfoss refrigeration controllers.\nVictims include Intermarché, Coopérative U, Carrefour Market, Monoprix, Leclerc, and Super U, with French outlets reporting that the",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 11:23:34 -0400"
+    },
+    {
+      "id": "7a7fbf93e11c89ab",
+      "title": "Inside AvisLoader: A Windows Malware Loader Built to Resist Disruption",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-avisloader-a-windows-malware-loader-built-to-resist-disruption/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Varonis Threat Labs recently discovered AvisLoader, a new Windows loader named after the Latin word for bird. We found it on an exposed staging server alongside a ClickFix lure, supporting tools, and its Command Center.\nThe attack starts with a familiar ClickFix lure. A page posing as a document-sig",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 10:00:10 -0400"
+    },
+    {
+      "id": "8bf2f9414a620fba",
+      "title": "Retail giant Ahold Delhaize takes systems offline after cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/retail-giant-ahold-delhaize-takes-systems-offline-after-cyberattack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Retail giant Ahold Delhaize, one of the world's largest food retail chains, confirmed today that it was forced to take some systems offline after a \"cybersecurity incident.\"\nAs a wholesale company and multinational retailer, Ahold Delhaize operates more than 9,400 local stores across Europe, the Uni",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 09:51:07 -0400"
+    },
+    {
+      "id": "80d24e11891767c4",
+      "title": "Meta releases its first frontier model, Muse Wonder",
+      "url": "https://techcrunch.com/2026/10/12/meta-releases-its-first-frontier-model-muse-wonder/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "The theory of voice being the next big interface has picked up strong momentum, with investors pouring billions of dollars into voice AI startups working on areas ranging from model makers to enterprise customer service providers, and from meeting note-takers to AI-powered dictation.\nEvery week ther",
+      "summary": "Meta’s Superintelligence Lab released a pair of new state-of-the-art models on Monday, Muse Wonder and Muse Wonder Full, representing the company’s first attempt at a frontier model.\nWhere Muse Spark aimed to be a lightweight model that could perform at low latency, the Wonder models are larger and ",
       "importance": 2.2,
       "matched": [],
-      "published": "Sun, 11 Oct 2026 14:00:00 +0000"
+      "published": "Mon, 12 Oct 2026 17:56:56 +0000"
+    },
+    {
+      "id": "8e8b602fc5f53407",
+      "title": "WindBorne wins a hefty US Air Force contract for its balloon data",
+      "url": "https://techcrunch.com/2026/10/12/windborne-wins-a-hefty-us-air-force-contract-for-its-balloon-data/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The U.S. Air Force will buy data collected by WindBorne Systems‘ fleet of autonomous weather balloons under a new contract that could be worth nearly $50 million to the startup.\nWindBorne currently has about 700 weather balloons flying around the globe, collecting atmospheric sensor readings that th",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 17:19:14 +0000"
+    },
+    {
+      "id": "fa08cc00ea9a27a9",
+      "title": "Honeyjar offers AI tools to improve PR and comms at every company",
+      "url": "https://techcrunch.com/2026/10/12/honeyjar-offers-ai-tools-to-improve-pr-and-comms-at-every-company/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Journalists, entrepreneurs, and even some public relations professionals will tell you that the PR process is broken (buy me a drink sometime, and I’ll give you my rant). But could AI actually make things better?\nHoneyjar, which will be attending this week’s TechCrunch Disrupt as part of the Startup",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 15:45:00 +0000"
+    },
+    {
+      "id": "da2cafd8b4908248",
+      "title": "Microsoft president says UK is best placed to drive AI regulation",
+      "url": "https://techcrunch.com/2026/10/12/microsoft-president-says-uk-is-best-placed-to-drive-ai-regulation/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Microsoft president Brad Smith is calling for urgent regulation of AI, and his argument is that consumer products like milk and washing machines have more oversight than the companies building artificial intelligence.\nOn a recent BBC podcast, Smith called AI both a “weapon and a tool” that is puttin",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 15:31:19 +0000"
+    },
+    {
+      "id": "6ecbcc7a7d94a271",
+      "title": "This AI startup says it can generate permit-ready blueprints in minutes",
+      "url": "https://techcrunch.com/2026/10/12/this-ai-startup-says-it-can-generate-permit-ready-blueprints-in-minutes/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nearly two decades ago, a young college student wrote his final thesis about software capable of generating design documents for school buildings. Al Dram was studying architecture — following in the footsteps of his parents and grandfather — but it was technology that really intrigued him.\nThere wa",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 15:27:59 +0000"
+    },
+    {
+      "id": "47c2a6e011d8ec69",
+      "title": "TechCrunch Disrupt 2026 starts tomorrow: Your final chance to secure up to $100 ticket savings",
+      "url": "https://techcrunch.com/2026/10/12/techcrunch-disrupt-2026-starts-tomorrow-your-final-chance-to-secure-up-to-100-ticket-savings/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Tomorrow at 8 a.m. PT, it all begins — 10,000+ founders, investors, and tech operators will gather at San Francisco’s Moscone West for TechCrunch Disrupt 2026 for three days of ideas, connections, and startups shaping what comes next. If you’ve been waiting to decide, the wait is over — this is your",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 14:00:00 +0000"
+    },
+    {
+      "id": "3ea17d5e396158ce",
+      "title": "Former Plaud exec raises $26M for AI app that listens to you in the background",
+      "url": "https://techcrunch.com/2026/10/12/former-plaud-exec-raises-26m-for-ai-app-that-listens-to-you-in-the-background/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "One of the core promises of AI is that the more it knows about a person, the better it will be able to assist them with tasks and make appropriate suggestions, which, if you’ll believe the tech companies, requires apps and devices to listen, watch, or record users’ activity all the time and gather a",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 12:47:59 +0000"
+    },
+    {
+      "id": "ef7595ad07b8bc0a",
+      "title": "IonQ to Acquire Zero Trust Firm Elisity for Up to $1.3 Billion",
+      "url": "https://www.securityweek.com/ionq-to-acquire-zero-trust-firm-elisity-for-up-to-1-3-billion/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "IonQ on Monday said it signed a definitive agreement to buy Elisity in a stock-only transaction worth up to $1.3 billion.\nUp to $150 million of that amount is earnout consideration, contingent on how Elisity’s business performs. IonQ expects to complete the acquisition in the fourth quarter of 2026.",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 14:25:00 +0000"
+    },
+    {
+      "id": "89310c4a866bdb92",
+      "title": "Canonical Websites Disrupted in Second DDoS Attack This Year",
+      "url": "https://www.securityweek.com/canonical-websites-disrupted-in-second-ddos-attack-this-year/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Canonical’s websites were disrupted last week by a distributed denial-of-service (DDoS) attack, months after a larger attack hit the Ubuntu maker’s infrastructure.\nThe company confirmed the attack on October 8 in a post on the Ubuntu Discourse forum. “Canonical’s websites are under a sustained distr",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 11:58:39 +0000"
+    },
+    {
+      "id": "876fc8d20364ae3d",
+      "title": "Mastermind of 15,000-Mule Cybercrime Laundering Network Pleads Guilty in US",
+      "url": "https://www.securityweek.com/mastermind-of-15000-mule-cybercrime-laundering-network-pleads-guilty-in-us/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A dual citizen of Ukraine and Russia pleaded guilty in a US court for his role in a sophisticated money laundering organization used by cybercriminals.\nThe individual, Oleg Korniev, 42, was a leader of Your Mule Cashout (YMCO), an international network of money mules and internet infrastructure that",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 11:24:50 +0000"
+    },
+    {
+      "id": "34f9e6caf0ef2bdf",
+      "title": "iRhythm Data Breach Impacts at Least 360,000 People",
+      "url": "https://www.securityweek.com/irhythm-data-breach-impacts-over-360000-people/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Medical equipment provider iRhythm is notifying more than 360,000 people that hackers stole their personal information.\nThe data breach was identified on June 8 and involved third-party-hosted business applications that stored certain iRhythm information, the company says.\nDuring its investigation i",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 11:05:43 +0000"
+    },
+    {
+      "id": "8933a9d7414bfa2e",
+      "title": "SoK: Privacy-Preserving Order Matching",
+      "url": "https://arxiv.org/abs/2610.12535",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 8 Oct 2026]\nTitle:SoK: Privacy-Preserving Order Matching\nView PDF HTML (experimental)\n            Abstract:Privacy-preserving order matching enables traders to discover and execute compatible orders while limiting disclosure of sensitive t",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "a53e2c01c6054abf",
+      "title": "Organizational Context for the Enterprise Security Brain",
+      "url": "https://arxiv.org/abs/2610.12540",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 8 Oct 2026]\nTitle:Organizational Context for the Enterprise Security Brain\nView PDF HTML (experimental)\n            Abstract:Agents that investigate and decide on enterprise security reason over a machine-readable view of the environment: ",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "3eb1b10d6f20d7ec",
+      "title": "HOMARD: Hammering Off-chip Memory via Aggregate power Rail Disclosure",
+      "url": "https://arxiv.org/abs/2610.12621",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 8 Oct 2026]\nTitle:HOMARD: Hammering Off-chip Memory via Aggregate power Rail Disclosure\nView PDF HTML (experimental)\n            Abstract:Software-based microarchitectural attacks have mainly exploited timing differences to infer informati",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "cbcd28745789d429",
+      "title": "Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance",
+      "url": "https://arxiv.org/abs/2610.12493",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 24 Sep 2026]\nTitle:Faithfulness Without Anchors: A Position Paper on the Structural Misalignments of Explainable AI Faithfulness Metrics for Feature Importance\nView PDF HTML (experimental)\n            Abstract:Explainable Artificial Intellig",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "6cf0ccffbf38bf7c",
+      "title": "EliteTable: Self-Improving Program Search for Executable Control Policies",
+      "url": "https://arxiv.org/abs/2610.12536",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 8 Oct 2026]\nTitle:EliteTable: Self-Improving Program Search for Executable Control Policies\nView PDF HTML (experimental)\n            Abstract:EliteTable is a self-improving program-search algorithm guided by large language models (LLMs) that",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "3aae022998c90ae9",
+      "title": "Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study",
+      "url": "https://arxiv.org/abs/2610.12542",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 8 Oct 2026]\nTitle:Equal-Budget Monte Carlo Tree Search versus Randomized-Restart List Scheduling for DAG Workflows: A Controlled Equal-Budget Computational Study\nView PDF HTML (experimental)\n            Abstract:Monte Carlo Tree Search (MCTS",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "e269ec2e2621a344",
+      "title": "Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning",
+      "url": "https://arxiv.org/abs/2610.12593",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 8 Oct 2026]\nTitle:Know What You Don't Know: Agentic Data Synthesis by Evolving Generation Space for Closed-Loop Learning\nView PDF HTML (experimental)\n            Abstract:The continued improvement of large language models increasingly depend",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 12 Oct 2026 00:00:00 -0400"
     }
   ]
 }
