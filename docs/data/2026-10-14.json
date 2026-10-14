@@ -1,0 +1,592 @@
+{
+  "date": "2026-10-14",
+  "generated_at": "2026-10-14T09:43:30.066469+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far」입니다.",
+  "stats": {
+    "collected": 39,
+    "summarized": 39,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "fb99d329a170ccdf",
+      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+      "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Tue, 13 Oct 2026 23:03:11 +0530"
+    },
+    {
+      "id": "5d5d52d490fee0fa",
+      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files.\nThe flaw was discovered on August 23 by researchers at Defiant's platform Wordfence using their Argus AI-powered s",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 13 Oct 2026 17:33:26 -0400"
+    },
+    {
+      "id": "21edffe120823d4e",
+      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days By Lawrence Abrams October 13, 2026 03:56 PM 0 Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vul",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited"
+      ],
+      "published": "Tue, 13 Oct 2026 15:56:09 -0400"
+    },
+    {
+      "id": "79446cd89775d814",
+      "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
+      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Ivanti on Tuesday warned customers that a zero-day vulnerability in its Connect Secure (ICS) VPN appliances has been exploited in the wild.\nTracked as CVE-2026-104935 and rated high severity, the issue is an authentication bypass that lets a remote, unauthenticated attacker execute arbitrary command",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Tue, 13 Oct 2026 18:43:43 +0000"
+    },
+    {
+      "id": "83d130e7ba9f7dd1",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today’s epic patch batch dwarfs September’s record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.\nJust one of the ",
+      "why": "",
+      "importance": 2.8,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 23:24:53 +0000"
+    },
+    {
+      "id": "87e22abf54d8b628",
+      "title": "Quoting Geoffrey Huntley",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "13th October 2026\nIf the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail ",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-10-13T13:32:00+00:00"
+    },
+    {
+      "id": "550c4c02e9ff21a9",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Run fast, private agents on-device with LFM2.5-24B-A2B\n- Best-in-class agent: Competitive with Qwen3.6-35B-A3B, a model with ~50% more total and active parameters, on agentic and tool-use tasks, scoring 48.09 on LiveClaw versus 38.19.\n- Reasoning at MoE speed: Always thinks before it answers. With o",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 13 Oct 2026 17:05:48 GMT"
+    },
+    {
+      "id": "fd83ae3d1e3e02de",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "13th October 2026 - Link Blog\nRedesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.\nIn May 2026, Anthropic averag",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-13T23:00:06+00:00"
+    },
+    {
+      "id": "781a955ce352281b",
+      "title": "llm-gemini 0.35",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "13th October 2026\nI added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan.\nHere are the low, medium and high pelicans. As expected, they are all excellent: Gemini has a track record of producing g",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-13T22:28:54+00:00"
+    },
+    {
+      "id": "9512e72db4bde2c6",
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "13th October 2026\nIncludes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra.\nRecent articles\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice -",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-13T01:40:05+00:00"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "87e22abf54d8b628",
+      "title": "Quoting Geoffrey Huntley",
+      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "13th October 2026\nIf the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail ",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-10-13T13:32:00+00:00"
+    },
+    {
+      "id": "fb99d329a170ccdf",
+      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
+      "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third ",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Tue, 13 Oct 2026 23:03:11 +0530"
+    },
+    {
+      "id": "5d5d52d490fee0fa",
+      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
+      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files.\nThe flaw was discovered on August 23 by researchers at Defiant's platform Wordfence using their Argus AI-powered s",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 13 Oct 2026 17:33:26 -0400"
+    },
+    {
+      "id": "21edffe120823d4e",
+      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days By Lawrence Abrams October 13, 2026 03:56 PM 0 Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vul",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited"
+      ],
+      "published": "Tue, 13 Oct 2026 15:56:09 -0400"
+    },
+    {
+      "id": "550c4c02e9ff21a9",
+      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Run fast, private agents on-device with LFM2.5-24B-A2B\n- Best-in-class agent: Competitive with Qwen3.6-35B-A3B, a model with ~50% more total and active parameters, on agentic and tool-use tasks, scoring 48.09 on LiveClaw versus 38.19.\n- Reasoning at MoE speed: Always thinks before it answers. With o",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 13 Oct 2026 17:05:48 GMT"
+    },
+    {
+      "id": "79446cd89775d814",
+      "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
+      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Ivanti on Tuesday warned customers that a zero-day vulnerability in its Connect Secure (ICS) VPN appliances has been exploited in the wild.\nTracked as CVE-2026-104935 and rated high severity, the issue is an authentication bypass that lets a remote, unauthenticated attacker execute arbitrary command",
+      "importance": 3.0,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Tue, 13 Oct 2026 18:43:43 +0000"
+    },
+    {
+      "id": "83d130e7ba9f7dd1",
+      "title": "Microsoft Patches More Than 1,400 Security Flaws",
+      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today’s epic patch batch dwarfs September’s record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.\nJust one of the ",
+      "importance": 2.8,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 23:24:53 +0000"
+    },
+    {
+      "id": "fd83ae3d1e3e02de",
+      "title": "Redesigning source control at Anthropic",
+      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "13th October 2026 - Link Blog\nRedesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.\nIn May 2026, Anthropic averag",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-13T23:00:06+00:00"
+    },
+    {
+      "id": "781a955ce352281b",
+      "title": "llm-gemini 0.35",
+      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "13th October 2026\nI added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan.\nHere are the low, medium and high pelicans. As expected, they are all excellent: Gemini has a track record of producing g",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-13T22:28:54+00:00"
+    },
+    {
+      "id": "9512e72db4bde2c6",
+      "title": "web-edit 0.1a1",
+      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "13th October 2026\nIncludes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra.\nRecent articles\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice -",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-13T01:40:05+00:00"
+    },
+    {
+      "id": "ef47cf6a028c4b74",
+      "title": "llm-meta-ai 0.2",
+      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "12th October 2026\nMeta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol.\nI updated my llm-meta-ai plugin for the new model. Here are ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-12T23:58:46+00:00"
+    },
+    {
+      "id": "d9ed76a64d3ea742",
+      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
+      "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.\nThe frontier AI lab said small AI models could form autonomous, self-propagating worm bot",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 23:50:57 +0530"
+    },
+    {
+      "id": "8187d0f2ac60bf6f",
+      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
+      "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it.\nThe flaw was in the feature that converts a personal accoun",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 23:33:18 +0530"
+    },
+    {
+      "id": "6e56ced53da56dc2",
+      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
+      "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python clien",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 22:58:50 +0530"
+    },
+    {
+      "id": "3770e65c491fe5df",
+      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
+      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials.\n\"Your configuration becomes valid",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 21:48:18 +0530"
+    },
+    {
+      "id": "2fd581d2b9b4e293",
+      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
+      "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying Grindr users' sensitive data to advertisers.\nThe administrative penalty is the largest issued by the data protection watchdog, arguing the case m",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 18:42:32 +0530"
+    },
+    {
+      "id": "cd473945c5d8743c",
+      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
+      "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 17:27:06 +0530"
+    },
+    {
+      "id": "8f63a0f3f0541bc2",
+      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
+      "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\nLG has issued a fix, according to an advisory published by SSD Secure Disclosure on October 12.\nThe chain was tested on t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 16:39:10 +0530"
+    },
+    {
+      "id": "ff21bb8aab0186af",
+      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations.\nThe U.S. Department of Justice announced Tuesday that Abdulrahman Alfozan, 35, who had worked ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 18:33:02 -0400"
+    },
+    {
+      "id": "1a0763123a1d11fa",
+      "title": "Anthropic warns self-replicating AI could spread to your smart devices",
+      "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers.\nThe company's experiments showed that models could identify ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 17:16:34 -0400"
+    },
+    {
+      "id": "04ab1973266f3414",
+      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes.\nIf you are running Windows 10 Enterprise LTSC or are enrolled in the ESU program, you can install this update like norma",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 15:47:30 -0400"
+    },
+    {
+      "id": "07ca9e611f68c327",
+      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates.\nHowever, according to Microsoft's lifecycle policy, Windows 11 24H2 Enterprise and Education editions rem",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 15:04:38 -0400"
+    },
+    {
+      "id": "db0de8b1cf1562b3",
+      "title": "UK Housing Ombudsman Service investigates 'security incident'",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday.\nEstablished under the Housing Act 1996, the Housing Ombudsman is an executive non-departmental public body sponsored by the Ministry of Housing, Communities, an",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 14:19:44 -0400"
+    },
+    {
+      "id": "30c48aec6fa791e3",
+      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features.\nToday's updates are mandatory as they contain the October 2026 Patch Tuesday security patches for hundre",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 13:49:38 -0400"
+    },
+    {
+      "id": "a2d00ff109e7d12f",
+      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
+      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Science Corporation CEO Max Hodak announced that the company has implanted its vision-restoring chip, PRIMA, into its first patient with Stargardt disease, an inherited eye disease that gradually destroys central vision. Hodak, the former president and co-founder of Neuralink, the brain implant comp",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 23:13:31 +0000"
+    },
+    {
+      "id": "314375845b17a428",
+      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Cerebras Systems CEO and co-founder Andrew Feldman believes we’re nearing a future where everyone will have an AI appliance in their own home.\nSpeaking on stage at TechCrunch Disrupt 2026 on Tuesday, the chipmaker executive answered a question about what would need to happen for AI to become a home ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 23:05:34 +0000"
+    },
+    {
+      "id": "3e50c67087875e42",
+      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
+      "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In most factories, automation is fixed: robots and machines are programmed for one specific task and product. Changing a line means reprogramming and physical retooling, or swapping out equipment, which can take weeks or months. San Francisco-based Industrial Next says it’s changing that.\nThe startu",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 23:00:00 +0000"
+    },
+    {
+      "id": "8ffa5222f5cfbfa3",
+      "title": "Cerebras CEO pushes back on AI doomsday warnings",
+      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Cerebras Systems CEO and co-founder Andrew Feldman thinks the AI doomer narrative isn’t doing the industry any favors. At TechCrunch Disrupt 2026, the AI chipmaker exec quipped that “some of the leaders in the AI world maybe shouldn’t be allowed to talk in public.”\nHe’s referencing the negativity no",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 22:36:59 +0000"
+    },
+    {
+      "id": "41d15466fa73b3da",
+      "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
+      "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A judge has ruled that Apple will gain expedited access to OpenAI’s hiring materials in the trade secrets-focused lawsuit the iPhone maker filed against OpenAI in July.\nSpecifically, the court will allow Apple to view documents associated with OpenAI’s interviews with former Apple employees who appl",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 20:36:44 +0000"
+    },
+    {
+      "id": "ec248a8be840f0c3",
+      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
+      "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "When I was eight, I remember our train to Mumbai ground to a halt with a great noise. When we started moving again, a good eight hours later, someone pointed out a mangled tail, of all things, hanging from a branch close to the tracks.\nThe train, you see, had apparently hit a wild bison at full spee",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 18:30:00 +0000"
+    },
+    {
+      "id": "5349b4bff5efc007",
+      "title": "Facebook is giving users more control over their algorithm",
+      "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Facebook is the latest social media platform to give users greater control over the algorithm that determines what appears in their feeds.\nMeta announced the launch of its new AI-powered feature, “Your Algorithm,” on Tuesday, a feature it first launched on Instagram. The new tool allows Facebook use",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 18:05:24 +0000"
+    },
+    {
+      "id": "0b284eb98b4575c8",
+      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
+      "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "If there’s one lesson the OpenAI-Hugging Face incident taught us, it’s that AI agents can be unpredictable.\n“Imagine if something like that happened in the physical world,” Howie Sun, CEO and co-founder of Laplace Intelligence, told TechCrunch. “AI agents are moving from computers into the real worl",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 17:30:00 +0000"
+    },
+    {
+      "id": "089e26be9c889c4d",
+      "title": "Open models have real benefits. Do they outweigh the risks?",
+      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Open models have real benefits. Do they outweigh the risks?\nWhy the open-closed AI debate is more complicated than it seems\nMIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from th",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 10:00:00 +0000"
+    },
+    {
+      "id": "7c431d9eeb01b7e3",
+      "title": "AI labs are buying data from dead startups to train their models",
+      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "AI labs are buying data from dead startups to train their models\nMost startups fail. A new industry is giving their data an afterlife in AI.\nWhen Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 09:00:00 +0000"
+    },
+    {
+      "id": "0cfb790894cf8cc4",
+      "title": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
+      "url": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "An engineer at OpenAI has been charged with secretly installing a recording device inside a conference room in what officials said Tuesday was an effort to capture sensitive conversations about the company’s technology.\nThe employee, identified as a 35-year-old Saudi national named Abdulrahman Alfoz",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 23:07:00 +0000"
+    },
+    {
+      "id": "21816e632b645b53",
+      "title": "Adobe Patches 140 Vulnerabilities Across 10 Products",
+      "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Adobe has published 10 new security advisories to inform customers about roughly 140 vulnerabilities found and patched in its products.\nAdobe ColdFusion updates address 32 vulnerabilities, including critical bugs that can be exploited for code execution and privilege escalation.\nA significant number",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 17:14:42 +0000"
+    },
+    {
+      "id": "19a292ee37839caf",
+      "title": "Google Partially Reverses Chrome Bug Bounty Cuts",
+      "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Google announced Tuesday that it’s raising bug bounty rewards for some Chrome vulnerabilities, focusing on memory safety issues.\nAI has been changing the pace and profile of vulnerability discovery, and the tech giant has been adjusting its bug bounty programs in recent months.\nGoogle significantly ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 17:00:00 +0000"
+    },
+    {
+      "id": "0e8c653d006415ac",
+      "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
+      "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Meta is notifying roughly 1,500 people, most of them employees in the US, that their personal information was impacted after hackers got into some of the company’s GitHub repositories.\nThe intrusion was detected a few weeks ago. According to the tech giant, an outside group gained access to the repo",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 16:01:00 +0000"
+    },
+    {
+      "id": "f42a122e5dac462a",
+      "title": "Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns",
+      "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Small AI models may be only months away from being able to self-replicate across commercial IoT devices, without needing a data center, according to research from Anthropic’s Frontier Red Team.\nThe study looks at AI worms that run their own model directly on the devices they compromise. Such malware",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 13 Oct 2026 11:58:29 +0000"
+    }
+  ]
+}
