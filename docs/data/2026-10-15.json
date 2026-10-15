@@ -1,0 +1,528 @@
+{
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T09:10:55.414964+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「U.K. Sanctions Cryptomus for RU Money Laundering」입니다.",
+  "stats": {
+    "collected": 33,
+    "summarized": 33,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "78394b2e6b36c285",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial res",
+      "why": "",
+      "importance": 3.8,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 14 Oct 2026 14:22:49 +0000"
+    },
+    {
+      "id": "c8c2a8e77f0c47d2",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\nThe security flaw, t",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited"
+      ],
+      "published": "Wed, 14 Oct 2026 18:00:42 +0530"
+    },
+    {
+      "id": "c9a3f02d710caec5",
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls.\nThe vulnerability affects the PAN-OS management interface and lets authenticated attackers with network access execute code as r",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 18:56:47 -0400"
+    },
+    {
+      "id": "a7632caf16a4605d",
+      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges.\nTracked as CVE-2026-76519, this vulnerability stems from a relative path traversal weakness in SEG's Advanced Malware Protect",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 13:29:14 -0400"
+    },
+    {
+      "id": "835a57efab96f424",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st.\nTracked as CVE-2026-104935, this high-severity authentication bypass vulnerability lets remote thre",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 08:58:07 -0400"
+    },
+    {
+      "id": "8560636ebc000f33",
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "14th October 2026 - Link Blog\nAI is mass decompiling games. That's both awesome and scary. (via) Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-14T16:26:53+00:00"
+    },
+    {
+      "id": "672ebf75c430cf70",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost\nWe introduce HiRO-ACEv2, the newest update to our High Resolution Output Ai2 Climate Emulator (HiRO-ACE) system. HiROv2 can reproduce even extremely rare rain, wind, and pressure events with high accuracy, while the",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 16:12:42 GMT"
+    },
+    {
+      "id": "5abc04e05146a5cd",
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy.\nGudea, a company that tracks how stories and",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 15 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "id": "bd61b92171acdf66",
+      "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Flock CEO Garrett Langley said the company’s gunshot-detection microphones detect “just gunshots,” but Flock’s website paints a far broader picture of what other ambient audio also gets picked up.\nSpeaking onstage at TechCrunch Disrupt, the co-founder of the surveillance company defended Flock’s aud",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 21:30:33 +0000"
+    },
+    {
+      "id": "55222f29942f9010",
+      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "YouTube Music announced Wednesday the rollout of a new labeling system aimed at improving transparency around songs created with the help of generative AI. Now listeners will be able to easily identify tracks created using AI, including those involved in composition and vocals.\nThe label will appear",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 18:23:46 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "78394b2e6b36c285",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial res",
+      "importance": 3.8,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 14 Oct 2026 14:22:49 +0000"
+    },
+    {
+      "id": "c8c2a8e77f0c47d2",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\nThe security flaw, t",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited"
+      ],
+      "published": "Wed, 14 Oct 2026 18:00:42 +0530"
+    },
+    {
+      "id": "c9a3f02d710caec5",
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls.\nThe vulnerability affects the PAN-OS management interface and lets authenticated attackers with network access execute code as r",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 18:56:47 -0400"
+    },
+    {
+      "id": "a7632caf16a4605d",
+      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges.\nTracked as CVE-2026-76519, this vulnerability stems from a relative path traversal weakness in SEG's Advanced Malware Protect",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 13:29:14 -0400"
+    },
+    {
+      "id": "835a57efab96f424",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st.\nTracked as CVE-2026-104935, this high-severity authentication bypass vulnerability lets remote thre",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 08:58:07 -0400"
+    },
+    {
+      "id": "8560636ebc000f33",
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "14th October 2026 - Link Blog\nAI is mass decompiling games. That's both awesome and scary. (via) Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-14T16:26:53+00:00"
+    },
+    {
+      "id": "976f4f5fb239546a",
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday.\nThe attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then r",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 15 Oct 2026 00:08:56 +0530"
+    },
+    {
+      "id": "639d0d6e00a7eca3",
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack on September 10.\nA web shell is a small file that executes any command an attack",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 23:08:31 +0530"
+    },
+    {
+      "id": "78b0d9b2dfa117c3",
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man Syst",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 22:39:15 +0530"
+    },
+    {
+      "id": "f47fa401827130f4",
+      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+      "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\nThe indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker consp",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 22:04:31 +0530"
+    },
+    {
+      "id": "01ccdefefe75bf15",
+      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+      "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\nThe curl project fixed it on October 14 in curl 8.23.0. Taking over a client needs exact kno",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 17:43:36 +0530"
+    },
+    {
+      "id": "de7e4a82bb7fc257",
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.\nThe call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 17:20:00 +0530"
+    },
+    {
+      "id": "ecd984dc6bd30fda",
+      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+      "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\nIts researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 16:49:02 +0530"
+    },
+    {
+      "id": "8ab3c51ec3714565",
+      "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group’s operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker schemes.\nFamous Chollima (a.k.a. WageMole) is commonly tracked as a North Korean t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 15:41:43 -0400"
+    },
+    {
+      "id": "91d989b5fb66289f",
+      "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Ledger is asking resellers and distributors in Southeast Asia and Hong Kong to halt wallet sales and remove products from shelves while it investigates hardware implant incidents.\nThe company announced the decision in response to discovering that devices purchased from CryptoBilis had been modified ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 13:46:50 -0400"
+    },
+    {
+      "id": "fac7cd6e29f5b58e",
+      "title": "Microsoft fixes VPN issues caused by September Windows updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates.\nThe Always On VPN remote access solution replaced the legacy DirectAccess technology and works with domain-joined, non-domain-joined, and Microsoft Entra ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 10:27:01 -0400"
+    },
+    {
+      "id": "937c7f4fab21f49c",
+      "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+      "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "By Sila Ozeren Hacioglu, Security Research Engineer at Picus Security.\nFor years, security teams had a window of several weeks between a CVE going public and attackers exploiting it. Every year, that window got smaller. Then Mythos-class models arrived, and attackers can now weaponize a new CVE with",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 10:00:10 -0400"
+    },
+    {
+      "id": "91795601b1ffd249",
+      "title": "Global takedown hits network behind 1 billion phishing messages",
+      "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide.\nSince the start of the year, more than 750 million malicious messages have been aimed ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 09:12:52 -0400"
+    },
+    {
+      "id": "672ebf75c430cf70",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost\nWe introduce HiRO-ACEv2, the newest update to our High Resolution Output Ai2 Climate Emulator (HiRO-ACE) system. HiROv2 can reproduce even extremely rare rain, wind, and pressure events with high accuracy, while the",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 16:12:42 GMT"
+    },
+    {
+      "id": "5abc04e05146a5cd",
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy.\nGudea, a company that tracks how stories and",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 15 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "id": "bd61b92171acdf66",
+      "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Flock CEO Garrett Langley said the company’s gunshot-detection microphones detect “just gunshots,” but Flock’s website paints a far broader picture of what other ambient audio also gets picked up.\nSpeaking onstage at TechCrunch Disrupt, the co-founder of the surveillance company defended Flock’s aud",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 21:30:33 +0000"
+    },
+    {
+      "id": "55222f29942f9010",
+      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "YouTube Music announced Wednesday the rollout of a new labeling system aimed at improving transparency around songs created with the help of generative AI. Now listeners will be able to easily identify tracks created using AI, including those involved in composition and vocals.\nThe label will appear",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 18:23:46 +0000"
+    },
+    {
+      "id": "619d87b09b01324a",
+      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Most companies use AI agents to ship products faster or to speed up workflows. Apate.ai sends them undercover to get scammed.\nFounded in 2024 on the basis of research done in Macquarie University in Sydney, the Australian startup deploys thousands of AI agents that masquerade as innocent victims. Th",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 18:00:00 +0000"
+    },
+    {
+      "id": "9c18b5e1b4bfcb8e",
+      "title": "Deezer will soon let you filter out AI-generated music",
+      "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Streaming platform Deezer remains steadfast in its intent to help users avoid listening to AI-generated music: The company on Tuesday said it is working on a new toggle that lets users filter out AI-generated music uploaded to its platform. The feature is expected to be available before the end of t",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 15:16:04 +0000"
+    },
+    {
+      "id": "c16911033b3182b5",
+      "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
+      "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The first day of TechCrunch Disrupt 2026 may have concluded, but there’s still plenty more Disrupt programming to come at San Francisco’s Moscone West on October 14 and 15. With just two days left in the event, we’re offering a discount to match: Get two full days of Disrupt for 50% off all ticket t",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 15:13:24 +0000"
+    },
+    {
+      "id": "ecdf723c0581a830",
+      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Many businesses around the world use consumer-facing chat apps like WhatsApp, Telegram, Discord, or iMessage to talk and coordinate with staff, and exchange documents or data.\nGuy Weiss is building Zenzap, a private messenger with AI that wants to help companies communicate with their staff and arm ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 15:08:00 +0000"
+    },
+    {
+      "id": "40dbf46b63844850",
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Floqer is an autonomous customer knowledge platform that provides business-to-business sales and marketing teams with an AI-powered database designed to continuously collect, organize, and update the information used to understand their customers.\nFloqer is pitching Wednesday on the Startup Battlefi",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 15:00:00 +0000"
+    },
+    {
+      "id": "e2e487f81c3d6eb6",
+      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A new report from Booz Allen demonstrates that “frontier super intelligence navigated unfamiliar industrial systems, adapted when blocked, and moved physical equipment within minutes.”\nThe findings of the report were presented last week at SecurityWeek’s Industrial Control Systems (ICS) Cybersecurit",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 16:00:00 +0000"
+    },
+    {
+      "id": "f0efb52b806cdece",
+      "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
+      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Industrial giants Siemens, Schneider Electric, and Rockwell Automation have published ICS security advisories this Patch Tuesday.\nSiemens published 17 new advisories this Patch Tuesday. The company has released patches for some of the vulnerabilities, while for others it has shared mitigations until",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 15:15:15 +0000"
+    },
+    {
+      "id": "f6b610c18e508db2",
+      "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
+      "url": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Workforce AI security startup Harmonic Security today announced raising $50 million in a Series B funding round that brings the total raised by the company to $76 million.\nFounded in 2023 by Alastair Paterson (CEO) and Bryan Woolgar-O’Neil (CTO), who previously founded Digital Shadows (acquired by R",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 14:09:51 +0000"
+    },
+    {
+      "id": "2ee0c0a49b5a2657",
+      "title": "Virtual Event Today: Zero Trust Strategies Summit",
+      "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "SecurtyWeek’s 2026 Zero Trust Strategies Summit kicks off today at 11AM ET as a fully immersive virtual conference and expo.\nThis summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies for a world where every user, de",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 13:56:36 +0000"
+    },
+    {
+      "id": "b9b58f38aa23af33",
+      "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
+      "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Microsoft and Health-ISAC have seized and redirected domains used by YAM Store, CoGUI and Iron Man, three components of a Chinese-language cybercrime marketplace that supplied criminals with accounts, phishing kits and infrastructure.\nThe action was based on an order from the US District Court for t",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 13:00:00 +0000"
+    },
+    {
+      "id": "2cf131532cb914f1",
+      "title": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
+      "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Two US nationals were arrested in a new law enforcement operation targeting fraudulent North Korean IT worker schemes.\nThe suspects, Michael James Bostelle of Pennsylvania and Juan Cecilio Pena Carrillo of Texas, allegedly helped North Korean IT workers (ITWs) illegally obtain remote work at US comp",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 10:55:21 +0000"
+    }
+  ]
+}

@@ -1,592 +1,528 @@
 {
-  "date": "2026-10-14",
-  "generated_at": "2026-10-14T09:43:30.066469+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far」입니다.",
+  "date": "2026-10-15",
+  "generated_at": "2026-10-15T09:10:55.414964+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「U.K. Sanctions Cryptomus for RU Money Laundering」입니다.",
   "stats": {
-    "collected": 39,
-    "summarized": 39,
+    "collected": 33,
+    "summarized": 33,
     "picked": 10,
     "llm": "live"
   },
   "items": [
     {
-      "id": "fb99d329a170ccdf",
-      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-      "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third ",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "zero-day"
-      ],
-      "published": "Tue, 13 Oct 2026 23:03:11 +0530"
-    },
-    {
-      "id": "5d5d52d490fee0fa",
-      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
-      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files.\nThe flaw was discovered on August 23 by researchers at Defiant's platform Wordfence using their Argus AI-powered s",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Tue, 13 Oct 2026 17:33:26 -0400"
-    },
-    {
-      "id": "21edffe120823d4e",
-      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days By Lawrence Abrams October 13, 2026 03:56 PM 0 Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vul",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "zero-day",
-        "actively exploited"
-      ],
-      "published": "Tue, 13 Oct 2026 15:56:09 -0400"
-    },
-    {
-      "id": "79446cd89775d814",
-      "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
-      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Ivanti on Tuesday warned customers that a zero-day vulnerability in its Connect Secure (ICS) VPN appliances has been exploited in the wild.\nTracked as CVE-2026-104935 and rated high severity, the issue is an authentication bypass that lets a remote, unauthenticated attacker execute arbitrary command",
-      "why": "",
-      "importance": 3.0,
-      "matched": [
-        "zero-day",
-        "CVE-2026"
-      ],
-      "published": "Tue, 13 Oct 2026 18:43:43 +0000"
-    },
-    {
-      "id": "83d130e7ba9f7dd1",
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "id": "78394b2e6b36c285",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "source": "Krebs on Security",
       "category": "security",
-      "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today’s epic patch batch dwarfs September’s record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.\nJust one of the ",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial res",
       "why": "",
-      "importance": 2.8,
-      "matched": [],
-      "published": "Tue, 13 Oct 2026 23:24:53 +0000"
-    },
-    {
-      "id": "87e22abf54d8b628",
-      "title": "Quoting Geoffrey Huntley",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "13th October 2026\nIf the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail ",
-      "why": "",
-      "importance": 3.6,
+      "importance": 3.8,
       "matched": [
-        "agent"
+        "ransomware"
       ],
-      "published": "2026-10-13T13:32:00+00:00"
+      "published": "Wed, 14 Oct 2026 14:22:49 +0000"
     },
     {
-      "id": "550c4c02e9ff21a9",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Run fast, private agents on-device with LFM2.5-24B-A2B\n- Best-in-class agent: Competitive with Qwen3.6-35B-A3B, a model with ~50% more total and active parameters, on agentic and tool-use tasks, scoring 48.09 on LiveClaw versus 38.19.\n- Reasoning at MoE speed: Always thinks before it answers. With o",
+      "id": "c8c2a8e77f0c47d2",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\nThe security flaw, t",
       "why": "",
       "importance": 3.4,
       "matched": [
-        "agent"
+        "actively exploited"
       ],
-      "published": "Tue, 13 Oct 2026 17:05:48 GMT"
+      "published": "Wed, 14 Oct 2026 18:00:42 +0530"
     },
     {
-      "id": "fd83ae3d1e3e02de",
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "id": "c9a3f02d710caec5",
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls.\nThe vulnerability affects the PAN-OS management interface and lets authenticated attackers with network access execute code as r",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 18:56:47 -0400"
+    },
+    {
+      "id": "a7632caf16a4605d",
+      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges.\nTracked as CVE-2026-76519, this vulnerability stems from a relative path traversal weakness in SEG's Advanced Malware Protect",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 13:29:14 -0400"
+    },
+    {
+      "id": "835a57efab96f424",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st.\nTracked as CVE-2026-104935, this high-severity authentication bypass vulnerability lets remote thre",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 08:58:07 -0400"
+    },
+    {
+      "id": "8560636ebc000f33",
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "13th October 2026 - Link Blog\nRedesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.\nIn May 2026, Anthropic averag",
+      "summary": "14th October 2026 - Link Blog\nAI is mass decompiling games. That's both awesome and scary. (via) Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-13T23:00:06+00:00"
+      "published": "2026-10-14T16:26:53+00:00"
     },
     {
-      "id": "781a955ce352281b",
-      "title": "llm-gemini 0.35",
-      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-      "source": "Simon Willison",
+      "id": "672ebf75c430cf70",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "13th October 2026\nI added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan.\nHere are the low, medium and high pelicans. As expected, they are all excellent: Gemini has a track record of producing g",
+      "summary": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost\nWe introduce HiRO-ACEv2, the newest update to our High Resolution Output Ai2 Climate Emulator (HiRO-ACE) system. HiROv2 can reproduce even extremely rare rain, wind, and pressure events with high accuracy, while the",
       "why": "",
-      "importance": 2.6,
+      "importance": 2.4,
       "matched": [],
-      "published": "2026-10-13T22:28:54+00:00"
+      "published": "Wed, 14 Oct 2026 16:12:42 GMT"
     },
     {
-      "id": "9512e72db4bde2c6",
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "source": "Simon Willison",
+      "id": "5abc04e05146a5cd",
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
+      "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "13th October 2026\nIncludes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra.\nRecent articles\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice -",
+      "summary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy.\nGudea, a company that tracks how stories and",
       "why": "",
-      "importance": 2.6,
+      "importance": 2.2,
       "matched": [],
-      "published": "2026-10-13T01:40:05+00:00"
+      "published": "Thu, 15 Oct 2026 00:00:00 +0000"
+    },
+    {
+      "id": "bd61b92171acdf66",
+      "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Flock CEO Garrett Langley said the company’s gunshot-detection microphones detect “just gunshots,” but Flock’s website paints a far broader picture of what other ambient audio also gets picked up.\nSpeaking onstage at TechCrunch Disrupt, the co-founder of the surveillance company defended Flock’s aud",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 21:30:33 +0000"
+    },
+    {
+      "id": "55222f29942f9010",
+      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "YouTube Music announced Wednesday the rollout of a new labeling system aimed at improving transparency around songs created with the help of generative AI. Now listeners will be able to easily identify tracks created using AI, including those involved in composition and vocals.\nThe label will appear",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 18:23:46 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "87e22abf54d8b628",
-      "title": "Quoting Geoffrey Huntley",
-      "url": "https://simonwillison.net/2026/Oct/13/geoffrey-huntley/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "13th October 2026\nIf the agent isn't using my diagnostics library, I could introspect and update AGENTS.md, but there's still a delta, and it'll drift. Instead, I write a pre-commit hook that checks the git diff for direct calls to observability modules that bypass my diagnostics module. Boom: fail ",
-      "importance": 3.6,
-      "matched": [
-        "agent"
-      ],
-      "published": "2026-10-13T13:32:00+00:00"
-    },
-    {
-      "id": "fb99d329a170ccdf",
-      "title": "Attacker Chains Three Ivanti Connect Secure Zero-Days for Root Access, Only Two Patched So Far",
-      "url": "https://thehackernews.com/2026/10/attacker-chains-three-ivanti-connect.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "An attacker chained three zero-day flaws in Ivanti Connect Secure, a VPN appliance, to run commands as root without logging in, security firm Volexity said on October 13. Ivanti has released fixes for two of the flaws and told customers on affected versions to \"act immediately.\" A fix for the third ",
-      "importance": 3.4,
-      "matched": [
-        "zero-day"
-      ],
-      "published": "Tue, 13 Oct 2026 23:03:11 +0530"
-    },
-    {
-      "id": "5d5d52d490fee0fa",
-      "title": "Ghostscript flaw lets hackers hijack servers via PDF uploads",
-      "url": "https://www.bleepingcomputer.com/news/security/ghostscript-flaw-lets-hackers-hijack-servers-via-pdf-uploads/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "A critical heap buffer overflow vulnerability (CVE-2026-39919) in the Ghostscript interpreter and rendering engine could allow remote code execution through specially crafted PDF files.\nThe flaw was discovered on August 23 by researchers at Defiant's platform Wordfence using their Argus AI-powered s",
-      "importance": 3.4,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Tue, 13 Oct 2026 17:33:26 -0400"
-    },
-    {
-      "id": "21edffe120823d4e",
-      "title": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-october-2026-patch-tuesday-fixes-1-411-flaws-3-zero-days/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Microsoft October 2026 Patch Tuesday fixes 1,411 flaws, 3 zero-days By Lawrence Abrams October 13, 2026 03:56 PM 0 Today is Microsoft's October 2026 Patch Tuesday, with security updates addressing a record-breaking 1,411 flaws, including one actively exploited and two publicly disclosed zero-day vul",
-      "importance": 3.4,
-      "matched": [
-        "zero-day",
-        "actively exploited"
-      ],
-      "published": "Tue, 13 Oct 2026 15:56:09 -0400"
-    },
-    {
-      "id": "550c4c02e9ff21a9",
-      "title": "Run fast, private agents on-device with LFM2.5-24B-A2B",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Run fast, private agents on-device with LFM2.5-24B-A2B\n- Best-in-class agent: Competitive with Qwen3.6-35B-A3B, a model with ~50% more total and active parameters, on agentic and tool-use tasks, scoring 48.09 on LiveClaw versus 38.19.\n- Reasoning at MoE speed: Always thinks before it answers. With o",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Tue, 13 Oct 2026 17:05:48 GMT"
-    },
-    {
-      "id": "79446cd89775d814",
-      "title": "Ivanti Zero-Day Chain Gave Attackers Root Access to Fully Patched VPN",
-      "url": "https://www.securityweek.com/ivanti-zero-day-chain-gave-attackers-root-access-to-fully-patched-vpn/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Ivanti on Tuesday warned customers that a zero-day vulnerability in its Connect Secure (ICS) VPN appliances has been exploited in the wild.\nTracked as CVE-2026-104935 and rated high severity, the issue is an authentication bypass that lets a remote, unauthenticated attacker execute arbitrary command",
-      "importance": 3.0,
-      "matched": [
-        "zero-day",
-        "CVE-2026"
-      ],
-      "published": "Tue, 13 Oct 2026 18:43:43 +0000"
-    },
-    {
-      "id": "83d130e7ba9f7dd1",
-      "title": "Microsoft Patches More Than 1,400 Security Flaws",
-      "url": "https://krebsonsecurity.com/2026/10/microsoft-patches-more-than-1400-security-flaws/",
+      "id": "78394b2e6b36c285",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "url": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
       "source": "Krebs on Security",
       "category": "security",
-      "summary": "Microsoft today issued updates to fix more than 1,400 security vulnerabilities in its Windows operating systems and other software. Today’s epic patch batch dwarfs September’s record of nearly 1,000 fixes, which was already about ten times the normal monthly patch load from Redmond.\nJust one of the ",
-      "importance": 2.8,
-      "matched": [],
-      "published": "Tue, 13 Oct 2026 23:24:53 +0000"
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial res",
+      "importance": 3.8,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 14 Oct 2026 14:22:49 +0000"
     },
     {
-      "id": "fd83ae3d1e3e02de",
-      "title": "Redesigning source control at Anthropic",
-      "url": "https://simonwillison.net/2026/Oct/13/redesigning-source-control-at-anthropic/",
+      "id": "c8c2a8e77f0c47d2",
+      "title": "CISA Urges Immediate Ivanti Connect Secure Updates as Honeypots Log 105 Exploit Attempts",
+      "url": "https://thehackernews.com/2026/10/cisa-urges-immediate-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday urged organizations to take steps to immediately update their Ivanti Connect Secure (ICS) appliances and deployments to the latest version following the disclosure of an actively exploited vulnerability.\nThe security flaw, t",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited"
+      ],
+      "published": "Wed, 14 Oct 2026 18:00:42 +0530"
+    },
+    {
+      "id": "c9a3f02d710caec5",
+      "title": "Palo Alto Networks warns of PAN-OS RCE flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-pan-os-rce-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Palo Alto Networks has released security updates for a high-severity PAN-OS RCE zero-day, tracked as CVE-2026-0322, that has been exploited in attacks targeting firewalls.\nThe vulnerability affects the PAN-OS management interface and lets authenticated attackers with network access execute code as r",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 18:56:47 -0400"
+    },
+    {
+      "id": "a7632caf16a4605d",
+      "title": "Cisco patches new Secure Email Gateway zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/cisco-patches-actively-exploited-secure-email-gateway-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cisco has patched another actively exploited zero-day flaw in its Secure Email Gateway (SEG) that lets remote unauthenticated attackers execute commands with root privileges.\nTracked as CVE-2026-76519, this vulnerability stems from a relative path traversal weakness in SEG's Advanced Malware Protect",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 13:29:14 -0400"
+    },
+    {
+      "id": "835a57efab96f424",
+      "title": "CISA warns admins to immediately fix Ivanti flaw exploited as zero-day",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-admins-to-immediately-fix-ivanti-flaw-exploited-as-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) urged security teams to immediately patch an Ivanti Connect Secure (ICS) flaw exploited in zero-day attacks since at least October 1st.\nTracked as CVE-2026-104935, this high-severity authentication bypass vulnerability lets remote thre",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Wed, 14 Oct 2026 08:58:07 -0400"
+    },
+    {
+      "id": "8560636ebc000f33",
+      "title": "AI is mass decompiling games. That's both awesome and scary.",
+      "url": "https://simonwillison.net/2026/Oct/14/ai-is-mass-decompiling-games/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "13th October 2026 - Link Blog\nRedesigning source control at Anthropic (via) Interesting piece from Anthropic describing why and how they built their own custom alternative to Git, based on the dramatic increase in rate of changes to their code after the past six months.\nIn May 2026, Anthropic averag",
+      "summary": "14th October 2026 - Link Blog\nAI is mass decompiling games. That's both awesome and scary. (via) Indie game developer Popcar talks about the recent wave of AI-powered decompilation of existing games, enabling weird mashups between existing games, and producing a boom in game preservation projects to",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-13T23:00:06+00:00"
+      "published": "2026-10-14T16:26:53+00:00"
     },
     {
-      "id": "781a955ce352281b",
-      "title": "llm-gemini 0.35",
-      "url": "https://simonwillison.net/2026/Oct/13/llm-gemini/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "13th October 2026\nI added support to llm-gemini for the new Gemini 4 Argon model, made available today via the Gemini API and for customers of their $100/month subscription plan.\nHere are the low, medium and high pelicans. As expected, they are all excellent: Gemini has a track record of producing g",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-13T22:28:54+00:00"
-    },
-    {
-      "id": "9512e72db4bde2c6",
-      "title": "web-edit 0.1a1",
-      "url": "https://simonwillison.net/2026/Oct/13/web-edit/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "13th October 2026\nIncludes performance optimizations written by Claude Opus 5.5 after I fed it this Python 3.15 profiling report generated by GPT-6 Astra.\nRecent articles\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice -",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-13T01:40:05+00:00"
-    },
-    {
-      "id": "ef47cf6a028c4b74",
-      "title": "llm-meta-ai 0.2",
-      "url": "https://simonwillison.net/2026/Oct/12/llm-meta-ai/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "12th October 2026\nMeta AI release Muse Wonder (and Muse Wonder Full), their new \"most capable models\". These look like they may be Meta's first Fable class models - Artificial Analysis scores Muse Wonder (Max) as equivalent to GPT-6.1 Sol.\nI updated my llm-meta-ai plugin for the new model. Here are ",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-12T23:58:46+00:00"
-    },
-    {
-      "id": "d9ed76a64d3ea742",
-      "title": "Anthropic Warns Small AI Models Could Soon Form Self-Propagating IoT Botnets",
-      "url": "https://thehackernews.com/2026/10/anthropic-warns-small-ai-models-could.html",
+      "id": "976f4f5fb239546a",
+      "title": "Cisco Warns of Active Attacks Exploiting New Critical Secure Email Gateway Vulnerability",
+      "url": "https://thehackernews.com/2026/10/cisco-warns-of-active-attacks.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Small artificial intelligence (AI) models may be months away from developing capabilities to self-replicate on IoT devices like smart ovens and off-brand Android TV boxes, according to a warning from Anthropic.\nThe frontier AI lab said small AI models could form autonomous, self-propagating worm bot",
+      "summary": "Attackers are exploiting a critical flaw in Cisco Secure Email Gateway that lets a sender with no login write files to the appliance's operating system, Cisco said in an advisory on Wednesday.\nThe attacker sends an email with a crafted attachment through the gateway and, if it succeeds, could then r",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 23:50:57 +0530"
+      "published": "Thu, 15 Oct 2026 00:08:56 +0530"
     },
     {
-      "id": "8187d0f2ac60bf6f",
-      "title": "Docker Fixes Critical Two-Year-Old Hub Flaw That Let One User Push Images as Another",
-      "url": "https://thehackernews.com/2026/10/docker-fixes-critical-two-year-old-hub.html",
+      "id": "639d0d6e00a7eca3",
+      "title": "Hackers Backdoor Nextcloud Servers Through Critical Flaw in Collabora’s Built-in CODE App",
+      "url": "https://thehackernews.com/2026/10/hackers-backdoor-nextcloud-servers.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A flaw in Docker Hub, the registry where container images are published and downloaded, let one user push, pull, or delete images as another user. Docker fixed the flaw on September 30 and says it found no evidence that anyone exploited it.\nThe flaw was in the feature that converts a personal accoun",
+      "summary": "Attackers exploited a flaw in an optional Nextcloud app, Collabora Online - Built-in CODE Server, to plant web shells on Nextcloud servers. Three administrators reported the issue on GitHub, with the first logged attack on September 10.\nA web shell is a small file that executes any command an attack",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 23:33:18 +0530"
+      "published": "Wed, 14 Oct 2026 23:08:31 +0530"
     },
     {
-      "id": "6e56ced53da56dc2",
-      "title": "SAP Discloses Critical CVSS 10 Flaw in Cloud SDK for Python Allowing OAuth2 Credential Theft",
-      "url": "https://thehackernews.com/2026/10/sap-discloses-critical-cvss-10-flaw-in.html",
+      "id": "78b0d9b2dfa117c3",
+      "title": "Microsoft Disrupts 3 Phishing Kits Linked to Over 1 Billion Scam Messages",
+      "url": "https://thehackernews.com/2026/10/microsoft-disrupts-3-phishing-kits.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A flaw in SAP's Cloud SDK for Python can send an application's OAuth2 client credentials to a server an attacker controls, SAP said in a security advisory on October 13. The flaw affects multi-tenant applications on SAP Business Technology Platform (BTP) that use the SDK, SAP's official Python clien",
+      "summary": "Microsoft and Health-ISAC, along with the Japan Cybercrime Control Center (JC3) and a coalition of private sector companies, such as Resecurity, Cloudflare, Oracle, Proofpoint, and TRM Labs, announced the disruption of three phishing kits, CoGUI (aka NX or FA), Haozi (aka Phoenix), and Iron Man Syst",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 22:58:50 +0530"
+      "published": "Wed, 14 Oct 2026 22:39:15 +0530"
     },
     {
-      "id": "3770e65c491fe5df",
-      "title": "GitHub Tightens npm Publishing After Flaw Left 1,500+ Packages Vulnerable to Hijacking",
-      "url": "https://thehackernews.com/2026/10/github-tightens-npm-publishing-after.html",
+      "id": "f47fa401827130f4",
+      "title": "U.S. Shuts Down Over 40 Laptop Farms, Charges 14 in North Korean IT Worker Fraud",
+      "url": "https://thehackernews.com/2026/10/us-shuts-down-over-40-laptop-farms.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "GitHub has taken the step of expiring unvalidated npm trusted publishing configurations 48 hours after creation after researchers found that it was possible for an attacker to push new versions of a different user's package without having to steal their credentials.\n\"Your configuration becomes valid",
+      "summary": "The U.S. Department of Justice (DoJ) on Tuesday charged 14 people and seized about 187 computers as part of its ongoing efforts to disrupt North Korea's fraudulent remote IT worker (ITW) scheme.\nThe indictment charges a mix of U.S. citizens and Chinese nationals for their roles in an IT worker consp",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 21:48:18 +0530"
+      "published": "Wed, 14 Oct 2026 22:04:31 +0530"
     },
     {
-      "id": "2fd581d2b9b4e293",
-      "title": "Xandr Fined a Record €8.6 Million for Relaying Grindr Data Revealing Sexual Orientation",
-      "url": "https://thehackernews.com/2026/10/xandr-fined-record-86-million-for.html",
+      "id": "01ccdefefe75bf15",
+      "title": "curl Patches HTTP/2 Upload Flaw After PoC Demonstrates Client-Side Code Execution",
+      "url": "https://thehackernews.com/2026/10/curl-patches-http2-upload-flaw-after.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The Norwegian Data Protection Authority (DPA) has fined Xandr, an advertising unit owned by Microsoft, €8.6 million ($9.62 million) for illegally relaying Grindr users' sensitive data to advertisers.\nThe administrative penalty is the largest issued by the data protection watchdog, arguing the case m",
+      "summary": "A flaw in how curl handles HTTP/2 uploads lets a malicious server receiving an upload corrupt the client's memory, and the researcher who reported it turned that into code execution on the uploading machine.\nThe curl project fixed it on October 14 in curl 8.23.0. Taking over a client needs exact kno",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 18:42:32 +0530"
+      "published": "Wed, 14 Oct 2026 17:43:36 +0530"
     },
     {
-      "id": "cd473945c5d8743c",
-      "title": "[Webinar] How to Stop AI-Driven Privilege Escalation With Runtime Identity Controls",
-      "url": "https://thehackernews.com/2026/10/webinar-how-to-stop-ai-driven-privilege.html",
+      "id": "de7e4a82bb7fc257",
+      "title": "How to Run a Deepfake Readiness Drill Before a Cloned Voice Calls Your Team",
+      "url": "https://thehackernews.com/2026/10/how-to-run-deepfake-readiness-drill.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The dangerous part of a stolen identity isn't always the initial login. It's what an attacker can do with that access next.\nWith AI accelerating reconnaissance, exploitation of vulnerabilities, and privilege escalation, attackers can move through systems faster than security teams can investigate. A",
+      "summary": "Cloned voices and synthetic video calls now show up in payment fraud, help desk resets, and access requests. A structured drill shows security teams exactly where verification breaks down, while nothing is at stake.\nThe call comes in at 4:40 on a Friday. It's the CFO, or it sounds exactly like her, ",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 17:27:06 +0530"
+      "published": "Wed, 14 Oct 2026 17:20:00 +0530"
     },
     {
-      "id": "8f63a0f3f0541bc2",
-      "title": "LG Smart TVs Vulnerable to Pre-Auth Root Takeover From Local Network",
-      "url": "https://thehackernews.com/2026/10/lg-smart-tvs-vulnerable-to-pre-auth.html",
+      "id": "ecd984dc6bd30fda",
+      "title": "Researchers Used a Public OpenAI Model to Build a $250,000 Chrome Full-Chain Exploit in Six Days",
+      "url": "https://thehackernews.com/2026/10/researchers-used-public-openai-model-to.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Three vulnerabilities in LG's webOS can be chained to give an attacker on the same local network root access to certain smart TVs without a PIN or any interaction from the owner.\nLG has issued a fix, according to an advisory published by SSD Secure Disclosure on October 12.\nThe chain was tested on t",
+      "summary": "A team at security firm XBOW chained three then-unknown Google Chrome bugs into a single attack that runs code on a Windows computer when the user only loads a web page, the company said.\nIts researchers built the attack in six days by directing AI agents running OpenAI's publicly available GPT-5.6 ",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 16:39:10 +0530"
+      "published": "Wed, 14 Oct 2026 16:49:02 +0530"
     },
     {
-      "id": "ff21bb8aab0186af",
-      "title": "OpenAI engineer arrested for allegedly planting spy device in office",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-engineer-arrested-for-allegedly-planting-spy-device-in-office/",
+      "id": "8ab3c51ec3714565",
+      "title": "FBI raids DPRK IT worker laptop farms in Texas, US nationals arrested",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-raids-dprk-it-worker-laptop-farms-in-texas-us-nationals-arrested/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "A Saudi OpenAI engineer has been arrested for allegedly planting a hidden recording device in an executive conference room at the company's San Francisco offices to secretly record sensitive conversations.\nThe U.S. Department of Justice announced Tuesday that Abdulrahman Alfozan, 35, who had worked ",
+      "summary": "The U.S. Department of Justice (DoJ) has disrupted the Famous Chollima threat group’s operations by arresting two suspects, charging 14 individuals, and seizing nearly 187 laptops used in North Korean remote IT worker schemes.\nFamous Chollima (a.k.a. WageMole) is commonly tracked as a North Korean t",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 18:33:02 -0400"
+      "published": "Wed, 14 Oct 2026 15:41:43 -0400"
     },
     {
-      "id": "1a0763123a1d11fa",
-      "title": "Anthropic warns self-replicating AI could spread to your smart devices",
-      "url": "https://www.bleepingcomputer.com/news/security/anthropic-warns-self-replicating-ai-could-spread-to-your-smart-devices/",
+      "id": "91d989b5fb66289f",
+      "title": "Ledger asks sellers across Asia to halt sales after supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/ledger-asks-sellers-across-asia-to-halt-sales-after-supply-chain-attack/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Anthropic is warning that small AI models could soon be able to self-replicate across consumer IoT devices, from Android TV boxes to smart ovens, creating distributed botnets capable of running AI workloads without relying on data centers.\nThe company's experiments showed that models could identify ",
+      "summary": "Ledger is asking resellers and distributors in Southeast Asia and Hong Kong to halt wallet sales and remove products from shelves while it investigates hardware implant incidents.\nThe company announced the decision in response to discovering that devices purchased from CryptoBilis had been modified ",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 17:16:34 -0400"
+      "published": "Wed, 14 Oct 2026 13:46:50 -0400"
     },
     {
-      "id": "04ab1973266f3414",
-      "title": "Microsoft releases Windows 10 KB5126657 extended security update",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5126657-extended-security-update/",
+      "id": "fac7cd6e29f5b58e",
+      "title": "Microsoft fixes VPN issues caused by September Windows updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-vpn-issues-caused-by-september-windows-updates/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Microsoft released the Windows 10 KB5126657 extended security update, which includes this month's record-breaking October 2026 Patch Tuesday fixes and a few bug fixes and changes.\nIf you are running Windows 10 Enterprise LTSC or are enrolled in the ESU program, you can install this update like norma",
+      "summary": "Microsoft has resolved a known issue that caused Always On VPN connection issues after installing the September 2026 Windows 11 security updates.\nThe Always On VPN remote access solution replaced the legacy DirectAccess technology and works with domain-joined, non-domain-joined, and Microsoft Entra ",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 15:47:30 -0400"
+      "published": "Wed, 14 Oct 2026 10:27:01 -0400"
     },
     {
-      "id": "07ca9e611f68c327",
-      "title": "Microsoft: Windows 11 24H2 Home and Pro reached end of support",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-11-24h2-home-and-pro-reached-end-of-support/",
+      "id": "937c7f4fab21f49c",
+      "title": "The Blind Spots of Agentic Pentesting and How to Close Them",
+      "url": "https://www.bleepingcomputer.com/news/security/the-blind-spots-of-agentic-pentesting-and-how-to-close-them/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Microsoft announced today that devices running Windows 11 24H2 Home and Pro editions have reached the end of support and will no longer receive monthly security and non-security preview updates.\nHowever, according to Microsoft's lifecycle policy, Windows 11 24H2 Enterprise and Education editions rem",
+      "summary": "By Sila Ozeren Hacioglu, Security Research Engineer at Picus Security.\nFor years, security teams had a window of several weeks between a CVE going public and attackers exploiting it. Every year, that window got smaller. Then Mythos-class models arrived, and attackers can now weaponize a new CVE with",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 15:04:38 -0400"
+      "published": "Wed, 14 Oct 2026 10:00:10 -0400"
     },
     {
-      "id": "db0de8b1cf1562b3",
-      "title": "UK Housing Ombudsman Service investigates 'security incident'",
-      "url": "https://www.bleepingcomputer.com/news/security/uk-housing-ombudsman-service-investigates-security-incident/",
+      "id": "91795601b1ffd249",
+      "title": "Global takedown hits network behind 1 billion phishing messages",
+      "url": "https://www.bleepingcomputer.com/news/security/global-takedown-hits-network-behind-1-billion-phishing-messages/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "The U.K. Housing Ombudsman Service is investigating a third-party IT security incident that impacted its case management system on Tuesday.\nEstablished under the Housing Act 1996, the Housing Ombudsman is an executive non-departmental public body sponsored by the Ministry of Housing, Communities, an",
+      "summary": "A massive cybercriminal ecosystem facilitating more than a billion malicious messages targeting over 75,000 organizations across 150 countries has been disrupted by law enforcement agencies and partners worldwide.\nSince the start of the year, more than 750 million malicious messages have been aimed ",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 14:19:44 -0400"
+      "published": "Wed, 14 Oct 2026 09:12:52 -0400"
     },
     {
-      "id": "30c48aec6fa791e3",
-      "title": "Windows 11 KB5127648 & KB5126653 cumulative updates released",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5127648-and-kb5126653-cumulative-updates-released/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Microsoft has released the Patch Tuesday Windows 11 KB5127648 and KB5126653 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs, and add new features.\nToday's updates are mandatory as they contain the October 2026 Patch Tuesday security patches for hundre",
+      "id": "672ebf75c430cf70",
+      "title": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost",
+      "url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "HiRO-ACEv2: Simulating extreme weather at 3 km resolution for a fraction of the cost\nWe introduce HiRO-ACEv2, the newest update to our High Resolution Output Ai2 Climate Emulator (HiRO-ACE) system. HiROv2 can reproduce even extremely rare rain, wind, and pressure events with high accuracy, while the",
       "importance": 2.4,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 13:49:38 -0400"
+      "published": "Wed, 14 Oct 2026 16:12:42 GMT"
     },
     {
-      "id": "a2d00ff109e7d12f",
-      "title": "Science Corporation implants its vision-restoring chip in its first Stargardt disease patient",
-      "url": "https://techcrunch.com/2026/10/13/science-corporation-implants-its-vision-restoring-chip-in-its-first-stargardt-disease-patient/",
+      "id": "5abc04e05146a5cd",
+      "title": "Gudea leverages AI to help organizations prevent social media crises before they erupt",
+      "url": "https://techcrunch.com/2026/10/14/gudea-leverages-ai-to-help-organizations-prevent-social-media-crises-before-they-erupt/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Science Corporation CEO Max Hodak announced that the company has implanted its vision-restoring chip, PRIMA, into its first patient with Stargardt disease, an inherited eye disease that gradually destroys central vision. Hodak, the former president and co-founder of Neuralink, the brain implant comp",
+      "summary": "Every day, conversations unfold across social media and websites around the world. A seemingly insignificant post—whether it involves AI-generated misinformation, hate speech, or a damaging rumor—can quickly snowball into a much larger public controversy.\nGudea, a company that tracks how stories and",
       "importance": 2.2,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 23:13:31 +0000"
+      "published": "Thu, 15 Oct 2026 00:00:00 +0000"
     },
     {
-      "id": "314375845b17a428",
-      "title": "Cerebras CEO says we’re nearing a future where everyone has a personal AI assistant at home",
-      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-says-were-nearing-a-future-where-everyone-has-a-personal-ai-assistant-at-home/",
+      "id": "bd61b92171acdf66",
+      "title": "Flock CEO says its microphones detect ‘just gunshots’ — its website says different",
+      "url": "https://techcrunch.com/2026/10/14/flock-ceo-says-its-microphones-detect-just-gunshots-its-website-says-different/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Cerebras Systems CEO and co-founder Andrew Feldman believes we’re nearing a future where everyone will have an AI appliance in their own home.\nSpeaking on stage at TechCrunch Disrupt 2026 on Tuesday, the chipmaker executive answered a question about what would need to happen for AI to become a home ",
+      "summary": "Flock CEO Garrett Langley said the company’s gunshot-detection microphones detect “just gunshots,” but Flock’s website paints a far broader picture of what other ambient audio also gets picked up.\nSpeaking onstage at TechCrunch Disrupt, the co-founder of the surveillance company defended Flock’s aud",
       "importance": 2.2,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 23:05:34 +0000"
+      "published": "Wed, 14 Oct 2026 21:30:33 +0000"
     },
     {
-      "id": "3e50c67087875e42",
-      "title": "Industrial Next wants factory robots to switch tasks in minutes, not weeks",
-      "url": "https://techcrunch.com/2026/10/13/industrial-next-wants-factory-robots-to-switch-tasks-in-minutes-not-weeks/",
+      "id": "55222f29942f9010",
+      "title": "YouTube Music launches new labels as AI-generated music floods streaming platforms",
+      "url": "https://techcrunch.com/2026/10/14/youtube-music-launches-new-labels-as-ai-generated-music-floods-streaming-platforms/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "In most factories, automation is fixed: robots and machines are programmed for one specific task and product. Changing a line means reprogramming and physical retooling, or swapping out equipment, which can take weeks or months. San Francisco-based Industrial Next says it’s changing that.\nThe startu",
+      "summary": "YouTube Music announced Wednesday the rollout of a new labeling system aimed at improving transparency around songs created with the help of generative AI. Now listeners will be able to easily identify tracks created using AI, including those involved in composition and vocals.\nThe label will appear",
       "importance": 2.2,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 23:00:00 +0000"
+      "published": "Wed, 14 Oct 2026 18:23:46 +0000"
     },
     {
-      "id": "8ffa5222f5cfbfa3",
-      "title": "Cerebras CEO pushes back on AI doomsday warnings",
-      "url": "https://techcrunch.com/2026/10/13/cerebras-ceo-pushes-back-on-ai-doomsday-warnings/",
+      "id": "619d87b09b01324a",
+      "title": "Apate sends AI agents undercover to get scammed so they can gather fraud intelligence",
+      "url": "https://techcrunch.com/2026/10/14/apate-sends-ai-agents-undercover-to-get-scammed-so-they-can-gather-fraud-intelligence/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Cerebras Systems CEO and co-founder Andrew Feldman thinks the AI doomer narrative isn’t doing the industry any favors. At TechCrunch Disrupt 2026, the AI chipmaker exec quipped that “some of the leaders in the AI world maybe shouldn’t be allowed to talk in public.”\nHe’s referencing the negativity no",
+      "summary": "Most companies use AI agents to ship products faster or to speed up workflows. Apate.ai sends them undercover to get scammed.\nFounded in 2024 on the basis of research done in Macquarie University in Sydney, the Australian startup deploys thousands of AI agents that masquerade as innocent victims. Th",
       "importance": 2.2,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 22:36:59 +0000"
+      "published": "Wed, 14 Oct 2026 18:00:00 +0000"
     },
     {
-      "id": "41d15466fa73b3da",
-      "title": "Judge orders OpenAI to turn over hiring records in Apple trade secrets case",
-      "url": "https://techcrunch.com/2026/10/13/judge-orders-openai-to-turn-over-hiring-records-in-apple-trade-secrets-case/",
+      "id": "9c18b5e1b4bfcb8e",
+      "title": "Deezer will soon let you filter out AI-generated music",
+      "url": "https://techcrunch.com/2026/10/14/deezer-will-soon-let-you-filter-out-ai-generated-music/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "A judge has ruled that Apple will gain expedited access to OpenAI’s hiring materials in the trade secrets-focused lawsuit the iPhone maker filed against OpenAI in July.\nSpecifically, the court will allow Apple to view documents associated with OpenAI’s interviews with former Apple employees who appl",
+      "summary": "Streaming platform Deezer remains steadfast in its intent to help users avoid listening to AI-generated music: The company on Tuesday said it is working on a new toggle that lets users filter out AI-generated music uploaded to its platform. The feature is expected to be available before the end of t",
       "importance": 2.2,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 20:36:44 +0000"
+      "published": "Wed, 14 Oct 2026 15:16:04 +0000"
     },
     {
-      "id": "ec248a8be840f0c3",
-      "title": "Flox Intelligence is building AI to keep wildlife away from trains, airports, and roads",
-      "url": "https://techcrunch.com/2026/10/13/flox-intelligence-is-building-ai-to-keep-wildlife-away-from-trains-airports-and-roads/",
+      "id": "c16911033b3182b5",
+      "title": "Save 50% on your TechCrunch Disrupt 2026 ticket and join the last 2 days in San Francisco’s Moscone West",
+      "url": "https://techcrunch.com/2026/10/14/save-50-on-your-techcrunch-disrupt-2026-ticket-and-join-the-last-two-days-in-san-francisco/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "When I was eight, I remember our train to Mumbai ground to a halt with a great noise. When we started moving again, a good eight hours later, someone pointed out a mangled tail, of all things, hanging from a branch close to the tracks.\nThe train, you see, had apparently hit a wild bison at full spee",
+      "summary": "The first day of TechCrunch Disrupt 2026 may have concluded, but there’s still plenty more Disrupt programming to come at San Francisco’s Moscone West on October 14 and 15. With just two days left in the event, we’re offering a discount to match: Get two full days of Disrupt for 50% off all ticket t",
       "importance": 2.2,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 18:30:00 +0000"
+      "published": "Wed, 14 Oct 2026 15:13:24 +0000"
     },
     {
-      "id": "5349b4bff5efc007",
-      "title": "Facebook is giving users more control over their algorithm",
-      "url": "https://techcrunch.com/2026/10/13/facebook-is-giving-users-more-control-over-their-algorithm/",
+      "id": "ecdf723c0581a830",
+      "title": "Zenzap raises $44M for its AI chat app that aims to replace WhatsApp in the workplace",
+      "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Facebook is the latest social media platform to give users greater control over the algorithm that determines what appears in their feeds.\nMeta announced the launch of its new AI-powered feature, “Your Algorithm,” on Tuesday, a feature it first launched on Instagram. The new tool allows Facebook use",
+      "summary": "Many businesses around the world use consumer-facing chat apps like WhatsApp, Telegram, Discord, or iMessage to talk and coordinate with staff, and exchange documents or data.\nGuy Weiss is building Zenzap, a private messenger with AI that wants to help companies communicate with their staff and arm ",
       "importance": 2.2,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 18:05:24 +0000"
+      "published": "Wed, 14 Oct 2026 15:08:00 +0000"
     },
     {
-      "id": "0b284eb98b4575c8",
-      "title": "Laplace Intelligence red-teams robots and self-driving cars before they hit the real world",
-      "url": "https://techcrunch.com/2026/10/13/laplace-intelligence-red-teams-robots-and-self-driving-cars-before-they-hit-the-real-world/",
+      "id": "40dbf46b63844850",
+      "title": "Floqer’s AI agents research sales prospects so teams don’t have to",
+      "url": "https://techcrunch.com/2026/10/14/floqers-ai-agents-help-b2b-revenue-teams-research-customers/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "If there’s one lesson the OpenAI-Hugging Face incident taught us, it’s that AI agents can be unpredictable.\n“Imagine if something like that happened in the physical world,” Howie Sun, CEO and co-founder of Laplace Intelligence, told TechCrunch. “AI agents are moving from computers into the real worl",
+      "summary": "Floqer is an autonomous customer knowledge platform that provides business-to-business sales and marketing teams with an AI-powered database designed to continuously collect, organize, and update the information used to understand their customers.\nFloqer is pitching Wednesday on the Startup Battlefi",
       "importance": 2.2,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 17:30:00 +0000"
+      "published": "Wed, 14 Oct 2026 15:00:00 +0000"
     },
     {
-      "id": "089e26be9c889c4d",
-      "title": "Open models have real benefits. Do they outweigh the risks?",
-      "url": "https://www.technologyreview.com/2026/10/13/1146366/open-models-have-real-benefits-do-they-outweigh-the-risks/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "Open models have real benefits. Do they outweigh the risks?\nWhy the open-closed AI debate is more complicated than it seems\nMIT Technology Review Explains: Let our writers untangle the complex, messy world of science and technology to help you understand what’s coming next. You can read more from th",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Tue, 13 Oct 2026 10:00:00 +0000"
-    },
-    {
-      "id": "7c431d9eeb01b7e3",
-      "title": "AI labs are buying data from dead startups to train their models",
-      "url": "https://www.technologyreview.com/2026/10/13/1145755/ai-labs-buying-data-from-dead-startups-to-train-models/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "AI labs are buying data from dead startups to train their models\nMost startups fail. A new industry is giving their data an afterlife in AI.\nWhen Keelan Miskell began winding down his crypto startup this year, he didn’t think its data was worth much: the users were anonymous, the company just a few ",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Tue, 13 Oct 2026 09:00:00 +0000"
-    },
-    {
-      "id": "0cfb790894cf8cc4",
-      "title": "Employee Arrested After Listening Device Found in OpenAI Conference Room, FBI and the Company Say",
-      "url": "https://www.securityweek.com/employee-arrested-after-listening-device-found-in-openai-conference-room-fbi-and-the-company-say/",
+      "id": "e2e487f81c3d6eb6",
+      "title": "AI Agents Navigate Unfamiliar OT Systems and Move Equipment in Minutes, Booz Allen Finds",
+      "url": "https://www.securityweek.com/ai-agents-navigate-unfamiliar-ot-systems-and-move-equipment-in-minutes-booz-allen-finds/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "An engineer at OpenAI has been charged with secretly installing a recording device inside a conference room in what officials said Tuesday was an effort to capture sensitive conversations about the company’s technology.\nThe employee, identified as a 35-year-old Saudi national named Abdulrahman Alfoz",
+      "summary": "A new report from Booz Allen demonstrates that “frontier super intelligence navigated unfamiliar industrial systems, adapted when blocked, and moved physical equipment within minutes.”\nThe findings of the report were presented last week at SecurityWeek’s Industrial Control Systems (ICS) Cybersecurit",
       "importance": 2.0,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 23:07:00 +0000"
+      "published": "Wed, 14 Oct 2026 16:00:00 +0000"
     },
     {
-      "id": "21816e632b645b53",
-      "title": "Adobe Patches 140 Vulnerabilities Across 10 Products",
-      "url": "https://www.securityweek.com/adobe-patches-140-vulnerabilities-across-10-products/",
+      "id": "f0efb52b806cdece",
+      "title": "ICS Patch Tuesday: Siemens Issues 17 Advisories, Rockwell Fixes ArmorBlock Takeover Flaw",
+      "url": "https://www.securityweek.com/ics-patch-tuesday-siemens-issues-17-advisories-rockwell-fixes-armorblock-takeover-flaw/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Adobe has published 10 new security advisories to inform customers about roughly 140 vulnerabilities found and patched in its products.\nAdobe ColdFusion updates address 32 vulnerabilities, including critical bugs that can be exploited for code execution and privilege escalation.\nA significant number",
+      "summary": "Industrial giants Siemens, Schneider Electric, and Rockwell Automation have published ICS security advisories this Patch Tuesday.\nSiemens published 17 new advisories this Patch Tuesday. The company has released patches for some of the vulnerabilities, while for others it has shared mitigations until",
       "importance": 2.0,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 17:14:42 +0000"
+      "published": "Wed, 14 Oct 2026 15:15:15 +0000"
     },
     {
-      "id": "19a292ee37839caf",
-      "title": "Google Partially Reverses Chrome Bug Bounty Cuts",
-      "url": "https://www.securityweek.com/google-partially-reverses-chrome-bug-bounty-cuts/",
+      "id": "f6b610c18e508db2",
+      "title": "Harmonic Security Raises $50 Million for Workforce AI Protection",
+      "url": "https://www.securityweek.com/harmonic-security-raises-50-million-for-workforce-ai-protection/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Google announced Tuesday that it’s raising bug bounty rewards for some Chrome vulnerabilities, focusing on memory safety issues.\nAI has been changing the pace and profile of vulnerability discovery, and the tech giant has been adjusting its bug bounty programs in recent months.\nGoogle significantly ",
+      "summary": "Workforce AI security startup Harmonic Security today announced raising $50 million in a Series B funding round that brings the total raised by the company to $76 million.\nFounded in 2023 by Alastair Paterson (CEO) and Bryan Woolgar-O’Neil (CTO), who previously founded Digital Shadows (acquired by R",
       "importance": 2.0,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 17:00:00 +0000"
+      "published": "Wed, 14 Oct 2026 14:09:51 +0000"
     },
     {
-      "id": "0e8c653d006415ac",
-      "title": "Meta Says Hackers Took Code, Personal Data of 1,500 in GitHub Breach",
-      "url": "https://www.securityweek.com/meta-says-hackers-took-code-personal-data-of-1500-in-github-breach/",
+      "id": "2ee0c0a49b5a2657",
+      "title": "Virtual Event Today: Zero Trust Strategies Summit",
+      "url": "https://www.securityweek.com/virtual-event-today-zero-trust-strategies-summit-2/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Meta is notifying roughly 1,500 people, most of them employees in the US, that their personal information was impacted after hackers got into some of the company’s GitHub repositories.\nThe intrusion was detected a few weeks ago. According to the tech giant, an outside group gained access to the repo",
+      "summary": "SecurtyWeek’s 2026 Zero Trust Strategies Summit kicks off today at 11AM ET as a fully immersive virtual conference and expo.\nThis summit is laser-focused on the next generation of Zero Trust and Identity security, moving beyond theory to deliver actionable strategies for a world where every user, de",
       "importance": 2.0,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 16:01:00 +0000"
+      "published": "Wed, 14 Oct 2026 13:56:36 +0000"
     },
     {
-      "id": "f42a122e5dac462a",
-      "title": "Small AI Models Could Soon Self-Replicate on IoT Devices, Anthropic Warns",
-      "url": "https://www.securityweek.com/small-ai-models-may-soon-be-able-to-self-replicate-on-iot-devices-anthropic-warns/",
+      "id": "b9b58f38aa23af33",
+      "title": "Microsoft Disrupts Chinese-Language Phishing Market Behind 1B+ Messages",
+      "url": "https://www.securityweek.com/microsoft-disrupts-chinese-language-phishing-market-behind-1b-messages/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Small AI models may be only months away from being able to self-replicate across commercial IoT devices, without needing a data center, according to research from Anthropic’s Frontier Red Team.\nThe study looks at AI worms that run their own model directly on the devices they compromise. Such malware",
+      "summary": "Microsoft and Health-ISAC have seized and redirected domains used by YAM Store, CoGUI and Iron Man, three components of a Chinese-language cybercrime marketplace that supplied criminals with accounts, phishing kits and infrastructure.\nThe action was based on an order from the US District Court for t",
       "importance": 2.0,
       "matched": [],
-      "published": "Tue, 13 Oct 2026 11:58:29 +0000"
+      "published": "Wed, 14 Oct 2026 13:00:00 +0000"
+    },
+    {
+      "id": "2cf131532cb914f1",
+      "title": "US Arrests Two in Crackdown on North Korean IT Worker Laptop Farms",
+      "url": "https://www.securityweek.com/us-arrests-two-in-crackdown-on-north-korean-it-worker-laptop-farms/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Two US nationals were arrested in a new law enforcement operation targeting fraudulent North Korean IT worker schemes.\nThe suspects, Michael James Bostelle of Pennsylvania and Juan Cecilio Pena Carrillo of Texas, allegedly helped North Korean IT workers (ITWs) illegally obtain remote work at US comp",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 14 Oct 2026 10:55:21 +0000"
     }
   ]
 }
