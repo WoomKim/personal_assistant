@@ -1,607 +1,207 @@
 {
-  "date": "2026-10-17",
-  "generated_at": "2026-10-17T09:01:23.637799+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers」입니다.",
+  "date": "2026-10-18",
+  "generated_at": "2026-10-18T08:34:50.460598+09:00",
+  "briefing": "오늘 8건이 수집되었습니다. 가장 주목할 항목은 「MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon」입니다.",
   "stats": {
-    "collected": 40,
-    "summarized": 40,
-    "picked": 10,
+    "collected": 8,
+    "summarized": 8,
+    "picked": 8,
     "llm": "live"
   },
   "items": [
     {
-      "id": "1fd194e19c3dd4f6",
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+      "id": "1fae9cde44bf146f",
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\nThe vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of",
+      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloade",
       "why": "",
       "importance": 3.4,
       "matched": [
-        "zero-day",
-        "CVE-2026"
+        "supply chain"
       ],
-      "published": "Fri, 16 Oct 2026 12:25:55 +0530"
+      "published": "Sat, 17 Oct 2026 16:41:56 +0530"
     },
     {
-      "id": "8dfac5c34b84f531",
-      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "id": "43fc56afbb2752b5",
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers.\nAccording to e-commerce security firm Sansec, attacks leveraging the vulnerability, dubb",
+      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system.\nThe security issues impact the software core's Field UI module and the contributed Entity List module. Drupal issued an adva",
       "why": "",
       "importance": 3.4,
       "matched": [
-        "CVE-2026"
+        "RCE"
       ],
-      "published": "Fri, 16 Oct 2026 16:00:59 -0400"
+      "published": "Sat, 17 Oct 2026 10:32:48 -0400"
     },
     {
-      "id": "494b44d4ddb229eb",
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+      "id": "b3dabcb4d0c0986a",
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.\nConnectWise Cl",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 17 Oct 2026 11:46:46 +0530"
+    },
+    {
+      "id": "74a44f824ba0950d",
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August.\nRemote Support is the company's enterprise-grade support solution that helps IT service desks, help desks, and customer support teams troublesho",
+      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants.\nReports of the malicious activity began emerging on Friday, with administrators observing unauthorized access to ",
       "why": "",
-      "importance": 3.4,
-      "matched": [
-        "zero-day"
-      ],
-      "published": "Fri, 16 Oct 2026 02:18:08 -0400"
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 17 Oct 2026 11:18:51 -0400"
     },
     {
-      "id": "196d1fbeb9fc4399",
-      "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
-      "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+      "id": "2956b1e39e10f98f",
+      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "A Chinese APT has been exploiting a BeyondTrust vulnerability as a zero-day since August as part of its state-sponsored espionage operations.\nThe exploited flaw, tracked as CVE-2026-102764 (CVSS score of 9.3), is described as an improper validation of message origins that could allow attackers to pe",
+      "summary": "Candiru spyware has infected devices at international news network Al Jazeera in zero-click attacks, via targeted advertisements, Canadian internet watchdog group Citizen Lab reports.\nAs part of the operation, dubbed AdFection, ads purchased by Israeli company Discover-Tech were used to de-anonymize",
       "why": "",
-      "importance": 3.0,
-      "matched": [
-        "zero-day",
-        "CVE-2026"
-      ],
-      "published": "Fri, 16 Oct 2026 10:53:22 +0000"
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sat, 17 Oct 2026 11:00:00 +0000"
     },
     {
-      "id": "c426150a84acb2c9",
-      "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
-      "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "F5 and Juniper Networks have rolled out patches for dozens of vulnerabilities across their products, including critical-severity remote code execution (RCE) flaws.\nSecurity and application delivery firm F5 announced fixes for 11 security defects in NGINX. Among them, CVE-2026-15176 and CVE-2026-9347",
-      "why": "",
-      "importance": 3.0,
-      "matched": [
-        "RCE",
-        "CVE-2026"
-      ],
-      "published": "Fri, 16 Oct 2026 09:54:34 +0000"
-    },
-    {
-      "id": "bfa998e6f2bae86e",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "id": "568162b981af2493",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday.\nThe Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model",
+      "summary": "Meta recently updated its commercial terms of use, declaring that the company can “use any content from [a business account’s] domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of” Meta products and services.\nAccording to legal experts interviewed ",
       "why": "",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 16 Oct 2026 17:52:24 +0000"
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 17 Oct 2026 21:31:32 +0000"
     },
     {
-      "id": "e946af68fd7dbe0e",
-      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "source": "Simon Willison",
+      "id": "b769f5e984a396b0",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "16th October 2026\nWe think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happens. Before, review was a gate at the end of the road: write th",
+      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year, according to a report that the AI company published on Friday.\nAnthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, a",
       "why": "",
-      "importance": 2.6,
+      "importance": 2.2,
       "matched": [],
-      "published": "2026-10-16T22:06:37+00:00"
+      "published": "Sat, 17 Oct 2026 20:21:19 +0000"
     },
     {
-      "id": "e3274600bfe5739a",
-      "title": "LaTeX renderer",
-      "url": "https://simonwillison.net/2026/Oct/15/latex/",
-      "source": "Simon Willison",
+      "id": "51c1c9a5e48bf763",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "15th October 2026\nInspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner).\nTiny Little ",
+      "summary": "Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer working with Anthropic, the company’s CEO and co-founder Amjad Masad said Thursday while onstage at TechCrunch Disrupt.\nMasad said the decision was made for a number of different reasons, inclu",
       "why": "",
-      "importance": 2.6,
+      "importance": 2.2,
       "matched": [],
-      "published": "2026-10-15T02:07:28+00:00"
-    },
-    {
-      "id": "ba4e7337aba280a4",
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline\nAuthors: AI4Bharat — Mohammed Safi Ur Rahman Khan, Mitesh Khapra, Anoop Kunchukuttan. NVIDIA — Niket Agarwal, Raviraj Joshi, Anusha Kamath, Markus Kliegl, Yev Meyer, Sriharsha Niverty, Kiran Praveen, Utkarsh Vaidya.\n",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 01:44:47 GMT"
-    },
-    {
-      "id": "849b423196d125cc",
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Welcome Beam: a 501B open model you can own, customize, and scale\nBeam is focused on coding and agentic use cases. It is for teams that want a frontier-scale model on their own hardware, infrastructure, or cloud, and want to customize it to their own use cases. Beam ships with its own dedicated open",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT"
+      "published": "Sat, 17 Oct 2026 18:48:08 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "1fd194e19c3dd4f6",
-      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
-      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+      "id": "1fae9cde44bf146f",
+      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
+      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\nThe vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of",
+      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloade",
       "importance": 3.4,
       "matched": [
-        "zero-day",
-        "CVE-2026"
+        "supply chain"
       ],
-      "published": "Fri, 16 Oct 2026 12:25:55 +0530"
+      "published": "Sat, 17 Oct 2026 16:41:56 +0530"
     },
     {
-      "id": "8dfac5c34b84f531",
-      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
-      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "id": "43fc56afbb2752b5",
+      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers.\nAccording to e-commerce security firm Sansec, attacks leveraging the vulnerability, dubb",
+      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system.\nThe security issues impact the software core's Field UI module and the contributed Entity List module. Drupal issued an adva",
       "importance": 3.4,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Fri, 16 Oct 2026 16:00:59 -0400"
-    },
-    {
-      "id": "494b44d4ddb229eb",
-      "title": "BeyondTrust patches zero-day exploited in attacks since August",
-      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August.\nRemote Support is the company's enterprise-grade support solution that helps IT service desks, help desks, and customer support teams troublesho",
-      "importance": 3.4,
-      "matched": [
-        "zero-day"
-      ],
-      "published": "Fri, 16 Oct 2026 02:18:08 -0400"
-    },
-    {
-      "id": "bfa998e6f2bae86e",
-      "title": "India becomes the latest country to report rogue AI agent activity",
-      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday.\nThe Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 16 Oct 2026 17:52:24 +0000"
-    },
-    {
-      "id": "196d1fbeb9fc4399",
-      "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
-      "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "A Chinese APT has been exploiting a BeyondTrust vulnerability as a zero-day since August as part of its state-sponsored espionage operations.\nThe exploited flaw, tracked as CVE-2026-102764 (CVSS score of 9.3), is described as an improper validation of message origins that could allow attackers to pe",
-      "importance": 3.0,
-      "matched": [
-        "zero-day",
-        "CVE-2026"
-      ],
-      "published": "Fri, 16 Oct 2026 10:53:22 +0000"
-    },
-    {
-      "id": "c426150a84acb2c9",
-      "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
-      "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "F5 and Juniper Networks have rolled out patches for dozens of vulnerabilities across their products, including critical-severity remote code execution (RCE) flaws.\nSecurity and application delivery firm F5 announced fixes for 11 security defects in NGINX. Among them, CVE-2026-15176 and CVE-2026-9347",
-      "importance": 3.0,
-      "matched": [
-        "RCE",
-        "CVE-2026"
-      ],
-      "published": "Fri, 16 Oct 2026 09:54:34 +0000"
-    },
-    {
-      "id": "509b1847c72fe130",
-      "title": "Microsoft Patches Two Dozen RCE Flaws in Office",
-      "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Hot on the heels of its record Patch Tuesday rollout, Microsoft on Thursday announced patches for over 30 new vulnerabilities.\nMost of the new fixes address security defects in the Office suite. Two dozen of them patch high-severity remote code execution (RCE) flaws, including half a dozen bugs that",
-      "importance": 3.0,
       "matched": [
         "RCE"
       ],
-      "published": "Fri, 16 Oct 2026 07:55:06 +0000"
+      "published": "Sat, 17 Oct 2026 10:32:48 -0400"
     },
     {
-      "id": "e946af68fd7dbe0e",
-      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
-      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
-      "source": "Simon Willison",
+      "id": "b3dabcb4d0c0986a",
+      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.\nConnectWise Cl",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 17 Oct 2026 11:46:46 +0530"
+    },
+    {
+      "id": "74a44f824ba0950d",
+      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants.\nReports of the malicious activity began emerging on Friday, with administrators observing unauthorized access to ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 17 Oct 2026 11:18:51 -0400"
+    },
+    {
+      "id": "568162b981af2493",
+      "title": "Meta removes language that raised scraping and AI training concerns",
+      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "16th October 2026\nWe think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happens. Before, review was a gate at the end of the road: write th",
-      "importance": 2.6,
+      "summary": "Meta recently updated its commercial terms of use, declaring that the company can “use any content from [a business account’s] domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of” Meta products and services.\nAccording to legal experts interviewed ",
+      "importance": 2.2,
       "matched": [],
-      "published": "2026-10-16T22:06:37+00:00"
+      "published": "Sat, 17 Oct 2026 21:31:32 +0000"
     },
     {
-      "id": "e3274600bfe5739a",
-      "title": "LaTeX renderer",
-      "url": "https://simonwillison.net/2026/Oct/15/latex/",
-      "source": "Simon Willison",
+      "id": "b769f5e984a396b0",
+      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
+      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "15th October 2026\nInspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner).\nTiny Little ",
-      "importance": 2.6,
+      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year, according to a report that the AI company published on Friday.\nAnthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, a",
+      "importance": 2.2,
       "matched": [],
-      "published": "2026-10-15T02:07:28+00:00"
+      "published": "Sat, 17 Oct 2026 20:21:19 +0000"
     },
     {
-      "id": "2f67e7ff74fc3554",
-      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
-      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and report",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 23:18:45 +0530"
-    },
-    {
-      "id": "2f6312b7767d6c54",
-      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
-      "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and ru",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 22:13:39 +0530"
-    },
-    {
-      "id": "7ca539292393b052",
-      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
-      "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google accou",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 21:46:44 +0530"
-    },
-    {
-      "id": "82bd71e8965df8d7",
-      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
-      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to com",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 19:33:04 +0530"
-    },
-    {
-      "id": "61ac6bfaa7c9de55",
-      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
-      "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cr",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 17:00:00 +0530"
-    },
-    {
-      "id": "f909b9dee009b4a3",
-      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
-      "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15.\nThe agents went beyond their assigned tasks, and none of the organizations detected the unauthorized",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 12:23:09 +0530"
-    },
-    {
-      "id": "5fc8c6dd8c540e0e",
-      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
-      "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.\nThe attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 10:29:36 +0530"
-    },
-    {
-      "id": "50880c900177e28f",
-      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device.\nResearchers at Citizen Labs investigating the attacks referred to this technique as AdFection, noting ",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 13:20:03 -0400"
-    },
-    {
-      "id": "d269ee990910b8f5",
-      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
-      "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Article written by Vakaris Noreika, VP of Product Research and Development at NordLayer\nMonday morning, you handle security for an organization, and suddenly, your security tools flag personal ChatGPT use on a managed laptop, even though your org pays for ChatGPT Enterprise.\nYou wonder what the empl",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 09:50:59 -0400"
-    },
-    {
-      "id": "862e2db1b4e06358",
-      "title": "Burger King Japan data breach exposes 11 million customer records",
-      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records.\nFounded in 1953 in Florida, Burger King is now a multinational fast-food chain with nearly 20,000 locations wor",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 08:01:29 -0400"
-    },
-    {
-      "id": "7e8ace9d42e7bb3d",
-      "title": "Microsoft: October Windows update may break Smart App Control",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update.\nSmart App Control is a Windows 11 security feature that uses Microsoft's app intelligence services and code integrity features and works alongside Microsoft Def",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 04:44:22 -0400"
-    },
-    {
-      "id": "d342f7137dd6f95b",
-      "title": "BAE Systems cyberattack disrupts US federal court operations",
-      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "The Administrative Office of the US Courts (AOUSC) says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts.\nIn a Thursday press release, the Administrative Office of the US Courts said the BAE Systems cyberattack also halted the prod",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 03:37:35 -0400"
-    },
-    {
-      "id": "ba4e7337aba280a4",
-      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
-      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline\nAuthors: AI4Bharat — Mohammed Safi Ur Rahman Khan, Mitesh Khapra, Anoop Kunchukuttan. NVIDIA — Niket Agarwal, Raviraj Joshi, Anusha Kamath, Markus Kliegl, Yev Meyer, Sriharsha Niverty, Kiran Praveen, Utkarsh Vaidya.\n",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 01:44:47 GMT"
-    },
-    {
-      "id": "849b423196d125cc",
-      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
-      "url": "https://huggingface.co/blog/reflection-beam",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Welcome Beam: a 501B open model you can own, customize, and scale\nBeam is focused on coding and agentic use cases. It is for teams that want a frontier-scale model on their own hardware, infrastructure, or cloud, and want to customize it to their own use cases. Beam ships with its own dedicated open",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 00:00:00 GMT"
-    },
-    {
-      "id": "d0f11237d1f3614e",
-      "title": "Replit is no longer working with Anthropic, CEO says",
-      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
+      "id": "51c1c9a5e48bf763",
+      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "source": "TechCrunch AI",
       "category": "ai",
       "summary": "Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer working with Anthropic, the company’s CEO and co-founder Amjad Masad said Thursday while onstage at TechCrunch Disrupt.\nMasad said the decision was made for a number of different reasons, inclu",
       "importance": 2.2,
       "matched": [],
-      "published": "Fri, 16 Oct 2026 21:22:28 +0000"
+      "published": "Sat, 17 Oct 2026 18:48:08 +0000"
     },
     {
-      "id": "1f9b468e86423e35",
-      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
-      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.\nThis view runs counter to those who beli",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 16:30:00 +0000"
-    },
-    {
-      "id": "3ee888866ef9d7e3",
-      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
-      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.\nThis view runs counter to those who beli",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 16:30:00 +0000"
-    },
-    {
-      "id": "6f0ec75f9d13aede",
-      "title": "Elorian’s first AI model wants to reason with images, not just about them",
-      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Elorian, the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned.\nThe model, Glimpse, is launching as a research preview with API access and a chat interface is wait",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 16:01:37 +0000"
-    },
-    {
-      "id": "7524c167f0c40ac1",
-      "title": "Jev is Vercel’s fastest-adopted AI model ever",
-      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Jev has become the fastest adopted AI model ever — at least by some measures.\nVercel data published on Thursday shows that, within two weeks of its launch, the buzzy decision model was being used by 35% of paid teams, with nearly double the reach of the second most popular model, Sonnet 5.5. It’s th",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 15:33:49 +0000"
-    },
-    {
-      "id": "9d337093f9bfed1d",
-      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
-      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Even as Hollywood remains divided over the use of AI in filmmaking, actor and director Mark Wahlberg believes the technology has a place in the industry as long as it’s used the right way.\nWahlberg, who’s also an entrepreneur and angel investor, took the stage at TechCrunch Disrupt to share his pers",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 14:26:51 +0000"
-    },
-    {
-      "id": "03e02abc3531a994",
-      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
-      "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Counterfeits of luxury goods are a major problem for fashion houses. Counterfeiters are getting better at replicating brands’ marks and passing off dupes, known as “superfakes,” as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.\nVeritas was ",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 14:00:00 +0000"
-    },
-    {
-      "id": "85ddbdc7a76daa7f",
-      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
-      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "Roundtables: A Conversation With the Creator of AI-Designed Viruses\nWatch a subscriber-only conversation with one of MIT Technology Review's Innovators Under 35.\nAvailable only for MIT Technology Review subscribers.\nListen to the session or watch below\nCan AI design new life forms? In 2025, Stanford",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 18:00:00 +0000"
-    },
-    {
-      "id": "7a1f49cfc7152176",
-      "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
-      "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
+      "id": "2956b1e39e10f98f",
+      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
+      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.\nThis curated summary highlights key stories across vulnerability disclosures, emerging attack method",
+      "summary": "Candiru spyware has infected devices at international news network Al Jazeera in zero-click attacks, via targeted advertisements, Canadian internet watchdog group Citizen Lab reports.\nAs part of the operation, dubbed AdFection, ads purchased by Israeli company Discover-Tech were used to de-anonymize",
       "importance": 2.0,
       "matched": [],
-      "published": "Fri, 16 Oct 2026 14:09:51 +0000"
-    },
-    {
-      "id": "754b8af5c24d4555",
-      "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
-      "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Federal bankruptcy courts across the US have been unable to send notices through the Bankruptcy Noticing Center (BNC) for a week. The outage followed a cybersecurity incident affecting the BAE Systems infrastructure that runs the center.\nThe BNC handles notices for every federal bankruptcy court in ",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 11:46:40 +0000"
-    },
-    {
-      "id": "3042b8d5fd6d0727",
-      "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
-      "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "OpenAI has disclosed two incidents in which internal AI models, asked only to look up public figures, instead broke into the live systems hosting that data.\nThe reports, published on October 15, are the latest in a run of misalignment disclosures OpenAI started after its models compromised Hugging F",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 10:32:11 +0000"
-    },
-    {
-      "id": "af9b8121ba86da9d",
-      "title": "Forensic Analysis of the HackRF One with PortaPack Mayhem Firmware",
-      "url": "https://arxiv.org/abs/2610.20647",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 11 Oct 2026]\nTitle:Forensic Analysis of the HackRF One with PortaPack Mayhem Firmware\nView PDF HTML (experimental)\n            Abstract:Software-defined radios (SDRs) have become an inexpensive, portable platform for replay attacks, locati",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
-    },
-    {
-      "id": "0dabd56637e478c7",
-      "title": "Unmasking the Secret Code: Using Canaries to Show How Masked Context Controls Memorization in SFT",
-      "url": "https://arxiv.org/abs/2610.20656",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 13 Oct 2026]\nTitle:Unmasking the Secret Code: Using Canaries to Show How Masked Context Controls Memorization in SFT\nView PDF HTML (experimental)\n            Abstract:Canaries, or synthetic training records containing known secrets, are wi",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
-    },
-    {
-      "id": "793ebcd139696e44",
-      "title": "Empirical Evaluation of Machine Learning for Cloud Cryptojacking Detection: Effects of Preprocessing and Evaluation Protocols",
-      "url": "https://arxiv.org/abs/2610.20658",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 14 Oct 2026]\nTitle:Empirical Evaluation of Machine Learning for Cloud Cryptojacking Detection: Effects of Preprocessing and Evaluation Protocols\nView PDF HTML (experimental)\n            Abstract:Artificial intelligence (AI) has been widely",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
-    },
-    {
-      "id": "31e25661954b2e29",
-      "title": "Hybrid DeepXAI Fusion Network for Interpretable Big Data Analytics and Secure Cloud Decision-Making Systems",
-      "url": "https://arxiv.org/abs/2610.20661",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 14 Oct 2026]\nTitle:Hybrid DeepXAI Fusion Network for Interpretable Big Data Analytics and Secure Cloud Decision-Making Systems\nView PDF\n            Abstract:Big data analytics supports modern intelligent systems, but model complexity and l",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
-    },
-    {
-      "id": "5a4c85ab654b4c13",
-      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
-      "url": "https://arxiv.org/abs/2610.20665",
-      "source": "arXiv cs.AI",
-      "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 14 Oct 2026]\nTitle:The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock\nView PDF HTML (experimental)\n            Abstract:Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls ",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
-    },
-    {
-      "id": "4f5a3d65e49a4075",
-      "title": "Evaluating Model Capabilities After Benchmark Saturation",
-      "url": "https://arxiv.org/abs/2610.20667",
-      "source": "arXiv cs.AI",
-      "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 14 Oct 2026]\nTitle:Evaluating Model Capabilities After Benchmark Saturation\nView PDF HTML (experimental)\n            Abstract:Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, ",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+      "published": "Sat, 17 Oct 2026 11:00:00 +0000"
     }
   ]
 }
