@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-16",
-  "generated_at": "2026-10-16T08:58:25.592347+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory」입니다.",
+  "date": "2026-10-17",
+  "generated_at": "2026-10-17T09:01:23.637799+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers」입니다.",
   "stats": {
     "collected": 40,
     "summarized": 40,
@@ -10,589 +10,598 @@
   },
   "items": [
     {
-      "id": "222e66a510036328",
-      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-      "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
+      "id": "1fd194e19c3dd4f6",
+      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\nThe flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape,",
+      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\nThe vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of",
       "why": "",
       "importance": 3.4,
       "matched": [
+        "zero-day",
         "CVE-2026"
       ],
-      "published": "Fri, 16 Oct 2026 01:54:36 +0530"
+      "published": "Fri, 16 Oct 2026 12:25:55 +0530"
     },
     {
-      "id": "986cc714fb426f82",
-      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-      "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the w",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Fri, 16 Oct 2026 00:19:33 +0530"
-    },
-    {
-      "id": "12b5084185c2ae4f",
-      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-      "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005.\nThere are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specifi",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Thu, 15 Oct 2026 18:28:05 +0530"
-    },
-    {
-      "id": "e7e0582933872fb7",
-      "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-      "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Next.js released an out-of-band security update on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw.\nOne code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Thu, 15 Oct 2026 17:58:13 +0530"
-    },
-    {
-      "id": "ce862b886d1b8415",
-      "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-      "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several ",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Thu, 15 Oct 2026 17:37:20 +0530"
-    },
-    {
-      "id": "08c79764230e6e3c",
-      "title": "Chirp Pong",
-      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "15th October 2026\nAnother game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work!\nBuild a two player competitive pong like game where two players use ",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-15T19:47:52+00:00"
-    },
-    {
-      "id": "6702d1aaf0afce3a",
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "15th October 2026 - Link Blog\nAnthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO. The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \"people with knowledge ",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-15T13:04:03+00:00"
-    },
-    {
-      "id": "bbc1e25e9e985e45",
-      "title": "Tree Appreciator",
-      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "14th October 2026\nAnother game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with:\nBuild a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics i",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-14T21:23:01+00:00"
-    },
-    {
-      "id": "a01e02239da0a38e",
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint\nSpecifically, Granite-Switch-4.1-8B and -30B models are configured to include:\n- A new Decision aLoRA for general-purpose decision-making (e.g. v1/systemone),\n- A specialized Guardian aLoRA that, on average, outperforms Jev 1.13, Micr",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 15 Oct 2026 20:34:01 GMT"
-    },
-    {
-      "id": "9d251ac6836a600d",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta\nFollowing Muse Glimmer, Muse Spark Open introduces a mixture-of-experts architecture at a much larger scale, and the most capable US open-weights model to date.\nMeta trained Muse Spark Open for agentic coding",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 15 Oct 2026 00:00:00 GMT"
-    }
-  ],
-  "all_items": [
-    {
-      "id": "222e66a510036328",
-      "title": "Critical PwnEscape Linux Kernel Vulnerability Lets Guest VMs Read Host Memory",
-      "url": "https://thehackernews.com/2026/10/critical-pwnescape-linux-kernel.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A newly disclosed critical flaw in the Linux kernel allows code inside a virtual machine to read memory on the host computer it runs on. A researcher demonstrated the leak against Vercel's live cloud sandboxes, and Vercel confirmed it.\nThe flaw, now tracked as CVE-2026-99999 and nicknamed PwnEscape,",
-      "importance": 3.4,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Fri, 16 Oct 2026 01:54:36 +0530"
-    },
-    {
-      "id": "986cc714fb426f82",
-      "title": "ThreatsDay: Adobe RCE, DNS Wallet Theft, NVIDIA Container Escape, Self-Healing Backdoor + 23 More",
-      "url": "https://thehackernews.com/2026/10/threatsday-adobe-rce-dns-wallet-theft.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Someone built a tool to steal data, then decided it should scare the victim for fun. Yes, that’s an actual feature. And somehow, it fits right in with this week's security stories.\nThe rest gets interesting in different ways. A small permission can lead to a big theft. A trusted login can hide the w",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Fri, 16 Oct 2026 00:19:33 +0530"
-    },
-    {
-      "id": "12b5084185c2ae4f",
-      "title": "NGINX Fixes 5 Flaws, Including Possible RCE and a TLS Bug That May Skip Client-Cert Checks",
-      "url": "https://thehackernews.com/2026/10/nginx-fixes-5-flaws-including-possible.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "NGINX released versions 1.30.6 and 1.31.7 on October 14 to fix five vulnerabilities, one of them present in every release since May 2005.\nThere are three memory bugs that F5, the company behind NGINX, says could crash a worker process or possibly let an attacker run code, and each requires a specifi",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Thu, 15 Oct 2026 18:28:05 +0530"
-    },
-    {
-      "id": "e7e0582933872fb7",
-      "title": "Next.js Ships Out-of-Band Patch for Two Critical RCE Flaws in Caching and SVG Processing",
-      "url": "https://thehackernews.com/2026/10/nextjs-ships-out-of-band-patch-for-two.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Next.js released an out-of-band security update on October 14 that fixes two critical flaws allowing unauthenticated remote code execution, along with a high-severity denial-of-service flaw.\nOne code-execution flaw is in React Server Components, and the other in librsvg, the open-source library Next",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Thu, 15 Oct 2026 17:58:13 +0530"
-    },
-    {
-      "id": "ce862b886d1b8415",
-      "title": "Drupal Patches Critical Field UI Flaw With Unauthenticated RCE Path via Contributed Modules",
-      "url": "https://thehackernews.com/2026/10/drupal-patches-critical-core-rce-flaw.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Drupal core has a critical flaw in its Field UI module that could let an attacker run code on the site's server, and fixes were shipped on October 14 in Drupal 11.4.10, 11.3.19, and 10.6.19.\nAn attacker cannot reach the flaw through core alone, the Drupal Security Team said in its advisory. Several ",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Thu, 15 Oct 2026 17:37:20 +0530"
-    },
-    {
-      "id": "a094aa58c0daa305",
-      "title": "Hackers exploit Collabora RCE flaw to backdoor Nextcloud servers",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-collabora-rce-flaw-to-backdoor-nextcloud-servers/",
+      "id": "8dfac5c34b84f531",
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Threat actors are exploiting a critical command execution flaw, now tracked as CVE-2026-110447, in the Collabora Online - Built-in CODE Server app (richdocumentscode) for Nextcloud.\nMultiple administrator reports indicate that attacks began in mid-September, roughly a month before the formal securit",
+      "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers.\nAccording to e-commerce security firm Sansec, attacks leveraging the vulnerability, dubb",
+      "why": "",
       "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 16 Oct 2026 16:00:59 -0400"
+    },
+    {
+      "id": "494b44d4ddb229eb",
+      "title": "BeyondTrust patches zero-day exploited in attacks since August",
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August.\nRemote Support is the company's enterprise-grade support solution that helps IT service desks, help desks, and customer support teams troublesho",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Fri, 16 Oct 2026 02:18:08 -0400"
+    },
+    {
+      "id": "196d1fbeb9fc4399",
+      "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
+      "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A Chinese APT has been exploiting a BeyondTrust vulnerability as a zero-day since August as part of its state-sponsored espionage operations.\nThe exploited flaw, tracked as CVE-2026-102764 (CVSS score of 9.3), is described as an improper validation of message origins that could allow attackers to pe",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Fri, 16 Oct 2026 10:53:22 +0000"
+    },
+    {
+      "id": "c426150a84acb2c9",
+      "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
+      "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "F5 and Juniper Networks have rolled out patches for dozens of vulnerabilities across their products, including critical-severity remote code execution (RCE) flaws.\nSecurity and application delivery firm F5 announced fixes for 11 security defects in NGINX. Among them, CVE-2026-15176 and CVE-2026-9347",
+      "why": "",
+      "importance": 3.0,
       "matched": [
         "RCE",
         "CVE-2026"
       ],
-      "published": "Thu, 15 Oct 2026 16:25:04 -0400"
+      "published": "Fri, 16 Oct 2026 09:54:34 +0000"
     },
     {
-      "id": "08c79764230e6e3c",
-      "title": "Chirp Pong",
-      "url": "https://simonwillison.net/2026/Oct/15/chirp-pong/",
+      "id": "bfa998e6f2bae86e",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday.\nThe Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 16 Oct 2026 17:52:24 +0000"
+    },
+    {
+      "id": "e946af68fd7dbe0e",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "15th October 2026\nAnother game experiment - I wanted to see if it was feasible to have a two player game on two separate phones running in static HTML where the networking code uses chirps sent via the microphone. It seems to work!\nBuild a two player competitive pong like game where two players use ",
+      "summary": "16th October 2026\nWe think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happens. Before, review was a gate at the end of the road: write th",
+      "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-15T19:47:52+00:00"
+      "published": "2026-10-16T22:06:37+00:00"
     },
     {
-      "id": "6702d1aaf0afce3a",
-      "title": "Anthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO",
-      "url": "https://simonwillison.net/2026/Oct/15/anthropic-tells-investors/",
+      "id": "e3274600bfe5739a",
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "15th October 2026 - Link Blog\nAnthropic tells investors quarterly revenue up nearly 50% to $16.8bn ahead of IPO. The phrase \"told investors\" appears four times in this FT article, which reports on Anthropic's day of hosting investors on Wednesday. Lots of details in here from \"people with knowledge ",
+      "summary": "15th October 2026\nInspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner).\nTiny Little ",
+      "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-15T13:04:03+00:00"
+      "published": "2026-10-15T02:07:28+00:00"
     },
     {
-      "id": "bbc1e25e9e985e45",
-      "title": "Tree Appreciator",
-      "url": "https://simonwillison.net/2026/Oct/14/tree-appreciator/",
+      "id": "ba4e7337aba280a4",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline\nAuthors: AI4Bharat — Mohammed Safi Ur Rahman Khan, Mitesh Khapra, Anoop Kunchukuttan. NVIDIA — Niket Agarwal, Raviraj Joshi, Anusha Kamath, Markus Kliegl, Yev Meyer, Sriharsha Niverty, Kiran Praveen, Utkarsh Vaidya.\n",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 16 Oct 2026 01:44:47 GMT"
+    },
+    {
+      "id": "849b423196d125cc",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Welcome Beam: a 501B open model you can own, customize, and scale\nBeam is focused on coding and agentic use cases. It is for teams that want a frontier-scale model on their own hardware, infrastructure, or cloud, and want to customize it to their own use cases. Beam ships with its own dedicated open",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "1fd194e19c3dd4f6",
+      "title": "China-Linked Hackers Exploited BeyondTrust Zero-Day to Take Over Remote Support Servers",
+      "url": "https://thehackernews.com/2026/10/china-linked-hackers-exploited.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The China-nexus cyber espionage group tracked as Armory Castle (previously UNC5221 or Warp Panda) exploited a newly disclosed security flaw in BeyondTrust Remote Support (formerly Bomgar) as a zero-day in late August 2026.\nThe vulnerability, tracked as CVE-2026-102764 (CVSS score: 9.3), is a case of",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Fri, 16 Oct 2026 12:25:55 +0530"
+    },
+    {
+      "id": "8dfac5c34b84f531",
+      "title": "Critical BlockStrap flaw lets hackers run code on Magento servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-blockstrap-flaw-lets-hackers-run-code-on-magento-servers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Researchers warn that hackers could soon exploit a maximum-severity vulnerability (CVE-2026-103849) affecting Magento and Adobe Commerce, potentially allowing them to execute arbitrary PHP code on store servers.\nAccording to e-commerce security firm Sansec, attacks leveraging the vulnerability, dubb",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 16 Oct 2026 16:00:59 -0400"
+    },
+    {
+      "id": "494b44d4ddb229eb",
+      "title": "BeyondTrust patches zero-day exploited in attacks since August",
+      "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-patches-zero-day-exploited-in-attacks-since-august/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "BeyondTrust warned customers on Thursday to patch a critical flaw in its Remote Support (RS) that has been exploited in zero-day attacks since late August.\nRemote Support is the company's enterprise-grade support solution that helps IT service desks, help desks, and customer support teams troublesho",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Fri, 16 Oct 2026 02:18:08 -0400"
+    },
+    {
+      "id": "bfa998e6f2bae86e",
+      "title": "India becomes the latest country to report rogue AI agent activity",
+      "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI agents from multiple providers accessed personal data and confidential material at Indian organizations during research and testing, India’s cybersecurity agency said Thursday.\nThe Indian Computer Emergency Response Team (CERT-In) said it had received “multiple voluntary disclosures from AI model",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 16 Oct 2026 17:52:24 +0000"
+    },
+    {
+      "id": "196d1fbeb9fc4399",
+      "title": "Chinese APT Exploited BeyondTrust Vulnerability as Zero-Day",
+      "url": "https://www.securityweek.com/chinese-apt-exploited-beyondtrust-vulnerability-as-zero-day/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A Chinese APT has been exploiting a BeyondTrust vulnerability as a zero-day since August as part of its state-sponsored espionage operations.\nThe exploited flaw, tracked as CVE-2026-102764 (CVSS score of 9.3), is described as an improper validation of message origins that could allow attackers to pe",
+      "importance": 3.0,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Fri, 16 Oct 2026 10:53:22 +0000"
+    },
+    {
+      "id": "c426150a84acb2c9",
+      "title": "F5, Juniper Networks Patch Critical Vulnerabilities",
+      "url": "https://www.securityweek.com/f5-juniper-networks-patch-critical-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "F5 and Juniper Networks have rolled out patches for dozens of vulnerabilities across their products, including critical-severity remote code execution (RCE) flaws.\nSecurity and application delivery firm F5 announced fixes for 11 security defects in NGINX. Among them, CVE-2026-15176 and CVE-2026-9347",
+      "importance": 3.0,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Fri, 16 Oct 2026 09:54:34 +0000"
+    },
+    {
+      "id": "509b1847c72fe130",
+      "title": "Microsoft Patches Two Dozen RCE Flaws in Office",
+      "url": "https://www.securityweek.com/microsoft-patches-two-dozen-rce-flaws-in-office/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Hot on the heels of its record Patch Tuesday rollout, Microsoft on Thursday announced patches for over 30 new vulnerabilities.\nMost of the new fixes address security defects in the Office suite. Two dozen of them patch high-severity remote code execution (RCE) flaws, including half a dozen bugs that",
+      "importance": 3.0,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Fri, 16 Oct 2026 07:55:06 +0000"
+    },
+    {
+      "id": "e946af68fd7dbe0e",
+      "title": "Quoting Addy Osmani, Morgan Westlee Lunt, and Qing Wang",
+      "url": "https://simonwillison.net/2026/Oct/16/code-review/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "14th October 2026\nAnother game experiment with Claude. This one used the default Claude iPhone app (chat mode, not Claude Code mode), where I prompted Claude Opus 5.5 Max with:\nBuild a three js game called \"Tree appreciator\" - it shows you two algorithmically generated trees and the game mechanics i",
+      "summary": "16th October 2026\nWe think \"did a human read the code?\" is an imprecise proxy for \"what could go wrong with this change, and which check—automated or human—is the right one to catch it?\"\nAsking that question also changed when review happens. Before, review was a gate at the end of the road: write th",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-14T21:23:01+00:00"
+      "published": "2026-10-16T22:06:37+00:00"
     },
     {
-      "id": "cdc576e64c59b425",
-      "title": "Citizen Lab Traces Zero-Click Candiru Spyware Infections at Al Jazeera to Targeted Online Ads",
-      "url": "https://thehackernews.com/2026/10/citizen-lab-traces-zero-click-candiru.html",
+      "id": "e3274600bfe5739a",
+      "title": "LaTeX renderer",
+      "url": "https://simonwillison.net/2026/Oct/15/latex/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th October 2026\nInspired by Paul Ford and Aboard Foundary's new web app Tiny Little Office, which provides a suite of web app content editors (a Word Processor, Outliner, Presentation Builder, Spreadsheet, Calculator, Drawing Tool, Diagram Maker, Animator, Calendar, and Trip Planner).\nTiny Little ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-15T02:07:28+00:00"
+    },
+    {
+      "id": "2f67e7ff74fc3554",
+      "title": "Researchers Demonstrate OpenBSD Root Exploit Chaining 37-Year-Old Shared-Memory Bug",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-openbsd-root.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Candiru, an Israeli maker of spyware sold to governments, infected devices at the news network Al Jazeera through ordinary online ads, in attacks that needed no click or other action from the user, researchers at the Citizen Lab said Thursday.\nThe hidden attack code ran the moment an ad loaded on th",
+      "summary": "A local privilege escalation exploit published today gains root on OpenBSD 7.9 by chaining a roughly 37-year-old integer overflow with a separate kernel flaw, bypassing OpenBSD's KARL kernel-address randomization and its SMAP and SMEP hardware protections. Security firm Calif, which found and report",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 21:31:57 +0530"
+      "published": "Fri, 16 Oct 2026 23:18:45 +0530"
     },
     {
-      "id": "6ab9bdcb522c46b0",
-      "title": "Silent Lynx Exploits WinRAR Flaw to Deploy Reverse Shell in CIS Government Attacks",
-      "url": "https://thehackernews.com/2026/10/silent-lynx-exploits-winrar-flaw-to.html",
+      "id": "2f6312b7767d6c54",
+      "title": "Attackers Tampered with AOMEI Backupper's Update Servers for Minutes to Deliver a Backdoor",
+      "url": "https://thehackernews.com/2026/10/attackers-tampered-with-aomei.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The threat actor known as Silent Lynx has been attributed to a fresh set of attacks targeting government organizations across the Commonwealth of Independent States (CIS).\nThe activity, observed from June 2025 through August 2026, involves four different infection chains that make use of macro-enabl",
+      "summary": "Attackers repeatedly changed the files that AOMEI Backupper fetches from the vendor's own update servers, in windows of five to ten minutes at a time between May and July 2026, so that any copy of the Windows backup program that checked for an update during one of those windows would download and ru",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 21:30:26 +0530"
+      "published": "Fri, 16 Oct 2026 22:13:39 +0530"
     },
     {
-      "id": "ba5ef20dc7e9f65b",
-      "title": "Help TDS Linked to Hotejka as 20,000+ Cloudflare Pages Domains Host Tech Support Scams",
-      "url": "https://thehackernews.com/2026/10/help-tds-linked-to-hotejka-as-20000.html",
+      "id": "7ca539292393b052",
+      "title": "UAT-11985 Uses Fake Event Invites to Target Taiwan Research Affiliates With Google AitM Phishing",
+      "url": "https://thehackernews.com/2026/10/uat-11985-uses-fake-event-invites-to.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A long-running Traffic Distribution System (TDS) known as Help TDS to a Russian-language affiliate program called Hotejka, which appears to be a rebrand of a traffic monetization operation dubbed ROI777.\nHelp TDS is assessed to be active since at least 2017, offering PHP code templates to partners a",
+      "summary": "Cybersecurity researchers have disclosed details of an advanced persistent threat (APT) spear-phishing campaign that has targeted individuals affiliated with Taiwan research organizations to direct victims to an adversary-in-the-middle (AitM) phishing framework designed to harvest their Google accou",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 19:41:36 +0530"
+      "published": "Fri, 16 Oct 2026 21:46:44 +0530"
     },
     {
-      "id": "6c8051f534fec6ac",
-      "title": "Android gets AI defenses against messaging scams, fake calls",
-      "url": "https://www.bleepingcomputer.com/news/security/android-gets-ai-defenses-against-messaging-scams-fake-calls/",
+      "id": "82bd71e8965df8d7",
+      "title": "OpenAI Research Model Spent 3rd-Party Test ETH Without Permission to Deploy Smart Contract",
+      "url": "https://thehackernews.com/2026/10/openai-research-model-spent-3rd-party.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "OpenAI has disclosed seven new incidents in which its artificial intelligence (AI) models exhibited misaligned behavior, including one case where its research model, after not having funds on an Ethereum test network, spent test cryptocurrency from a third-party's wallet without authorization to com",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 16 Oct 2026 19:33:04 +0530"
+    },
+    {
+      "id": "61ac6bfaa7c9de55",
+      "title": "AI Decision Models and Their Impact on AI SOC Platforms",
+      "url": "https://thehackernews.com/2026/10/ai-decision-models-and-their-impact-on.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "In the space of a month, a new category of AI model went from nonexistent to everywhere. TypeSafe AI released Jev on September 15 and called it a System One model, a nod to Kahneman's fast, intuitive thinking. OpenAI announced its own Decisions API at DevDay and opened a public beta on October 6. Cr",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 16 Oct 2026 17:00:00 +0530"
+    },
+    {
+      "id": "f909b9dee009b4a3",
+      "title": "CERT-In Warns AI Agents Accessed Sensitive Data at Indian Organizations During Testing",
+      "url": "https://thehackernews.com/2026/10/cert-in-warns-ai-agents-accessed.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "AI agents being tested online reached the live systems of Indian organizations and read business records, including personal data and confidential material, CERT-In said in an advisory on October 15.\nThe agents went beyond their assigned tasks, and none of the organizations detected the unauthorized",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 16 Oct 2026 12:23:09 +0530"
+    },
+    {
+      "id": "5fc8c6dd8c540e0e",
+      "title": "PEERSTITCH Malware Deployed via FortiOS Flaw Bypasses Checks on Tagged VPN Sessions",
+      "url": "https://thehackernews.com/2026/10/attackers-exploit-fortios-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A suspected advanced threat actor has been observed exploiting a security flaw in Fortinet FortiOS to deliver a previously unreported memory-resident ARM64 malware known as PEERSTITCH.\nThe attack involves the exploitation of CVE-2025-61624 (CVSS score: 5.4), a path traversal flaw in the command line",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 16 Oct 2026 10:29:36 +0530"
+    },
+    {
+      "id": "50880c900177e28f",
+      "title": "Targeted ads installed Candiru spyware in zero-click attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/zero-click-attacks-used-targeted-ads-to-deliver-candiru-spyware/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Google announced new AI-powered defenses against scam messages and call-forwarding abuse on Android, currently rolling out to eligible devices.\nThe new measures aim to address the increased sophistication of scams targeting mobile users, including fraudulent bank alerts and voice-cloning attacks.\n“M",
+      "summary": "Candiru spyware was delivered to devices at Al Jazeera Media Network via targeted online advertisements in a zero-click attack that required only rendering the malicious ads on the victim's device.\nResearchers at Citizen Labs investigating the attacks referred to this technique as AdFection, noting ",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 15:48:43 -0400"
+      "published": "Fri, 16 Oct 2026 13:20:03 -0400"
     },
     {
-      "id": "b14fd868476bffef",
-      "title": "Hackers hijack D-Link, Ubiquiti devices to resell your stolen bandwidth",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-d-link-ubiquiti-devices-to-resell-your-stolen-bandwidth/",
+      "id": "d269ee990910b8f5",
+      "title": "Employees using personal ChatGPT at work? Here's what IT admins need to do",
+      "url": "https://www.bleepingcomputer.com/news/security/employees-using-personal-chatgpt-at-work-heres-what-it-admins-need-to-do/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "A proxyjacking campaign has impacted devices in 34 countries, monetizing victims’ internet connections through a commercial residential proxy network.\nThe operator installed Pawns.app, a legitimate bandwidth-sharing application that lets users earn money by sharing their internet connections, on dev",
+      "summary": "Article written by Vakaris Noreika, VP of Product Research and Development at NordLayer\nMonday morning, you handle security for an organization, and suddenly, your security tools flag personal ChatGPT use on a managed laptop, even though your org pays for ChatGPT Enterprise.\nYou wonder what the empl",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 14:20:59 -0400"
+      "published": "Fri, 16 Oct 2026 09:50:59 -0400"
     },
     {
-      "id": "20dc09b781c43539",
-      "title": "Fake Arch Linux packages push malware with root privileges",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-arch-linux-packages-push-malware-with-root-privileges/",
+      "id": "862e2db1b4e06358",
+      "title": "Burger King Japan data breach exposes 11 million customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/burger-king-japan-data-breach-exposes-11-million-customer-records/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "A threat actor uploaded malicious packages to the Arch User Repository (AUR) that impersonated two popular helper tools, yay and paru.\nAUR is a community-maintained, widely-used package index for Arch Linux and derivative distributions that hosts package build scripts (PKGBUILDs) for third-party and",
+      "summary": "Burger King Japan, the Japanese subsidiary of global fast-food giant Burger King, disclosed a major data breach after attackers accessed a server containing 11.18 million customer records.\nFounded in 1953 in Florida, Burger King is now a multinational fast-food chain with nearly 20,000 locations wor",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 13:12:31 -0400"
+      "published": "Fri, 16 Oct 2026 08:01:29 -0400"
     },
     {
-      "id": "5d774caabf5a04c9",
-      "title": "Is AI pentesting as good as a human pentester?",
-      "url": "https://www.bleepingcomputer.com/news/security/is-ai-pentesting-as-good-as-a-human-pentester/",
+      "id": "7e8ace9d42e7bb3d",
+      "title": "Microsoft: October Windows update may break Smart App Control",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/kb5127648-windows-security-update-may-break-smart-app-control/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "With the rise of AI pentesting, a lot of people are wondering if it’s as good as a human. Having started as a pentester twelve years ago, and having moved through similar roles to working on Intruder’s AI pentester,\nI've come to understand the advantages and disadvantages of both. Here’s how they co",
+      "summary": "Microsoft says some users may have trouble turning on Smart App Control after installing this month's KB5127648 Windows 11 security update.\nSmart App Control is a Windows 11 security feature that uses Microsoft's app intelligence services and code integrity features and works alongside Microsoft Def",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 10:01:11 -0400"
+      "published": "Fri, 16 Oct 2026 04:44:22 -0400"
     },
     {
-      "id": "80cf54be12869d7a",
-      "title": "Microsoft: Windows Server 2022 reached end of mainstream support",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2022-reached-end-of-mainstream-support/",
+      "id": "d342f7137dd6f95b",
+      "title": "BAE Systems cyberattack disrupts US federal court operations",
+      "url": "https://www.bleepingcomputer.com/news/security/bae-systems-cyberattack-disrupts-us-federal-court-operations/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Microsoft announced that Windows Server 2022 has reached the end of mainstream support and will remain in extended support until October 2031.\nMicrosoft unveiled Windows Server 2022 in March 2021 and made it generally available in September 2021 as a Long-Term Servicing Channel (LTSC) release with 1",
+      "summary": "The Administrative Office of the US Courts (AOUSC) says a cyberattack on government contractor BAE Systems has taken down the notice system used by federal bankruptcy courts.\nIn a Thursday press release, the Administrative Office of the US Courts said the BAE Systems cyberattack also halted the prod",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 09:18:36 -0400"
+      "published": "Fri, 16 Oct 2026 03:37:35 -0400"
     },
     {
-      "id": "3565d45fa9724e1b",
-      "title": "Police arrests 95 suspects in international CSAM crackdown action",
-      "url": "https://www.bleepingcomputer.com/news/security/police-arrests-95-suspects-in-child-sexual-abuse-material-crackdown/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Law enforcement authorities from 17 countries in Latin America and Europe have arrested 95 suspects in an INTERPOL-coordinated operation targeting the distribution of child sexual abuse material (CSAM) through online messaging groups.\nThe joint action, dubbed International Effort Confluencia, includ",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 15 Oct 2026 07:55:38 -0400"
-    },
-    {
-      "id": "080d6dd1dc1fdb26",
-      "title": "Microsoft fixes bug causing Windows black screens, Explorer crashes",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-bug-causing-windows-black-screens-explorer-crashes/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Microsoft has resolved a known issue that was causing black screens, desktop loading issues, and Explorer crashes after installing Windows 11 updates released since August.\nAs Microsoft explained when it acknowledged the issue last month, affected users experienced multiple symptoms, most commonly a",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 15 Oct 2026 05:10:20 -0400"
-    },
-    {
-      "id": "a01e02239da0a38e",
-      "title": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint",
-      "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "id": "ba4e7337aba280a4",
+      "title": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "Granite Switch 4.1: Chat, Decisions, and Speech from One Endpoint\nSpecifically, Granite-Switch-4.1-8B and -30B models are configured to include:\n- A new Decision aLoRA for general-purpose decision-making (e.g. v1/systemone),\n- A specialized Guardian aLoRA that, on average, outperforms Jev 1.13, Micr",
+      "summary": "Scaling Indic Pretraining: 2.8 Trillion Tokens and an Open Data Generation Pipeline\nAuthors: AI4Bharat — Mohammed Safi Ur Rahman Khan, Mitesh Khapra, Anoop Kunchukuttan. NVIDIA — Niket Agarwal, Raviraj Joshi, Anusha Kamath, Markus Kliegl, Yev Meyer, Sriharsha Niverty, Kiran Praveen, Utkarsh Vaidya.\n",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 20:34:01 GMT"
+      "published": "Fri, 16 Oct 2026 01:44:47 GMT"
     },
     {
-      "id": "9d251ac6836a600d",
-      "title": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta",
-      "url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "id": "849b423196d125cc",
+      "title": "Welcome Beam: a 501B open model you can own, customize, and scale",
+      "url": "https://huggingface.co/blog/reflection-beam",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "Welcome Muse Spark Open: open-weight frontier multimodal mixture-of-experts model from Meta\nFollowing Muse Glimmer, Muse Spark Open introduces a mixture-of-experts architecture at a much larger scale, and the most capable US open-weights model to date.\nMeta trained Muse Spark Open for agentic coding",
+      "summary": "Welcome Beam: a 501B open model you can own, customize, and scale\nBeam is focused on coding and agentic use cases. It is for teams that want a frontier-scale model on their own hardware, infrastructure, or cloud, and want to customize it to their own use cases. Beam ships with its own dedicated open",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 00:00:00 GMT"
+      "published": "Fri, 16 Oct 2026 00:00:00 GMT"
     },
     {
-      "id": "3733c75a28bf26df",
-      "title": "Welcome FLUX.3 Image Klein in Diffusers",
-      "url": "https://huggingface.co/blog/flux-3",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Welcome FLUX.3 Image Klein in Diffusers: The latest open image generation model from Black Forest Labs\nBoth open checkpoints are in the FLUX.3 Image Klein collection:\nYou can head on to the Hugging Face space and generate some images right now!\nTL;DR\n- One model for text-to-image, multi-reference im",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 15 Oct 2026 00:00:00 GMT"
-    },
-    {
-      "id": "c9c43f1e32a507cc",
-      "title": "When it came to Cal AI’s viral success, a small army of influencers paid off",
-      "url": "https://techcrunch.com/2026/10/15/when-it-came-to-cal-ais-viral-success-a-small-army-of-influencers-paid-off/",
+      "id": "d0f11237d1f3614e",
+      "title": "Replit is no longer working with Anthropic, CEO says",
+      "url": "https://techcrunch.com/2026/10/16/replit-is-no-longer-working-with-anthropic-ceo-says/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Zach Yadegari has enjoyed an immense amount of success for someone who only recently graduated from high school. Founder of the AI-fueled calorie tracking app Cal AI, Yadegari is only 19, but his company has rocketed to viral fame over the past two years. At TechCrunch Disrupt on Thursday, Yadegari ",
+      "summary": "Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer working with Anthropic, the company’s CEO and co-founder Amjad Masad said Thursday while onstage at TechCrunch Disrupt.\nMasad said the decision was made for a number of different reasons, inclu",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 23:44:56 +0000"
+      "published": "Fri, 16 Oct 2026 21:22:28 +0000"
     },
     {
-      "id": "21e3505542d990f7",
-      "title": "Meta launches an open-weight AI model that runs on Macs",
-      "url": "https://techcrunch.com/2026/10/15/meta-launches-an-open-weight-model-that-runs-on-macs/",
+      "id": "1f9b468e86423e35",
+      "title": "An Nvidia insider-turned-VC on why robotics hasn’t hit its ChatGPT moment, yet",
+      "url": "https://techcrunch.com/video/a-nvidia-insider-turned-vc-on-why-robotics-hasnt-hit-its-chatgpt-moment-yet/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Meta has launched what it calls the “most capable” open-weight model in the United States. Dubbed Muse Spark Open, the model also has the distinction of having been designed to work with Macs.\nThe new model, which leverages 816 billion parameters and a 1 million token context window, claims to offer",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.\nThis view runs counter to those who beli",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 20:04:53 +0000"
+      "published": "Fri, 16 Oct 2026 16:30:00 +0000"
     },
     {
-      "id": "69334bf7d5867e77",
-      "title": "Amazon devices chief Panos Panay sees a future where AI devices replace the need to use apps",
-      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+      "id": "3ee888866ef9d7e3",
+      "title": "Physical AI is more than robots, says the Nvidia veteran now investing in it",
+      "url": "https://techcrunch.com/podcast/physical-ai-is-more-than-robots-says-the-nvidia-veteran-now-investing-in-it/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Amazon is placing its bets on ambient computing, not apps, as the future of personal AI.\nAlongside the launch of the company’s new AI wearables from Bee, Panos Panay, who serves as Amazon’s SVP of Devices, Alexa & Leo, took the stage at TechCrunch Disrupt on Thursday to talk more in depth about wher",
+      "summary": "Amulya Vishwanath, who spent seven years leading product marketing for NVIDIA’s robotics platforms, says robotics is currently in its “Lego era,” with the basic building blocks like actuators, robotic hands, software, and safety standards still being rebuilt.\nThis view runs counter to those who beli",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 19:55:25 +0000"
+      "published": "Fri, 16 Oct 2026 16:30:00 +0000"
     },
     {
-      "id": "031cee9ab4e640cb",
-      "title": "Anthropic is letting METR researchers look under the hood with employee-level access",
-      "url": "https://techcrunch.com/2026/10/15/anthropic-is-letting-metr-researchers-look-under-the-hood-with-employee-level-access/",
+      "id": "6f0ec75f9d13aede",
+      "title": "Elorian’s first AI model wants to reason with images, not just about them",
+      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Anthropic is giving employee-level access to six researchers from METR, a nonprofit that tests frontier AI models, to independently assess Anthropic’s models, safety practices, and risk management, the company said in a blog post on Thursday.\nThe arrangement comes at a time where incidents of AI age",
+      "summary": "Elorian, the Palo Alto AI startup that raised a $55 million seed round at a $300 million valuation before it launched a product, released its first model on Friday, TechCrunch has exclusively learned.\nThe model, Glimpse, is launching as a research preview with API access and a chat interface is wait",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 19:14:26 +0000"
+      "published": "Fri, 16 Oct 2026 16:01:37 +0000"
     },
     {
-      "id": "00b9e4087573b03b",
-      "title": "Bluesky expands its AI-powered Attie app to let anyone build websites, games, and more",
-      "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+      "id": "7524c167f0c40ac1",
+      "title": "Jev is Vercel’s fastest-adopted AI model ever",
+      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Open social network Bluesky is once again expanding beyond its flagship app. At TechCrunch Disrupt 2026 on Thursday, the company announced the launch of a new tool that allows creators to make websites, quizzes, games, polls, and other interactive experiences.\nThe tool is an expansion of Attie, Blue",
+      "summary": "Jev has become the fastest adopted AI model ever — at least by some measures.\nVercel data published on Thursday shows that, within two weeks of its launch, the buzzy decision model was being used by 35% of paid teams, with nearly double the reach of the second most popular model, Sonnet 5.5. It’s th",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 18:56:46 +0000"
+      "published": "Fri, 16 Oct 2026 15:33:49 +0000"
     },
     {
-      "id": "788e1a78996f5caa",
-      "title": "Last chance to save up to $200 on your TechCrunch Founder Summit pass: Early booking ends October 16",
-      "url": "https://techcrunch.com/2026/10/15/last-chance-to-save-up-to-200-on-techcrunch-founder-summit-early-booking-ends-oct-16/",
+      "id": "9d337093f9bfed1d",
+      "title": "Mark Wahlberg on using AI in film ‘the right way’ and being open to an AI clone carrying on his legacy",
+      "url": "https://techcrunch.com/2026/10/16/mark-wahlberg-on-using-ai-in-film-the-right-way-and-being-open-to-an-ai-clone-carrying-on-his-legacy/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Your next funding round. Your next hire. Your next big product decision. Building a startup means making choices that can shape the business for years. Taking time to question your approach could be one of the most valuable investments you make.\nSavings of up to $200 end October 16 for TechCrunch Fo",
+      "summary": "Even as Hollywood remains divided over the use of AI in filmmaking, actor and director Mark Wahlberg believes the technology has a place in the industry as long as it’s used the right way.\nWahlberg, who’s also an entrepreneur and angel investor, took the stage at TechCrunch Disrupt to share his pers",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 18:00:00 +0000"
+      "published": "Fri, 16 Oct 2026 14:26:51 +0000"
     },
     {
-      "id": "a040032c190037a3",
-      "title": "AI agents are coming to Rivian’s cars",
-      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+      "id": "03e02abc3531a994",
+      "title": "Veritas expands its anti-counterfeit chip to jewelry, trophies, and fragrance bottles",
+      "url": "https://techcrunch.com/2026/10/16/veritas-is-building-a-chip-to-verify-luxury-goods/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Rivian recently rolled out an AI assistant that lets drivers and passengers interact with the company’s electric vehicles just by talking to them. But the carmaker’s founder and CEO, RJ Scaringe, said at TechCrunch Disrupt this week that, in the future, Rivian’s cars will be able to run AI agents ma",
+      "summary": "Counterfeits of luxury goods are a major problem for fashion houses. Counterfeiters are getting better at replicating brands’ marks and passing off dupes, known as “superfakes,” as genuine items. A startup called Veritas wants to tackle the problem with its own chip that verifies goods.\nVeritas was ",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 15:02:36 +0000"
+      "published": "Fri, 16 Oct 2026 14:00:00 +0000"
     },
     {
-      "id": "b4faeb1cc12acc47",
-      "title": "Google’s Universal Cart shopping tool launches in the US",
-      "url": "https://techcrunch.com/2026/10/15/googles-universal-cart-shopping-tool-launches-in-the-us/",
-      "source": "TechCrunch AI",
+      "id": "85ddbdc7a76daa7f",
+      "title": "Roundtables: A Conversation With the Creator of AI-Designed Viruses",
+      "url": "https://www.technologyreview.com/2026/10/16/1146224/roundtables-a-conversation-with-the-creator-of-ai-designed-viruses/",
+      "source": "MIT Tech Review AI",
       "category": "ai",
-      "summary": "Google on Thursday said “Universal Cart,” a tool that lets users collect and monitor products they find across search and in the Gemini app, is now available to U.S. users. The company first previewed the tool at Google I/O in May.\nThe idea is to make online shopping easier to manage. Find something",
+      "summary": "Roundtables: A Conversation With the Creator of AI-Designed Viruses\nWatch a subscriber-only conversation with one of MIT Technology Review's Innovators Under 35.\nAvailable only for MIT Technology Review subscribers.\nListen to the session or watch below\nCan AI design new life forms? In 2025, Stanford",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 14:29:33 +0000"
+      "published": "Fri, 16 Oct 2026 18:00:00 +0000"
     },
     {
-      "id": "33659e3f78085d11",
-      "title": "Context Is King in the Fight Against Modern Cyberattacks",
-      "url": "https://www.securityweek.com/context-is-king-in-the-fight-against-modern-cyberattacks/",
+      "id": "7a1f49cfc7152176",
+      "title": "In Other News: ICS-Sniper Attack, Hacking XWorm Malware Operators, $250k Chrome Exploit",
+      "url": "https://www.securityweek.com/in-other-news-ics-sniper-attack-hacking-xworm-malware-operators-250k-chrome-exploit/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "For most of its history, cybersecurity has been reactive by design. Spot the bad event, shut it down. But as cyberattacks evolve, this thinking must evolve too. In the past, attackers relied on a single dramatic exploit to access the crown jewels. But the nature of attacks has changed.\nDefenders see",
+      "summary": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.\nThis curated summary highlights key stories across vulnerability disclosures, emerging attack method",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 17:42:50 +0000"
+      "published": "Fri, 16 Oct 2026 14:09:51 +0000"
     },
     {
-      "id": "d71aee9427eec432",
-      "title": "UK Legal Aid Agency Hack Scope Widens After Forensic Review",
-      "url": "https://www.securityweek.com/uk-legal-aid-agency-hack-scope-widens-after-forensic-review/",
+      "id": "754b8af5c24d4555",
+      "title": "BAE Systems Security Incident Stalls Notices From US Bankruptcy Courts",
+      "url": "https://www.securityweek.com/bae-systems-security-incident-stalls-notices-from-us-bankruptcy-courts/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "The UK’s Legal Aid Agency (LAA) has discovered that records dating back to 1978 were compromised in an April 2025 data breach.\nIn May last year, the UK Ministry of Justice agency said hackers had accessed and exfiltrated the personal information of individuals who applied for legal aid, but did not ",
+      "summary": "Federal bankruptcy courts across the US have been unable to send notices through the Bankruptcy Noticing Center (BNC) for a week. The outage followed a cybersecurity incident affecting the BAE Systems infrastructure that runs the center.\nThe BNC handles notices for every federal bankruptcy court in ",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 14:22:34 +0000"
+      "published": "Fri, 16 Oct 2026 11:46:40 +0000"
     },
     {
-      "id": "804b1f79c64cf8aa",
-      "title": "Supermarket Refrigeration Attack Widens to Copeland, Dixell Controllers",
-      "url": "https://www.securityweek.com/supermarket-refrigeration-attack-widens-to-copeland-dixell-controllers/",
+      "id": "3042b8d5fd6d0727",
+      "title": "OpenAI Models Hacked Data Portals, Raided a Crypto Wallet to Finish Tasks",
+      "url": "https://www.securityweek.com/openai-models-hacked-data-portals-raided-a-crypto-wallet-to-finish-tasks/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "The cyberattack that disrupted refrigeration at hundreds of French supermarkets this week also affected equipment from Copeland and its Dixell brand, according to France’s national cybersecurity agency ANSSI.\nANSSI’s CERT-FR first warned on October 12 of numerous compromises involving Danfoss AK-SM ",
+      "summary": "OpenAI has disclosed two incidents in which internal AI models, asked only to look up public figures, instead broke into the live systems hosting that data.\nThe reports, published on October 15, are the latest in a run of misalignment disclosures OpenAI started after its models compromised Hugging F",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 12:50:42 +0000"
+      "published": "Fri, 16 Oct 2026 10:32:11 +0000"
     },
     {
-      "id": "a28002aabf34a9dd",
-      "title": "CikaBika Bot RAT Uses Discord for C&C",
-      "url": "https://www.securityweek.com/cikabika-bot-rat-uses-discord-for-cc/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Darktrace has uncovered a new malware campaign distributing a Rust-based RAT that relies on Discord for command-and-control (C&C).\nDubbed CikaBika Bot, the malware has been distributed via document-themed lures, likely as part of phishing attacks, and provides attackers with reconnaissance, remote e",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Thu, 15 Oct 2026 11:25:58 +0000"
-    },
-    {
-      "id": "b554bfcb0729dc10",
-      "title": "Novel Android RAT ‘Hirudo’ Replaces Banking Apps With Trojanized Copies",
-      "url": "https://www.securityweek.com/novel-android-banking-rat-hirudo-replaces-banking-apps-with-trojanized-copies/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "A novel RAT uses trojanized replacements of legitimate banking apps to neutralize security controls from inside itself.\nHirudo is a remote access banking trojan for Android that combines elements of a traditional banking trojan and a full-featured RAT: it includes on-device credential theft with liv",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Thu, 15 Oct 2026 10:15:32 +0000"
-    },
-    {
-      "id": "a136e960d20e97df",
-      "title": "Physical Layer Anomaly Detection via Adaptive Gaussian Mixture Model",
-      "url": "https://arxiv.org/abs/2610.18946",
+      "id": "af9b8121ba86da9d",
+      "title": "Forensic Analysis of the HackRF One with PortaPack Mayhem Firmware",
+      "url": "https://arxiv.org/abs/2610.20647",
       "source": "arXiv cs.CR",
       "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 13 Oct 2026]\nTitle:Physical Layer Anomaly Detection via Adaptive Gaussian Mixture Model\nView PDF HTML (experimental)\n            Abstract:Physical-layer spoofing attacks pose a critical threat to wireless localization systems by manipulati",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 11 Oct 2026]\nTitle:Forensic Analysis of the HackRF One with PortaPack Mayhem Firmware\nView PDF HTML (experimental)\n            Abstract:Software-defined radios (SDRs) have become an inexpensive, portable platform for replay attacks, locati",
       "importance": 1.6,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 00:00:00 -0400"
+      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
     },
     {
-      "id": "602a38bca65a974e",
-      "title": "Limits of Statistical Assurance for Embodied and Agentic AI under Adaptive Adversaries",
-      "url": "https://arxiv.org/abs/2610.18948",
+      "id": "0dabd56637e478c7",
+      "title": "Unmasking the Secret Code: Using Canaries to Show How Masked Context Controls Memorization in SFT",
+      "url": "https://arxiv.org/abs/2610.20656",
       "source": "arXiv cs.CR",
       "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 13 Oct 2026]\nTitle:Limits of Statistical Assurance for Embodied and Agentic AI under Adaptive Adversaries\nView PDF HTML (experimental)\n            Abstract:Finite safety assessments cannot exclude an adversary that preserves unattacked beh",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 13 Oct 2026]\nTitle:Unmasking the Secret Code: Using Canaries to Show How Masked Context Controls Memorization in SFT\nView PDF HTML (experimental)\n            Abstract:Canaries, or synthetic training records containing known secrets, are wi",
       "importance": 1.6,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 00:00:00 -0400"
+      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
     },
     {
-      "id": "7826dc7e25f0af78",
-      "title": "CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat",
-      "url": "https://arxiv.org/abs/2610.19005",
+      "id": "793ebcd139696e44",
+      "title": "Empirical Evaluation of Machine Learning for Cloud Cryptojacking Detection: Effects of Preprocessing and Evaluation Protocols",
+      "url": "https://arxiv.org/abs/2610.20658",
       "source": "arXiv cs.CR",
       "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 13 Oct 2026]\nTitle:CyberArena: Benchmarking AI Agents in Live Symmetric Attack-and-Defense Combat\nView PDF HTML (experimental)\n            Abstract:AI agents are demonstrating increasingly strong offensive and defensive cybersecurity capab",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 14 Oct 2026]\nTitle:Empirical Evaluation of Machine Learning for Cloud Cryptojacking Detection: Effects of Preprocessing and Evaluation Protocols\nView PDF HTML (experimental)\n            Abstract:Artificial intelligence (AI) has been widely",
       "importance": 1.6,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 00:00:00 -0400"
+      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
     },
     {
-      "id": "81c39a9a84c1b601",
-      "title": "Combining Post-Quantum Cryptography and Quantum Key Distribution: Taxonomy, Constructions, Proofs, Standards, Deployments and Open Problems",
-      "url": "https://arxiv.org/abs/2610.19039",
+      "id": "31e25661954b2e29",
+      "title": "Hybrid DeepXAI Fusion Network for Interpretable Big Data Analytics and Secure Cloud Decision-Making Systems",
+      "url": "https://arxiv.org/abs/2610.20661",
       "source": "arXiv cs.CR",
       "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 13 Oct 2026]\nTitle:Combining Post-Quantum Cryptography and Quantum Key Distribution: Taxonomy, Constructions, Proofs, Standards, Deployments and Open Problems\nView PDF HTML (experimental)\n            Abstract:Post-quantum cryptography (PQC",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 14 Oct 2026]\nTitle:Hybrid DeepXAI Fusion Network for Interpretable Big Data Analytics and Secure Cloud Decision-Making Systems\nView PDF\n            Abstract:Big data analytics supports modern intelligent systems, but model complexity and l",
       "importance": 1.6,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 00:00:00 -0400"
+      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
     },
     {
-      "id": "a16d50c7df94b811",
-      "title": "Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence",
-      "url": "https://arxiv.org/abs/2610.14005",
+      "id": "5a4c85ab654b4c13",
+      "title": "The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock",
+      "url": "https://arxiv.org/abs/2610.20665",
       "source": "arXiv cs.AI",
       "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 27 Sep 2026]\nTitle:Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence\nView PDF HTML (experimental)\n            Abstract:Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with h",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 14 Oct 2026]\nTitle:The World Won't Wait: Evaluating and Teaching Agents Under a Live Clock\nView PDF HTML (experimental)\n            Abstract:Large language model (LLM) agents can solve complex interactive tasks, yet reasoning and tool calls ",
       "importance": 1.6,
       "matched": [],
-      "published": "Thu, 15 Oct 2026 00:00:00 -0400"
+      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "4f5a3d65e49a4075",
+      "title": "Evaluating Model Capabilities After Benchmark Saturation",
+      "url": "https://arxiv.org/abs/2610.20667",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 14 Oct 2026]\nTitle:Evaluating Model Capabilities After Benchmark Saturation\nView PDF HTML (experimental)\n            Abstract:Rapid advances in AI capabilities are causing benchmarks to saturate. Once several models approach perfect scores, ",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 16 Oct 2026 00:00:00 -0400"
     }
   ]
 }
