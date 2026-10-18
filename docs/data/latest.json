@@ -1,207 +1,180 @@
 {
-  "date": "2026-10-18",
-  "generated_at": "2026-10-18T08:34:50.460598+09:00",
-  "briefing": "오늘 8건이 수집되었습니다. 가장 주목할 항목은 「MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon」입니다.",
+  "date": "2026-10-19",
+  "generated_at": "2026-10-19T08:45:44.918317+09:00",
+  "briefing": "오늘 7건이 수집되었습니다. 가장 주목할 항목은 「Hackers exploit SiteGuard WAF flaw to run commands as admins」입니다.",
   "stats": {
-    "collected": 8,
-    "summarized": 8,
-    "picked": 8,
+    "collected": 7,
+    "summarized": 7,
+    "picked": 7,
     "llm": "live"
   },
   "items": [
     {
-      "id": "1fae9cde44bf146f",
-      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-      "source": "The Hacker News",
+      "id": "74ff0a30f9fe582b",
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
+      "source": "BleepingComputer",
       "category": "security",
-      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloade",
+      "summary": "Hackers are exploiting an OS command-injection vulnerability in the SiteGuard Server Edition web application firewall (WAF), allowing them to execute commands with root or SYSTEM privileges on affected machines.\nThe security issue is tracked as CVE-2026-106931 and affects the statistics feature in h",
       "why": "",
       "importance": 3.4,
       "matched": [
-        "supply chain"
+        "CVE-2026"
       ],
-      "published": "Sat, 17 Oct 2026 16:41:56 +0530"
+      "published": "Sun, 18 Oct 2026 10:23:16 -0400"
     },
     {
-      "id": "43fc56afbb2752b5",
-      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system.\nThe security issues impact the software core's Field UI module and the contributed Entity List module. Drupal issued an adva",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Sat, 17 Oct 2026 10:32:48 -0400"
-    },
-    {
-      "id": "b3dabcb4d0c0986a",
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "id": "952b3a6c7b9c760d",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.\nConnectWise Cl",
+      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.\nThe disabled identities are listed",
       "why": "",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 17 Oct 2026 11:46:46 +0530"
+      "published": "Sun, 18 Oct 2026 13:53:02 +0530"
     },
     {
-      "id": "74a44f824ba0950d",
-      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants.\nReports of the malicious activity began emerging on Friday, with administrators observing unauthorized access to ",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 17 Oct 2026 11:18:51 -0400"
-    },
-    {
-      "id": "2956b1e39e10f98f",
-      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
-      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "id": "7e978702ff2e8fcc",
+      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Candiru spyware has infected devices at international news network Al Jazeera in zero-click attacks, via targeted advertisements, Canadian internet watchdog group Citizen Lab reports.\nAs part of the operation, dubbed AdFection, ads purchased by Israeli company Discover-Tech were used to de-anonymize",
+      "summary": "CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It’s a mixed bag.\nData for CyberSN’s jobs report is aggregated from JobSpikr (with duplicates removed). The various job titles are then analyzed and assigned to CyberSN’s taxonomy of 45 cybersecurity functi",
       "why": "",
       "importance": 2.0,
       "matched": [],
-      "published": "Sat, 17 Oct 2026 11:00:00 +0000"
+      "published": "Sun, 18 Oct 2026 11:00:00 +0000"
     },
     {
-      "id": "568162b981af2493",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "id": "69ead926e6899b5e",
+      "title": "Inline rendering with document​.currentScript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th October 2026 - Link Blog\nInline rendering with document.currentScript. Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads:\nThe year is <script>\ndocument",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-17T21:11:12+00:00"
+    },
+    {
+      "id": "d6c06ffc09a8bd33",
+      "title": "web-edit 0.1a2",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th October 2026\nweb-edit (previously) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale.\nI added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-17T13:16:49+00:00"
+    },
+    {
+      "id": "cef1d05c75250eda",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Meta recently updated its commercial terms of use, declaring that the company can “use any content from [a business account’s] domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of” Meta products and services.\nAccording to legal experts interviewed ",
+      "summary": "Anthropic announced today that it’s creating a “public benefit fund” that will give the company “increased flexibility and scale” to support projects for societal good.\nAnthropic said that it will commit 5% of its shares to the fund — structured as a wholly-owned entity within the company — with the",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 17 Oct 2026 21:31:32 +0000"
+      "published": "Sun, 18 Oct 2026 20:37:40 +0000"
     },
     {
-      "id": "b769f5e984a396b0",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "id": "6a083a36de897bf0",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year, according to a report that the AI company published on Friday.\nAnthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, a",
+      "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney.\nCharacter.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to ",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 17 Oct 2026 20:21:19 +0000"
-    },
-    {
-      "id": "51c1c9a5e48bf763",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer working with Anthropic, the company’s CEO and co-founder Amjad Masad said Thursday while onstage at TechCrunch Disrupt.\nMasad said the decision was made for a number of different reasons, inclu",
-      "why": "",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sat, 17 Oct 2026 18:48:08 +0000"
+      "published": "Sun, 18 Oct 2026 16:30:00 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "1fae9cde44bf146f",
-      "title": "MALFEX npm Package 'imgdecode' Hides Shellcode Loader in Windows Native Addon",
-      "url": "https://thehackernews.com/2026/10/malfex-npm-package-imgdecode-hides.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Cybersecurity researchers have discovered a malicious npm package that's part of a recently disclosed software supply chain attack campaign dubbed MALFEX.\nThe package, named \"imgdecode,\" was uploaded to the package registry on September 30, 2026, by a user named \"malfexteste8.\" It has been downloade",
-      "importance": 3.4,
-      "matched": [
-        "supply chain"
-      ],
-      "published": "Sat, 17 Oct 2026 16:41:56 +0530"
-    },
-    {
-      "id": "43fc56afbb2752b5",
-      "title": "Drupal patches critical RCE flaws, warns exploits may emerge soon",
-      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaws-warns-exploits-may-emerge-soon/",
+      "id": "74ff0a30f9fe582b",
+      "title": "Hackers exploit SiteGuard WAF flaw to run commands as admins",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-siteguard-waf-flaw-to-run-commands-as-system-root/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Drupal has patched two critical vulnerabilities that could allow attackers to execute code remotely on websites running any supported version of the content management system.\nThe security issues impact the software core's Field UI module and the contributed Entity List module. Drupal issued an adva",
+      "summary": "Hackers are exploiting an OS command-injection vulnerability in the SiteGuard Server Edition web application firewall (WAF), allowing them to execute commands with root or SYSTEM privileges on affected machines.\nThe security issue is tracked as CVE-2026-106931 and affects the statistics feature in h",
       "importance": 3.4,
       "matched": [
-        "RCE"
+        "CVE-2026"
       ],
-      "published": "Sat, 17 Oct 2026 10:32:48 -0400"
+      "published": "Sun, 18 Oct 2026 10:23:16 -0400"
     },
     {
-      "id": "b3dabcb4d0c0986a",
-      "title": "Hackers Use Compromised ConnectWise Credential to Sign In to 173 Microsoft 365 Tenants",
-      "url": "https://thehackernews.com/2026/10/hackers-use-compromised-connectwise.html",
+      "id": "69ead926e6899b5e",
+      "title": "Inline rendering with document​.currentScript",
+      "url": "https://simonwillison.net/2026/Oct/17/document-currentscript/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th October 2026 - Link Blog\nInline rendering with document.currentScript. Lean Rada describes a neat trick that takes advantage of the document.currentScript property. You can use that to drop in a tiny inline <script> element that replaces itself when the page loads:\nThe year is <script>\ndocument",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-17T21:11:12+00:00"
+    },
+    {
+      "id": "d6c06ffc09a8bd33",
+      "title": "web-edit 0.1a2",
+      "url": "https://simonwillison.net/2026/Oct/17/web-edit/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th October 2026\nweb-edit (previously) is my tiny web app for browsing and editing files in a folder. I mainly built it for editing files on different machines via Tailscale.\nI added a \"copy to clipboard\" option for both text and image data. I needed this because I was running pelican prompts on a ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-17T13:16:49+00:00"
+    },
+    {
+      "id": "952b3a6c7b9c760d",
+      "title": "ConnectWise Suspends Cloud Backup After Attackers Compromise Microsoft 365 Tenants",
+      "url": "https://thehackernews.com/2026/10/connectwise-suspends-cloud-backup-after.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Cybersecurity researchers are sounding the alarm related to an active campaign in which unknown threat actors are abusing a compromised Microsoft 365 (M365) credential belonging to ConnectWise Cloud Backup (formerly SkyKick) to gain unauthorized access to customers' M365 environments.\nConnectWise Cl",
+      "summary": "ConnectWise on Saturday said it has disabled seven ConnectWise application identities as it continues its investigation into an incident in which unknown threat actors obtained unauthorized access to the application identities and compromised Microsoft 365 tenants.\nThe disabled identities are listed",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 17 Oct 2026 11:46:46 +0530"
+      "published": "Sun, 18 Oct 2026 13:53:02 +0530"
     },
     {
-      "id": "74a44f824ba0950d",
-      "title": "Hackers breach Microsoft 365 tenants via ConnectWise supply-chain attack",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-breach-microsoft-365-tenants-via-connectwise-supply-chain-attack/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "ConnectWise has shut down customer access to its Cloud Backup service (formerly SkyKick Cloud Backup) after hackers accessed application identities and compromised Microsoft 365 tenants.\nReports of the malicious activity began emerging on Friday, with administrators observing unauthorized access to ",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 17 Oct 2026 11:18:51 -0400"
-    },
-    {
-      "id": "568162b981af2493",
-      "title": "Meta removes language that raised scraping and AI training concerns",
-      "url": "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+      "id": "cef1d05c75250eda",
+      "title": "Anthropic says it’s committing 5% of its shares to a ‘public benefit fund’",
+      "url": "https://techcrunch.com/2026/10/18/anthropic-says-its-committing-5-of-its-shares-to-a-public-benefit-fund/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Meta recently updated its commercial terms of use, declaring that the company can “use any content from [a business account’s] domains, web pages, or URLs to provide, develop, improve, research, train, and maintain the integrity of” Meta products and services.\nAccording to legal experts interviewed ",
+      "summary": "Anthropic announced today that it’s creating a “public benefit fund” that will give the company “increased flexibility and scale” to support projects for societal good.\nAnthropic said that it will commit 5% of its shares to the fund — structured as a wholly-owned entity within the company — with the",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 17 Oct 2026 21:31:32 +0000"
+      "published": "Sun, 18 Oct 2026 20:37:40 +0000"
     },
     {
-      "id": "b769f5e984a396b0",
-      "title": "Anthropic says its workforce has become less junior and is spending more time in meetings",
-      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+      "id": "6a083a36de897bf0",
+      "title": "Disney agrees to hire the majority of Character.AI’s workforce",
+      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "The composition of Anthropic’s workforce and the type of work getting done have changed significantly in the past year, according to a report that the AI company published on Friday.\nAnthropic argues that its own workplace trends could be indicators of “how AI will shift work organization, hiring, a",
+      "summary": "After chatbot startup Character.AI filed for bankruptcy earlier this week, many of its employees will have the opportunity to take jobs at Disney.\nCharacter.AI’s former CEO Karandeep Anand recently became the entertainment giant’s first CTO, and the startup previously said that Disney had agreed to ",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 17 Oct 2026 20:21:19 +0000"
+      "published": "Sun, 18 Oct 2026 16:30:00 +0000"
     },
     {
-      "id": "51c1c9a5e48bf763",
-      "title": "Replit makes OpenAI its default over Anthropic, CEO says",
-      "url": "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Replit, the AI coding platform that has become a favorite of startup founders and developers, is no longer working with Anthropic, the company’s CEO and co-founder Amjad Masad said Thursday while onstage at TechCrunch Disrupt.\nMasad said the decision was made for a number of different reasons, inclu",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sat, 17 Oct 2026 18:48:08 +0000"
-    },
-    {
-      "id": "2956b1e39e10f98f",
-      "title": "Israeli Ad Firm Doubled as Candiru’s Zero-Click Spyware Delivery Channel",
-      "url": "https://www.securityweek.com/israeli-ad-firm-doubled-as-candirus-zero-click-spyware-delivery-channel/",
+      "id": "7e978702ff2e8fcc",
+      "title": "US Cybersecurity Job Postings Fall 26% as AI Security Engineer Demand Soars",
+      "url": "https://www.securityweek.com/us-cybersecurity-job-postings-fall-26-as-ai-security-engineer-demand-soars/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Candiru spyware has infected devices at international news network Al Jazeera in zero-click attacks, via targeted advertisements, Canadian internet watchdog group Citizen Lab reports.\nAs part of the operation, dubbed AdFection, ads purchased by Israeli company Discover-Tech were used to de-anonymize",
+      "summary": "CyberSN’s Cybersecurity Jobs Report provides visibility into the US cybersecurity job market. It’s a mixed bag.\nData for CyberSN’s jobs report is aggregated from JobSpikr (with duplicates removed). The various job titles are then analyzed and assigned to CyberSN’s taxonomy of 45 cybersecurity functi",
       "importance": 2.0,
       "matched": [],
-      "published": "Sat, 17 Oct 2026 11:00:00 +0000"
+      "published": "Sun, 18 Oct 2026 11:00:00 +0000"
     }
   ]
 }
