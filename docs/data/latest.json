@@ -1,608 +1,582 @@
 {
-  "date": "2026-10-20",
-  "generated_at": "2026-10-20T09:47:21.064538+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site」입니다.",
+  "date": "2026-10-21",
+  "generated_at": "2026-10-21T09:14:08.273901+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution」입니다.",
   "stats": {
-    "collected": 40,
-    "summarized": 40,
+    "collected": 39,
+    "summarized": 39,
     "picked": 10,
     "llm": "live"
   },
   "items": [
     {
-      "id": "5f2037864b2f69b1",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "source": "Krebs on Security",
-      "category": "security",
-      "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources c",
-      "why": "",
-      "importance": 3.8,
-      "matched": [
-        "ransomware"
-      ],
-      "published": "Mon, 19 Oct 2026 13:48:56 +0000"
-    },
-    {
-      "id": "47f4fcfb349a6896",
-      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "id": "53ddecf9f5b1add8",
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\nThe latest evolution, detailed by OpenSourceMalware,",
+      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that c",
       "why": "",
       "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 20 Oct 2026 21:08:52 +0530"
+    },
+    {
+      "id": "0d304799e6217321",
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors.\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "ransomware",
+        "CVE-2026"
+      ],
+      "published": "Tue, 20 Oct 2026 21:02:27 +0530"
+    },
+    {
+      "id": "0db72c8bc26332c0",
+      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
+      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Between April and July, AOMEI Backupper served malware to its users multiple times in short-burst supply chain compromises, security researchers warn.\nAOMEI Backupper is Windows backup, sync, and disk cloning software, available in free and paid editions for home users, businesses, and Windows Serve",
+      "why": "",
+      "importance": 3.0,
       "matched": [
         "supply chain"
       ],
-      "published": "Mon, 19 Oct 2026 18:35:45 +0530"
+      "published": "Tue, 20 Oct 2026 13:51:01 +0000"
     },
     {
-      "id": "5ae38a63e4733a2a",
-      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-      "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
+      "id": "1530955429aa55bf",
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and h",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Mon, 19 Oct 2026 17:20:00 +0530"
-    },
-    {
-      "id": "0534f19063379abe",
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits.\n\"The tools",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Mon, 19 Oct 2026 15:36:40 +0530"
-    },
-    {
-      "id": "ff25b976bdfa1d9f",
-      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.\nThe supply chain attacks took place between April and July",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "supply chain"
-      ],
-      "published": "Mon, 19 Oct 2026 15:40:58 -0400"
-    },
-    {
-      "id": "039a84854fb85dd6",
-      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "OpenCode, an open source AI coding agent that has been gaining ground among developers as an alternative to Claude Code and Cursor, said Saturday that attackers broke into an older system overnight, affecting 1.4% of users of its online platform, OpenCode Console, where some users store the API keys",
-      "why": "",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Mon, 19 Oct 2026 19:28:34 +0000"
-    },
-    {
-      "id": "af02b0baed077a86",
-      "title": "My obituary for programming",
-      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "19th October 2026 - Link Blog\nMy obituary for programming (via) Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code:\nProgramming turned into one of the greatest jobs you could imagine. You got paid to work on tricky ",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-19T23:58:25+00:00"
-    },
-    {
-      "id": "b8a89dddc6c67001",
-      "title": "llm-tools-datasette 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "18th October 2026\nRecent articles\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice - 9th October 2026\n- Claude Haiku 5.5 - 7th October 2026\n- We're going to need default hard budget caps on pretty much everything - 3rd Oc",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-18T23:43:09+00:00"
-    },
-    {
-      "id": "12899128ec45e6d3",
-      "title": "llm-echo 0.5",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "18th October 2026\nI'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usa",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-18T23:16:16+00:00"
-    },
-    {
-      "id": "9dbc0d55ff9123c6",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "TorchNeuron: running HF models on AWS Trainium is easier than ever\nTorchNeuron\nTorchNeuron is a PyTorch plugin that brings a new backend for Trainium enabling support for eager mode, torch.compile and native distributed APIs like FSDP and TP.\nRead the Pytorch blog to learn more about TorchNeuron.\nSt",
+      "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20.\nAn intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for ",
       "why": "",
       "importance": 2.4,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 00:00:00 GMT"
+      "published": "Tue, 20 Oct 2026 22:39:53 +0530"
+    },
+    {
+      "id": "0dfa738d1635fedf",
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\nThe agents tried more than 1,200 sites and reached websites belong",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 19:37:17 +0530"
+    },
+    {
+      "id": "94e7f4f5c0e52bb7",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model\nLearned memory takes a basic ReAct agent with GPT-4.1 to the top\nUsing GPT-4.1, an older, non-reasoning model, a basic customer-service agent reaches 67.5% Pass^4 on τ²-bench retail — mea",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 20 Oct 2026 15:19:48 GMT"
+    },
+    {
+      "id": "aac036aa8666576a",
+      "title": "eMudhra Intermediate CA Compromise",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "20th October 2026 - Link Blog\neMudhra Intermediate CA Compromise. This is very, very bad news:\nThe private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stor",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-20T23:50:25+00:00"
+    },
+    {
+      "id": "3b5ce86c8c402c8d",
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Battle Drones—a vibe coded RTS with audio-based multiplayer\n20th October 2026\nMy latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I’m somewhat embarrasse",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-20T19:34:19+00:00"
+    },
+    {
+      "id": "4eb9f7080b11166e",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation\nOur first Cosmos-H-Dreams release, built on Cosmos-Predict2.5, brought interactive generative simulation to dVRK tabletop suturing, a foundational proving ground for surgical robotics. As world foundation model ",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 18:17:47 GMT"
+    },
+    {
+      "id": "ca293d8533a3487d",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "FairStress: A deeper evaluation of fairness in LLM decision-making\nToday we’re introducing FairStress, a benchmark for measuring demographic fairness in LLMs beyond the choice a model ultimately makes in decisions impacting people. FairStress is available for download, and we’re also building it int",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 16:09:19 GMT"
     }
   ],
   "all_items": [
     {
-      "id": "5f2037864b2f69b1",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "url": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "source": "Krebs on Security",
-      "category": "security",
-      "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources c",
-      "importance": 3.8,
-      "matched": [
-        "ransomware"
-      ],
-      "published": "Mon, 19 Oct 2026 13:48:56 +0000"
-    },
-    {
-      "id": "47f4fcfb349a6896",
-      "title": "GhostAction Attackers Plant Credential Stealer Disguised as Font in 94 GitHub Repositories",
-      "url": "https://thehackernews.com/2026/10/ghostaction-attackers-plant-credential.html",
+      "id": "53ddecf9f5b1add8",
+      "title": "Critical FortiSIEM Flaw Gets Public Exploit PoC for Unauthenticated Remote Code Execution",
+      "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The threat actor behind the GhostAction supply chain attack has expanded beyond injecting malicious GitHub Actions workflows into compromised projects to phish open-source developers and deliver a stealer malware disguised within a fake font file.\nThe latest evolution, detailed by OpenSourceMalware,",
-      "importance": 3.4,
-      "matched": [
-        "supply chain"
-      ],
-      "published": "Mon, 19 Oct 2026 18:35:45 +0530"
-    },
-    {
-      "id": "5ae38a63e4733a2a",
-      "title": "From Email-to-Case to the Boardroom: How Inherited Agents Break Governance Built for Software",
-      "url": "https://thehackernews.com/2026/10/from-email-to-case-to-boardroom-how.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "In Salesforce Agentforce, the recommended way to make an agent respond to events is a Flow: a record is created or a case is updated, and the Flow passes data into the agent's prompt. Separately, Email-to-Case and Web-to-Case turn inbound customer messages into case records; it is how airlines and h",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Mon, 19 Oct 2026 17:20:00 +0530"
-    },
-    {
-      "id": "0534f19063379abe",
-      "title": "Fake Web3 Accelerator Uses npm Packages to Spread Malware and Hijack AI Agent Traffic",
-      "url": "https://thehackernews.com/2026/10/fake-web3-accelerator-uses-npm-packages.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A fake Web3 accelerator has been observed pushing information stealers and backdoors to Windows and macOS systems using malicious npm packages under the pretext of offering free artificial intelligence (AI) credits for Anthropic Claude and Google Gemini, coding tools, and security audits.\n\"The tools",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Mon, 19 Oct 2026 15:36:40 +0530"
-    },
-    {
-      "id": "ff25b976bdfa1d9f",
-      "title": "Hackers hijack AOMEI update servers to secretly spread malware",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-aomei-update-servers-to-secretly-spread-malware/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Hackers reportedly compromised AOMEI's servers to distribute malware through a built-in promotional feature in its backup software, briefly tampering with configuration files before restoring them to their original state to hide the attacks.\nThe supply chain attacks took place between April and July",
-      "importance": 3.4,
-      "matched": [
-        "supply chain"
-      ],
-      "published": "Mon, 19 Oct 2026 15:40:58 -0400"
-    },
-    {
-      "id": "59b0e474cfa72377",
-      "title": "F5 releases out-of-band patches for critical NGINX vulnerabilities",
-      "url": "https://www.bleepingcomputer.com/news/security/f5-releases-out-of-band-patches-for-critical-nginx-vulnerabilities/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "F5 has released out-of-band security patches to address multiple NGINX web server flaws, including three critical-severity vulnerabilities that can let attackers execute code on vulnerable systems.\nThe three critical vulnerabilities were found in the ngx_http_v3_module (CVE-2026-15176 and CVE-2026-9",
+      "summary": "Cybersecurity researchers have released a proof-of-concept (PoC) exploit for a recently patched critical security flaw impacting Fortinet FortiSIEM that could result in arbitrary code execution.\nThe vulnerability, tracked as CVE-2026-106173 (CVSS score: 9.4), is a critical path traversal flaw that c",
       "importance": 3.4,
       "matched": [
         "CVE-2026"
       ],
-      "published": "Mon, 19 Oct 2026 09:49:24 -0400"
+      "published": "Tue, 20 Oct 2026 21:08:52 +0530"
     },
     {
-      "id": "039a84854fb85dd6",
-      "title": "Hackers hit AI coding tool OpenCode, running up charges on users’ AI accounts",
-      "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "OpenCode, an open source AI coding agent that has been gaining ground among developers as an alternative to Claude Code and Cursor, said Saturday that attackers broke into an older system overnight, affecting 1.4% of users of its online platform, OpenCode Console, where some users store the API keys",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Mon, 19 Oct 2026 19:28:34 +0000"
-    },
-    {
-      "id": "c2afa77235015720",
-      "title": "Drupal Warns of Fast Exploitation Risk for Critical Core RCE Flaw",
-      "url": "https://www.securityweek.com/drupal-warns-of-fast-exploitation-risk-for-critical-core-rce-flaw/",
-      "source": "SecurityWeek",
+      "id": "0d304799e6217321",
+      "title": "Qilin and INC Ransomware Groups Exploit Palo Alto Networks Flaw to Bypass MFA",
+      "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
+      "source": "The Hacker News",
       "category": "security",
-      "summary": "Drupal has rolled out patches for five vulnerabilities, including two critical-severity bugs that could be exploited for remote code execution (RCE).\nThe first resides in the Entity List module, which allows users to create lists of entities without Views, and is tracked as CVE-2026-108099. It is no",
-      "importance": 3.0,
+      "summary": "Palo Alto Networks has disclosed that it's continuing to observe exploitation of a now-patched security flaw impacting PAN-OS and Prisma Access by ransomware actors.\nThe activity relates to CVE-2026-0257 (CVSS score: 7.8), an authentication bypass flaw that could be exploited by bad actors to set up",
+      "importance": 3.4,
       "matched": [
-        "RCE",
+        "ransomware",
         "CVE-2026"
       ],
-      "published": "Mon, 19 Oct 2026 15:47:50 +0000"
+      "published": "Tue, 20 Oct 2026 21:02:27 +0530"
     },
     {
-      "id": "c513afb9763bce99",
-      "title": "Rank Math PRO WordPress Plugin Compromised in Supply Chain Attack",
-      "url": "https://www.securityweek.com/rank-math-pro-wordpress-plugin-compromised-in-supply-chain-attack/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Users downloaded malicious versions of Rank Math PRO last week, after the WordPress SEO plugin was compromised in a supply chain attack.\nSome version 3.0.123 packages contained malware that could allow attackers to take over websites if the plugin was activated, Rank Math says.\nAll users who downloa",
-      "importance": 3.0,
-      "matched": [
-        "supply chain"
-      ],
-      "published": "Mon, 19 Oct 2026 15:20:53 +0000"
-    },
-    {
-      "id": "bcca2fd24d4b1478",
-      "title": "Plex2Shell Exploit Chain Weaponized Against Plex Servers Hours After Disclosure",
-      "url": "https://www.securityweek.com/plex2shell-exploit-chain-weaponized-against-plex-servers-hours-after-disclosure/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Threat actors began targeting Plex2Shell, a chain of four Plex Media Server vulnerabilities, one day after technical details and a working exploit went public.\nThe researcher who found the Plex2Shell bugs released a write-up and proof-of-concept (PoC) code on October 16. Tracked as CVE-2026-96652, C",
-      "importance": 3.0,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Mon, 19 Oct 2026 12:44:39 +0000"
-    },
-    {
-      "id": "af02b0baed077a86",
-      "title": "My obituary for programming",
-      "url": "https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "19th October 2026 - Link Blog\nMy obituary for programming (via) Jeremy Scheff poignantly captures the key loss caused by coding agents for career programmers who enjoyed the puzzle of developing code:\nProgramming turned into one of the greatest jobs you could imagine. You got paid to work on tricky ",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-19T23:58:25+00:00"
-    },
-    {
-      "id": "b8a89dddc6c67001",
-      "title": "llm-tools-datasette 0.1.1",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-tools-datasette/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "18th October 2026\nRecent articles\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - 12th October 2026\n- A new feature for my blog, built using my voice - 9th October 2026\n- Claude Haiku 5.5 - 7th October 2026\n- We're going to need default hard budget caps on pretty much everything - 3rd Oc",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-18T23:43:09+00:00"
-    },
-    {
-      "id": "12899128ec45e6d3",
-      "title": "llm-echo 0.5",
-      "url": "https://simonwillison.net/2026/Oct/18/llm-echo/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "18th October 2026\nI'm working towards a new LLM release, and testing PRs caused me to revisit the llm-echo debug plugin. This plugin provides a \"model\" which doesn't involve an LLM at all - it just repeats back the prompts that have been fed to it. The new release now updates the simulated token usa",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-18T23:16:16+00:00"
-    },
-    {
-      "id": "143bfdf19e2bc5d6",
-      "title": "Hackers Exploit Plex2Shell Flaws to Install Crypto Miners and Linux Proxy Backdoor",
-      "url": "https://thehackernews.com/2026/10/hackers-exploit-plex2shell-flaws-to.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Threat actors have begun to exploit a chain of vulnerabilities in Plex Media Server to deploy cryptocurrency miners and reverse proxy software, a day after a proof-of-concept (PoC) went public.\nAccording to a researcher who goes by the online alias boredhackerblog, the exploitation activity involves",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 23:02:13 +0530"
-    },
-    {
-      "id": "4ad529ab62166d3c",
-      "title": "Popular WordPress SEO Plugin Rank Math PRO Hijacked to Deliver Self-Restoring Backdoor",
-      "url": "https://thehackernews.com/2026/10/popular-wordpress-seo-plugin-rank-math.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Copies of Rank Math PRO, the paid version of the Rank Math SEO plugin for WordPress, that were downloaded from rankmath.com or delivered as updates between 20:02 UTC on October 15 and 07:12 UTC on October 16 contained malware, Rank Math said in a security notice published on October 16.\nAny site tha",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 21:58:47 +0530"
-    },
-    {
-      "id": "03d3ba9d36cc0643",
-      "title": "⚡ Weekly Recap: 98 Zero-Days, Rogue AI Agents, $100M Crypto Theft, 700 Supermarkets Hit and More",
-      "url": "https://thehackernews.com/2026/10/weekly-recap-98-zero-days-rogue-ai.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "The worst problems don't always come with a warning. Sometimes they arrive through a service everyone trusts, a device someone bought, or a system nobody thought to check. By the time something looks wrong, the damage may already be done.\nThis week had plenty of that. Trusted connections became a pr",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 19:44:07 +0530"
-    },
-    {
-      "id": "f519e0b522d74ec3",
-      "title": "Unpatched Broadcom Wi-Fi Flaw Lets Attackers in Range Run Code as Root on Routers",
-      "url": "https://thehackernews.com/2026/10/unpatched-broadcom-wi-fi-flaw-lets.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A flaw in Broadcom's Wi-Fi setup software lets an attacker within radio range run code as root on Broadcom-based routers, without the network password or any pairing step, security researcher Quentin Kaiser disclosed on October 16.\nHe showed the attack working against home gateways supplied by three",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 11:59:44 +0530"
-    },
-    {
-      "id": "1de1c48ce23bc8e5",
-      "title": "OpenCode Console Breach May Have Exposed OpenAI, Anthropic, and Google API Keys",
-      "url": "https://thehackernews.com/2026/10/opencode-console-breach-may-have.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "An intruder reached a legacy system at OpenCode on the night of October 16 and may have exposed the third-party AI provider keys that users had saved in OpenCode Console, the company said.\nConsole is OpenCode's optional hosted service: a workspace saves its own OpenAI, Anthropic, or Google key there",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 11:37:08 +0530"
-    },
-    {
-      "id": "5a8d0413be6f3aca",
-      "title": "Nikkei discloses third data breach in a month, 1.8M records exposed",
-      "url": "https://www.bleepingcomputer.com/news/security/nikkei-discloses-third-data-breach-in-a-month-18m-records-exposed/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Nikkei Inc. disclosed a new data breach, the third in about a month, that exposed 1.83 million personal information records.\nThe Japanese giant says subsets of the data contained personally identifiable information and other sensitive details, but most records contained no identifying info.\nThe comp",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 17:49:48 -0400"
-    },
-    {
-      "id": "a4cd23325612accf",
-      "title": "WordPress SEO plugin Rank Math compromised to backdoor websites",
-      "url": "https://www.bleepingcomputer.com/news/security/wordpress-seo-plugin-rank-math-compromised-to-backdoor-websites/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Some downloads of the Rank Math PRO WordPress plugin from the vendor’s official website carried malware that planted hidden backdoors in a supply-chain attack last week.\nAccording to the vendor, a limited number of users who downloaded version 3.0.123 of the plugin between October 15 at 20:02 UTC an",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 17:24:51 -0400"
-    },
-    {
-      "id": "06accfcb31a1d080",
-      "title": "Bullhorn takes staffing platform offline to contain cyberattack",
-      "url": "https://www.bleepingcomputer.com/news/security/bullhorn-takes-staffing-platform-offline-to-contain-cyberattack/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Staffing software company Bullhorn has disabled access to its platform to contain a cyberattack that caused a system-wide outage.\nThe company says it has isolated the issue and eradicated the immediate threat. Currently, its team is working to restore services following thorough security reviews con",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 14:51:13 -0400"
-    },
-    {
-      "id": "c8f4e94200b3a33f",
-      "title": "OpenCode hack exposes API keys amid AI distillation attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/opencode-hack-exposes-api-keys-amid-ai-distillation-attacks/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "The open-source AI coding project OpenCode has notified some users that stored API keys they used with external providers were exposed in a security breach.\nMultiple users reported that the incident led to unauthorized API charges and suspended projects in Google Cloud.\nAccording to the project main",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 13:27:15 -0400"
-    },
-    {
-      "id": "6e689f58716dcd5b",
-      "title": "Microsoft fixes game, app crashes caused by recent Windows update",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-game-app-crashes-caused-by-windows-kb5124010-preview-update/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Microsoft has fixed a known issue that caused games and Windows 11 apps using AC-3 (Dolby Digital) audio decoding to crash after installing the September 2026 preview update (KB5124010).\nWhile KB5124010 is an optional update that requires clicking a \"Download and install\" link (reducing the number o",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 10:55:23 -0400"
-    },
-    {
-      "id": "10c7257940ccee9d",
-      "title": "Inside the Underground Market for Know Your Client Services",
-      "url": "https://www.bleepingcomputer.com/news/security/inside-the-underground-market-for-know-your-client-services/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "In February 2026, the operator of OnlyFake pleaded guilty in the United States for his role in a service that generated more than 10,000 fraudulent digital identity documents. Customers could create passports, driver’s licenses, Social Security cards, and documents from dozens of countries, then cho",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Mon, 19 Oct 2026 10:00:10 -0400"
-    },
-    {
-      "id": "9dbc0d55ff9123c6",
-      "title": "TorchNeuron: running HF models on AWS Trainium is easier than ever",
-      "url": "https://huggingface.co/blog/hf-torchneuron",
+      "id": "94e7f4f5c0e52bb7",
+      "title": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model",
+      "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "TorchNeuron: running HF models on AWS Trainium is easier than ever\nTorchNeuron\nTorchNeuron is a PyTorch plugin that brings a new backend for Trainium enabling support for eager mode, torch.compile and native distributed APIs like FSDP and TP.\nRead the Pytorch blog to learn more about TorchNeuron.\nSt",
+      "summary": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model\nLearned memory takes a basic ReAct agent with GPT-4.1 to the top\nUsing GPT-4.1, an older, non-reasoning model, a basic customer-service agent reaches 67.5% Pass^4 on τ²-bench retail — mea",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 20 Oct 2026 15:19:48 GMT"
+    },
+    {
+      "id": "0db72c8bc26332c0",
+      "title": "AOMEI Backupper Compromised in Short-Burst Supply Chain Campaign",
+      "url": "https://www.securityweek.com/aomei-backupper-compromised-in-short-burst-supply-chain-campaign/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Between April and July, AOMEI Backupper served malware to its users multiple times in short-burst supply chain compromises, security researchers warn.\nAOMEI Backupper is Windows backup, sync, and disk cloning software, available in free and paid editions for home users, businesses, and Windows Serve",
+      "importance": 3.0,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Tue, 20 Oct 2026 13:51:01 +0000"
+    },
+    {
+      "id": "aac036aa8666576a",
+      "title": "eMudhra Intermediate CA Compromise",
+      "url": "https://simonwillison.net/2026/Oct/20/emudhra-certificates/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "20th October 2026 - Link Blog\neMudhra Intermediate CA Compromise. This is very, very bad news:\nThe private keys of eight eMudhra intermediate CA certificates have been compromised. They chain to roots trusted by the Mozilla, Microsoft, Apple and Chrome root programs and by many downstream trust stor",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-20T23:50:25+00:00"
+    },
+    {
+      "id": "3b5ce86c8c402c8d",
+      "title": "Battle Drones - a vibe coded RTS with audio-based multiplayer",
+      "url": "https://simonwillison.net/2026/Oct/20/battledrones/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Battle Drones—a vibe coded RTS with audio-based multiplayer\n20th October 2026\nMy latest vibe coded game experiment is a Command & Conquer style RTS (Real Time Strategy) game called Battle Drones (play it here). Unlike my previous experiments, this one is actually fun to play. I’m somewhat embarrasse",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-20T19:34:19+00:00"
+    },
+    {
+      "id": "1530955429aa55bf",
+      "title": "Eight eMudhra CA Keys Compromised, Triggering Emergency Fixes Across Browsers and Software",
+      "url": "https://thehackernews.com/2026/10/eight-emudhra-ca-keys-compromised.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The private keys of eight eMudhra intermediate certificate authority (CA) certificates are compromised, Mozilla and Google's Chrome Root Program confirms on October 20.\nAn intermediate CA signs the certificates that websites present, so anyone holding one of these keys could issue a certificate for ",
       "importance": 2.4,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 00:00:00 GMT"
+      "published": "Tue, 20 Oct 2026 22:39:53 +0530"
     },
     {
-      "id": "b0fb4c0567199f7f",
-      "title": "Nscale and Anthropic are reportedly in talks for yet another $45 billion compute deal",
-      "url": "https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/",
+      "id": "0dfa738d1635fedf",
+      "title": "Hackers Use Autonomous AI Agents to Breach Company Websites, Target Over 1,200 Sites",
+      "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A Chinese-speaking criminal pointed autonomous AI agents at company websites and let them break in with almost no help, and a security researcher watched it happen because the operators left their control panels open on the internet.\nThe agents tried more than 1,200 sites and reached websites belong",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 19:37:17 +0530"
+    },
+    {
+      "id": "2f7a0f9a2ffb4011",
+      "title": "Pegasus Spyware Infection Confirmed on Serbian University Rector's iPhone Days Before Election",
+      "url": "https://thehackernews.com/2026/10/pegasus-spyware-infection-confirmed-on.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The iPhone of Vladan Đokić, rector of the University of Belgrade and a prominent supporter of Serbia's student protest movement, was infected with NSO Group's Pegasus spyware in 2026, the Citizen Lab said on October 19.\nThe finding came six days before Serbia's October 25 snap parliamentary election",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 18:29:44 +0530"
+    },
+    {
+      "id": "467c211f344f8720",
+      "title": "WhatsApp Hid Instructions in Help Pages Telling Its AI Chatbot Not to Recommend Privacy Regulators",
+      "url": "https://thehackernews.com/2026/10/whatsapp-hid-instructions-in-help-pages.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "WhatsApp's help pages carried hidden instructions for its support chatbot that told it not to recommend a data protection authority or regulator to users who could no longer delete their accounts, even though WhatsApp's own privacy policy for Europe tells users they can complain to one.\nThe text sat",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 17:11:06 +0530"
+    },
+    {
+      "id": "df48f73ea919677f",
+      "title": "What Security Teams Can Do To Tame Wild Code",
+      "url": "https://thehackernews.com/2026/10/what-security-teams-can-do-to-tame-wild.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A sales manager builds an AI-assisted workflow to route leads. It connects to customer records, summarizes inbound requests, and posts updates to a shared channel. The workflow saves time, reduces manual work, and soon becomes part of the team’s daily routine. Across the same organization, employees",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 17:03:04 +0530"
+    },
+    {
+      "id": "f0509be43eab3850",
+      "title": "Go Issues Emergency Update Blocking Eight CA Keys Over Undisclosed Security Concerns",
+      "url": "https://thehackernews.com/2026/10/go-issues-emergency-update-blocking.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Go 1.27.3 and Go 1.26.10, released on October 20, make Go's certificate verifier reject any certificate chain that passes through one of eight intermediate certificate authority keys.\nPrograms built on the new release will refuse connections to sites and services whose certificates were issued under",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 17:02:59 +0530"
+    },
+    {
+      "id": "05dd90fd0f45aeea",
+      "title": "PHP warns admins of two critical flaws, emergency patches coming tomorrow",
+      "url": "https://www.bleepingcomputer.com/news/security/php-warns-admins-of-two-critical-flaws-emergency-patches-coming-tomorrow/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The PHP security team is warning administrators to prepare for emergency security updates tomorrow to address two critical vulnerabilities, as information about the flaws has reportedly leaked ahead of their scheduled disclosure.\nPHP powers many websites and web applications, including content manag",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 16:56:43 -0400"
+    },
+    {
+      "id": "aa2f36ffa3be9ae9",
+      "title": "Zeabur shutting down after second security breach in two months",
+      "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Development platform Zeabur has disclosed details of a cybersecurity incident in which an attacker used leaked internal credentials stored in plaintext to compromise its infrastructure and steal over 3.2 million environment variable records and information for 321,810 accounts.\nThe attackers used st",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 15:33:02 -0400"
+    },
+    {
+      "id": "2bcaf37a740b174e",
+      "title": "OpenAI says GPT-6.1 Sol is dramatically better at migrating legacy code",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-gpt-61-sol-is-dramatically-better-at-migrating-legacy-code/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "OpenAI confirmed that its newer models are much better at writing and migrating software in older programming languages.\nThe company lists programming languages such as COBOL, Fortran, and Visual Basic as a few examples where it has seen significant improvements.\nOpenAI says COBOL supports more than",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 14:11:03 -0400"
+    },
+    {
+      "id": "4162cca6289cbc1d",
+      "title": "DHS bans DeepSeek products across US federal civilian agencies",
+      "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. Department of Homeland Security (DHS) is ordering federal civilian agencies to stop using DeepSeek products and remove them from government systems.\nThe order also covers products from the Chinese AI company's affiliates and third-party products and services built using DeepSeek technology.",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 10:19:05 -0400"
+    },
+    {
+      "id": "54e589c7063e95af",
+      "title": "CJIS v6.1 Compliance: 5 Practical Priorities for Agencies",
+      "url": "https://www.bleepingcomputer.com/news/security/cjis-v61-compliance-5-practical-priorities-for-agencies/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "For agencies responsible for protecting Criminal Justice Information (CJI), meeting CJIS requirements means more than putting security controls in place. Those controls need to work across the systems staff use every day, and agencies need to be able to prove they're effective.\nBut, between legacy s",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 09:51:00 -0400"
+    },
+    {
+      "id": "b8cb67bf0a57ef0e",
+      "title": "Hacker gets 8 years for stealing $3.3 million from taxpayers",
+      "url": "https://www.bleepingcomputer.com/news/security/hacker-gets-8-years-for-stealing-33-million-from-taxpayers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A Nigerian national was sentenced to eight years in prison for his involvement in a series of spearphishing attacks targeting US tax preparation businesses since 2019.\n40-year-old Chukwuemeka Victor Amachukwu (also known as Chukwuemeka Victor Eletuo and So Kwan Leung) has pleaded guilty to conspirac",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 09:18:36 -0400"
+    },
+    {
+      "id": "4f28949e9098cbe7",
+      "title": "Windows Server 2025 gets support for quick machine recovery",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-server-2025-gets-support-for-quick-machine-recovery/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft announced that IT administrators can now use quick machine recovery on Windows Server 2025 after installing the October 2026 security update.\nQuick machine recovery (QMR) lets IT admins fix critical boot failures with targeted Windows Update fixes without physical access to affected system",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 08:16:32 -0400"
+    },
+    {
+      "id": "4ee7cda6f2dce865",
+      "title": "OVHcloud CLI releases backdoored on GitHub to steal developer secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/ovhcloud-cli-releases-backdoored-on-github-to-steal-developer-secrets/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "French cloud and hosting provider OVHcloud is warning users that attackers compromised its open-source command-line interface (CLI) tool to distribute information-stealing malware.\nThe attacker hijacked a developer’s GitHub account to gain access to the OVHcloud CLI repository and modify versions 0.",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 07:31:22 -0400"
+    },
+    {
+      "id": "4eb9f7080b11166e",
+      "title": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation",
+      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "NVIDIA Cosmos3-H-Dreams: Bringing Clinical Surgery to Life Through Generative Simulation\nOur first Cosmos-H-Dreams release, built on Cosmos-Predict2.5, brought interactive generative simulation to dVRK tabletop suturing, a foundational proving ground for surgical robotics. As world foundation model ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 18:17:47 GMT"
+    },
+    {
+      "id": "ca293d8533a3487d",
+      "title": "FairStress: A deeper evaluation of fairness in LLM decision-making",
+      "url": "https://huggingface.co/blog/allenai/fairstress",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "FairStress: A deeper evaluation of fairness in LLM decision-making\nToday we’re introducing FairStress, a benchmark for measuring demographic fairness in LLMs beyond the choice a model ultimately makes in decisions impacting people. FairStress is available for download, and we’re also building it int",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 16:09:19 GMT"
+    },
+    {
+      "id": "84cd8d44e9825e73",
+      "title": "Hugging Face ❤️ TorchTPU: TPUs, Natively",
+      "url": "https://huggingface.co/blog/hf-torchtpu",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Hugging Face ❤️ TorchTPU: TPUs, Natively\ntorch_xla, or you ended up having to learn JAX. With TorchTPU, a native PyTorch backend, TPU is now just another device. It opens up native support of TPU in the Hugging Face ecosystem. Transformers, Diffusers and Kernels run natively on TPU. Pick a model fro",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 00:00:00 GMT"
+    },
+    {
+      "id": "d4e57614c374e23f",
+      "title": "Anthropic pitches AI safety bill that may block a model if 50+ people could be killed",
+      "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "A little over a month ago, Anthropic and AI infrastructure provider Nscale announced a $45 billion compute deal. Now, the duo may be about to do it again.\nBloomberg reports that the two companies are said to be on the verge of announcing yet another $45 billion compute deal, citing people familiar w",
+      "summary": "Over the past year, concerns have swirled over the potential dangers posed by artificial intelligence, and debates have raged over the proper path for AI safety. Now, Anthropic appears to have put forth its own vision for how the government might regulate its industry.\nPolitico recently reported tha",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 23:39:38 +0000"
+      "published": "Tue, 20 Oct 2026 23:01:23 +0000"
     },
     {
-      "id": "d45dacf783b2543c",
-      "title": "Embedded AI evaluators won’t be an easy solution, Hugging Face’s policy chief says",
-      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+      "id": "fda7124672794d3f",
+      "title": "Hugging Face CEO warns that Netflix’s OpenAI hack documentary isn’t accurate",
+      "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "AI labs have staked their reputations on model benchmarking — the supposedly neutral and accurate system of evaluations that are designed to measure whether one AI product is better than another.\nHowever, the methods behind these evaluations are complicated and still maturing, said Irene Solaiman, H",
+      "summary": "Before you share the Netflix documentary “AI Gone Rogue” with family or friends to help them understand why the AI industry freaked out so badly that leaders called for a slowdown, take note: Clem Delangue, co-founder and CEO of the AI platform Hugging Face, says the film isn’t accurate. He appears ",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 22:49:27 +0000"
+      "published": "Tue, 20 Oct 2026 22:24:02 +0000"
     },
     {
-      "id": "0cffae2fd0c5318b",
-      "title": "Microsoft says AI agents are like insider threats as ‘frontier models can’t be trusted’",
-      "url": "https://techcrunch.com/2026/10/19/microsoft-says-ai-agents-are-like-insider-threats-as-frontier-models-cant-be-trusted/",
+      "id": "9ea810a533713aeb",
+      "title": "Anthropic’s cloud partnerships are getting messy",
+      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Microsoft on Monday introduced new security features designed to protect enterprises from the growing threat of AI agents. The launch comes at Microsoft continues to warn enterprises about the dangers of AI and agents.\nPerhaps the most notable addition is Guardian Agents, a new feature intended to m",
+      "summary": "Anthropic is having trouble securing enough cloud capacity from AWS, Google, and Microsoft, which increasingly see the Claude-maker as a competitor rather than a customer, according to an S-1 filing leaked to The Wall Street Journal.\nThe leaked filing provides more color to the numbers Reuters and t",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 22:04:28 +0000"
+      "published": "Tue, 20 Oct 2026 21:25:22 +0000"
     },
     {
-      "id": "aaaf393dcb103418",
-      "title": "Amazon is taking its biggest shot at Nvidia yet with new TorchNeuron dev tool",
-      "url": "https://techcrunch.com/2026/10/19/amazon-is-taking-its-biggest-shot-at-nvidia-yet-with-new-torchneuron-dev-tool/",
+      "id": "38bd10c8e49d1d2a",
+      "title": "SpaceX’s AI business is beating expectations",
+      "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "On Monday, Amazon Web Services released a tool called TorchNeuron that lets AI startups easily move their AI apps onto Amazon’s AI chip, Trainium. In doing so, Amazon is also taking a direct stab at the software advantage that has helped Nvidia become the default hardware choice for AI apps and spur",
+      "summary": "SpaceX’s data centers and Grok agents were more profitable than investors expected in third quarter of the year, as the company leaves its roots as a space company behind to focus on artificial intelligence, which now makes up 52% of its income.\nCEO Elon Musk’s deep tech conglomerate reported $14.6 ",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 20:09:24 +0000"
+      "published": "Tue, 20 Oct 2026 20:40:41 +0000"
     },
     {
-      "id": "e37065d0e754995b",
-      "title": "Tolan snags $30M for its AI companion that helps users navigate life",
-      "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+      "id": "a323e283c5c71adc",
+      "title": "OpenAI acquires startup Orchestra Bio⁠ to beef up its biotech business",
+      "url": "https://techcrunch.com/2026/10/20/openai-acquires-startup-orchestra-bio%e2%81%a0-to-beef-up-its-biotech-business/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Tolan, the AI companion designed to help people manage their daily lives, navigate relationships and emotions, and accomplish their goals, has just expanded its runway with another $30 million in capital.\nThe startup’s investors in the latest round include Union Square Ventures, Khosla Ventures, and",
+      "summary": "OpenAI on Tuesday acquired a four-year-old AI biotech software startup called Orchestra Bio, the company announced via its website. Terms of the deal were not disclosed, but the startup had reportedly raised around $20 million as of 2025 from backers like Andreessen Horowitz, Atria, and 8VC.\nOrchest",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 19:00:12 +0000"
+      "published": "Tue, 20 Oct 2026 20:35:10 +0000"
     },
     {
-      "id": "71c2d7263cd3eef9",
-      "title": "Replika’s founder built the AI assistant she pitched at Disrupt 12 years ago",
-      "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+      "id": "45cc8f58865901fe",
+      "title": "Google has joined Amazon in attacking Nvidia’s stronghold with AI app developers",
+      "url": "https://techcrunch.com/2026/10/20/google-has-joined-amazon-in-attacking-nvidias-stronghold-with-ai-app-developers/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Twelve years ago today, Eugenia Kuyda stood up onstage at TechCrunch Disrupt and presented a conversational chatbot called IO that acted as a lifestyle concierge to help people book restaurants and vacations along with other tasks.\nIO, the first product from her startup Luka, came before the deep le",
+      "summary": "On Tuesday, Google announced that TorchTPU, its long-awaited version of PyTorch, is now available as an open-source project. With this, Google joins Amazon in trying to break Nvidia’s stranglehold on the AI industry, where most AI apps are written by default to run on Nvidia’s chips, or GPUs.\nPyTorc",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 18:49:04 +0000"
+      "published": "Tue, 20 Oct 2026 18:38:24 +0000"
     },
     {
-      "id": "36c2a79412d571d7",
-      "title": "Tenstorrent hits $6.2B valuation to scale open-weight AI chips",
-      "url": "https://techcrunch.com/2026/10/19/tenstorrent-hits-6-2b-valuation-to-scale-open-weight-ai-chips/",
+      "id": "6f64ba14f44d2e04",
+      "title": "ChatGPT now lets you lock your chats",
+      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Tenstorrent, a chip startup focused on inference, has raised $1.5 billion at a $6.2 billion valuation. The round comes five months after the 10-year-old Nvidia challenger reportedly received acquisition interest from Intel and Qualcomm at valuations of as much as $5 billion.\nThe fresh round, which m",
+      "summary": "OpenAI announced on Tuesday that users can now lock ChatGPT conversations to keep sensitive chats private when others may have access to their screen or device. Users can secure their locked chats with a four-digit PIN, or use Face ID or Touch ID on supported devices.\nUnlike the app’s Temporary Chat",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 18:37:27 +0000"
+      "published": "Tue, 20 Oct 2026 18:36:53 +0000"
     },
     {
-      "id": "fbbcdbe57addf83e",
-      "title": "Making the internet better for AI agents might make it worse for everyone else",
-      "url": "https://www.technologyreview.com/2026/10/19/1147186/making-the-internet-better-for-ai-agents-might-make-it-worse-for-everyone-else/",
+      "id": "2f7a561d0868a8a6",
+      "title": "Eric Schmidt reportedly owns about half as much of Anthropic as CEO Dario Amodei",
+      "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Eric Schmidt’s fortune is about to get even bigger. The former Google CEO is reported to own about 1% of Anthropic after investing tens of millions of dollars in the leading AI lab’s Series A round in 2021, according to Bloomberg. The startup was valued at $461 million at the time, according to Pitc",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 20 Oct 2026 17:55:12 +0000"
+    },
+    {
+      "id": "913203c4de74009d",
+      "title": "The new economics of enterprise AI",
+      "url": "https://www.technologyreview.com/2026/10/20/1146937/the-new-economics-of-enterprise-ai/",
       "source": "MIT Tech Review AI",
       "category": "ai",
-      "summary": "Making the internet better for AI agents might make it worse for everyone else\nMillions of AI agents are descending on a web built for humans. Websites are trying to keep them out, but the arrival of these new visitors could transform the internet.\nThis story originally appeared in The Algorithm, ou",
+      "summary": "Sponsored\nThe new economics of enterprise AI\nAs enterprise AI shifts from isolated experiments to becoming foundational infrastructure, companies need to focus on efficiency, not just consumption.\nProvided byHPE\nImagine your company just discovered electricity. At first only a few machines run on it",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 18:22:47 +0000"
+      "published": "Tue, 20 Oct 2026 15:20:25 +0000"
     },
     {
-      "id": "7216fffbb8a1125e",
-      "title": "“We were looking at it wrong”: The explosive claim that’s upended the AI world",
-      "url": "https://www.technologyreview.com/2026/10/19/1147149/we-were-looking-at-it-wrong-the-explosive-claim-thats-upended-the-ai-world/",
+      "id": "7d296a29338c4ed3",
+      "title": "AI adoption by industry shows what other sectors can learn",
+      "url": "https://www.technologyreview.com/2026/10/20/1145423/ai-adoption-by-industry-shows-what-other-sectors-can-learn/",
       "source": "MIT Tech Review AI",
       "category": "ai",
-      "summary": "“We were looking at it wrong”: The explosive claim that’s upended the AI world\nAn exclusive interview with Nick Cammarata, the researcher whose 26,000-word viral blog post has AI safety folks celebrating.\n“I think I have good news about the nature of neural networks.” With those simple words of opti",
+      "summary": "Sponsored\nAI adoption by industry shows what other sectors can learn\nTech and finance are setting the pace on AI adoption. TripleTen research shows which skills will reach healthcare, education, and retail next.\nProvided byTripleTen\nThe current narrative around artificial intelligence in the workpla",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 17:45:55 +0000"
+      "published": "Tue, 20 Oct 2026 12:00:00 +0000"
     },
     {
-      "id": "b327983725873259",
-      "title": "AI researchers stranded Claude on a virtual desert island. It started to “play.”",
-      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
+      "id": "506646dbe51b1aa8",
+      "title": "A visit to Samsung’s massive new semiconductor hub",
+      "url": "https://www.technologyreview.com/2026/10/20/1145916/dispatch-visit-to-samsung-massive-new-semiconductor-hub/",
       "source": "MIT Tech Review AI",
       "category": "ai",
-      "summary": "AI researchers stranded Claude on a virtual desert island. It started to “play.”\nIn various tests, solo AI agents invented versions of basketball and “the floor is lava.” But were they truly playing?\nWhat do AI agents do if you don’t tell them to do anything? The answer looks a lot like play.\nResear",
+      "summary": "A visit to Samsung’s massive new semiconductor hub\nAt the world’s biggest chipmaking complex, Samsung is building the fabs it needs for the AI memory boom.\nGenerative AI models run on powerful chips known as GPUs, which depend on stacks of specialized memory chips packaged with the processor. To mee",
       "importance": 2.2,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 09:08:05 +0000"
+      "published": "Tue, 20 Oct 2026 09:00:00 +0000"
     },
     {
-      "id": "561dd3f2eda51546",
-      "title": "Siemens Software Center Vulnerability Exploited in ClickFix Malware Attacks",
-      "url": "https://www.securityweek.com/siemens-software-center-vulnerability-exploited-in-clickfix-malware-attacks/",
+      "id": "f7a865abe770edc4",
+      "title": "US Agencies Detail Incident Response Practices for Rogue AI Agents",
+      "url": "https://www.securityweek.com/us-agencies-detail-incident-response-practices-for-rogue-ai-agents/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Siemens revealed on Monday that threat actors have exploited a vulnerability in Siemens Software Center as part of a malware campaign.\nSiemens Software Center handles the download, installation, activation and updating of software that customers have bought, and it can also be used to start free tri",
+      "summary": "Effective and efficient use of complex agentic systems is important for all organizations, but recognizing, preventing and recovering from them going rogue could be an existential necessity.\nNIST, the NSA, and CISA recognize the increasing potential for AI agents to behave in an unexpected and poten",
       "importance": 2.0,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 18:15:39 +0000"
+      "published": "Tue, 20 Oct 2026 15:45:00 +0000"
     },
     {
-      "id": "acf12ad31aacbc6b",
-      "title": "ConnectWise Suspends Cloud Services in Response to Cyberattack",
-      "url": "https://www.securityweek.com/connectwise-suspends-cloud-services-in-response-to-cyberattack/",
+      "id": "4791d60cd7f67dbe",
+      "title": "The Key to AI Software Security Isn’t Speed, It’s Maturity",
+      "url": "https://www.securityweek.com/the-key-to-ai-software-security-isnt-speed-its-maturity/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "ConnectWise is scrambling to restore its Cloud Backup, SaaS Security, and Cloud Management services after hackers abused a compromised credential to access customers’ M365 tenants.\nThe company suspended the Cloud Backup service (formerly known as SkyKick) on October 17, roughly 12 hours after it sta",
+      "summary": "Agentic artificial intelligence software development has all the traits of a summer blockbuster, with the prospects of Godzilla-sized productivity gains thrilling business leaders and security implications sending chills down the spines of developers and SOC teams. One difference, though, is that th",
       "importance": 2.0,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 13:16:20 +0000"
+      "published": "Tue, 20 Oct 2026 13:34:23 +0000"
     },
     {
-      "id": "6e3176643ea9a3e9",
-      "title": "One Compromised Login Exposed Millions of California Students’ Records",
-      "url": "https://www.securityweek.com/one-compromised-login-exposed-millions-of-california-students-records/",
+      "id": "cf21e83d251e9c5d",
+      "title": "Ahold Delhaize Restoring Services Disrupted by Cyberattack",
+      "url": "https://www.securityweek.com/ahold-delhaize-restoring-services-disrupted-by-cyberattack/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Personal information on current and former California public school students was copied from a file transfer system belonging to Educational Testing Service (ETS), according to the California Department of Education (CDE).\nETS is a nonprofit that handles state and federally mandated testing under a ",
+      "summary": "Dutch-Belgian grocery giant Ahold Delhaize has restored some of the services impacted by last week’s cyberattack and expects more to come back online within days.\nOn October 12, the company took its systems offline in response to “a security issue” within its network, which impacted its online servi",
       "importance": 2.0,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 11:55:50 +0000"
+      "published": "Tue, 20 Oct 2026 13:02:18 +0000"
     },
     {
-      "id": "2dc84d618dba4ea3",
-      "title": "Recoverability-Controlled Safety Miscalibration in Large Language Models",
-      "url": "https://arxiv.org/abs/2610.22425",
-      "source": "arXiv cs.CR",
+      "id": "d02f2b9b0912b72b",
+      "title": "AI Platform Cairn Abused to Hack Over 100 Organizations",
+      "url": "https://www.securityweek.com/ai-platform-cairn-abused-to-hack-over-100-organizations/",
+      "source": "SecurityWeek",
       "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 15 Oct 2026]\nTitle:Recoverability-Controlled Safety Miscalibration in Large Language Models\nView PDF HTML (experimental)\n            Abstract:Safety-aligned language models are expected to refuse harmful requests while remaining useful for",
-      "importance": 1.6,
+      "summary": "Threat actors have been abusing open source AI platform Cairn to automate malicious operations against hundreds of websites worldwide, AI security firm Norforge reports.\nCairn is a general-purpose problem-solving engine that can coordinate AI agents towards a set goal and can be used as an autonomou",
+      "importance": 2.0,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 00:00:00 -0400"
+      "published": "Tue, 20 Oct 2026 12:47:22 +0000"
     },
     {
-      "id": "a5267357c8b8a8a7",
-      "title": "An Agentic ENF Framework for Forensic Video Authentication Against Generative AI",
-      "url": "https://arxiv.org/abs/2610.22440",
-      "source": "arXiv cs.CR",
+      "id": "b44079bd0a647e18",
+      "title": "Ex-OpenAI Worker Accused of Bugging Conference Room Planned to Fly to Saudi Arabia, Prosecutors Say",
+      "url": "https://www.securityweek.com/ex-openai-worker-accused-of-bugging-conference-room-planned-to-fly-to-saudi-arabia-prosecutors-say/",
+      "source": "SecurityWeek",
       "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 15 Oct 2026]\nTitle:An Agentic ENF Framework for Forensic Video Authentication Against Generative AI\nView PDF\n            Abstract:Generative models now synthesise video that is hard to distinguish from genuine footage, and learned detector",
-      "importance": 1.6,
+      "summary": "A former OpenAI engineer charged with secretly installing a recording device in a conference room to glean company details had been “mere days” away from absconding to Saudi Arabia before his arrest last week, federal prosecutors revealed in new court filings.\nAbdulrahman Alfozan’s wife and young so",
+      "importance": 2.0,
       "matched": [],
-      "published": "Mon, 19 Oct 2026 00:00:00 -0400"
+      "published": "Tue, 20 Oct 2026 12:33:12 +0000"
     }
   ]
 }
