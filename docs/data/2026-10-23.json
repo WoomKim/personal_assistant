@@ -1,0 +1,625 @@
+{
+  "date": "2026-10-23",
+  "generated_at": "2026-10-23T09:14:38.291620+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "d76b50dba1625800",
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\nNobody reviewed its access. Nobody owns it.\nIf an employee had that much reach with that little over",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 23 Oct 2026 00:35:35 +0530"
+    },
+    {
+      "id": "23872cb1986e28ae",
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22.\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Fri, 23 Oct 2026 00:35:17 +0530"
+    },
+    {
+      "id": "a45e553ca30bdb4a",
+      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't ev",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Thu, 22 Oct 2026 23:15:44 +0530"
+    },
+    {
+      "id": "eebdb3f4f6ae3ff9",
+      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Thu, 22 Oct 2026 22:31:53 +0530"
+    },
+    {
+      "id": "5d4f96d6acc675d5",
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments.\nVCO is a web-based management portal that helps administrators configure, monitor, and manage VeloCloud SD-WANs (Software-Defined Wide Area Netw",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited"
+      ],
+      "published": "Thu, 22 Oct 2026 13:18:22 -0400"
+    },
+    {
+      "id": "09776931f4659a5d",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "22nd October 2026 - Link Blog\nDonating Agent Skills to the Agentic AI Foundation. News today from Anthropic:\nWe’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which w",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-10-22T18:09:56+00:00"
+    },
+    {
+      "id": "95eb6975ad245049",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox\nThis is the follow up to our first blog post, The Agent Said It Was Done. The Database Disagreed. ThinkingBox-Training is now available on GitHub.\nWe built ThinkingBox to evaluate an agent's work by comparing the final d",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 22 Oct 2026 22:24:34 GMT"
+    },
+    {
+      "id": "9d72639f5e003f5a",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Uber and OpenAI announced an expansion of their partnership on Thursday, with the ride-share giant telling TechCrunch that its entire global workforce — some 30,000 people — will now be using ChatGPT Work.\nChatGPT Work was introduced in July as an enterprise-focused AI agent that corporate teams cou",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 22 Oct 2026 16:00:00 +0000"
+    },
+    {
+      "id": "0bffbef0359b5df6",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Spotify had a strong third quarter, reaching 788 million monthly active users and generating nearly €5 billion (around $5.6 billion USD) in revenue. But the more interesting takeaway from its earnings call was how the company sees people listening to music in the future, and why the rise of AI agent",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 22 Oct 2026 15:03:58 +0000"
+    },
+    {
+      "id": "474d46551650ea30",
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "22nd October 2026 - Link Blog\nDE STAAT - FREEDOM (Official Music Video) (via) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat:\nThe visual effects are credited to Matties Grooten of Fake it or Leave it.\nRecent articles\n- Battle Drones - a vib",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-22T19:42:26+00:00"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "09776931f4659a5d",
+      "title": "Donating Agent Skills to the Agentic AI Foundation",
+      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "22nd October 2026 - Link Blog\nDonating Agent Skills to the Agentic AI Foundation. News today from Anthropic:\nWe’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which w",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-10-22T18:09:56+00:00"
+    },
+    {
+      "id": "d76b50dba1625800",
+      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
+      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\nNobody reviewed its access. Nobody owns it.\nIf an employee had that much reach with that little over",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 23 Oct 2026 00:35:35 +0530"
+    },
+    {
+      "id": "23872cb1986e28ae",
+      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
+      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22.\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Fri, 23 Oct 2026 00:35:17 +0530"
+    },
+    {
+      "id": "a45e553ca30bdb4a",
+      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
+      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't ev",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Thu, 22 Oct 2026 23:15:44 +0530"
+    },
+    {
+      "id": "eebdb3f4f6ae3ff9",
+      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
+      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The ",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Thu, 22 Oct 2026 22:31:53 +0530"
+    },
+    {
+      "id": "5d4f96d6acc675d5",
+      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments.\nVCO is a web-based management portal that helps administrators configure, monitor, and manage VeloCloud SD-WANs (Software-Defined Wide Area Netw",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited"
+      ],
+      "published": "Thu, 22 Oct 2026 13:18:22 -0400"
+    },
+    {
+      "id": "c78f9791369d56c3",
+      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
+      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday.\nTracked as CVE-2026-109618 and CVE-2026-109619, the two critical vulnerabilities let attackers gain remote code execution (RCE) on vulner",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Thu, 22 Oct 2026 09:09:12 -0400"
+    },
+    {
+      "id": "0f812922fb34579d",
+      "title": "GitLab warns of new max severity code execution vulnerability",
+      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers.\nThis security issue is tracked as CVE-2026-110264 and was reported by a security researcher using the 'joaxcar' handle through GitLab's",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 22 Oct 2026 07:41:48 -0400"
+    },
+    {
+      "id": "95eb6975ad245049",
+      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox\nThis is the follow up to our first blog post, The Agent Said It Was Done. The Database Disagreed. ThinkingBox-Training is now available on GitHub.\nWe built ThinkingBox to evaluate an agent's work by comparing the final d",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 22 Oct 2026 22:24:34 GMT"
+    },
+    {
+      "id": "9d72639f5e003f5a",
+      "title": "Uber puts all 30,000 employees on ChatGPT Work",
+      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Uber and OpenAI announced an expansion of their partnership on Thursday, with the ride-share giant telling TechCrunch that its entire global workforce — some 30,000 people — will now be using ChatGPT Work.\nChatGPT Work was introduced in July as an enterprise-focused AI agent that corporate teams cou",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 22 Oct 2026 16:00:00 +0000"
+    },
+    {
+      "id": "0bffbef0359b5df6",
+      "title": "Spotify’s current AI bet is about being the music service that agents choose",
+      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Spotify had a strong third quarter, reaching 788 million monthly active users and generating nearly €5 billion (around $5.6 billion USD) in revenue. But the more interesting takeaway from its earnings call was how the company sees people listening to music in the future, and why the rise of AI agent",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 22 Oct 2026 15:03:58 +0000"
+    },
+    {
+      "id": "2bd447638fb1ac1c",
+      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
+      "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Signal has resolved a critical-severity vulnerability that could allow a malicious caller to keep audio and video tracks enabled even after the user hung up.\nThe security defect is tracked as CVE-2026-113380 (CVSS score of 9.3) and impacts RingRTC, the open source library Signal uses for voice and v",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 22 Oct 2026 12:34:31 +0000"
+    },
+    {
+      "id": "ec99b1cdf496c7cb",
+      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
+      "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Tech vendors, cybersecurity companies and government agencies have published advisories, detections and mitigations for the PHP2Shell vulnerabilities, while many software makers are still checking whether their own products are exposed.\nThe two critical bugs, CVE-2026-109618 and CVE-2026-109619, can",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 22 Oct 2026 12:20:23 +0000"
+    },
+    {
+      "id": "34f12a1f7c34dc26",
+      "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
+      "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Cisco on Wednesday announced patches for 34 vulnerabilities across Expressway Series, IOS XR, Snort 3, and Unified Communications products.\nExpressway Series received fixes for 10 vulnerabilities, including a critical-severity remote code execution (RCE) bug tracked as CVE-2026-76466.\nAccording to C",
+      "importance": 3.0,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Thu, 22 Oct 2026 10:05:21 +0000"
+    },
+    {
+      "id": "474d46551650ea30",
+      "title": "DE STAAT - FREEDOM (Official Music Video)",
+      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "22nd October 2026 - Link Blog\nDE STAAT - FREEDOM (Official Music Video) (via) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat:\nThe visual effects are credited to Matties Grooten of Fake it or Leave it.\nRecent articles\n- Battle Drones - a vib",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-22T19:42:26+00:00"
+    },
+    {
+      "id": "0acbee798fb21bdf",
+      "title": "Quoting Armin Ronacher",
+      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "22nd October 2026\nAs fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.\nRecent articles\n- Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-22T15:34:13+00:00"
+    },
+    {
+      "id": "f74ce17a74d9601f",
+      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
+      "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private keys of eight of its intermediate CA certificates.\neMudhra said it will replace aff",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 23:42:43 +0530"
+    },
+    {
+      "id": "6b7369ef168a122f",
+      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
+      "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018.\nAccording to multiple reports from the Associated Press, the New York ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 21:42:31 +0530"
+    },
+    {
+      "id": "c145f24074c2801f",
+      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
+      "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\nIn tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the c",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 19:08:22 +0530"
+    },
+    {
+      "id": "76b18c2dc5a90e0a",
+      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
+      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\nUpon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in so",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 16:45:42 +0530"
+    },
+    {
+      "id": "6af5f5a84e31744d",
+      "title": "Railway warns devs to rotate secrets after potential breach",
+      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cloud hosting provider Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week.\nThe company says its investigation indicates that, in some cases, an unauthorized third party may have obtained decrypte",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 17:25:31 -0400"
+    },
+    {
+      "id": "177124c993da1845",
+      "title": "Capcom confirms data breach affecting 11.7 million accounts",
+      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information.\nApart from emails, exposed data includes account creation date, last login timestamp, number of logins, and the IP ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 16:22:45 -0400"
+    },
+    {
+      "id": "0151e8522bf78e30",
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
+      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers compromised the LiteLLM project’s PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables.\nThe supply-chain attack affected all PyPI wheels (.whl installation packages) for LiteLLM version 1.107.0, impacting Windows, Linux",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 15:12:51 -0400"
+    },
+    {
+      "id": "0563a66ccd63345d",
+      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working.\nEWS is an API for developing apps that can access Exchange mailbox items (e.g., email messages, meetings, and contacts) from Exchange Online and on-premise",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 11:49:32 -0400"
+    },
+    {
+      "id": "92b876190d734454",
+      "title": "Machine speed attacks require machine speed detection and response",
+      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "TL;DR: Our analysis shows attackers are now enumerating or pulling data within 15 minutes of getting into an environment, and the tools that should have caught them were not effective. We will discuss three common attack patterns in which we observed this behavior.\n- Stolen developer tokens. Poisone",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 10:02:12 -0400"
+    },
+    {
+      "id": "eaa0ebff7daf626e",
+      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
+      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet\n🤗 Models | 📄 Tech Report | 📊 Data | 💻 Code | 🌎 Embeddings Explorer | 🗺️ Interactive story\nToday, we’re releasing OlmoEarth v1.3, a state-of-the-art satellite embedding model. Alongside OlmoEarth v1.3, we’re sharing precomputed, annual ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 16:11:31 GMT"
+    },
+    {
+      "id": "5d118fadbe793ddd",
+      "title": "Ensemble forecasting with IBM Granite time-series models",
+      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Ensemble forecasting with IBM Granite time-series models\nFour open Granite models, one extensible forecasting interface, and less guesswork about which model to use.\nPre-trained time-series models can forecast without training on your dataset, but you still have to choose one. A model that handles s",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 07:51:31 GMT"
+    },
+    {
+      "id": "d73c3fbf5a8b67dc",
+      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
+      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI is reportedly close to securing another mega round of private funding, rather than plowing ahead with an IPO. The AI lab is working on raising up to $30 billion at a $1.25 trillion pre-money valuation in a round led by Coatue and investors in UAE, sources told CNBC.\nThis follows a similar rep",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 22:08:24 +0000"
+    },
+    {
+      "id": "ee7ecab289596410",
+      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
+      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Concerns have swirled over the access that consumers are increasingly entrusting to AI agents. Now, security services are trying to catch up.\nPassword manager 1Password on Thursday launched a new tool by which users can allow agents to log into their personal accounts on their behalf, without the ag",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 19:07:09 +0000"
+    },
+    {
+      "id": "1d8d266cc065f7b3",
+      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
+      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company.\nTypeSafe’s Jev model created a category for deep learn",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 19:00:00 +0000"
+    },
+    {
+      "id": "afbb328c263f52ce",
+      "title": "Canva releases its first image generation model",
+      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Design platform Canva released its first image generation model, called Canva Craft, developed by its research team to compete with same-category models from Google, OpenAI, ByteDance, and Meta.\nThe company said its model works in two stages. In the first stage, it interprets users’ prompts and crea",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 19:00:00 +0000"
+    },
+    {
+      "id": "4baf690dfb57b3c5",
+      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
+      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Microsoft’s AI diagnostic system correctly diagnosed complex medical cases in a simulation more than twice as often as generalist physicians, according to a study published Thursday in Science. Mustafa Suleyman, Microsoft AI’s CEO, called the result a step toward “medical superintelligence.”\nThe sys",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 18:43:53 +0000"
+    },
+    {
+      "id": "93c844a35d415e95",
+      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
+      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The bad week for cybersecurity just got worse for thousands more companies, who were spied on by Chinese hackers following the breach of IT management and remote access giant ConnectWise.\nSecurity researchers at Microsoft say the China state-aligned hackers broke into ConnectWise’s cloud backup serv",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 16:47:17 +0000"
+    },
+    {
+      "id": "2aedd54f3eb3c474",
+      "title": "Designing an AI serving harness built to last",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nDesigning an AI serving harness built to last\nThe engineering system surrounding an AI model increasingly determines whether its intelligence can be delivered reliably, economically, and at scale.\nProvided byEXL\nThe next competitive advantage in enterprise AI has less to do with which mode",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 21:17:29 +0000"
+    },
+    {
+      "id": "d8c2939ee8cf1af6",
+      "title": "The Foundations of Scalable AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nThe Foundations of Scalable AI\nPresented byVanguard\nA scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review's EmTech Future conference explores what it takes to b",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 18:48:04 +0000"
+    },
+    {
+      "id": "6a85074051ec3677",
+      "title": "Making the case for context-aware AI",
+      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nMaking the case for context-aware AI\nMoving AI beyond experimentation requires connecting agents to operational context and identifying the business processes where they can deliver the greatest value.\nIn partnership withCelonis\nEnterprise AI can generate recommendations, automate tasks, a",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 10:00:00 +0000"
+    },
+    {
+      "id": "1597d0c89acaa275",
+      "title": "AI’s hidden storage bill: What inference leaves behind",
+      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nProvided byWD\nAsk most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs.\nWhat happens to data after a model responds? Much of the back-end dat",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 08:41:18 +0000"
+    },
+    {
+      "id": "dcda11bca2255036",
+      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
+      "url": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Corey Thuen is a hacker with a hacker mindset that is focused on the right way to do wrong things to get the right result.\nCorey Thuen is the founder and CEO of Gravwell, a firm with a slight difference: it develops data analytics and vulnerability detection through a combined team of big data exper",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 14:31:34 +0000"
+    },
+    {
+      "id": "6a8ba679d4e13781",
+      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
+      "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Amsterdam-based industrial cybersecurity firm Indurex has raised €7 million (roughly $7.84 million) in a round led by Contrarian Ventures, with Axeleo Capital and Curiosity also participating.\nThe company said it will use the funding for research and development and to expand its commercial operatio",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 13:00:00 +0000"
+    },
+    {
+      "id": "eb08dcb4a958ad76",
+      "title": "Splunk, SolarWinds Release Fresh Security Updates",
+      "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Splunk and SolarWinds this week released patches for multiple vulnerabilities, including flaws leading to code execution, privilege escalation, denial-of-service (DoS), and information disclosure.\nOn Wednesday, Splunk rolled out security updates for Splunk Enterprise and SOAR to resolve dozens of se",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 22 Oct 2026 10:45:24 +0000"
+    }
+  ]
+}
