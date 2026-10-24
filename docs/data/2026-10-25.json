@@ -1,0 +1,270 @@
+{
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T08:50:13.839943+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software」입니다.",
+  "stats": {
+    "collected": 11,
+    "summarized": 11,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "a0a9e49aec28c38a",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.\nTracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite pas",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Sat, 24 Oct 2026 16:39:29 +0530"
+    },
+    {
+      "id": "3a1a036ef73ae68c",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Sat, 24 Oct 2026 16:33:33 +0530"
+    },
+    {
+      "id": "838b4b1ce2538127",
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\nThe critical-s",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited"
+      ],
+      "published": "Sat, 24 Oct 2026 11:55:57 +0530"
+    },
+    {
+      "id": "afec56c7243a9162",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\"You may choose to allow certain Google services, in",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 16:06:33 +0530"
+    },
+    {
+      "id": "94d51fe2d20419a9",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\nThe updater belongs to Time4Popcorn, an abandoned copy of",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 14:34:24 +0530"
+    },
+    {
+      "id": "3812b4d599bb7adb",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "24th October 2026\nI added four player online mode to Battledrones - previous maps were limited to two.\nHere's the initial prompt I used:\nAdd a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to fo",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-24T03:59:57+00:00"
+    },
+    {
+      "id": "b0af889ad05fbb7f",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Relay, an AI-powered workflow automation tool built as an alternative to Zapier, shut down entirely in August. The product let users automate email and task workflows using AI agents, but as OpenAI, Google, and other larger platforms built similar automation directly into their own tools, five-year-",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 19:00:00 +0000"
+    },
+    {
+      "id": "35d668020c863316",
+      "title": "Block’s new voice model sounds eerily human",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Jack Dorsey’s Block released a new voice model out of the company’s research lab that runs locally and sounds strangely human with its expressions like laughs, pauses, and cries. The company said the model, called Dessa, is trained fully on human speech and a single NVIDIA GPU rack.\nDessa is a full-",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 16:00:00 +0000"
+    },
+    {
+      "id": "110fd09f65f25a52",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Most AI chatbots won’t outright tell you who to vote for, but some of the models behind them will. A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 15:00:00 +0000"
+    },
+    {
+      "id": "0d4ae8a7dd392962",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can mean scheduling an appointment, organizi",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 14:00:00 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "a0a9e49aec28c38a",
+      "title": "Brotli Decoder Flaw Behind Node.js RCE Also Affects Bun, Python and Other Widely Used Software",
+      "url": "https://thehackernews.com/2026/10/brotli-decoder-flaw-behind-nodejs-rce.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A memory-corruption flaw in Google's Brotli decoder sits in many programs that unpack Brotli-compressed data, among them Bun, the Python Brotli and brotlicffi packages, and Envoy proxies set up to decompress Brotli.\nTracked as CVE-2026-111497, the flaw allows crafted compressed data to overwrite pas",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Sat, 24 Oct 2026 16:39:29 +0530"
+    },
+    {
+      "id": "3a1a036ef73ae68c",
+      "title": "Leaked LiteLLM Master Key Let Attackers Steal GitHub Tokens and Hijack Release Pipeline",
+      "url": "https://thehackernews.com/2026/10/leaked-litellm-master-key-let-attackers.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "LiteLLM on Friday revealed that an Agent Platform master key accidentally published to a public GitHub repository in late May 2026 ultimately allowed the threat actor to push a malicious version of the popular Python package.\n\"On May 27, 2026, a configuration file was committed to the public LiteLLM",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Sat, 24 Oct 2026 16:33:33 +0530"
+    },
+    {
+      "id": "838b4b1ce2538127",
+      "title": "CISA Flags Two Actively Exploited Critical Flaws in Collabora Online and Arista VeloCloud",
+      "url": "https://thehackernews.com/2026/10/cisa-flags-two-actively-exploited.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two vulnerabilities impacting Collabora Online Built-in CODE Server and Arista VeloCloud Orchestrator (VCO) to its Known Exploited Vulnerabilities (KEV), citing reports of active exploitation in the wild.\nThe critical-s",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited"
+      ],
+      "published": "Sat, 24 Oct 2026 11:55:57 +0530"
+    },
+    {
+      "id": "3812b4d599bb7adb",
+      "title": "battledrones v14: Compass Rose, a four player map",
+      "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "24th October 2026\nI added four player online mode to Battledrones - previous maps were limited to two.\nHere's the initial prompt I used:\nAdd a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to fo",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-24T03:59:57+00:00"
+    },
+    {
+      "id": "afec56c7243a9162",
+      "title": "Google Says Gmail and Photos Data Shared With AI Search Could Be Used for Targeted Ads",
+      "url": "https://thehackernews.com/2026/10/google-says-gmail-and-photos-data.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Google has updated its privacy policy to spell out that using personalized artificial intelligence (AI) features in Search or Gemini could allow the company to serve targeted ads to users based on their activity on other connected Google services.\n\"You may choose to allow certain Google services, in",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 16:06:33 +0530"
+    },
+    {
+      "id": "94d51fe2d20419a9",
+      "title": "Researchers Push Over 2 Million Updates to Remotely Disable Popcorn Time Updater That Could Fuel a Botnet",
+      "url": "https://thehackernews.com/2026/10/researchers-push-over-2-million-updates.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Between November 2025 and March 2026, the Dutch security firm Eye Security pushed more than 2 million updates to computers it did not own to switch off a background updater that it said could have allowed an outsider to take over the machine.\nThe updater belongs to Time4Popcorn, an abandoned copy of",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 14:34:24 +0530"
+    },
+    {
+      "id": "a6ce31709924c3c2",
+      "title": "BlackX UEFI bootkit exploits Baton Drop flaw to bypass Secure Boot",
+      "url": "https://www.bleepingcomputer.com/news/security/blackx-uefi-bootkit-exploits-baton-drop-flaw-to-bypass-secure-boot/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A new UEFI bootkit named BlackX, deployed in an espionage campaign in early 2026, exploited the old Baton Drop vulnerability to bypass Secure Boot and load a malicious driver designed to interfere with security solutions from Kaspersky and Avast.\nThe operation has been attributed with medium confide",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 10:17:32 -0400"
+    },
+    {
+      "id": "b0af889ad05fbb7f",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/10/24/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Relay, an AI-powered workflow automation tool built as an alternative to Zapier, shut down entirely in August. The product let users automate email and task workflows using AI agents, but as OpenAI, Google, and other larger platforms built similar automation directly into their own tools, five-year-",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 19:00:00 +0000"
+    },
+    {
+      "id": "35d668020c863316",
+      "title": "Block’s new voice model sounds eerily human",
+      "url": "https://techcrunch.com/2026/10/24/blocks-new-voice-model-sounds-eerily-human/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Jack Dorsey’s Block released a new voice model out of the company’s research lab that runs locally and sounds strangely human with its expressions like laughs, pauses, and cries. The company said the model, called Dessa, is trained fully on human speech and a single NVIDIA GPU rack.\nDessa is a full-",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 16:00:00 +0000"
+    },
+    {
+      "id": "110fd09f65f25a52",
+      "title": "Forced to pick, Grok’s AI model chooses Republicans. OpenAI’s picks Democrats.",
+      "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Most AI chatbots won’t outright tell you who to vote for, but some of the models behind them will. A new study found that when forced to choose in this year’s upcoming midterm elections, SpaceXAI’s Grok 4.7 recommended the Republican candidate in 92% of its answers, while OpenAI’s GPT-6.1 Sol picked",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 15:00:00 +0000"
+    },
+    {
+      "id": "0d4ae8a7dd392962",
+      "title": "Here are the top AI agents that can live in your text messages",
+      "url": "https://techcrunch.com/2026/10/24/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can mean scheduling an appointment, organizi",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 24 Oct 2026 14:00:00 +0000"
+    }
+  ]
+}
