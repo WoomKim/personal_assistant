@@ -1,625 +1,592 @@
 {
-  "date": "2026-10-23",
-  "generated_at": "2026-10-23T09:14:38.291620+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat」입니다.",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T09:07:51.227726+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws」입니다.",
   "stats": {
-    "collected": 40,
-    "summarized": 40,
+    "collected": 38,
+    "summarized": 38,
     "picked": 10,
     "llm": "live"
   },
   "items": [
     {
-      "id": "d76b50dba1625800",
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "id": "4645fb818a8e9e28",
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\nNobody reviewed its access. Nobody owns it.\nIf an employee had that much reach with that little over",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 23 Oct 2026 00:35:35 +0530"
-    },
-    {
-      "id": "23872cb1986e28ae",
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22.\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "zero-day"
-      ],
-      "published": "Fri, 23 Oct 2026 00:35:17 +0530"
-    },
-    {
-      "id": "a45e553ca30bdb4a",
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't ev",
+      "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\nGitLab found that a specially crafted pattern could corrupt memory while ",
       "why": "",
       "importance": 3.4,
       "matched": [
         "RCE"
       ],
-      "published": "Thu, 22 Oct 2026 23:15:44 +0530"
+      "published": "Fri, 23 Oct 2026 23:24:08 +0530"
     },
     {
-      "id": "eebdb3f4f6ae3ff9",
-      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "id": "015a882ee27441d9",
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The ",
+      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Fri, 23 Oct 2026 23:20:47 +0530"
+    },
+    {
+      "id": "3bc9a46d29046dd2",
+      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.\nThe projec",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Fri, 23 Oct 2026 16:55:43 +0530"
+    },
+    {
+      "id": "3a89e69463ceb5d0",
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\nThe flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separat",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 23 Oct 2026 15:06:00 +0530"
+    },
+    {
+      "id": "a2a9e372db7b0e08",
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated.\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feedin",
       "why": "",
       "importance": 3.4,
       "matched": [
         "RCE"
       ],
-      "published": "Thu, 22 Oct 2026 22:31:53 +0530"
+      "published": "Fri, 23 Oct 2026 14:10:43 +0530"
     },
     {
-      "id": "5d4f96d6acc675d5",
-      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments.\nVCO is a web-based management portal that helps administrators configure, monitor, and manage VeloCloud SD-WANs (Software-Defined Wide Area Netw",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "zero-day",
-        "actively exploited"
-      ],
-      "published": "Thu, 22 Oct 2026 13:18:22 -0400"
-    },
-    {
-      "id": "09776931f4659a5d",
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "id": "2e71264ea893e482",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "22nd October 2026 - Link Blog\nDonating Agent Skills to the Agentic AI Foundation. News today from Anthropic:\nWe’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which w",
+      "summary": "23rd October 2026 - Link Blog\nIntroducing Kimi K3.1 Pro (via) Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".\nThey're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except ",
       "why": "",
       "importance": 3.6,
       "matched": [
-        "agent"
+        "open weights"
       ],
-      "published": "2026-10-22T18:09:56+00:00"
+      "published": "2026-10-23T19:40:54+00:00"
     },
     {
-      "id": "95eb6975ad245049",
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox\nThis is the follow up to our first blog post, The Agent Said It Was Done. The Database Disagreed. ThinkingBox-Training is now available on GitHub.\nWe built ThinkingBox to evaluate an agent's work by comparing the final d",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Thu, 22 Oct 2026 22:24:34 GMT"
-    },
-    {
-      "id": "9d72639f5e003f5a",
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Uber and OpenAI announced an expansion of their partnership on Thursday, with the ride-share giant telling TechCrunch that its entire global workforce — some 30,000 people — will now be using ChatGPT Work.\nChatGPT Work was introduced in July as an enterprise-focused AI agent that corporate teams cou",
-      "why": "",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Thu, 22 Oct 2026 16:00:00 +0000"
-    },
-    {
-      "id": "0bffbef0359b5df6",
-      "title": "Spotify’s current AI bet is about being the music service that agents choose",
-      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Spotify had a strong third quarter, reaching 788 million monthly active users and generating nearly €5 billion (around $5.6 billion USD) in revenue. But the more interesting takeaway from its earnings call was how the company sees people listening to music in the future, and why the rise of AI agent",
-      "why": "",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Thu, 22 Oct 2026 15:03:58 +0000"
-    },
-    {
-      "id": "474d46551650ea30",
-      "title": "DE STAAT - FREEDOM (Official Music Video)",
-      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "id": "ece6c921b830e7e3",
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "22nd October 2026 - Link Blog\nDE STAAT - FREEDOM (Official Music Video) (via) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat:\nThe visual effects are credited to Matties Grooten of Fake it or Leave it.\nRecent articles\n- Battle Drones - a vib",
+      "summary": "23rd October 2026\nPrompt to Claude Opus 5.5 High:\nBuild an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush\nSee also my previous experiment getting Claude Fable to simulate a watercolor illustration with ",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-22T19:42:26+00:00"
+      "published": "2026-10-23T21:35:13+00:00"
+    },
+    {
+      "id": "d5dfb55b012918e7",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape\n📄 Paper\nEncountering a new paper can change a research idea's trajectory. The researcher may discover that someone has already addressed their proposed contribution, or find an unresolved problem in",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 16:15:50 GMT"
+    },
+    {
+      "id": "6430909168b58685",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Does Your Model Run on AWS Trainium? Look It Up\nIn a previous post, we introduced TorchNeuron, the native PyTorch backend for AWS Trainium (the torch-neuronx package). With it, Transformers runs its own modeling code on Trainium, as it does on any other device, so any Transformers model on the Hub m",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 GMT"
+    },
+    {
+      "id": "b15a6fb9671b3fea",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "On Friday, OpenAI said that it will train its models using cached copies and simulated versions of the internet instead of the live web because the models are too unpredictable to be trusted with live internet access.\nThe frontier lab announced its new policy two weeks after its rival, Anthropic, be",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 23:05:49 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "09776931f4659a5d",
-      "title": "Donating Agent Skills to the Agentic AI Foundation",
-      "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+      "id": "2e71264ea893e482",
+      "title": "Introducing Kimi K3.1 Pro",
+      "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "22nd October 2026 - Link Blog\nDonating Agent Skills to the Agentic AI Foundation. News today from Anthropic:\nWe’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, which w",
+      "summary": "23rd October 2026 - Link Blog\nIntroducing Kimi K3.1 Pro (via) Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".\nThey're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except ",
       "importance": 3.6,
       "matched": [
-        "agent"
+        "open weights"
       ],
-      "published": "2026-10-22T18:09:56+00:00"
+      "published": "2026-10-23T19:40:54+00:00"
     },
     {
-      "id": "d76b50dba1625800",
-      "title": "The AI Agent Nobody Owns: Watch Expert Webinar On Your Newest Insider Threat",
-      "url": "https://thehackernews.com/2026/10/the-ai-agent-nobody-owns-watch-expert.html",
+      "id": "4645fb818a8e9e28",
+      "title": "Ruby Fixes Three Regex Engine Bugs Responsible for Four Critical GitLab RCE Flaws",
+      "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Right now, there is probably an AI agent running on a laptop somewhere in your network. It stores API keys and database passwords, can access your internal systems, and works without anyone watching.\nNobody reviewed its access. Nobody owns it.\nIf an employee had that much reach with that little over",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 23 Oct 2026 00:35:35 +0530"
-    },
-    {
-      "id": "23872cb1986e28ae",
-      "title": "Arista Warns of Critical VeloCloud SQL Injection Zero-Day Exploited in Attacks",
-      "url": "https://thehackernews.com/2026/10/arista-warns-of-critical-velocloud-sql.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Attackers are exploiting a zero-day SQL injection flaw in Arista's VeloCloud Orchestrator (VCO), the central management system for VeloCloud SD-WAN networks, the company said in an advisory on October 22.\nThe flaw lets anyone who can log in to the orchestrator, even with a read-only customer account",
-      "importance": 3.4,
-      "matched": [
-        "zero-day"
-      ],
-      "published": "Fri, 23 Oct 2026 00:35:17 +0530"
-    },
-    {
-      "id": "a45e553ca30bdb4a",
-      "title": "ThreatsDay: AI Secrets Leak, PingCAP Source Theft, Signal Hang-Up Flaw, Laravel Auth Bypass + 21 More",
-      "url": "https://thehackernews.com/2026/10/threatsday-ai-secrets-leak-pingcap.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "This week has already been rough for cybersecurity. Critical PHP and GitLab RCE flaws, serious Linux security bugs, compromised eMudhra certificates, a Node.js RCE flaw, a hacked LiteLLM release, and hundreds of hijacked Tor relays. That's a lot to deal with in just a few days. And the week isn't ev",
+      "summary": "Ruby has released versions 4.0.9, 3.4.12, and 3.3.13 to fix three bugs in Onigmo, the regular expression engine built into the language. The bugs lie behind four critical security flaws that GitLab patched over the past month.\nGitLab found that a specially crafted pattern could corrupt memory while ",
       "importance": 3.4,
       "matched": [
         "RCE"
       ],
-      "published": "Thu, 22 Oct 2026 23:15:44 +0530"
+      "published": "Fri, 23 Oct 2026 23:24:08 +0530"
     },
     {
-      "id": "eebdb3f4f6ae3ff9",
-      "title": "Two CVSS 9.0 Linux KSMBD RCE Flaws Disclosed on Public Mailing Lists Before Kernel Fixes",
-      "url": "https://thehackernews.com/2026/10/two-cvss-90-linux-ksmbd-rce-flaws.html",
+      "id": "015a882ee27441d9",
+      "title": "Exposed Infrastructure Reveals How Ransomware Affiliates Used AI Agents to Execute Intrusions",
+      "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Linux servers running KSMBD, the kernel's built-in SMB server, are exposed to two publicly reported remote code execution flaws rated 9.0 by Trend Micro's Zero Day Initiative, with no fix yet in the mainline kernel.\nOne of them, ZDI-CAN-33774, can be triggered before any network authentication. The ",
+      "summary": "Cybersecurity researchers have discovered an artificial intelligence (AI)-driven intrusion ecosystem run by affiliates of the INC and The Gentlemen ransomware groups.\nCentral to the operation is an \"Autonomous Red Team Kill Chain Framework\" referred to as Phantom. The threat actor is assessed to be ",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Fri, 23 Oct 2026 23:20:47 +0530"
+    },
+    {
+      "id": "3bc9a46d29046dd2",
+      "title": "PHP Warns of Another Unpatched RCE Risk Two Days After Emergency PHP2Shell Patches",
+      "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "PHP has warned of another way an attacker could run code on a web server, two days after it shipped emergency fixes for the critical PHP2Shell flaws.\nThe new issue, assigned CVE-2026-115560, affects only web applications configured in an unusual way, and PHP considers it an unlikely risk.\nThe projec",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Fri, 23 Oct 2026 16:55:43 +0530"
+    },
+    {
+      "id": "3a89e69463ceb5d0",
+      "title": "Critical Flaw in Python’s Popular Pillow Image Library Allows Code Execution via a Crafted Image",
+      "url": "https://thehackernews.com/2026/10/critical-flaw-in-pythons-popular-pillow.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Pillow, the most widely used image library for Python, can be made to run operating system commands on a server by specifying the name of a file it is told to open.\nThe flaw, CVE-2026-112900, is in the way Pillow handles EPS images, which it opens by passing the file's name to Ghostscript, a separat",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 23 Oct 2026 15:06:00 +0530"
+    },
+    {
+      "id": "a2a9e372db7b0e08",
+      "title": "Researchers Demonstrate Node2Shell RCE Exploit on Node.js Build Using Crafted Brotli Data",
+      "url": "https://thehackernews.com/2026/10/researchers-demonstrate-node2shell-rce.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Malicious Brotli data can make an application on an official build of Node.js run attacker-supplied code, security researchers at Imperva have demonstrated.\nTheir \"Node2Shell\" proof of concept ran code on the official Node.js 24.22.0 image for Linux arm64, with no debugger or custom build, by feedin",
       "importance": 3.4,
       "matched": [
         "RCE"
       ],
-      "published": "Thu, 22 Oct 2026 22:31:53 +0530"
+      "published": "Fri, 23 Oct 2026 14:10:43 +0530"
     },
     {
-      "id": "5d4f96d6acc675d5",
-      "title": "Arista patches new VeloCloud Orchestrator zero-day exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/arista-patches-new-velocloud-orchestrator-zero-day-exploited-in-attacks/",
+      "id": "201a6bfc4c9c82a0",
+      "title": "Abandoned Popcorn Time app exposed millions of devices to RCE attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Arista Networks released security updates to patch an actively exploited zero-day vulnerability affecting VeloCloud Orchestrator (VCO) On-Prem deployments.\nVCO is a web-based management portal that helps administrators configure, monitor, and manage VeloCloud SD-WANs (Software-Defined Wide Area Netw",
+      "summary": "Researchers remotely disabled a vulnerable updater in the abandoned Time4Popcorn app, a fork of the Popcorn Time BitTorrent client, closing a security flaw that could have allowed attackers to execute malicious code with elevated privileges on millions of computers.\nThe vulnerability, tracked as CVE",
       "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Fri, 23 Oct 2026 16:55:05 -0400"
+    },
+    {
+      "id": "5d4b1321ac5e829f",
+      "title": "PHP shares mitigation for new RCE vulnerability with no patch",
+      "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The PHP security team has shared mitigation measures for a new remote code execution vulnerability that affects systems with non-default configurations and has no patch.\nPHP is an open-source web development language used by nearly 70% of all websites on the Internet. According to VirusTotal estimat",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Fri, 23 Oct 2026 11:38:05 -0400"
+    },
+    {
+      "id": "4eed9c7e043606c8",
+      "title": "You gave your AI agent access, but who is giving it orders?",
+      "url": "https://www.bleepingcomputer.com/news/security/you-gave-your-ai-agent-access-but-who-is-giving-it-orders/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Headlines warn that AI could threaten humanity, and it’s easy to wave that off as science fiction. But the real danger is more ordinary and already here.\nResearch published by Gen Threat Labs demonstrated how quickly an AI agent’s autonomy can become a liability. In a controlled experiment, research",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 23 Oct 2026 10:00:10 -0400"
+    },
+    {
+      "id": "eb477469ff02e82d",
+      "title": "HPE patches eight max severity RCE and auth bypass AOS flaws",
+      "url": "https://www.bleepingcomputer.com/news/security/hpe-patches-eight-max-severity-rce-and-auth-bypass-aos-flaws/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hewlett Packard Enterprise (HPE) released security updates to patch 72 vulnerabilities in the Aruba Operating System (ArubaOS), including eight maximum-severity authentication bypass and code execution issues.\nAlso known as AOS, ArubaOS powers Aruba Networking enterprise wireless infrastructure, inc",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Fri, 23 Oct 2026 08:48:00 -0400"
+    },
+    {
+      "id": "52d3232953e2ec34",
+      "title": "In Other News: Tor Exit Relays Hijacked, Banks Spot Rogue AI Agents, Self-Rebuilding macOS Ransomware",
+      "url": "https://www.securityweek.com/in-other-news-tor-exit-relays-hijacked-banks-spot-rogue-ai-agents-self-rebuilding-macos-ransomware/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.\nThis curated summary highlights key stories across vulnerability disclosures, emerging attack method",
+      "importance": 3.0,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Fri, 23 Oct 2026 14:23:37 +0000"
+    },
+    {
+      "id": "94808457651058f4",
+      "title": "Attackers Exploit Third Arista VCO Zero-Day in Four Months",
+      "url": "https://www.securityweek.com/attackers-exploit-third-velocloud-orchestrator-zero-day-in-four-months/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Networking solutions provider Arista Networks on Thursday rolled out patches for an exploited zero-day vulnerability in its centralized management tool VeloCloud Orchestrator (VCO).\nThe critical-severity security defect is tracked as CVE-2026-114625 (CVSS score of 9.9) and is described as a remotely",
+      "importance": 3.0,
       "matched": [
         "zero-day",
-        "actively exploited"
-      ],
-      "published": "Thu, 22 Oct 2026 13:18:22 -0400"
-    },
-    {
-      "id": "c78f9791369d56c3",
-      "title": "Amazon says PHP2Shell exploitation began 4 days before patches",
-      "url": "https://www.bleepingcomputer.com/news/security/amazon-says-php2shell-exploitation-began-4-days-before-patches/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Security researchers at Amazon Threat Intelligence say attackers began targeting the PHP2Shell flaws four days before security patches were released on Wednesday.\nTracked as CVE-2026-109618 and CVE-2026-109619, the two critical vulnerabilities let attackers gain remote code execution (RCE) on vulner",
-      "importance": 3.4,
-      "matched": [
-        "RCE",
         "CVE-2026"
       ],
-      "published": "Thu, 22 Oct 2026 09:09:12 -0400"
+      "published": "Fri, 23 Oct 2026 09:58:34 +0000"
     },
     {
-      "id": "0f812922fb34579d",
-      "title": "GitLab warns of new max severity code execution vulnerability",
-      "url": "https://www.bleepingcomputer.com/news/security/gitlab-warns-of-new-max-severity-code-execution-vulnerability/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "GitLab has released security patches for a maximum-severity Regular Expression Compiler flaw that can let remote attackers run arbitrary code on vulnerable servers.\nThis security issue is tracked as CVE-2026-110264 and was reported by a security researcher using the 'joaxcar' handle through GitLab's",
-      "importance": 3.4,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Thu, 22 Oct 2026 07:41:48 -0400"
-    },
-    {
-      "id": "95eb6975ad245049",
-      "title": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
-      "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox\nThis is the follow up to our first blog post, The Agent Said It Was Done. The Database Disagreed. ThinkingBox-Training is now available on GitHub.\nWe built ThinkingBox to evaluate an agent's work by comparing the final d",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Thu, 22 Oct 2026 22:24:34 GMT"
-    },
-    {
-      "id": "9d72639f5e003f5a",
-      "title": "Uber puts all 30,000 employees on ChatGPT Work",
-      "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Uber and OpenAI announced an expansion of their partnership on Thursday, with the ride-share giant telling TechCrunch that its entire global workforce — some 30,000 people — will now be using ChatGPT Work.\nChatGPT Work was introduced in July as an enterprise-focused AI agent that corporate teams cou",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Thu, 22 Oct 2026 16:00:00 +0000"
-    },
-    {
-      "id": "0bffbef0359b5df6",
-      "title": "Spotify’s current AI bet is about being the music service that agents choose",
-      "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Spotify had a strong third quarter, reaching 788 million monthly active users and generating nearly €5 billion (around $5.6 billion USD) in revenue. But the more interesting takeaway from its earnings call was how the company sees people listening to music in the future, and why the rise of AI agent",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Thu, 22 Oct 2026 15:03:58 +0000"
-    },
-    {
-      "id": "2bd447638fb1ac1c",
-      "title": "Signal Vulnerability Lets Malicious Callers Block Hang-Ups",
-      "url": "https://www.securityweek.com/signal-vulnerability-lets-malicious-callers-block-hang-ups/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Signal has resolved a critical-severity vulnerability that could allow a malicious caller to keep audio and video tracks enabled even after the user hung up.\nThe security defect is tracked as CVE-2026-113380 (CVSS score of 9.3) and impacts RingRTC, the open source library Signal uses for voice and v",
-      "importance": 3.0,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Thu, 22 Oct 2026 12:34:31 +0000"
-    },
-    {
-      "id": "ec99b1cdf496c7cb",
-      "title": "Tech and Security Companies Respond to PHP2Shell Vulnerabilities",
-      "url": "https://www.securityweek.com/tech-and-security-companies-respond-to-php2shell-vulnerabilities/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Tech vendors, cybersecurity companies and government agencies have published advisories, detections and mitigations for the PHP2Shell vulnerabilities, while many software makers are still checking whether their own products are exposed.\nThe two critical bugs, CVE-2026-109618 and CVE-2026-109619, can",
-      "importance": 3.0,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Thu, 22 Oct 2026 12:20:23 +0000"
-    },
-    {
-      "id": "34f12a1f7c34dc26",
-      "title": "Cisco Patches 34 Vulnerabilities Across Multiple Products",
-      "url": "https://www.securityweek.com/cisco-patches-34-vulnerabilities-across-multiple-products/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Cisco on Wednesday announced patches for 34 vulnerabilities across Expressway Series, IOS XR, Snort 3, and Unified Communications products.\nExpressway Series received fixes for 10 vulnerabilities, including a critical-severity remote code execution (RCE) bug tracked as CVE-2026-76466.\nAccording to C",
-      "importance": 3.0,
-      "matched": [
-        "RCE",
-        "CVE-2026"
-      ],
-      "published": "Thu, 22 Oct 2026 10:05:21 +0000"
-    },
-    {
-      "id": "474d46551650ea30",
-      "title": "DE STAAT - FREEDOM (Official Music Video)",
-      "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+      "id": "ece6c921b830e7e3",
+      "title": "Quick Study",
+      "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "22nd October 2026 - Link Blog\nDE STAAT - FREEDOM (Official Music Video) (via) OK well this is a first for me... at 00:44 in this new music video by Dutch alternative rock band De Staat:\nThe visual effects are credited to Matties Grooten of Fake it or Leave it.\nRecent articles\n- Battle Drones - a vib",
+      "summary": "23rd October 2026\nPrompt to Claude Opus 5.5 High:\nBuild an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush\nSee also my previous experiment getting Claude Fable to simulate a watercolor illustration with ",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-10-22T19:42:26+00:00"
+      "published": "2026-10-23T21:35:13+00:00"
     },
     {
-      "id": "0acbee798fb21bdf",
-      "title": "Quoting Armin Ronacher",
-      "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "22nd October 2026\nAs fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.\nRecent articles\n- Battle Drones - a vibe coded RTS with audio-based multiplayer - 20th October 2026\n- Hello Python 3.15, goodbye 3.10, and now I can use 3.11 - ",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-10-22T15:34:13+00:00"
-    },
-    {
-      "id": "f74ce17a74d9601f",
-      "title": "eMudhra to Exit Global SSL/TLS Business After 8 Intermediate CA Keys Found Easily Guessable",
-      "url": "https://thehackernews.com/2026/10/emudhra-to-exit-global-ssltls-business.html",
+      "id": "077ef200d3e00808",
+      "title": "BlackX UEFI Bootkit Bypasses Secure Boot on Patched Windows Systems Missing Revocations",
+      "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "eMudhra, an Indian certificate authority (CA), will withdraw from its global SSL/TLS certificate business, its board decided on Thursday. The decision came five days after a researcher reported recovering the private keys of eight of its intermediate CA certificates.\neMudhra said it will replace aff",
+      "summary": "Diplomatic organizations in Central Asia have been targeted by a sophisticated new Unified Extensible Firmware Interface (UEFI) bootkit called BlackX.\nThe activity, which singled out diplomatic entities in Tajikistan, Uzbekistan, and Turkmenistan in early 2026, is suspected to be orchestrated by a C",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 23:42:43 +0530"
+      "published": "Sat, 24 Oct 2026 00:20:13 +0530"
     },
     {
-      "id": "6b7369ef168a122f",
-      "title": "Meta Ordered to Pay $25 Billion After Court Finds 43 Million Privacy Violations",
-      "url": "https://thehackernews.com/2026/10/meta-ordered-to-pay-25-billion-after.html",
+      "id": "f059789b24373367",
+      "title": "Hackers Breach Enterprise Firewalls and VPNs, Exposing Over 70,000 Credentials",
+      "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Social media giant Meta was ordered to pay 25 billion in penalties by a New Mexico court on Wednesday as part of a data privacy lawsuit that sprang from the company's Cambridge Analytica data scandal, which came to light in 2018.\nAccording to multiple reports from the Associated Press, the New York ",
+      "summary": "Cybersecurity researchers have disclosed details of a large-scale campaign that has targeted exposed network edge devices such as Fortinet FortiGate and Palo Alto Networks GlobalProtect firewalls.\n\"Artifacts from this investigation also indicate that operators in this campaign have obtained access t",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 21:42:31 +0530"
+      "published": "Fri, 23 Oct 2026 19:20:56 +0530"
     },
     {
-      "id": "c145f24074c2801f",
-      "title": "INTERPOL Arrests 1,462 Suspects, Disrupts 10,909 Cybercrime Networks in Global Crackdown",
-      "url": "https://thehackernews.com/2026/10/interpol-arrests-1462-suspects-disrupts.html",
+      "id": "80697809b26e3096",
+      "title": "Russia-Linked Hackers Used New Mesh Network Backdoor in Destructive Ukraine Attack",
+      "url": "https://thehackernews.com/2026/10/russian-linked-hackers-used-new-mesh.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "INTERPOL on Thursday announced that a coordinated law enforcement action has disrupted 10,909 malicious networks and recovered more than $105 million in illicit funds.\nIn tandem, the effort saw law enforcement agencies from 21 countries arrest 1,462 suspects. Codenamed Operation Serengeti III, the c",
+      "summary": "The Russian state-sponsored hacking group Sandworm teamed up with another threat actor to carry out a destructive wiping attack targeting a Ukrainian logistics company last year.\nAccording to ESET, the attack involved UAC-0099 (aka Earth Sirrush) obtaining initial access to the target on July 16, 20",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 19:08:22 +0530"
+      "published": "Fri, 23 Oct 2026 16:41:23 +0530"
     },
     {
-      "id": "76b18c2dc5a90e0a",
-      "title": "Railway Says Intruder May Have Accessed Customer Secrets, Urges Credential Rotation",
-      "url": "https://thehackernews.com/2026/10/railway-says-intruder-may-have-accessed.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Platform-as-a-Service (PaaS) provider Railway on Wednesday disclosed \"anomalous activity\" related to systems that store customer environment variables.\nUpon further investigation, the company found that an unauthorized third party may have gained access to encrypted environment variables, and, in so",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 22 Oct 2026 16:45:42 +0530"
-    },
-    {
-      "id": "6af5f5a84e31744d",
-      "title": "Railway warns devs to rotate secrets after potential breach",
-      "url": "https://www.bleepingcomputer.com/news/security/railway-warns-devs-to-rotate-secrets-after-potential-breach/",
+      "id": "e62f85ca100be1fa",
+      "title": "Microsoft Teams to get AI-powered, context-aware phishing detection",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-teams-to-get-ai-powered-context-aware-phishing-detection/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Cloud hosting provider Railway published an urgent warning to users after detecting suspicious activity on its systems that store customer environment variables earlier this week.\nThe company says its investigation indicates that, in some cases, an unauthorized third party may have obtained decrypte",
+      "summary": "Microsoft says Teams will begin using AI-powered phishing detection in early November 2026 to detect malicious behavior in messages.\nThe rollout is part of a targeted release phase expected to end by mid-November, with the new security feature likely reaching general availability worldwide between e",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 17:25:31 -0400"
+      "published": "Fri, 23 Oct 2026 14:54:41 -0400"
     },
     {
-      "id": "177124c993da1845",
-      "title": "Capcom confirms data breach affecting 11.7 million accounts",
-      "url": "https://www.bleepingcomputer.com/news/security/capcom-confirms-data-breach-affecting-117-million-accounts/",
+      "id": "27be26c6f1772425",
+      "title": "Microsoft: Windows Server 2016 reaches end of support in January",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-january/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Japanese gaming giant Capcom has confirmed that hackers breached its membership service, CAPCOM ID, exposing more than 11.7 million customer email addresses and associated information.\nApart from emails, exposed data includes account creation date, last login timestamp, number of logins, and the IP ",
+      "summary": "Microsoft says Windows Server 2016 will stop receiving security updates after it reaches the end of support in January 2027.\nWindows Server 2016 was released in September 2016 at Microsoft's annual Ignite conference and reached general availability one month later, on October 12, 2016\nIt reached the",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 16:22:45 -0400"
+      "published": "Fri, 23 Oct 2026 13:05:07 -0400"
     },
     {
-      "id": "0151e8522bf78e30",
-      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware",
-      "url": "https://www.bleepingcomputer.com/news/security/litellm-release-pipeline-hacked-to-distribute-info-stealer-malware/",
+      "id": "f582252343af91cc",
+      "title": "Quest Diagnostics confirms data breach exposed patient records",
+      "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Hackers compromised the LiteLLM project’s PyPI package and published malicious Docker images with a payload that steals credentials, secrets, and environment variables.\nThe supply-chain attack affected all PyPI wheels (.whl installation packages) for LiteLLM version 1.107.0, impacting Windows, Linux",
+      "summary": "American clinical laboratory company Quest Diagnostics disclosed that patient records have been exposed after a threat actor gained unauthorized access to its Quanum LSM system.\nThe company learned about the breach on October 21 and deployed its incident response protocol \"to contain the activity, a",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 15:12:51 -0400"
+      "published": "Fri, 23 Oct 2026 12:40:07 -0400"
     },
     {
-      "id": "0563a66ccd63345d",
-      "title": "Microsoft shares how to fix broken Exchange Online EWS apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-shares-how-to-fix-broken-exchange-online-ews-apps/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Microsoft says IT admins can re-enable the retired Exchange Web Services (EWS) API in Exchange Online to fix EWS apps that have stopped working.\nEWS is an API for developing apps that can access Exchange mailbox items (e.g., email messages, meetings, and contacts) from Exchange Online and on-premise",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 22 Oct 2026 11:49:32 -0400"
-    },
-    {
-      "id": "92b876190d734454",
-      "title": "Machine speed attacks require machine speed detection and response",
-      "url": "https://www.bleepingcomputer.com/news/security/machine-speed-attacks-require-machine-speed-detection-and-response/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "TL;DR: Our analysis shows attackers are now enumerating or pulling data within 15 minutes of getting into an environment, and the tools that should have caught them were not effective. We will discuss three common attack patterns in which we observed this behavior.\n- Stolen developer tokens. Poisone",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 22 Oct 2026 10:02:12 -0400"
-    },
-    {
-      "id": "eaa0ebff7daf626e",
-      "title": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet",
-      "url": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
+      "id": "d5dfb55b012918e7",
+      "title": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape",
+      "url": "https://huggingface.co/blog/allenai/litpivot",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet\n🤗 Models | 📄 Tech Report | 📊 Data | 💻 Code | 🌎 Embeddings Explorer | 🗺️ Interactive story\nToday, we’re releasing OlmoEarth v1.3, a state-of-the-art satellite embedding model. Alongside OlmoEarth v1.3, we’re sharing precomputed, annual ",
+      "summary": "LitPivot: Developing research ideas through dynamic contextualization within the literature landscape\n📄 Paper\nEncountering a new paper can change a research idea's trajectory. The researcher may discover that someone has already addressed their proposed contribution, or find an unresolved problem in",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 16:11:31 GMT"
+      "published": "Fri, 23 Oct 2026 16:15:50 GMT"
     },
     {
-      "id": "5d118fadbe793ddd",
-      "title": "Ensemble forecasting with IBM Granite time-series models",
-      "url": "https://huggingface.co/blog/ibm-research/granite-timeseries-ensemble-r1",
+      "id": "6430909168b58685",
+      "title": "Does Your Model Run on AWS Trainium? Look It Up",
+      "url": "https://huggingface.co/blog/torch-neuronx-model-support",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "Ensemble forecasting with IBM Granite time-series models\nFour open Granite models, one extensible forecasting interface, and less guesswork about which model to use.\nPre-trained time-series models can forecast without training on your dataset, but you still have to choose one. A model that handles s",
+      "summary": "Does Your Model Run on AWS Trainium? Look It Up\nIn a previous post, we introduced TorchNeuron, the native PyTorch backend for AWS Trainium (the torch-neuronx package). With it, Transformers runs its own modeling code on Trainium, as it does on any other device, so any Transformers model on the Hub m",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 07:51:31 GMT"
+      "published": "Fri, 23 Oct 2026 00:00:00 GMT"
     },
     {
-      "id": "d73c3fbf5a8b67dc",
-      "title": "OpenAI working on new $30B raise at $1.25T valuation ahead of IPO",
-      "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+      "id": "b15a6fb9671b3fea",
+      "title": "OpenAI says it will no longer train its AI models on the live internet, citing “significant risks”",
+      "url": "https://techcrunch.com/2026/10/23/openai-says-it-will-no-longer-train-its-ai-models-on-the-live-internet-citing-significant-risks/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "OpenAI is reportedly close to securing another mega round of private funding, rather than plowing ahead with an IPO. The AI lab is working on raising up to $30 billion at a $1.25 trillion pre-money valuation in a round led by Coatue and investors in UAE, sources told CNBC.\nThis follows a similar rep",
+      "summary": "On Friday, OpenAI said that it will train its models using cached copies and simulated versions of the internet instead of the live web because the models are too unpredictable to be trusted with live internet access.\nThe frontier lab announced its new policy two weeks after its rival, Anthropic, be",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 22:08:24 +0000"
+      "published": "Fri, 23 Oct 2026 23:05:49 +0000"
     },
     {
-      "id": "ee7ecab289596410",
-      "title": "1Password launches a way for AI agents to log in on your behalf without seeing your password",
-      "url": "https://techcrunch.com/2026/10/22/1password-launches-a-way-for-ai-agents-to-log-in-on-your-behalf-without-seeing-your-password/",
+      "id": "f782f2bc9618a504",
+      "title": "Hottest toy for Christmas? Nvidia CEO plays with adorable Microduck robots, 20,000 sell",
+      "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Concerns have swirled over the access that consumers are increasingly entrusting to AI agents. Now, security services are trying to catch up.\nPassword manager 1Password on Thursday launched a new tool by which users can allow agents to log into their personal accounts on their behalf, without the ag",
+      "summary": "Earlier this week, a video of Nvidia CEO Jensen Huang playing with a flock of waddling Microducks during his keynote at the company’s GTC Berlin conference went viral. The robots, stomping their little feet and making tiny R2-D2 noises, sat, fell down dead for a “nap,” and summersaulted on voice com",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 19:07:09 +0000"
+      "published": "Fri, 23 Oct 2026 21:59:19 +0000"
     },
     {
-      "id": "1d8d266cc065f7b3",
-      "title": "OpenAI makes its Jev competitor widely available as decision model competition heats up",
-      "url": "https://techcrunch.com/2026/10/22/openai-makes-its-jev-competitor-widely-available-as-decision-model-competition-heats-up/",
+      "id": "0931d3afc7b71d97",
+      "title": "From Toast to Bessemer: Who founders will hear from at TechCrunch Founder Summit 2026",
+      "url": "https://techcrunch.com/2026/10/23/from-toast-to-bessemer-who-founders-will-hear-from-at-techcrunch-founder-summit-2026/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "OpenAI made its Decisions API model widely available to users for the first time, entering the market for fast, cheap intelligence that recently made TypeSafe, a startup founded by a former researcher at the frontier lab, a $7.6 billion company.\nTypeSafe’s Jev model created a category for deep learn",
+      "summary": "Building a startup means making decisions before you have all the answers.\nWhen should you scale? How do you know you really have product-market fit? What does it take to land enterprise customers? How do you build the right team? And when you finally get in front of an investor, how do you make sur",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 19:00:00 +0000"
+      "published": "Fri, 23 Oct 2026 19:06:23 +0000"
     },
     {
-      "id": "afbb328c263f52ce",
-      "title": "Canva releases its first image generation model",
-      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+      "id": "94cd4ca5fb66dd5d",
+      "title": "Uber rival inDrive eyes 2027 robotaxi tests in Central Asia with Pony AI and Nvidia",
+      "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Design platform Canva released its first image generation model, called Canva Craft, developed by its research team to compete with same-category models from Google, OpenAI, ByteDance, and Meta.\nThe company said its model works in two stages. In the first stage, it interprets users’ prompts and crea",
+      "summary": "Ride-hailing company inDrive, known for letting passengers and drivers negotiate fares, is working with Chinese autonomous driving firm Pony.ai and Nvidia to begin testing robotaxis in Kazakhstan in 2027.\nThe companies said Friday that they had signed a memorandum of understanding to explore bringin",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 19:00:00 +0000"
+      "published": "Fri, 23 Oct 2026 04:00:00 +0000"
     },
     {
-      "id": "4baf690dfb57b3c5",
-      "title": "Microsoft’s Mustafa Suleyman says its AI outperforms doctors on hard cases as he chases ‘medical superintelligence’",
-      "url": "https://techcrunch.com/2026/10/22/microsofts-mustafa-suleyman-says-its-ai-outperforms-doctors-on-hard-cases-as-he-chases-medical-superintelligence/",
+      "id": "085ba153da3bfb79",
+      "title": "Left alone with nothing to do, AI agents started playing",
+      "url": "https://techcrunch.com/2026/10/22/left-alone-with-nothing-to-do-ai-agents-started-playing/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Microsoft’s AI diagnostic system correctly diagnosed complex medical cases in a simulation more than twice as often as generalist physicians, according to a study published Thursday in Science. Mustafa Suleyman, Microsoft AI’s CEO, called the result a step toward “medical superintelligence.”\nThe sys",
+      "summary": "AI agents left to explore a virtual island without a specific task began inventing challenges of their own. MIT researchers say the behavior bears the hallmarks of play.\nThe researchers put 13 AI agents called Eko, each running on Claude Opus 4.7, alone on a simulated desert island for 30 hours. The",
       "importance": 2.2,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 18:43:53 +0000"
+      "published": "Fri, 23 Oct 2026 00:45:37 +0000"
     },
     {
-      "id": "93c844a35d415e95",
-      "title": "Chinese hackers spied on thousands of companies after breaching IT giant ConnectWise",
-      "url": "https://techcrunch.com/2026/10/22/chinese-hackers-spied-on-thousands-of-companies-after-breaching-it-giant-connectwise/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "The bad week for cybersecurity just got worse for thousands more companies, who were spied on by Chinese hackers following the breach of IT management and remote access giant ConnectWise.\nSecurity researchers at Microsoft say the China state-aligned hackers broke into ConnectWise’s cloud backup serv",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Thu, 22 Oct 2026 16:47:17 +0000"
-    },
-    {
-      "id": "2aedd54f3eb3c474",
-      "title": "Designing an AI serving harness built to last",
-      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "Sponsored\nDesigning an AI serving harness built to last\nThe engineering system surrounding an AI model increasingly determines whether its intelligence can be delivered reliably, economically, and at scale.\nProvided byEXL\nThe next competitive advantage in enterprise AI has less to do with which mode",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Thu, 22 Oct 2026 21:17:29 +0000"
-    },
-    {
-      "id": "d8c2939ee8cf1af6",
-      "title": "The Foundations of Scalable AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146103/the-foundations-of-scalable-ai/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "Sponsored\nThe Foundations of Scalable AI\nPresented byVanguard\nA scalable AI system requires a strong foundation. Data, engineering, platforms, operating models, and governance must converge to work as one. This session from MIT Technology Review's EmTech Future conference explores what it takes to b",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Thu, 22 Oct 2026 18:48:04 +0000"
-    },
-    {
-      "id": "6a85074051ec3677",
-      "title": "Making the case for context-aware AI",
-      "url": "https://www.technologyreview.com/2026/10/22/1146812/making-the-case-for-context-aware-ai/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "Sponsored\nMaking the case for context-aware AI\nMoving AI beyond experimentation requires connecting agents to operational context and identifying the business processes where they can deliver the greatest value.\nIn partnership withCelonis\nEnterprise AI can generate recommendations, automate tasks, a",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Thu, 22 Oct 2026 10:00:00 +0000"
-    },
-    {
-      "id": "1597d0c89acaa275",
-      "title": "AI’s hidden storage bill: What inference leaves behind",
-      "url": "https://www.technologyreview.com/2026/10/22/1146948/ais-hidden-storage-bill-what-inference-leaves-behind/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "Sponsored\nProvided byWD\nAsk most executives to picture the cost of AI and they’ll likely see GPUs—racks of accelerators with gigawatts of power—and a waitlist for silicon. But that picture leaves something out: Data storage costs.\nWhat happens to data after a model responds? Much of the back-end dat",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Thu, 22 Oct 2026 08:41:18 +0000"
-    },
-    {
-      "id": "dcda11bca2255036",
-      "title": "Hacker Conversations: Corey Thuen and the Evil Bit",
-      "url": "https://www.securityweek.com/hacker-conversations-corey-thuen-and-the-evil-bit/",
+      "id": "ceaaccb7c7382a0b",
+      "title": "Mirai Botnet Operators Join PHP2Shell Attacks as ASLR Bypass Exploits Emerge",
+      "url": "https://www.securityweek.com/mirai-botnet-operators-join-php2shell-attacks-as-aslr-bypass-exploits-emerge/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Corey Thuen is a hacker with a hacker mindset that is focused on the right way to do wrong things to get the right result.\nCorey Thuen is the founder and CEO of Gravwell, a firm with a slight difference: it develops data analytics and vulnerability detection through a combined team of big data exper",
+      "summary": "Two days after PHP rolled out emergency fixes for the PHP2Shell vulnerabilities, threat actors have tried to use the flaws to spread a Mirai botnet. A security firm has also built an exploit that gets past a key memory protection, and an exposed attacker server has revealed custom tooling.\nEven so, ",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 14:31:34 +0000"
+      "published": "Fri, 23 Oct 2026 12:45:52 +0000"
     },
     {
-      "id": "6a8ba679d4e13781",
-      "title": "Indurex Raises $8 Million to Expand Industrial Cybersecurity Platform",
-      "url": "https://www.securityweek.com/indurex-raises-8-million-to-expand-industrial-cybersecurity-platform/",
+      "id": "713a68aa818f2bd7",
+      "title": "China APT Uses AI Pentest Tool Artex in ConnectWise Attacks",
+      "url": "https://www.securityweek.com/china-apt-uses-ai-pentest-tool-artex-in-connectwise-attacks/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Amsterdam-based industrial cybersecurity firm Indurex has raised €7 million (roughly $7.84 million) in a round led by Contrarian Ventures, with Axeleo Capital and Curiosity also participating.\nThe company said it will use the funding for research and development and to expand its commercial operatio",
+      "summary": "A China-linked threat actor has been using the open source AI penetration testing framework Artex to automate a recent ConnectWise hacking campaign targeting hundreds of organizations, Microsoft reports.\nTracked as Storm-0940 and active since at least 2021, the APT is known for relying on password s",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 13:00:00 +0000"
+      "published": "Fri, 23 Oct 2026 10:31:16 +0000"
     },
     {
-      "id": "eb08dcb4a958ad76",
-      "title": "Splunk, SolarWinds Release Fresh Security Updates",
-      "url": "https://www.securityweek.com/splunk-solarwinds-release-fresh-security-updates/",
+      "id": "962b531106f2cc02",
+      "title": "11 Million Impacted by Capcom Data Breach",
+      "url": "https://www.securityweek.com/11-million-impacted-by-capcom-data-breach/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Splunk and SolarWinds this week released patches for multiple vulnerabilities, including flaws leading to code execution, privilege escalation, denial-of-service (DoS), and information disclosure.\nOn Wednesday, Splunk rolled out security updates for Splunk Enterprise and SOAR to resolve dozens of se",
+      "summary": "Japanese gaming company Capcom has disclosed a data breach impacting 11 million email addresses and the personal information of a small number of individuals.\nThe incident, the gaming giant says, was discovered on October 19 and involved unauthorized access to CAPCOM ID, its shared service used for ",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 22 Oct 2026 10:45:24 +0000"
+      "published": "Fri, 23 Oct 2026 08:34:14 +0000"
+    },
+    {
+      "id": "0515431e7464769e",
+      "title": "Quest Diagnostics Data Breach Exposed ‘Certain Patient Records’",
+      "url": "https://www.securityweek.com/quest-diagnostics-reports-cyber-breach-affecting-certain-patient-records/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Medical laboratory operator Quest Diagnostics said it learned of a cyber breach of one of its systems this week, likely compromising some records for patients.\nIn a Thursday regulatory filing, Quest Diagnostics reported “unauthorized access” to its Quanum Lab Services Manager, a platform where certa",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 08:25:06 +0000"
+    },
+    {
+      "id": "13eed581480dabd9",
+      "title": "Detecting AI Training in Datacentre Power",
+      "url": "https://arxiv.org/abs/2610.30182",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 19 Oct 2026]\nTitle:Detecting AI Training in Datacentre Power\nView PDF HTML (experimental)\n            Abstract:AI governance agreements require methods to detect large model training runs on a monitored computing cluster, without trusting ",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "d144d037dfd4f8d4",
+      "title": "When EVM Defaults Break: Three SDK Patterns for UTXO-Family Wallets",
+      "url": "https://arxiv.org/abs/2610.30183",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 20 Oct 2026]\nTitle:When EVM Defaults Break: Three SDK Patterns for UTXO-Family Wallets\nView PDF HTML (experimental)\n            Abstract:Mainstream Web3 SDKs (e.g., this http URL, viem) bundle three coupled assumptions: an account-based le",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "abb97a5ee50d08ad",
+      "title": "Self-Evolving Static Analysis via LLM Pseudo-Labeling",
+      "url": "https://arxiv.org/abs/2610.30184",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 20 Oct 2026]\nTitle:Self-Evolving Static Analysis via LLM Pseudo-Labeling\nView PDF HTML (experimental)\n            Abstract:Security bugs often slip past static analysis not because they are impossible to detect, but because detection rules",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "41f054ebc69e08b1",
+      "title": "Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint",
+      "url": "https://arxiv.org/abs/2610.30193",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 21 Oct 2026]\nTitle:Protection Is Not One Event: A Survey of RAG Protection Research by Measured Endpoint\nView PDF HTML (experimental)\n            Abstract:Retrieval-augmented generation (RAG) systems face security, privacy, and copyright r",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "74bd144fb6827321",
+      "title": "A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation",
+      "url": "https://arxiv.org/abs/2610.28686",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 19 Oct 2026]\nTitle:A Small Model Asks Better: Fine-Tuning Query Clarification for Retrieval-Augmented Generation\nView PDF HTML (experimental)\n            Abstract:Query clarification is essential for retrieval-augmented generation (RAG) syst",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "4327a145e8091166",
+      "title": "Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds",
+      "url": "https://arxiv.org/abs/2610.28698",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 20 Oct 2026]\nTitle:Scaling in Games: Continued Pre-Training For Embodied Agents In Diverse Virtual Worlds\nView PDF HTML (experimental)\n            Abstract:Scaling data, diversity and model capacity has improved embodied learning in physical",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "0b13060c669d960c",
+      "title": "SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery",
+      "url": "https://arxiv.org/abs/2610.28706",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 20 Oct 2026]\nTitle:SpecEvo: Speculative Evolution with Large Language Models for Cost-Efficient Scientific Discovery\nView PDF HTML (experimental)\n            Abstract:LLM-driven evolutionary search is a promising paradigm for scientific disc",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "a24c3f1405f6c6cb",
+      "title": "Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?",
+      "url": "https://arxiv.org/abs/2610.28763",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 20 Oct 2026]\nTitle:Automating ML for Science: Can Frontier Agents Climb Scientific Hills in the Wild?\nView PDF HTML (experimental)\n            Abstract:Frontier coding agents are increasingly framed as end-to-end automated researchers, and M",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 23 Oct 2026 00:00:00 -0400"
     }
   ]
 }
