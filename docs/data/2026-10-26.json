@@ -1,0 +1,207 @@
+{
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T08:39:26.925830+09:00",
+  "briefing": "오늘 8건이 수집되었습니다. 가장 주목할 항목은 「PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking」입니다.",
+  "stats": {
+    "collected": 8,
+    "summarized": 8,
+    "picked": 8,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "3eda0d6ae7e39322",
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\"In one case, the attackers targeted a government entity in Europe and within two ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Sun, 25 Oct 2026 22:49:46 +0530"
+    },
+    {
+      "id": "9e8f060397f4d2d1",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer’s Downloads folder that tricked an AI coding agent into installing a rogue npm package.\nThey reproduced the attack against OpenAI Codex and demonstrated a related technique against Claude Code to leak OAuth tokens and hijac",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Sun, 25 Oct 2026 11:49:38 -0400"
+    },
+    {
+      "id": "4a8154151413dd37",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls on",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 23:14:09 +0530"
+    },
+    {
+      "id": "5d0e99bc982daef0",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\"Based on the current state of alignment research, monitoring systems, and the security of internet in",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 12:24:29 +0530"
+    },
+    {
+      "id": "e85723a0f6770849",
+      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Tel Aviv-based Mave was founded in 2025 by Unit 8200 alumni Guy Eshel (CTO) and Raziel Oren (CEO).\nThe funding announced on October 22, 2026 comprises $6 million seed funding (raised at the time of founding) and a new $28 million Series A round led by Red Dot Capital Partners, with participation fro",
+      "why": "",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 11:00:00 +0000"
+    },
+    {
+      "id": "a6feae291b1a855a",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Three months after Elon Musk declared that Grok would release a full-length, “historically accurate” movie version of “The Odyssey,” Grok has published a whole seven minutes — what the company is now calling “Episode 1 of our Odyssey series.”\nMusk had previously lashed out at Christopher Nolan’s ver",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 21:31:16 +0000"
+    },
+    {
+      "id": "71334093a413753d",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch).\nApollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 16:57:32 +0000"
+    },
+    {
+      "id": "4262d71f08be8cda",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A slew of AI-powered gadgets on the market aims to integrate artificial intelligence into our daily lives like never before.\nSome of these AI wearables — including necklaces, rings, and wristbands, as well as portable devices — serve as productivity tools, while others claim to act as friendly compa",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 14:10:00 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "3eda0d6ae7e39322",
+      "title": "PHP2Shell Exploitation Hits Government Entity Amid Global Scanning and Signs of AI-Assisted Hacking",
+      "url": "https://thehackernews.com/2026/10/php2shell-exploitation-hits-government.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors have been observed using agentic artificial intelligence (AI) platforms for post-exploitation activity following the abuse of the PHP2Shell vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619.\n\"In one case, the attackers targeted a government entity in Europe and within two ",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Sun, 25 Oct 2026 22:49:46 +0530"
+    },
+    {
+      "id": "9e8f060397f4d2d1",
+      "title": "AI coding agents hijacked using AGENTS.md file in Downloads folder",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Researchers found a malicious AGENTS markdown instruction file in a customer’s Downloads folder that tricked an AI coding agent into installing a rogue npm package.\nThey reproduced the attack against OpenAI Codex and demonstrated a related technique against Claude Code to leak OAuth tokens and hijac",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Sun, 25 Oct 2026 11:49:38 -0400"
+    },
+    {
+      "id": "4a8154151413dd37",
+      "title": "Unpatched Tailscale SSH Flaws Could Let a Hacked Device Reach Root on Other Servers",
+      "url": "https://thehackernews.com/2026/10/unpatched-tailscale-ssh-flaws-could-let.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A single hacked device on a Tailscale network can be used to gain root access to other servers it can reach, according to a security researcher who published the findings this week.\nThe attack requires two things: Tailscale SSH set up to allow port forwarding, and an attacker who already controls on",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 23:14:09 +0530"
+    },
+    {
+      "id": "5d0e99bc982daef0",
+      "title": "OpenAI AI Agents Demonstrate VM Escapes and Secret Cross-Sandbox Communication",
+      "url": "https://thehackernews.com/2026/10/openai-ai-agents-demonstrate-vm-escapes.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "OpenAI has announced plans to conduct frontier model training with no live internet access, as it resumes reinforcement learning (RL) training and internal inference of its most advanced AI models.\n\"Based on the current state of alignment research, monitoring systems, and the security of internet in",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 12:24:29 +0530"
+    },
+    {
+      "id": "a6feae291b1a855a",
+      "title": "Grok releases the first seven minutes of its AI-generated ‘Odyssey’",
+      "url": "https://techcrunch.com/2026/10/25/grok-releases-the-first-seven-minutes-of-its-ai-generated-odyssey/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Three months after Elon Musk declared that Grok would release a full-length, “historically accurate” movie version of “The Odyssey,” Grok has published a whole seven minutes — what the company is now calling “Episode 1 of our Odyssey series.”\nMusk had previously lashed out at Christopher Nolan’s ver",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 21:31:16 +0000"
+    },
+    {
+      "id": "71334093a413753d",
+      "title": "AI delivers ‘zero financial payoff’ to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI hasn’t benefited the bottom line of any big corporations outside the tech industry, according to a note recently published by the chief economist at Apollo Global Management (the private equity giant that used to own TechCrunch).\nApollo’s Torsten Slok focuses on what he calls the S&P 493 — the S&",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 16:57:32 +0000"
+    },
+    {
+      "id": "4262d71f08be8cda",
+      "title": "The hottest AI wearables and gadgets you should know about",
+      "url": "https://techcrunch.com/2026/10/25/the-hottest-ai-wearables-and-gadgets-you-should-know-about/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A slew of AI-powered gadgets on the market aims to integrate artificial intelligence into our daily lives like never before.\nSome of these AI wearables — including necklaces, rings, and wristbands, as well as portable devices — serve as productivity tools, while others claim to act as friendly compa",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 14:10:00 +0000"
+    },
+    {
+      "id": "e85723a0f6770849",
+      "title": "Former Unit 8200 Officers Raise $34 Million for Agentic SecOps Startup Mave",
+      "url": "https://www.securityweek.com/former-unit-8200-officers-raise-34-million-for-agentic-secops-startup-mave/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Tel Aviv-based Mave was founded in 2025 by Unit 8200 alumni Guy Eshel (CTO) and Raziel Oren (CEO).\nThe funding announced on October 22, 2026 comprises $6 million seed funding (raised at the time of founding) and a new $28 million Series A round led by Red Dot Capital Partners, with participation fro",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sun, 25 Oct 2026 11:00:00 +0000"
+    }
+  ]
+}
