@@ -1,0 +1,513 @@
+{
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T10:10:10.291550+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours」입니다.",
+  "stats": {
+    "collected": 32,
+    "summarized": 32,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "6473fc7702e557a9",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carr",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Fri, 30 Oct 2026 19:38:14 +0530"
+    },
+    {
+      "id": "6d2a0802c49f854e",
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.\n\"Thi",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 13:15:30 +0530"
+    },
+    {
+      "id": "f167e37bde6d313b",
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners.\nThe flaw, tracked as CVE-2026-98432, also affects ordinary TCP connecti",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 17:09:46 -0400"
+    },
+    {
+      "id": "09382f93624b985e",
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA).\nTracked as CVE-2026-97229, this critical security flaw was discovered by a security researcher using the 'joaxcar' handle",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 09:00:32 -0400"
+    },
+    {
+      "id": "eaaaa83e33fa5c63",
+      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild.\nTracked as CVE-2026-118539, this flaw stems from a missing authorization weakness that can be abused by unauthenticated attackers and affects Commerce Core vers",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 06:16:07 -0400"
+    },
+    {
+      "id": "d52c9778a55e47ad",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Zest, the restaurant discovery app that launched earlier this year, is already thinking about a future where mobile apps are no longer the primary interface. On Thursday, the startup introduced a new feature: a personal AI-powered “restaurant concierge” that lives in your text messages, similar to o",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 30 Oct 2026 17:47:12 +0000"
+    },
+    {
+      "id": "1649c5dd07045357",
+      "title": "dbreunig/nesformer",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "30th October 2026 - Link Blog\ndbreunig/nesformer (via) Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!\nI",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-30T21:59:22+00:00"
+    },
+    {
+      "id": "b2263e9f84127c76",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "nemotron-halloween\nBuilding a Haunted House with NVIDIA Nemotron Open Models\nOr rather…\nBoo! Now Get Off My Lawn!\nTL;DR: MonsterHouse is an interactive projection I created for Halloween. He listens to trick-or-treaters, answers in the voice of a grumpy old pirate ship and softens when visitors reme",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 17:57:24 GMT"
+    },
+    {
+      "id": "43523836c60442d9",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Ollie, a startup whose mission was to deliver an AI assistant that respected its users’ privacy, says that it will be shutting down in a week. Bill Lennon, the company’s co-founder and CEO, took to X on Friday to deliver the news, noting that the app will officially shut down on November 6.\n“I’m rea",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 22:56:13 +0000"
+    },
+    {
+      "id": "6198118eee1371c7",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Intel’s stock suffered one of its worst days ever on Friday, crashing around 28% after the chip giant reported a weaker-than-expected outlook for the fourth quarter.\nThis rout reduced the value of Intel’s holdings by the government by $12 billion, CNBC reports. The Trump administration had the gover",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 21:54:34 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "6473fc7702e557a9",
+      "title": "WordPress RCE Flaw Draws Nearly 63,000 Attack Attempts in Just 24 Hours",
+      "url": "https://thehackernews.com/2026/10/wordpress-rce-flaw-draws-nearly-63000.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors have been observed attempting to exploit a high-severity security flaw in WordPress Core shortly after patches were released.\nThe vulnerability, which does not have a CVE identifier, relates to a case of remote code execution impacting WordPress Core versions 4.7 through 7.1.3. It carr",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Fri, 30 Oct 2026 19:38:14 +0530"
+    },
+    {
+      "id": "6d2a0802c49f854e",
+      "title": "Hackers Actively Exploit Highly Critical Drupal Commerce Core Authorization Bypass Flaw",
+      "url": "https://thehackernews.com/2026/10/hackers-actively-exploit-highly.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Drupal has warned that threat actors are exploiting a \"highly critical\" security flaw in its Commerce Core component.\nThe vulnerability, tracked as CVE-2026-118539 (CVSS score: N/A), is a case of missing authorization affecting Commerce Core versions from 0.0.0 to 2.41 and from 3.0.0 to 3.3.13.\n\"Thi",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 13:15:30 +0530"
+    },
+    {
+      "id": "f167e37bde6d313b",
+      "title": "Critical Linux kernel flaw allows remote root attacks on MPTCP servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-linux-kernel-flaw-allows-remote-root-attacks-on-mptcp-servers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Security researchers at Anthropic have developed an exploit for a critical Linux kernel vulnerability that allows unauthenticated attackers to remotely execute commands as root on servers running Multipath TCP (MPTCP) listeners.\nThe flaw, tracked as CVE-2026-98432, also affects ordinary TCP connecti",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 17:09:46 -0400"
+    },
+    {
+      "id": "09382f93624b985e",
+      "title": "CISA says max severity GitLab flaw now exploited in the wild",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA).\nTracked as CVE-2026-97229, this critical security flaw was discovered by a security researcher using the 'joaxcar' handle",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 09:00:32 -0400"
+    },
+    {
+      "id": "eaaaa83e33fa5c63",
+      "title": "Drupal warns of critical Commerce Core flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-critical-commerce-core-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Drupal warned admins to patch a critical access bypass vulnerability in the Commerce Core module that attackers are exploiting in the wild.\nTracked as CVE-2026-118539, this flaw stems from a missing authorization weakness that can be abused by unauthenticated attackers and affects Commerce Core vers",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 06:16:07 -0400"
+    },
+    {
+      "id": "d52c9778a55e47ad",
+      "title": "Zest’s new AI agent finds restaurants and books reservations over text",
+      "url": "https://techcrunch.com/2026/10/30/zests-new-ai-agent-finds-restaurants-and-books-reservations-over-text/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Zest, the restaurant discovery app that launched earlier this year, is already thinking about a future where mobile apps are no longer the primary interface. On Thursday, the startup introduced a new feature: a personal AI-powered “restaurant concierge” that lives in your text messages, similar to o",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 30 Oct 2026 17:47:12 +0000"
+    },
+    {
+      "id": "35fc634a28d1fa12",
+      "title": "Drupal Commerce Core Vulnerability Exploited Against Online Stores",
+      "url": "https://www.securityweek.com/drupal-commerce-core-vulnerability-exploited-against-online-stores/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Drupal is urging online store owners to patch a highly critical access bypass vulnerability in the Commerce Core module, warning that it is being exploited in the wild.\nTracked as CVE-2026-118539, the issue affects a contributed module that adds e-commerce features to Drupal websites, including a sh",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 30 Oct 2026 11:07:11 +0000"
+    },
+    {
+      "id": "1649c5dd07045357",
+      "title": "dbreunig/nesformer",
+      "url": "https://simonwillison.net/2026/Oct/30/nesformer/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "30th October 2026 - Link Blog\ndbreunig/nesformer (via) Inspired by qwenputer by Divyansh Agrawal, Drew Breunig baked a working emulator for a Nintendo Entertainment System 6502 CPU into the weights of Qwen3.5-4B. You can now play NES ROMs such as Super Mario Bros (very slowly) running inside Qwen!\nI",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-30T21:59:22+00:00"
+    },
+    {
+      "id": "46d8d781bead54a3",
+      "title": "Chinese Hackers Use AI-Powered ARTEX to Target Over 200 Organizations Worldwide",
+      "url": "https://thehackernews.com/2026/10/chinese-hackers-use-ai-powered-artex-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Chinese state-sponsored threat actors have been observed using a Go-based artificial intelligence (AI)-powered penetration testing framework called ARTEX in attacks aimed at high-value targets simultaneously.\nThe activity has been attributed by CrowdStrike to a China-based \"targeted intrusion advers",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 22:28:44 +0530"
+    },
+    {
+      "id": "bfec2004bdb16c89",
+      "title": "TeamViewer Flaw Lets Remote Computers Attack Users Who Connect to Control Them",
+      "url": "https://thehackernews.com/2026/10/teamviewer-flaw-lets-remote-computers.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "TeamViewer has fixed a flaw that lets the machine being controlled in a remote session attack the computer that connected to control it. In a TeamViewer session, the computer that connects and takes control is the viewer, and the machine it controls is the host.\nA malicious or compromised host can e",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 20:47:28 +0530"
+    },
+    {
+      "id": "4eafb481bfd904bc",
+      "title": "Trezor Warns of Suspected Hardware Implant in One of Its Wallets Sold by CryptoBilis",
+      "url": "https://thehackernews.com/2026/10/trezor-warns-of-suspected-hardware.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A Trezor Safe 5 hardware wallet bought from the reseller CryptoBilis has an extra circuit board that sends out the recovery phrase over a mobile network, a customer has reported.\nTrezor has not yet examined the device. It is telling everyone who bought a Trezor from CryptoBilis since March 2026 to m",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 17:51:56 +0530"
+    },
+    {
+      "id": "0e377490003110b1",
+      "title": "Why Urgent Security Fixes Aren't Fixed. Observe, Prove, Act, Confirm Gets Them Moving",
+      "url": "https://thehackernews.com/2026/10/why-urgent-security-fixes-arent-fixed.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The alert is critical. The fix is known. And the ticket sits in a queue for days. Security teams understand the risk, but the people who keep applications available need proof that the change won’t break anything.\nTheir concerns are practical. An IPS protection could block legitimate traffic. A conf",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 17:28:53 +0530"
+    },
+    {
+      "id": "6734aa3aec6c0e42",
+      "title": "Syrian Hacker Behind Fake Tweet That Triggered $136 Billion Market Drop Gets 42 Months in Prison",
+      "url": "https://thehackernews.com/2026/10/syrian-hacker-behind-fake-tweet-that.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Ahmad Umar Agha, a Syrian Electronic Army hacker known online as \"Th3Pr0,\" has been sentenced by a U.S. federal court to 42 months in prison for his role in a hacking conspiracy that targeted Western news outlets.\nThe conspiracy was organized and led by members of former Syrian President Bashar al-A",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 16:10:45 +0530"
+    },
+    {
+      "id": "ad2cc061f5526d02",
+      "title": "Official Claude Code Extension on Cursor Marketplace Trojanized with Persistent SSH Backdoor",
+      "url": "https://thehackernews.com/2026/10/official-claude-code-vs-code-extension.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed that a trojanized version of Anthropic's official Claude Code extension was distributed through the Cursor Marketplace as a legitimate update, attempting to install a persistent SSH backdoor on affected systems.\nThe malicious update, version 2.1.313, was dist",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 14:25:47 +0530"
+    },
+    {
+      "id": "e645dafde1d4d968",
+      "title": "Trezor warns of suspected crypto-theft implant in hardware wallet",
+      "url": "https://www.bleepingcomputer.com/news/security/trezor-warns-of-suspected-crypto-theft-implant-in-hardware-wallet/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hardware wallet device maker Trezor has received credible reports about a suspected hardware crypto-theft implant in a Trezor Safe 5 sold by its reseller CryptoBilis in Southeast Asia.\nAlthough the company has not yet received the device to examine it and confirm whether there is a malicious implant",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 11:58:20 -0400"
+    },
+    {
+      "id": "96a0f026f2e040c0",
+      "title": "Malicious Claude Code extension on Cursor planted SSH backdoors",
+      "url": "https://www.bleepingcomputer.com/news/security/malicious-claude-code-extension-on-cursor-planted-ssh-backdoors/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A malicious version of Anthropic's Claude Code VS Code extension was distributed through Cursor's extension marketplace for approximately 11 hours on October 29, exposing up to 5,000 developers to malware designed to install persistent SSH backdoors.\nThe extension used the version number 2.1.313 and",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 10:36:54 -0400"
+    },
+    {
+      "id": "27c3e9ac8130d5f4",
+      "title": "SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone",
+      "url": "https://www.bleepingcomputer.com/news/security/ss7-and-diameter-attacks-how-signaling-flaws-expose-your-phone/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "SS7 and Diameter signaling attacks can track, intercept, and impersonate you. Here’s how they work and how to stop them.\nYour phone can be tracked, your SMS two-factor codes can be intercepted, and your number can be impersonated, all without malware, a phishing link, or any access to your device.\nT",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 10:00:10 -0400"
+    },
+    {
+      "id": "4198413c0e430591",
+      "title": "Microsoft finally fixes VPN issues caused by September updates",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-finally-fixes-vpn-issues-caused-by-september-updates/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft has resolved Always On VPN connection failures triggered after installing the September 2026 Windows 11 security updates.\nThe Always On VPN remote access solution runs in the background and establishes secure tunnels back to the user's corporate network when their devices connect to the In",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 07:20:26 -0400"
+    },
+    {
+      "id": "93a6b87fe4257c9f",
+      "title": "Binance links $6.3 billion crypto theft to compromised DevOps laptop",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-links-63-billion-crypto-theft-to-compromised-devops-laptop/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Binance, the world's largest crypto exchange, has linked the theft of about $6.3 billion in cryptocurrency to a DevOps engineer's compromised laptop.\nThe crypto exchange said the access let attackers submit unauthorized withdrawal transactions after they accessed a service container, and it hasn't y",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 05:18:13 -0400"
+    },
+    {
+      "id": "b2263e9f84127c76",
+      "title": "nemotron-halloween",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "nemotron-halloween\nBuilding a Haunted House with NVIDIA Nemotron Open Models\nOr rather…\nBoo! Now Get Off My Lawn!\nTL;DR: MonsterHouse is an interactive projection I created for Halloween. He listens to trick-or-treaters, answers in the voice of a grumpy old pirate ship and softens when visitors reme",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 17:57:24 GMT"
+    },
+    {
+      "id": "43523836c60442d9",
+      "title": "Ollie, a privacy-focused AI assistant, is shutting down",
+      "url": "https://techcrunch.com/2026/10/30/ollie-a-privacy-focused-ai-assistant-is-shutting-down/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Ollie, a startup whose mission was to deliver an AI assistant that respected its users’ privacy, says that it will be shutting down in a week. Bill Lennon, the company’s co-founder and CEO, took to X on Friday to deliver the news, noting that the app will officially shut down on November 6.\n“I’m rea",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 22:56:13 +0000"
+    },
+    {
+      "id": "6198118eee1371c7",
+      "title": "Intel’s stock crashes, knocking $12B from government’s stake",
+      "url": "https://techcrunch.com/2026/10/30/intels-stock-crashes-knocking-12b-from-governments-stake/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Intel’s stock suffered one of its worst days ever on Friday, crashing around 28% after the chip giant reported a weaker-than-expected outlook for the fourth quarter.\nThis rout reduced the value of Intel’s holdings by the government by $12 billion, CNBC reports. The Trump administration had the gover",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 21:54:34 +0000"
+    },
+    {
+      "id": "60ba719a05749cde",
+      "title": "Anthropic expected to receive high ‘junk’ rating from credit agencies following IPO, FT report says",
+      "url": "https://techcrunch.com/2026/10/30/anthropic-expected-to-receive-high-junk-rating-from-credit-agencies-following-ipo-report-says/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic is expected to receive a high “junk” rating from credit rating agencies following its initial public offering, according to a report from the Financial Times.\nThe FT says the investment giant Blackstone, the anchor investor in a recent $63 billion deal to finance Anthropic’s chips, told in",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 21:52:03 +0000"
+    },
+    {
+      "id": "0806533d8a710536",
+      "title": "Last-minute Halloween costumes for tech nerds",
+      "url": "https://techcrunch.com/2026/10/30/last-minute-halloween-costumes-for-tech-nerds/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "It happens to the best of us — you’ve completely dropped the ball on figuring out a Halloween costume. Naturally, you’ve decided to solve this problem by turning to… TechCrunch? Yeah, sure, why not. I’ve got some ideas.\nHere are some last-minute techy Halloween costumes. Effort levels vary.\nRecursiv",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 21:26:59 +0000"
+    },
+    {
+      "id": "f1f6194d20367130",
+      "title": "Cracks are emerging in the AI spending boom",
+      "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Investors are getting nervous about AI infrastructure spending just as the Big Tech companies double down.\nOver the past two weeks, Alphabet, Amazon, Meta, and Microsoft have outlined plans to spend more than $740 billion on capital expenditures this year, which Wall Street is reading as AI infrastr",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 21:17:40 +0000"
+    },
+    {
+      "id": "135f70cd39eb4ce6",
+      "title": "Google’s first data center satellite is online and writing poetry",
+      "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Google Suncatcher’s prototype space data center is online and communicating with the ground after launching earlier this month alongside more than 100 other spacecraft on a SpaceX Falcon 9 rocket.\nThe satellite, which carries four Google Tensor Processing Units (TPUs) and generates up to 1 kW of ele",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 17:00:00 +0000"
+    },
+    {
+      "id": "8cb2db80dc5c1d4f",
+      "title": "Theranos whistleblower Tyler Shultz warns that the AI boom is ‘a great opportunity to go deceive people’",
+      "url": "https://techcrunch.com/2026/10/30/theranos-whistleblower-tyler-shultz-warns-that-the-ai-boom-is-a-great-opportunity-to-go-deceive-people/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "“You Can See Everything,” the documentary capturing disgraced Theranos founder Elizabeth Holmes’ final weeks before prison, is sparking national conversation as it becomes one of the highest-grossing documentaries of all time. The film, directed by Nathan Fielder and Lance Oppenheim, intentionally r",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 16:03:45 +0000"
+    },
+    {
+      "id": "5ec9d44a0613dcb2",
+      "title": "PHP2Shell Attacks Root Palo Alto Firewalls but Fail Against WordPress",
+      "url": "https://www.securityweek.com/php2shell-attacks-root-palo-alto-firewalls-but-fail-against-wordpress/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors have been hammering servers vulnerable to PHP2Shell for over a week, but only a few successful compromises have been confirmed to date.\nStanding out are Palo Alto Networks firewalls, which have been rooted by a China-linked hacking group in attacks chaining PHP2Shell with the Fragnesia",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 15:09:25 +0000"
+    },
+    {
+      "id": "5e82c4f3b3cc8e4f",
+      "title": "In Other News: Anthropic Breach Dispute, UEFI Flaw Hits Most Servers, Cloudflare AI Data Leak",
+      "url": "https://www.securityweek.com/in-other-news-anthropic-breach-dispute-uefi-flaw-hits-most-servers-cloudflare-ai-data-leak/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.\nThis curated summary highlights key stories across vulnerability disclosures, emerging attack method",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 14:41:35 +0000"
+    },
+    {
+      "id": "8258efe8a7ee711d",
+      "title": "Passkeys Are Better Than Passwords. But They Are Not Enough.",
+      "url": "https://www.securityweek.com/passkeys-are-better-than-passwords-but-they-are-not-enough/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "For decades, passwords have been one of cybersecurity’s most persistent weaknesses. Users forget them, reuse them, share them, and surrender them to convincing phishing sites. Attackers steal credentials, automate credential stuffing, and increasingly use artificial intelligence to make social engin",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 14:00:00 +0000"
+    },
+    {
+      "id": "4119054fab74058e",
+      "title": "Bulletproof Host Virtualine Loses Its Domain to FBI Seizure",
+      "url": "https://www.securityweek.com/bulletproof-host-virtualine-loses-its-domain-to-fbi-seizure/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The FBI has seized virtualine.net, the domain of a Russian-speaking bulletproof hosting services provider associated with various cybercriminal operations.\nAccording to court documents, Virtualine, also known as Secury, Massgod, Spamhouse, Lanedo, and Omegatech, has been hosting customers’ illicit s",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 13:36:12 +0000"
+    },
+    {
+      "id": "3556a8b0242473d3",
+      "title": "Fresh WordPress Vulnerability in Attackers’ Crosshairs",
+      "url": "https://www.securityweek.com/fresh-wordpress-vulnerability-in-attackers-crosshairs/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors started exploiting a new high-severity WordPress vulnerability within hours of patches rolling out, Defiant warns.\nPatched on October 28 in WordPress 7.1.4, the security defect impacts the WordPress update process and can be exploited for remote code execution.\nAccording to Defiant, it",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 30 Oct 2026 12:04:13 +0000"
+    }
+  ]
+}
