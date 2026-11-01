@@ -1,0 +1,378 @@
+{
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T09:31:21.383555+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access」입니다.",
+  "stats": {
+    "collected": 21,
+    "summarized": 21,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "4a3beb5aa5ff5440",
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\nThe vulnerabilities are listed below -\n- CVE-2026-111357 (CVSS sc",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Sat, 31 Oct 2026 13:57:43 +0530"
+    },
+    {
+      "id": "845cf24b8961170f",
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message.\nThe zero-click denial-of",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Sat, 31 Oct 2026 11:35:11 -0400"
+    },
+    {
+      "id": "1f2870fb86dff659",
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials,",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 17:31:56 +0530"
+    },
+    {
+      "id": "e8eb82345a00ebfc",
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed.\nThe researchers reported the flaw through OpenAI's bug bounty program on October 18, and",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 11:03:41 +0530"
+    },
+    {
+      "id": "21ad2182a1367363",
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in t",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 10:26:12 +0530"
+    },
+    {
+      "id": "bc9463905bbd6e7a",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "31st October 2026\nI have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. \nIt now picks up the default model used by LLM, which means you can start using Datasette Agent without needing to expl",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-10-31T22:10:01+00:00"
+    },
+    {
+      "id": "0def4a2fca6b3a20",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "31st October 2026 - Link Blog\nHow We Took Over ChatGPT Accounts (via) Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HT",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-31T23:15:22+00:00"
+    },
+    {
+      "id": "89c6cb6d29717113",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "During a recent interview with Wired’s Steven Levy, Apple CEO John Ternus defended the company’s current position in the AI landscape.\nOver the past couple years, Apple has often been described as behind on AI, especially as it delayed the release of a more powerful version of Siri, which finally la",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 21:41:00 +0000"
+    },
+    {
+      "id": "cefcb0bd2478e838",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Networking shouldn’t mean walking into a crowded room and hoping you happen to meet the right person. At TechCrunch Founder Summit, presented by Fidelity Private Shares, founders and VCs have several ways to make the connections they build beyond the sessions more intentional.\nOn November 4 at Bosto",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 21:36:07 +0000"
+    },
+    {
+      "id": "bc398a80a0dffe88",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis.\nSuing on behalf of the NAACP, the Southern Environmental Law Center said the",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 21:17:03 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "bc9463905bbd6e7a",
+      "title": "datasette-llm 0.1a9",
+      "url": "https://simonwillison.net/2026/Oct/31/datasette-llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "31st October 2026\nI have some big upgrades to Datasette Agent in the pipeline, but in the meantime here's a tiny user experience improvement to the underlying datasette-llm plugin. \nIt now picks up the default model used by LLM, which means you can start using Datasette Agent without needing to expl",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-10-31T22:10:01+00:00"
+    },
+    {
+      "id": "4a3beb5aa5ff5440",
+      "title": "Attackers Chain Three Ivanti Connect Secure Flaws to Gain Unauthenticated Root Access",
+      "url": "https://thehackernews.com/2026/10/attackers-chain-three-ivanti-connect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added two security flaws impacting Ivanti Connect Secure (ICS) to its Known Exploited Vulnerabilities (KEV) catalog, following active exploitation in the wild.\nThe vulnerabilities are listed below -\n- CVE-2026-111357 (CVSS sc",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Sat, 31 Oct 2026 13:57:43 +0530"
+    },
+    {
+      "id": "845cf24b8961170f",
+      "title": "New Android SMS of Death exploit can remotely crash unpatched phones",
+      "url": "https://www.bleepingcomputer.com/news/security/new-android-sms-of-death-exploit-can-remotely-crash-unpatched-phones/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A security researcher has released a proof-of-concept exploit for a recently patched Android vulnerability, dubbed \"SMS of Death\" and tracked as CVE-2026-58882, that lets attackers remotely disrupt cellular service or crash phones by sending a specially crafted text message.\nThe zero-click denial-of",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Sat, 31 Oct 2026 11:35:11 -0400"
+    },
+    {
+      "id": "0def4a2fca6b3a20",
+      "title": "How We Took Over ChatGPT Accounts",
+      "url": "https://simonwillison.net/2026/Oct/31/how-we-took-over-chatgpt-accounts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "31st October 2026 - Link Blog\nHow We Took Over ChatGPT Accounts (via) Parameter Labs describe an exploit they found against ChatGPT's implementation of the artifacts pattern (OpenAI used to call this \"Canvas\" but it looks like the latest revision is called HTML previews), where interactive custom HT",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-10-31T23:15:22+00:00"
+    },
+    {
+      "id": "1f2870fb86dff659",
+      "title": "Chainalysis Confirms Intrusion Into Internal Tools and Exposure of Customer Identity Data",
+      "url": "https://thehackernews.com/2026/10/chainalysis-confirms-intrusion-into.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "American blockchain analysis firm Chainalysis said it was the target of a cybersecurity incident in which an external actor accessed non-sensitive customer data.\nHowever, the company noted that the breach did not result in unauthorized access to its investigation content, authentication credentials,",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 17:31:56 +0530"
+    },
+    {
+      "id": "e8eb82345a00ebfc",
+      "title": "A Shared ChatGPT Link Could Run Attacker Code in Your Session and Read Private Chats",
+      "url": "https://thehackernews.com/2026/10/a-shared-chatgpt-link-could-run.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A malicious ChatGPT share link could run an attacker's code in the logged-in session of anyone who opened it, allowing them to read their private conversations, researchers at the security firm Parameter showed.\nThe researchers reported the flaw through OpenAI's bug bounty program on October 18, and",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 11:03:41 +0530"
+    },
+    {
+      "id": "21ad2182a1367363",
+      "title": "Cloudflare Reports 18.2 Million Network-Layer DDoS Attacks in Q3, Up 38%",
+      "url": "https://thehackernews.com/2026/10/cloudflare-reports-182-million-network.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors are launching about 8,226 network-layer distributed denial-of-service (DDoS) attacks per hour, Cloudflare revealed Thursday.\nThe web infrastructure and security company said it autonomously mitigated 18.2 million network-layer (L3) DDoS attacks and 14.4 trillion HTTP DDoS requests in t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 10:26:12 +0530"
+    },
+    {
+      "id": "ba55b05e53eaee48",
+      "title": "Northflank security breach leads to abuse of customers' AI API keys",
+      "url": "https://www.bleepingcomputer.com/news/security/northflank-security-breach-leads-to-abuse-of-customers-ai-api-keys/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cloud application hosting platform Northflank is warning customers to rotate all credentials and secrets stored on its platform after a security breach led to unauthorized use of customers' AI API keys.\nNorthflank is a cloud platform that allows developers to deploy and manage applications, containe",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 14:01:12 -0400"
+    },
+    {
+      "id": "b35f9e575d4ba903",
+      "title": "Reddit to lock content behind logins to fight scrapers",
+      "url": "https://www.bleepingcomputer.com/news/security/reddit-to-lock-content-behind-logins-to-fight-scrapers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Reddit announced in a post by co-founder Steve Huffman that the site will gradually become a \"logged-in service,\" offering limited access to visitors without accounts.\nFor the past 20 years, the discussion platform has let users browse almost all its content without logging in, but according to Huff",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 10:05:15 -0400"
+    },
+    {
+      "id": "4e3b797fd4a7ce3d",
+      "title": "From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era.",
+      "url": "https://www.bleepingcomputer.com/news/security/from-beginner-to-bug-hunter-learning-cybersecurity-in-the-ai-era/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Finding a real security flaw and getting paid for it is an appealing goal when you are learning cyber security. Bug bounties give you a chance to test your skills on real software and help its developers make it safer.\nHeadlines about programs closing or pausing under a flood of AI reports can make ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 09:10:19 -0400"
+    },
+    {
+      "id": "a291b7051796cec4",
+      "title": "Chainalysis discloses data breach from \"offensive agentic techniques\"",
+      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-discloses-data-breach-from-offensive-agentic-techniques/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Blockchain intelligence firm Chainalysis has disclosed a security incident after attackers used what it describes as \"offensive agentic techniques\" to gain unauthorized access to its internal systems and tools.\nThe company says some customer information was accessed, including names, email addresses",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 08:50:09 -0400"
+    },
+    {
+      "id": "89c6cb6d29717113",
+      "title": "Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake’",
+      "url": "https://techcrunch.com/2026/10/31/apple-ceo-says-the-company-doesnt-want-to-ship-ai-for-ais-sake/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "During a recent interview with Wired’s Steven Levy, Apple CEO John Ternus defended the company’s current position in the AI landscape.\nOver the past couple years, Apple has often been described as behind on AI, especially as it delayed the release of a more powerful version of Siri, which finally la",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 21:41:00 +0000"
+    },
+    {
+      "id": "cefcb0bd2478e838",
+      "title": "4 days left: How TechCrunch Founder Summit helps you make more useful connections to scale",
+      "url": "https://techcrunch.com/2026/10/31/4-days-left-how-techcrunch-founder-summit-helps-you-make-more-useful-connections-to-scale/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Networking shouldn’t mean walking into a crowded room and hoping you happen to meet the right person. At TechCrunch Founder Summit, presented by Fidelity Private Shares, founders and VCs have several ways to make the connections they build beyond the sessions more intentional.\nOn November 4 at Bosto",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 21:36:07 +0000"
+    },
+    {
+      "id": "bc398a80a0dffe88",
+      "title": "Judge allows NAACP lawsuit over xAI data center pollution to move forward",
+      "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A federal judge denied a motion by xAI seeking to dismiss an NAACP lawsuit accusing the SpaceX-owned company of failing to obtain permits needed to operate the gas turbines powering its Colossus data center outside Memphis.\nSuing on behalf of the NAACP, the Southern Environmental Law Center said the",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 21:17:03 +0000"
+    },
+    {
+      "id": "344dcf79744aa216",
+      "title": "OpenAI reportedly lowers funding target for new round",
+      "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI’s latest funding round isn’t quite living up to expectations, according to multiple news reports.\nOpenAI was previously reported to be raising $30 billion at a $1.4 trillion valuation, and then at a $1.25 trillion valuation, ahead of a planned IPO. But The Financial Times reported Friday that",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 16:12:55 +0000"
+    },
+    {
+      "id": "6336aff37e57b820",
+      "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia",
+      "url": "https://techcrunch.com/2026/10/30/nvidia-weighs-playing-the-cosigner-for-nscales-ai-data-center-in-west-virginia/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia is in talks to guarantee billions in debt financing for AI cloud provider Nscale’s planned Anthropic data center in West Virginia, The Information reported Thursday. Bloomberg later corroborated the report. Anthropic has signed a $44.6 billion contract for the project’s first building alone, ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 01:20:05 +0000"
+    },
+    {
+      "id": "f0c80b908a885d8f",
+      "title": "Syrian Hacker Gets Prison Time in US After Over a Decade on the Run",
+      "url": "https://www.securityweek.com/syrian-hacker-gets-prison-time-in-us-after-over-a-decade-on-the-run/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A Syrian man tied to the Syrian Electronic Army (SEA) has received a 42-month prison sentence in the US, more than 12 years after he was first charged.\nAhmad Umar Agha, who used the online handle Th3Pr0, was sentenced on Thursday by a federal court in the Eastern District of Virginia. According to t",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 11:00:00 +0000"
+    },
+    {
+      "id": "ea36b5ffc5dc7110",
+      "title": "LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes",
+      "url": "https://arxiv.org/abs/2610.37720",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 27 Oct 2026]\nTitle:LRMoE: Demand-Side Load Re-Calibration for Efficient MoE Training on Memory-Constrained Nodes\nView PDF HTML (experimental)\n            Abstract:Sparse Mixture-of-Experts (MoE) models offer scalable capacity for Web applica",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "2007d3c141e1c29f",
+      "title": "Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure",
+      "url": "https://arxiv.org/abs/2610.37731",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 27 Oct 2026]\nTitle:Amortized Localized Posterior Inference for Model Calibration with Application to an Ocean Turbulence Closure\nView PDF\n            Abstract:Model discrepancy may prevent a single calibration parameter from reproducing a ph",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "1955aa478edf8057",
+      "title": "ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions",
+      "url": "https://arxiv.org/abs/2610.37732",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 27 Oct 2026]\nTitle:ThinkJev: One Thought, Every Budget for Calibrated Typed Decisions\nView PDF HTML (experimental)\n            Abstract:Many uses of language models end in a typed decision: a choice among a closed set of options, whose proba",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 00:00:00 -0400"
+    },
+    {
+      "id": "e16c4853d0f5fdf4",
+      "title": "OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery",
+      "url": "https://arxiv.org/abs/2610.37739",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 27 Oct 2026]\nTitle:OpenFrontiers: A Collection of Open Research Problems and a Benchmark for Scientific Rediscovery\nView PDF HTML (experimental)\n            Abstract:Large language models (LLMs) have shown increasing promise in research-leve",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Sat, 31 Oct 2026 00:00:00 -0400"
+    }
+  ]
+}
