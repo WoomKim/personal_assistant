@@ -1,0 +1,261 @@
+{
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T10:05:37.602856+09:00",
+  "briefing": "오늘 9건이 수집되었습니다. 가장 주목할 항목은 「Alpine Linux rebuilds GitLab after attempted RCE attack」입니다.",
+  "stats": {
+    "collected": 12,
+    "summarized": 12,
+    "picked": 9,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "af6ffe74845e797d",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20–21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise.\nThe attacks targeted CVE-2026-97229, a maximum-se",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Sun, 01 Nov 2026 10:11:21 -0500"
+    },
+    {
+      "id": "c1c20131973afc74",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.\nOnce in, the attacker would act as that clien",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 14:21:31 +0530"
+    },
+    {
+      "id": "2a3e4a8e199c95ac",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.\nPolymarket says it is refunding about $2.7 million to 726 a",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 12:55:40 +0530"
+    },
+    {
+      "id": "6e20a9798345e8f5",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\nThe FBI, along with the U.S. Sec",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 12:33:00 +0530"
+    },
+    {
+      "id": "be08e34bf976a574",
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and in",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 12:32:58 +0530"
+    },
+    {
+      "id": "ffb30fef9594cc91",
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "1st November 2026\nI've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is:\nIf in doubt, delete the uv.lock file\nMost of my projects are libraries which don't include a uv.lock file, since it's rude for a library de",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-01T23:24:22+00:00"
+    },
+    {
+      "id": "835fd1406315e6b3",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "1st November 2026\nMore broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counte",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-01T16:49:04+00:00"
+    },
+    {
+      "id": "33c086ca1438f528",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?\nAxios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too.\nThe company’s chief global af",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 21:55:23 +0000"
+    },
+    {
+      "id": "0ae10264665c4816",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Dazzle AI CEO Marissa Mayer recently became the latest tech CEO to face criticism over seemingly out-of-touch comments extolling the usefulness of AI.\nIn Mayer’s case, that involved asking an AI tool for help with a school-assigned description of her daughter. For OpenAI CEO Sam Altman, that’s inclu",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 20:57:58 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "af6ffe74845e797d",
+      "title": "Alpine Linux rebuilds GitLab after attempted RCE attack",
+      "url": "https://www.bleepingcomputer.com/news/security/alpine-linux-rebuilds-gitlab-after-attempted-rce-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers attempted to exploit a critical GitLab vulnerability in Alpine Linux's development infrastructure on October 20–21, prompting the open-source project to rebuild its GitLab server and reset all passwords over concerns of a possible compromise.\nThe attacks targeted CVE-2026-97229, a maximum-se",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Sun, 01 Nov 2026 10:11:21 -0500"
+    },
+    {
+      "id": "ffb30fef9594cc91",
+      "title": "If in doubt, delete the uv.lock file",
+      "url": "https://simonwillison.net/2026/Nov/1/delete-uv-lock-first/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "1st November 2026\nI've been getting the occasional confusing Python dependency error since switching over to Python 3.15 and the rule I'm having to remember is:\nIf in doubt, delete the uv.lock file\nMost of my projects are libraries which don't include a uv.lock file, since it's rude for a library de",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-01T23:24:22+00:00"
+    },
+    {
+      "id": "835fd1406315e6b3",
+      "title": "Quoting Kyle Kingsbury",
+      "url": "https://simonwillison.net/2026/Nov/1/kyle-kingsbury/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "1st November 2026\nMore broadly, the use of LLMs erodes trust in documentation, in software, and in the organizations which produce them. Perhaps engineers will begin to treat any new software project with suspicion—the signals we used to rely on as markers of a mature system are now easier to counte",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-01T16:49:04+00:00"
+    },
+    {
+      "id": "c1c20131973afc74",
+      "title": "CVSS 10.0 LXD, MicroCloud Flaw Lets Attackers Impersonate Trusted Clients Without a Private Key",
+      "url": "https://thehackernews.com/2026/11/critical-lxd-and-microcloud-flaw-cvss.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A critical flaw in Canonical's LXD and MicroCloud let an attacker log in as a trusted client without holding that client's private key. To do it, the attacker had to reach their HTTPS API over the network and have the trusted client's public certificate.\nOnce in, the attacker would act as that clien",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 14:21:31 +0530"
+    },
+    {
+      "id": "2a3e4a8e199c95ac",
+      "title": "Hackers Steal About $2.7 Million From Polymarket Traders via Hijacked DebugBear Script",
+      "url": "https://thehackernews.com/2026/11/hackers-steal-about-27-million-from.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Malicious code on the website of prediction market Polymarket sold some signed-in traders' positions and moved their funds to the hackers on October 29. The code had replaced a page-speed script that the site loaded from an outside company.\nPolymarket says it is refunding about $2.7 million to 726 a",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 12:55:40 +0530"
+    },
+    {
+      "id": "6e20a9798345e8f5",
+      "title": "FBI Links North Korea's TraderTraitor to Record $6.43 Billion Binance Crypto Heist",
+      "url": "https://thehackernews.com/2026/11/fbi-links-north-koreas-tradertraitor-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Federal Bureau of Investigation (FBI) has officially attributed the theft of more than $6 billion in virtual assets to TraderTraitor, a North Korea-aligned elite hacking group also tracked as Jade Sleet, Pressure Chollima, PUKCHONG, Slow Pisces, and UNC4899.\nThe FBI, along with the U.S. Sec",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 12:33:00 +0530"
+    },
+    {
+      "id": "be08e34bf976a574",
+      "title": "NetamLoader Malware Targets Government Windows 10 Systems in Asia via .NET Injection",
+      "url": "https://thehackernews.com/2026/11/netamloader-malware-targets-government.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of what has been described as a \"highly sophisticated infection chain\" targeting government organizations in Asia.\nThe activity, detailed by Kaspersky this week, targeted a custom Windows 10 build used exclusively by government entities in Asia and in",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 12:32:58 +0530"
+    },
+    {
+      "id": "8cfea8890b08c2e2",
+      "title": "FBI links $6.3 billion Binance crypto heist to North Korean hackers",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-links-63-billion-binance-crypto-heist-to-north-korean-hackers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The FBI has confirmed that North Korean state-sponsored hackers known as TraderTraitor were behind the $6.3 billion crypto-theft attack on Binance, making it the largest cryptocurrency heist on record.\nIn a security alert published Saturday, the agency attributed the attack to TraderTraitor, a North",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 14:57:53 -0500"
+    },
+    {
+      "id": "d15dc155427a190c",
+      "title": "OpenAI says it's doubling Pro usage limits and bringing Work features to Chat",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-says-its-doubling-pro-usage-limits-and-bringing-work-features-to-chat/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "OpenAI has just confirmed that it's rolling out ChatGPT Work capabilities directly into regular Chat, while also combining usage allowances across ChatGPT and Codex.\nIn an email seen by BleepingComputer, OpenAI noted that it will test a combined experience for Chat and Work tabs in the coming weeks,",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 08:53:11 -0500"
+    },
+    {
+      "id": "33c086ca1438f528",
+      "title": "OpenAI might rebrand its data centers as ‘AI compute campuses’",
+      "url": "https://techcrunch.com/2026/11/01/openai-might-rebrand-its-data-centers-as-ai-compute-campuses/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Data centers are deeply unpopular. But what if we called them something else?\nAxios reports that OpenAI is preparing a “PR blitz” for after the midterm elections on Tuesday, as Democrats seem likely to win back the House of Representatives, and possibly the Senate, too.\nThe company’s chief global af",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 21:55:23 +0000"
+    },
+    {
+      "id": "0ae10264665c4816",
+      "title": "AI can make tech CEOs’ lives easier. What about everyone else?",
+      "url": "https://techcrunch.com/2026/11/01/ai-can-make-tech-ceos-lives-easier-what-about-everyone-else/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Dazzle AI CEO Marissa Mayer recently became the latest tech CEO to face criticism over seemingly out-of-touch comments extolling the usefulness of AI.\nIn Mayer’s case, that involved asking an AI tool for help with a school-assigned description of her daughter. For OpenAI CEO Sam Altman, that’s inclu",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 20:57:58 +0000"
+    },
+    {
+      "id": "1d293ae9cead23d3",
+      "title": "Northstar Security Exits Stealth With $7M to Expose Toxic Risk Combinations",
+      "url": "https://www.securityweek.com/northstar-security-exits-stealth-with-7m-to-expose-toxic-risk-combinations/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Northstar Security, a startup developing AI agents for security teams, has emerged from stealth mode with $7 million in seed funding.\nWing Venture Capital led the round. MVP, Outliers, and cybersecurity veterans Gerhard Eschelbeck, Renaud Deraison, and Justin Somaini also invested.\nThe company inges",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sun, 01 Nov 2026 11:15:00 +0000"
+    }
+  ]
+}
