@@ -1,0 +1,599 @@
+{
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T12:08:47.878332+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Chinese hackers use ARTEX AI in automated attacks against 200 orgs」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "f6edbcaffade5370",
+      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries.\nThe operation began on October 17 and targeted government ministries, telecommunications providers, and organizations in the pharmaceutical, s",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 02 Nov 2026 16:40:14 -0500"
+    },
+    {
+      "id": "7398c8fe0a0b90c3",
+      "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks.\nTracked as CVE-2026-97229, this vulnerability stems from an integer overflow weakness and was discovered in the CI/CD Regular Expression Compiler, which",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited",
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Mon, 02 Nov 2026 07:47:00 -0500"
+    },
+    {
+      "id": "fe787079c468ac4e",
+      "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+      "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Cursor users have been targeted with malicious versions of Anthropic’s Claude Code extension in a new supply chain attack.\nThe incident occurred on October 29 and involved versions 2.1.312 and 2.1.313 of the anthropic.claude-code extension, which were live in the Cursor VS Code Extension Marketplace",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Mon, 02 Nov 2026 11:29:39 +0000"
+    },
+    {
+      "id": "3b6a51103bfae25b",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user’s Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
+      "why": "",
+      "importance": 2.8,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 02:24:31 +0000"
+    },
+    {
+      "id": "56371e1b61b30724",
+      "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+      "url": "https://arxiv.org/abs/2610.40716",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 29 Oct 2026]\nTitle:Characterizing LLM Agent Behaviors in Module Shadowing Environments\nView PDF HTML (experimental)\n            Abstract:LLM agents operating in untrusted workspaces face the risk of untrusted code execution during routine ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "728c21b3deeb61e6",
+      "title": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nStop counting tokens, start counting what ships\nWhy rationing agentic coding backfires, and what to measure instead.\nProvided byHPE\nWhen a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to corre",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 02 Nov 2026 13:10:32 +0000"
+    },
+    {
+      "id": "10dab842bc689c46",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "2nd November 2026\nThere's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.\nI added gpt-6.1-sol and gpt-6.1-terra, plus a new llm openai endpoint add command to make it easier to configure additional models tha",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-02T23:49:30+00:00"
+    },
+    {
+      "id": "6bf0704cb5e2b6fd",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "The U.S. Census Bureau and “Super Intelligence”\n2nd November 2026\nI was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-02T13:31:26+00:00"
+    },
+    {
+      "id": "9c67c7267a5625d5",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Apple’s services business remains at record levels, but it’s facing growing pressure. The central part of that business, Apple’s App Store, has faced regulatory pressure and a slump in mobile gaming, which have hurt services growth.\nHowever, on Monday’s earnings call, Apple signaled that it may look",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 01:49:52 +0000"
+    },
+    {
+      "id": "bd936fe1d4a26927",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Y Combinator CEO Garry Tan has, in the past, jokingly admitted that he’s suffered from “cyber psychosis” and sometimes barely sleeps because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast The Builders, set to publish on Tuesday, Tan put a price tag on",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 00:35:52 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "f6edbcaffade5370",
+      "title": "Chinese hackers use ARTEX AI in automated attacks against 200 orgs",
+      "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-use-artex-ai-in-automated-attacks-against-200-orgs/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Chinese hackers used ARTEX, an open-source, multi-agent AI penetration-testing framework, in attacks against more than 200 organizations across 14 countries.\nThe operation began on October 17 and targeted government ministries, telecommunications providers, and organizations in the pharmaceutical, s",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 02 Nov 2026 16:40:14 -0500"
+    },
+    {
+      "id": "7398c8fe0a0b90c3",
+      "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks.\nTracked as CVE-2026-97229, this vulnerability stems from an integer overflow weakness and was discovered in the CI/CD Regular Expression Compiler, which",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited",
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Mon, 02 Nov 2026 07:47:00 -0500"
+    },
+    {
+      "id": "728c21b3deeb61e6",
+      "title": "Stop counting tokens, start counting what ships",
+      "url": "https://www.technologyreview.com/2026/11/02/1147702/stop-counting-tokens-start-counting-what-ships/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nStop counting tokens, start counting what ships\nWhy rationing agentic coding backfires, and what to measure instead.\nProvided byHPE\nWhen a developer gives an AI agent a coding task, the agent does more than answer once. It plans, generates code, runs tests, and repeats the process to corre",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 02 Nov 2026 13:10:32 +0000"
+    },
+    {
+      "id": "fe787079c468ac4e",
+      "title": "Malicious Claude Code Extension Served in Cursor Supply Chain Attack",
+      "url": "https://www.securityweek.com/malicious-claude-code-extension-served-in-cursor-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Cursor users have been targeted with malicious versions of Anthropic’s Claude Code extension in a new supply chain attack.\nThe incident occurred on October 29 and involved versions 2.1.312 and 2.1.313 of the anthropic.claude-code extension, which were live in the Cursor VS Code Extension Marketplace",
+      "importance": 3.0,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Mon, 02 Nov 2026 11:29:39 +0000"
+    },
+    {
+      "id": "3b6a51103bfae25b",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "url": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user’s Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown s",
+      "importance": 2.8,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 02:24:31 +0000"
+    },
+    {
+      "id": "10dab842bc689c46",
+      "title": "llm 0.37",
+      "url": "https://simonwillison.net/2026/Nov/2/llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "2nd November 2026\nThere's a lot of stuff in this new release of my LLM CLI tool and Python library, representing around two months of accumulated features and fixes.\nI added gpt-6.1-sol and gpt-6.1-terra, plus a new llm openai endpoint add command to make it easier to configure additional models tha",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-02T23:49:30+00:00"
+    },
+    {
+      "id": "6bf0704cb5e2b6fd",
+      "title": "The U.S. Census Bureau and “Super Intelligence”",
+      "url": "https://simonwillison.net/2026/Nov/2/census-bureau-super-intelligence/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "The U.S. Census Bureau and “Super Intelligence”\n2nd November 2026\nI was reminded today of AI Adoption Rate Trending Down for Large Companies, a chart produced by Apollo Global Management in September 2025, which appeared to show a slowdown in U.S. corporate AI adoption based on numbers collected by ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-02T13:31:26+00:00"
+    },
+    {
+      "id": "56371e1b61b30724",
+      "title": "Characterizing LLM Agent Behaviors in Module Shadowing Environments",
+      "url": "https://arxiv.org/abs/2610.40716",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 29 Oct 2026]\nTitle:Characterizing LLM Agent Behaviors in Module Shadowing Environments\nView PDF HTML (experimental)\n            Abstract:LLM agents operating in untrusted workspaces face the risk of untrusted code execution during routine ",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "65afadf0cbc2316d",
+      "title": "⚡ Weekly Recap: Critical CVEs, Linux DDoS Botnet, Device-Code Phishing, Android Spyware and More",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-critical-cves-linux-ddos.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Some attacks this week didn't need much of a trick. A fake support call, a trusted extension, a shared link, or a device with no password. Small things that people barely think about. Yet each was enough to cause serious trouble.\nThen there were the bigger messes. Billions stolen, hidden networks of",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 22:27:56 +0530"
+    },
+    {
+      "id": "948be6f589a74e52",
+      "title": "Google Disrupts 1.3 Million-Device Android Botnet, Says TV Box Maker Sold Criminal Access",
+      "url": "https://thehackernews.com/2026/11/google-disrupts-13-million-device.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A botnet of more than 1.3 million Android devices, mostly TV set-top boxes, lost control of its servers in late October in a takedown led by Google.\nGoogle says it is highly confident that device maker Videostrong intentionally put a backdoor in the boxes and sold access to criminals.\nThey used the ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 21:20:26 +0530"
+    },
+    {
+      "id": "39749d757eb1e130",
+      "title": "DarkBlinders Compromises Israeli Target and Iraqi Kurdish Government Cloud Environment",
+      "url": "https://thehackernews.com/2026/11/darkblinders-compromises-israeli-target.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign targeting Israel and the Kurdistan Region of Iraq by an Iran state-aligned threat actor between August and October 2026.\nAccording to a report published by Dream Research Labs, the campaign has led to the compromise of a ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 20:16:05 +0530"
+    },
+    {
+      "id": "ad2df65419af3471",
+      "title": "Critical Langflow Flaws Could Let Unauthenticated Attackers Run Code on Servers",
+      "url": "https://thehackernews.com/2026/11/critical-langflow-flaws-could-let.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Two critical flaws in Langflow could let a remote attacker with no account bypass authentication or run arbitrary code, IBM said last week.\nLangflow is an open-source tool for building AI agents and workflows, and its vulnerability reports go to IBM. Every release from 1.0.0 through 1.12.8 has the f",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 17:20:00 +0530"
+    },
+    {
+      "id": "c477f18125888d9e",
+      "title": "Is Your SOC Ready for AI Agents? A Maturity Check Before You Deploy",
+      "url": "https://thehackernews.com/2026/11/is-your-soc-ready-for-ai-agents.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Forty percent of security teams now use AI every day, and another 56% are testing it. Only 4% have no plans to adopt it, according to Prophet Security's State of AI in Security Operations 2026 survey of more than 250 CISOs, SOC leaders and practitioners. For the teams still testing, the next decisio",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 17:00:00 +0530"
+    },
+    {
+      "id": "d596e3f2baced4c0",
+      "title": "Attackers Pose as IT Support on Microsoft Teams, Abuse AD CS to Steal Company Data",
+      "url": "https://thehackernews.com/2026/11/attackers-pose-as-it-support-on.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers posing as IT support on Microsoft Teams talked employees into giving them remote control of their PCs. They then used insecure Active Directory Certificate Services (AD CS) settings to obtain login certificates for privileged accounts, including one for a domain controller.\nMicrosoft said ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 16:38:45 +0530"
+    },
+    {
+      "id": "87a25e1b557ba278",
+      "title": "Government Linux Servers Targeted With SysGoRAT and Suspected AI-Generated Scripts",
+      "url": "https://thehackernews.com/2026/11/government-linux-servers-targeted-with.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber espionage campaign specifically targeting Linux infrastructure associated with government entities and state-affiliated infrastructure.\nThe activity, observed by Palo Alto Networks Unit 42 between October 2025 and April 2026, has been track",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 16:19:59 +0530"
+    },
+    {
+      "id": "9068a344a0358a19",
+      "title": "New VOLTA Infostealer Uses Claude, Gemini, and Kimi AI to Rank Victims by Financial Value",
+      "url": "https://thehackernews.com/2026/11/new-volta-infostealer-uses-claude.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have discovered a new Windows infostealer malware called VOLTA-AUTODOXER (aka VOLTA) that makes use of a large language model (LLM) to rank a victim's stolen data by their monetization value.\nLike other typical stealer families, VOLTA is equipped to harvest passwords and co",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 11:21:07 +0530"
+    },
+    {
+      "id": "b9a8fe94cb9b69e7",
+      "title": "Fintech platform Sageworks taken offline after suspected cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/fintech-platform-sageworks-taken-offline-after-suspected-cyberattack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Financial technology company Abrigo has restored its Sageworks risk management application, except for borrower-facing capabilities, following an outage triggered by \"irregular activity\" in its environment.\nOn October 30, the company began emergency maintenance and took the Sageworks application off",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 14:00:45 -0500"
+    },
+    {
+      "id": "f8e64d371b0e6032",
+      "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
+      "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities.\nThe company attributes the botnet with high ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 13:16:34 -0500"
+    },
+    {
+      "id": "be1d39eaf1aa1ffc",
+      "title": "BTCPay Server warns of hot wallet crypto thefts on outdated instances",
+      "url": "https://www.bleepingcomputer.com/news/security/btcpay-server-warns-of-hot-wallet-thefts-targeting-outdated-instances/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The maintainer of BTCPay Server, an open-source cryptocurrency payment processor, has urged users to install the latest version as hackers have been draining “hot wallets” on instances running older versions.\nOperators were initially advised to shut down their servers pending a full investigation in",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 10:03:07 -0500"
+    },
+    {
+      "id": "5ea1d647d0056480",
+      "title": "Your Mobile Carrier Stores Your Call Logs for Years",
+      "url": "https://www.bleepingcomputer.com/news/security/your-mobile-carrier-stores-your-call-logs-for-years/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "In 2024, AT&T lost sensitive communication logs of 109 million customers in a massive data breach. Call logs can reveal a lot about you, like your closest relationships, where you live and work, and your daily routine.\n109 million people (nearly a third of Americans) suffered a massive data breach i",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 10:01:11 -0500"
+    },
+    {
+      "id": "cab04cab3c6673df",
+      "title": "Hackers disrupt refrigeration systems at European supermarkets",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems.\nIn some cases, hackers shut down refrigerators or activated defrosting systems, causin",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 09:28:39 -0500"
+    },
+    {
+      "id": "5e44eebabf299553",
+      "title": "Microsoft fixes Smart App Control broken by October Windows update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-smart-app-control-broken-by-october-windows-update/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft has resolved a known issue that prevented some users from activating the Smart App Control security feature after installing the October 2026 KB5127648 Windows 11 security update.\nSmart App Control uses Microsoft's code integrity features and app intelligence services, and it works alongsi",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 08:57:29 -0500"
+    },
+    {
+      "id": "9c67c7267a5625d5",
+      "title": "Apple may try to increase revenue by doing…something with third-party AI apps",
+      "url": "https://techcrunch.com/2026/11/02/apple-may-try-to-increase-revenue-by-doing-something-with-third-party-ai-apps/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Apple’s services business remains at record levels, but it’s facing growing pressure. The central part of that business, Apple’s App Store, has faced regulatory pressure and a slump in mobile gaming, which have hurt services growth.\nHowever, on Monday’s earnings call, Apple signaled that it may look",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 01:49:52 +0000"
+    },
+    {
+      "id": "bd936fe1d4a26927",
+      "title": "Y Combinator’s Garry Tan uses AI agents so much, he spends up to $200K a year on tokens",
+      "url": "https://techcrunch.com/2026/11/02/y-combinators-garry-tan-uses-ai-agents-so-much-he-spends-up-to-200k-a-year-on-tokens/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Y Combinator CEO Garry Tan has, in the past, jokingly admitted that he’s suffered from “cyber psychosis” and sometimes barely sleeps because he’s so excited to be working with his AI agents. On a new episode of Walter Isaacson’s podcast The Builders, set to publish on Tuesday, Tan put a price tag on",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 00:35:52 +0000"
+    },
+    {
+      "id": "19ce29ebfa962815",
+      "title": "Trajectory raises $45M to make AI model training accessible to nontechnical experts",
+      "url": "https://techcrunch.com/2026/11/02/trajectory-raises-45m-to-make-ai-model-training-accessible-to-nontechnical-experts/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Whether developed by OpenAI or Anthropic or built on open source alternatives, current AI models share a critical limitation: They don’t learn from their mistakes without further training.\nBusinesses adapting these models for specialized fields, such as law and finance, typically get around this by ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 23:13:53 +0000"
+    },
+    {
+      "id": "55dd7e97ced5d872",
+      "title": "Anthropic warns that it’s very close to RSI capability, aka self-building AI",
+      "url": "https://techcrunch.com/2026/11/02/anthropic-warns-that-its-very-close-to-rsi-capability-aka-self-building-ai/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "While much attention has focused on the updated financials Anthropic revealed in its revised S-1A on Monday, (revenue is soaring, but so are expenses), the AI lab dropped another little bombshell in the fine print.\nThe filing seems to warn that the company is on the cusp of creating a model capable ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 22:14:50 +0000"
+    },
+    {
+      "id": "f0d11490230013aa",
+      "title": "Web host Squarespace lays off 19% of its employees",
+      "url": "https://techcrunch.com/2026/11/02/web-host-squarespace-lays-off-19-of-its-employees/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Squarespace, the web company that helps customers build and host their own websites, is laying off about one-fifth of its workforce, in a move that will affect hundreds of jobs.\nJeff Seedman, a public relations specialist representing Squarespace, confirmed the layoffs to TechCrunch. The Verge initi",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 19:25:59 +0000"
+    },
+    {
+      "id": "8402594bed2479dc",
+      "title": "New York Times and other outlets sue web browser Brave over alleged content scraping",
+      "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The New York Times sued Brave, the 11-year-old, privacy-focused browser company, on Monday, alleging it scraped the outlet’s copyrighted content and unlawfully distributed it to customers the suit names as Anthropic, Perplexity, Mistral, xAI, and Cohere.\nSeparately on Monday, the Daily News, the Chi",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 19:19:17 +0000"
+    },
+    {
+      "id": "6e11dddc7a7cc4c3",
+      "title": "42AI comes out of stealth with $62.5M and a world model that can ‘predict human behavior’",
+      "url": "https://techcrunch.com/2026/11/02/42ai-comes-out-of-stealth-with-62-5m-and-a-world-model-that-can-predict-human-behavior/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Here’s a question straight out of sci-fi: What if AI could predict what you were going to do before you decided to, even in a completely new situation?\nIsraeli startup 42AI says it is developing a “behavioral world model” that can do just that, and it has just come out of stealth with $62.5 million ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 16:30:00 +0000"
+    },
+    {
+      "id": "3059ef1574cb12ba",
+      "title": "Elon Musk throttles Grok Bot limits due to ‘unsustainably high’ costs",
+      "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Over Halloween weekend, some Grok Bot users awoke to something especially spooky: Their weekly usage limits were unexpectedly maxed out, even if they hadn’t been using SpaceX’s agentic AI overnight. Some users reported on X that their usage jumped from as low as 50% to 100%.\nSpaceX CEO Elon Musk con",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 16:23:21 +0000"
+    },
+    {
+      "id": "0ad9e89a8ab0a418",
+      "title": "Raising the quality of insights in agentic analytics",
+      "url": "https://www.technologyreview.com/2026/11/02/1147660/raising-the-quality-of-insights-in-agentic-analytics/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nRaising the quality of insights in agentic analytics\nThe top reason analytics agents produce substandard insights is a lack of business context, prompting investment in semantic layers and governance, rather than bigger models.\nIn partnership withSnowflake\nIn just a few years, generative A",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 17:00:00 +0000"
+    },
+    {
+      "id": "e49f46b109f68045",
+      "title": "The agentic web is here",
+      "url": "https://www.technologyreview.com/2026/11/02/1147846/the-agentic-web-is-here/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "The agentic web is here\nWith the rise of personal AI assistants, the internet isn't just for humans anymore.\nIn 2001, a decade after he invented the World Wide Web, Tim Berners-Lee articulated a new vision. Together with two colleagues, he published an article in the magazine Scientific American in ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 09:35:19 +0000"
+    },
+    {
+      "id": "c0b0ac9448471051",
+      "title": "Cybersecurity M&A Roundup: 37 Deals Announced in October 2026",
+      "url": "https://www.securityweek.com/cybersecurity-ma-roundup-37-deals-announced-in-october-2026/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "SecurityWeek tracked 37 cybersecurity merger and acquisition (M&A) deals announced in October 2026.\nFor a look at last year’s activity, see SecurityWeek’s 2025 Cybersecurity M&A Report, which covers more than 420 deals.\nHere are some of the most important cybersecurity M&A deals announced in October",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 15:01:11 +0000"
+    },
+    {
+      "id": "36bb83401e5a2118",
+      "title": "Florida Student Aid Website Hack Puts Data of 4.9 Million People at Risk",
+      "url": "https://www.securityweek.com/florida-student-aid-website-hack-puts-data-of-4-9-million-people-at-risk/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The Florida Department of Education (FLDOE) says hackers breached its student financial aid website, potentially exposing the personal information of roughly 4.9 million people.\nThe department discovered the intrusion on October 19. It says it launched its incident response procedures after detectin",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 14:44:18 +0000"
+    },
+    {
+      "id": "adcc13fa97b855a3",
+      "title": "Revolve Data Breach Impacts at Least 180,000 People",
+      "url": "https://www.securityweek.com/revolve-data-breach-impacts-at-least-180000-people/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Online fashion retailer Revolve is notifying at least 180,000 individuals that their personal and payment card information was stolen in a data breach.\nThe incident occurred on September 11 and involved unauthorized access to certain systems, including the company’s online shopping platform.\nImmedia",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 13:35:21 +0000"
+    },
+    {
+      "id": "afbf726098306952",
+      "title": "Google Introduces $250,000 Root-in-Cloud Bug Bounty Reward",
+      "url": "https://www.securityweek.com/google-introduces-250000-root-in-cloud-bug-bounty-reward/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Google has expanded its Cloud Vulnerability Reward Program (VRP) with a new $250,000 top-tier reward for security weaknesses that could lead to full administrative control.\nThe premier payout is “specifically designed to recognize high-impact architectural research” and will be handed out to researc",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 13:25:11 +0000"
+    },
+    {
+      "id": "2e0eed2511257ee2",
+      "title": "Chainalysis Discloses Data Breach Following AI-Driven Cyberattack",
+      "url": "https://www.securityweek.com/chainalysis-discloses-data-breach-following-ai-driven-cyberattack/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Blockchain analytics company Chainalysis has announced falling victim to an AI-driven cyberattack that resulted in a data breach.\n“This month, Chainalysis detected an external actor using offensive agentic techniques to gain unauthorized access to Chainalysis systems and internal tools,” the company",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 10:27:49 +0000"
+    },
+    {
+      "id": "cf69a21a296f3d14",
+      "title": "FGSM Attack Transferability from Simulation to Quantum Hardware in Network Intrusion Detection",
+      "url": "https://arxiv.org/abs/2610.40701",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 28 Oct 2026]\nTitle:FGSM Attack Transferability from Simulation to Quantum Hardware in Network Intrusion Detection\nView PDF HTML (experimental)\n            Abstract:Quantum computers are now available through cloud platforms, and recent wor",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "fa9f85962573ae13",
+      "title": "PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management",
+      "url": "https://arxiv.org/abs/2610.40714",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 29 Oct 2026]\nTitle:PrivacyFlow: Privacy in AI Agents through Information Flow Analysis and Consequence-Aware Risk Management\nView PDF HTML (experimental)\n            Abstract:Autonomous LLM agents executing multi-step workflows over person",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "d54ecbdd14ddd2f7",
+      "title": "MetaVul: Agentic Harness Discovery for Vulnerability Detection",
+      "url": "https://arxiv.org/abs/2610.40721",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 29 Oct 2026]\nTitle:MetaVul: Agentic Harness Discovery for Vulnerability Detection\nView PDF HTML (experimental)\n            Abstract:LLM agents are increasingly used to automate vulnerability detection, but reliable detection is challenging",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
