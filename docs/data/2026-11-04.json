@@ -1,0 +1,595 @@
+{
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T10:45:38.474060+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "77f64f32faf59d10",
+      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+      "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.\nThe flaw, tra",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Tue, 03 Nov 2026 16:53:53 +0530"
+    },
+    {
+      "id": "36b3d0baf9aaf148",
+      "title": "Barracuda warns of critical flaws allowing root access to devices",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges.\nThe first is a critical flaw (CVE-2026-116606) stemming from an Email Security Gateway (ESG) authentication weakness that attackers can exploit to modify a",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 03 Nov 2026 10:06:16 -0500"
+    },
+    {
+      "id": "c136875d05ca548e",
+      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host.\nResearchers at cybersecurity company Bitdefender believe the threat actor may have used AI-generated commands and an automated agentic loop to carr",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Tue, 03 Nov 2026 09:00:00 -0500"
+    },
+    {
+      "id": "b981c2f988c9621c",
+      "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+      "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "CrowdStrike on Tuesday announced agreements to acquire AI agent observability firm Fiddler AI and AI security testing company Dreadnode, in deals reportedly worth a combined $495 million.\nCrowdStrike has not disclosed the financial terms of either acquisition. According to The Wall Street Journal, w",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 03 Nov 2026 14:12:44 +0000"
+    },
+    {
+      "id": "5e74da19f3eb8376",
+      "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+      "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The U.K. will likely face artificial intelligence cyberattacks on its critical infrastructure by 2028 as criminals and states, including China and Russia, increasingly use AI in their cyber activity, Britain’s cyber chief warned Tuesday.\nThat could include AI-powered malware for ransomware attacks a",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Tue, 03 Nov 2026 09:49:12 +0000"
+    },
+    {
+      "id": "6857dc224a419fe9",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Qwen 3.8 27B on my laptop can interpret model weights, too\n3rd November 2026\nYesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a “b",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-03T16:29:48+00:00"
+    },
+    {
+      "id": "22c23cfe758c1cb6",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "3rd November 2026 - Link Blog\nI discovered a sound that leaks your exact location (and it's everywhere) - YouTube (via) Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cr",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-03T05:32:25+00:00"
+    },
+    {
+      "id": "c006e897d48e9930",
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "3rd November 2026\nI sent out the October edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month:\n- The October inflection point for vibe game development\n- The vulnerability apocalypse gets hot\n- LLM releases\n- API credits",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-03T05:28:59+00:00"
+    },
+    {
+      "id": "a55665cf48953af7",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "StateBench: Testing how language models track state changes over long documents\n📄 Tech Report | 🤗 Data | 💻 Code\nWe’re introducing StateBench, a benchmark for long-context state tracking—how well language models keep track of information about entities in long documents as they evolve.\nState tracking",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 17:15:21 GMT"
+    },
+    {
+      "id": "bc4177032a04e266",
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Palette: teaching a small model to build decks in your design language\nAsk a frontier model for a slide deck and you'll get a good one. Ask for ten and they start to look alike: the same tasteful defaults, the same house style, a faint \"AI-generated deck\" look. That's fine until you want the deck to",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 16:35:36 GMT"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "77f64f32faf59d10",
+      "title": "Red Hat Patches 9.8-Rated Linux TCP RCE Flaw While Ubuntu Releases Fixes for Testing",
+      "url": "https://thehackernews.com/2026/11/red-hat-patches-98-rated-linux-tcp-rce.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Fixed kernels for a use-after-free vulnerability in the Linux kernel's IPv4 TCP code are now available for Red Hat Enterprise Linux 8, 9, and 10, while Ubuntu's fixes for its three newest long-term-support releases remain in its opt-in testing channel with no date for a regular update.\nThe flaw, tra",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Tue, 03 Nov 2026 16:53:53 +0530"
+    },
+    {
+      "id": "36b3d0baf9aaf148",
+      "title": "Barracuda warns of critical flaws allowing root access to devices",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-warns-of-critical-flaws-allowing-root-access-to-devices/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cybersecurity company Barracuda Networks warned customers to patch two vulnerabilities that can let attackers run commands with root privileges.\nThe first is a critical flaw (CVE-2026-116606) stemming from an Email Security Gateway (ESG) authentication weakness that attackers can exploit to modify a",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 03 Nov 2026 10:06:16 -0500"
+    },
+    {
+      "id": "c136875d05ca548e",
+      "title": "UK school estate hit by 3AM ransomware in suspected AI-assisted attack",
+      "url": "https://www.bleepingcomputer.com/news/security/uk-school-estate-hit-by-3am-ransomware-in-suspected-ai-assisted-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A 3AM ransomware affiliate targeted a school estate in the UK and successfully encrypted around 37 of nearly 50 machines reached from an unmanaged host.\nResearchers at cybersecurity company Bitdefender believe the threat actor may have used AI-generated commands and an automated agentic loop to carr",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Tue, 03 Nov 2026 09:00:00 -0500"
+    },
+    {
+      "id": "b981c2f988c9621c",
+      "title": "CrowdStrike Reportedly Paying $495 Million for AI Security Firms Fiddler, Dreadnode",
+      "url": "https://www.securityweek.com/crowdstrike-reportedly-paying-495-million-for-ai-security-firms-fiddler-dreadnode/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "CrowdStrike on Tuesday announced agreements to acquire AI agent observability firm Fiddler AI and AI security testing company Dreadnode, in deals reportedly worth a combined $495 million.\nCrowdStrike has not disclosed the financial terms of either acquisition. According to The Wall Street Journal, w",
+      "importance": 3.0,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 03 Nov 2026 14:12:44 +0000"
+    },
+    {
+      "id": "5e74da19f3eb8376",
+      "title": "UK Cyber Chief Says the UK Will Face AI Cyberattacks on Critical Infrastructure by 2028",
+      "url": "https://www.securityweek.com/uk-cyber-chief-says-the-uk-will-face-ai-cyberattacks-on-critical-infrastructure-by-2028/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The U.K. will likely face artificial intelligence cyberattacks on its critical infrastructure by 2028 as criminals and states, including China and Russia, increasingly use AI in their cyber activity, Britain’s cyber chief warned Tuesday.\nThat could include AI-powered malware for ransomware attacks a",
+      "importance": 3.0,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Tue, 03 Nov 2026 09:49:12 +0000"
+    },
+    {
+      "id": "6857dc224a419fe9",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Qwen 3.8 27B on my laptop can interpret model weights, too\n3rd November 2026\nYesterday’s hot paper was Sparks of Weight-Space Programming: LLMs can natively read & write neural network weights by Rikiya Takehi, Jayden Teoh, Alex Zhang, and Omar Khattab. The paper (OK, the authors classify is as a “b",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-03T16:29:48+00:00"
+    },
+    {
+      "id": "22c23cfe758c1cb6",
+      "title": "I discovered a sound that leaks your exact location (and it's everywhere) - YouTube",
+      "url": "https://simonwillison.net/2026/Nov/3/a-sound-that-leaks-your-exact-location/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "3rd November 2026 - Link Blog\nI discovered a sound that leaks your exact location (and it's everywhere) - YouTube (via) Genius piece of OSINT by Colsto, who demonstrates how you can take almost imperceptible background noise of planes from a video soundtrack, figure out their Doppler curves, then cr",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-03T05:32:25+00:00"
+    },
+    {
+      "id": "c006e897d48e9930",
+      "title": "October sponsors-only newsletter",
+      "url": "https://simonwillison.net/2026/Nov/3/october-newsletter/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "3rd November 2026\nI sent out the October edition of my sponsors-only monthly newsletter. If you are a sponsor (or start a sponsorship now) you can access it here. This month:\n- The October inflection point for vibe game development\n- The vulnerability apocalypse gets hot\n- LLM releases\n- API credits",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-03T05:28:59+00:00"
+    },
+    {
+      "id": "9ca07b46843ba208",
+      "title": "mSecure Warns Users to Change Passwords, Reset 2FA and Passkeys After Suspicious Activity",
+      "url": "https://thehackernews.com/2026/11/msecure-warns-users-to-change-passwords.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Customers of the mSecure password manager are being urged to act now to protect the confidential information they store in it, possibly by changing passwords, resetting two-factor authentication (2FA), and removing passkeys.\nThe warning came in an email sent on November 3 in the name of developer mS",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 00:16:38 +0530"
+    },
+    {
+      "id": "8afc2fab59660103",
+      "title": "Chainstack Reports Production Systems Breach Exposing Customer Data and Password Hashes",
+      "url": "https://thehackernews.com/2026/11/chainstack-reports-production-systems.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Blockchain infrastructure provider Chainstack on Tuesday disclosed that it was targeted in a cyber attack that allowed an unauthorized party to gain access to some parts of its infrastructure.\nThe incident is assessed to be part of a large-scale, artificial intelligence (AI)-powered attack campaign ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 23:46:19 +0530"
+    },
+    {
+      "id": "19a35a6714f91980",
+      "title": "Binance Reveals How Fake Job Interviews and AI Tool Abuse Led to $6.43 Billion Theft",
+      "url": "https://thehackernews.com/2026/11/binance-reveals-how-fake-job-interviews.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Binance on Tuesday said the record-setting theft of $6.43 billion in assets from the world's largest cryptocurrency exchange was the culmination of a \"sophisticated, multi-stage campaign\" that involved the use of a tampered Homebrew installation and recruitment-themed social engineering attack targe",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 22:25:58 +0530"
+    },
+    {
+      "id": "bc96c130a163cdde",
+      "title": "Barracuda Flaws Could Be Chained to Bypass Authorization and Gain Root Access",
+      "url": "https://thehackernews.com/2026/11/barracuda-flaws-could-be-chained-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Barracuda has disclosed details of two vulnerabilities affecting its products that, if chained together, could allow an attacker to bypass authorization controls and gain root access to a susceptible device.\nThe vulnerabilities, a pre-authentication authorization bypass vulnerability and a command i",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 21:29:19 +0530"
+    },
+    {
+      "id": "310fe7a6e4c306a2",
+      "title": "Google Warns LLMjacking Attacks Are Costing Some Enterprises Up to $1 Million in Cloud Charges",
+      "url": "https://thehackernews.com/2026/11/google-warns-llmjacking-attacks-are.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Google on Monday warned that threat actors are hijacking enterprise access to Large Language Models (LLMs) to fraudulently leverage expensive computing resources and AI services.\nThe tactic is called LLMjacking, a form of resource hijacking adapted for the LLM era, where an attacker obtains an API k",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 21:11:53 +0530"
+    },
+    {
+      "id": "63d055e30b4769da",
+      "title": "cPGuard Update Channel Hijacked to Backdoor Linux Servers and Collect Password Hashes",
+      "url": "https://thehackernews.com/2026/11/cpguard-update-channel-hijacked-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker broke into the update system of the cPGuard security tool on November 2 and used it to send a malicious script to customers' Linux servers.\nThe script installed a backdoor and collected password hashes and other sensitive files from servers that ran it, cPGuard maker OPSSHIELD said in an",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 20:46:32 +0530"
+    },
+    {
+      "id": "20c9c9965d29956a",
+      "title": "The 4 Elements of Exposure Prioritization and How to Operationalize Them",
+      "url": "https://thehackernews.com/2026/11/the-4-elements-of-exposure.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Your team is remediating more vulnerabilities than ever, yet your breach risk has barely changed. You’re spending too much time and effort on exposures attackers may never exploit, while higher-risk exposures sit, waiting in the queue. Gartner®’s report on exposure prioritization states that fewer t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 16:48:20 +0530"
+    },
+    {
+      "id": "b0a8ea5b69867de6",
+      "title": "Hackers hijack cPGuard autoupdate to deploy backdoor, steal data",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-cpguard-autoupdate-to-deploy-backdoor-steal-data/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Attackers have compromised the update infrastructure for the cPGuard web security suite to distribute a backdoor and a data-stealing script.\nOpsShield, the cPGuard developer, published an alert earlier today saying the attack began on November 2 at 02:06 UTC and affected versions 5.88.12 through 5.8",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 17:18:50 -0500"
+    },
+    {
+      "id": "27b11b6379190f00",
+      "title": "WorkOS says attacker used ARTEX AI to breach internal sales app",
+      "url": "https://www.bleepingcomputer.com/news/security/workos-says-attacker-used-artex-ai-to-breach-internal-sales-app/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Developer platform WorkOS suffered a data breach after a threat actor accessed business contact records and summaries of customer communications.\nAccording to the company, the attacker used an AI offensive security framework to automate reconnaissance and exploitation attempts.\nBased on evidence fro",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 16:28:44 -0500"
+    },
+    {
+      "id": "317e8557e095955c",
+      "title": "Binance says fake job interview led to $6.3 billion crypto heist",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-says-fake-job-interview-led-to-63-billion-crypto-heist/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cryptocurrency exchange Binance says North Korean hackers used a fake job interview to trick an employee into installing malware that ultimately let them compromise the company's wallet infrastructure and steal about $6.34 billion in digital assets.\nThis new information was shared in an incident rep",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 15:05:50 -0500"
+    },
+    {
+      "id": "77eef035ebfcb83d",
+      "title": "Google: LLMjacking attacks rack up $1 million in cloud AI charges",
+      "url": "https://www.bleepingcomputer.com/news/security/google-llmjacking-attacks-rack-up-1-million-in-cloud-ai-charges/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Large language model hijacking attacks, also known as LLMjacking, are generating large fraudulent cloud charges, with some organizations losing more than $100,000 per day.\nCompanies can record costs as high as $1 million due to fraudulent calls using stolen API keys, researchers at Google's Threat I",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 13:51:04 -0500"
+    },
+    {
+      "id": "f6282e8c323a6b53",
+      "title": "Gartner Predicts SOCs Will Have 50% More Engineers Than Analysts by 2028",
+      "url": "https://www.bleepingcomputer.com/news/security/gartner-predicts-socs-will-have-50-percent-more-engineers-than-analysts-by-2028/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "By 2028, security operations teams will have 50% more engineers than analysts. That is one of the predictions in The Roles Required for the AI-Enabled Security Operations Center (SOC), a 2026 Gartner report by analyst Pete Shoard.\nIf the prediction holds, the people who build and tune a SOC's system",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 10:00:10 -0500"
+    },
+    {
+      "id": "06b26e44f1d69d72",
+      "title": "Police seizes over 100 servers in investment scam crackdown",
+      "url": "https://www.bleepingcomputer.com/news/security/police-seizes-over-100-servers-in-investment-scam-crackdown/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "European law enforcement authorities arrested seven suspects and seized more than 100 servers in a joint action targeting an unnamed company suspected of providing fraudulent trading websites to criminal gangs.\nSupported by Europol and Eurojust, this coordinated international action involved authori",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 08:33:49 -0500"
+    },
+    {
+      "id": "a55665cf48953af7",
+      "title": "StateBench: Testing how language models track state changes over long documents",
+      "url": "https://huggingface.co/blog/allenai/statebench",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "StateBench: Testing how language models track state changes over long documents\n📄 Tech Report | 🤗 Data | 💻 Code\nWe’re introducing StateBench, a benchmark for long-context state tracking—how well language models keep track of information about entities in long documents as they evolve.\nState tracking",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 17:15:21 GMT"
+    },
+    {
+      "id": "bc4177032a04e266",
+      "title": "Palette: teaching a small model to build decks in your design language",
+      "url": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Palette: teaching a small model to build decks in your design language\nAsk a frontier model for a slide deck and you'll get a good one. Ask for ten and they start to look alike: the same tasteful defaults, the same house style, a faint \"AI-generated deck\" look. That's fine until you want the deck to",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 16:35:36 GMT"
+    },
+    {
+      "id": "20954e3ac0ff87f7",
+      "title": "CWE-bench v2: More coverage, quality, and transparency",
+      "url": "https://huggingface.co/blog/cwe-bench",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "CWE-bench v2: More coverage, quality, and transparency\nCWE-bench is designed to test the limits of frontier cyber capabilities. In our continued pursuit to push the horizon at Collinear AI, CWE-bench v2 opens up a public set of 100 tasks that anyone can run and evaluate their models on. The setup is",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "fec0e46ceba430b8",
+      "title": "Transformers Model Integration Contracts",
+      "url": "https://huggingface.co/blog/transformers-mic",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Transformers Model Integration Contracts\nOn July 30, 2026, Transformers enabled PyTorch's scaled dot-product attention (SDPA) for T5. As a side effect, UMT5's decoder could attend to future tokens. During training, it could peek at the answer it was supposed to predict. Nothing crashed, and the bug ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "f901cc10a3c48e36",
+      "title": "Anthropic is working on a system to prove AI models’ identity",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-working-on-a-system-to-prove-ai-models-identity/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic is working on an open source system to verify which AI model produced a given output, according to a blog post published Tuesday. The system, called FlashProve, is built to provide what researchers call “provable inference” — a cryptographic proof, essentially a mathematical guarantee, tha",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 22:41:03 +0000"
+    },
+    {
+      "id": "59cb8a96ca92b79e",
+      "title": "Data centers are turning to old jet engines as the wait for power grows",
+      "url": "https://techcrunch.com/2026/11/03/data-centers-are-turning-to-old-jet-engines-as-the-wait-for-power-grows/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Stuck in years-long lines for grid connections and new turbines, some AI data centers are making their own electricity with converted jet engines, the New York Times reported Tuesday.\nThe engines, pulled from retired aircraft and rebuilt to burn natural gas, aren’t anyone’s idea of a permanent power",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 22:19:53 +0000"
+    },
+    {
+      "id": "d37889a9ebdda005",
+      "title": "Ted Schlein’s Ballistic Ventures seeks $490M for new funds amid AI-driven cybersecurity boom",
+      "url": "https://techcrunch.com/2026/11/03/ted-schleins-ballistic-ventures-seeks-490m-for-new-funds-amid-ai-driven-cybersecurity-boom/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Ballistic Ventures, the cybersecurity-focused venture capital firm co-founded by former Kleiner Perkins partner Ted Schlein (pictured above, second from the right), is seeking to raise $490 million across two new funds, TechCrunch has learned through regulatory filings.\nThe San Francisco-based VC fi",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 21:43:08 +0000"
+    },
+    {
+      "id": "dd34e5bf1c5e6fe6",
+      "title": "Hiding inside Palantir’s skyrocketing quarter is a foreboding signal",
+      "url": "https://techcrunch.com/2026/11/03/hiding-inside-palantirs-skyrocketing-quarter-is-a-foreboding-signal/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The data analysis company Palantir delivered such a huge third-quarter earnings report on Monday that its press release even bragged that the numbers were “crushing consensus expectations.”\nYet retail investors were lukewarm on the company on Tuesday, with the stock trading slightly down. That’s bec",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 21:05:55 +0000"
+    },
+    {
+      "id": "c69664e34de229c6",
+      "title": "AI inference startup Fal doubles its valuation to $16B as demand surges",
+      "url": "https://techcrunch.com/2026/11/03/ai-inference-startup-fal-doubles-its-valuation-to-16b-as-demand-surges/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Fal, a San Francisco-based startup that hosts and runs AI video, image, and audio models, has raised $1.3 billion in its latest funding round led by Bessemer Venture Partners, with participation from Nvidia, Sound Ventures, and T. Rowe Price. The deal values Fal at $16 billion, double its $8 billion",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 19:34:43 +0000"
+    },
+    {
+      "id": "2023d4b1aafdb54a",
+      "title": "Netflix’s new AI Discover tab helps you find something to watch based on your mood",
+      "url": "https://techcrunch.com/2026/11/03/netflixs-new-ai-discover-tab-helps-you-find-something-to-watch-based-on-your-mood/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Netflix announced on Tuesday that it’s rolling out a new “AI Discover” tab where users will be able to experiment with new ways to find their next watch. The first experimental feature launching under the tab will allow users to get recommendations based on what they’re currently in the mood for.\nUs",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 18:42:16 +0000"
+    },
+    {
+      "id": "2437af63b2f85a1f",
+      "title": "Anthropic is still grappling with the economics of compute",
+      "url": "https://techcrunch.com/2026/11/03/anthropic-is-still-grappling-with-the-economics-of-compute/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "There’s a lot of mystery around the finances of major AI labs, and as Anthropic inches towards it IPO, we’re starting to get some answers. In particular, the company is finally disclosing more about the economics of compute, and how much of Anthropic’s skyrocketing revenue is being lost to compute c",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 17:07:01 +0000"
+    },
+    {
+      "id": "410d5c941f71a7aa",
+      "title": "Google will let schools disable its AI tools, but not without sacrificing Search",
+      "url": "https://techcrunch.com/2026/11/03/google-will-let-schools-disable-its-ai-tools-but-not-without-sacrificing-search/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Google announced on Tuesday that it plans to disable AI tools for K-12 students next year unless school administrators explicitly turn them on. The tech giant says the change follows consultations with schools, teachers, leading researchers, and policymakers. As a result, Google is revising its appr",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 16:30:34 +0000"
+    },
+    {
+      "id": "c7a94f8b7c585c91",
+      "title": "How “reverse game theory” could keep AI agents in check",
+      "url": "https://www.technologyreview.com/2026/11/03/1147934/reverse-game-theory-mechanism-design-ai-alignment/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "How “reverse game theory” could keep AI agents in check\nBorrowing from disciplines like economics could help AI safety researchers control AI models, even if they don’t understand them.\nA new approach known as “reverse game theory” aims to control powerful AI models by designing systems that incenti",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 10:43:41 +0000"
+    },
+    {
+      "id": "bdefad5dcd98a392",
+      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
+      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test\nOne month into the attempted rebrand of “AI,” the term is not catching on. But it’s sure to muddy our national conversation about AI anyway.\nThis story originally appeared in The Algorithm, our weekly newsletter on AI. To ge",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 04:18:47 +0000"
+    },
+    {
+      "id": "ed61802f64c72115",
+      "title": "Frontline Education Data Breach Impacts Over 1.3 Million",
+      "url": "https://www.securityweek.com/frontline-education-data-breach-impacts-over-1-3-million/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Frontline Education is notifying over 1.3 million people that their personal information was compromised in a data breach.\nThe incident occurred on August 14 and involved the exploitation of a vulnerability in a third-party software product to gain unauthorized access to Frontline’s environment.\nFro",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 14:32:38 +0000"
+    },
+    {
+      "id": "14152597814e822e",
+      "title": "Android’s November 2026 Updates Patch Over 200 Vulnerabilities",
+      "url": "https://www.securityweek.com/androids-november-2026-updates-patch-over-200-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Google on Monday announced new security updates for Android that resolve more than 200 vulnerabilities, including two dozen critical-severity issues.\nThe first part of the patches arrives on devices as the 2026-11-01 security patch level and resolves 119 security defects across Android runtime, Fram",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 12:21:49 +0000"
+    },
+    {
+      "id": "5c6c31b6a9d34bf4",
+      "title": "Critical Node-RED Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-node-red-flaw-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Hackers have started exploiting a critical-severity vulnerability in Node-RED to deploy various payloads, vulnerability intelligence company VulnCheck reports.\nNode-RED is a low-code, flow-based programming tool that supports the creation of event-driven applications through a browser-based editor. ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 12:10:19 +0000"
+    },
+    {
+      "id": "402458e4dacc5a5a",
+      "title": "Google Dismantles XCPE Botnet of 1.3 Million Android Devices",
+      "url": "https://www.securityweek.com/google-dismantles-xcpe-botnet-of-1-3-million-android-devices/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Google on Monday announced the dismantling of XCPE (aka X.CPE), a backdoor and botnet of more than 1.3 million Android set-top boxes.\nThe malware was developed and deployed by Videostrong Technology, a China-based original equipment manufacturer and original design manufacturer (OEM/ODM) of Android ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 03 Nov 2026 09:22:09 +0000"
+    },
+    {
+      "id": "5edce62501538682",
+      "title": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "url": "https://arxiv.org/abs/2610.40758",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 29 Oct 2026]\nTitle:More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum\nView PDF HTML (experimental)\n            Abstract:Self-evolving agents rewrite a persistent state from feedback, but it is largely unt",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 02 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
