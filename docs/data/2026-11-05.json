@@ -1,0 +1,588 @@
+{
+  "date": "2026-11-05",
+  "generated_at": "2026-11-05T10:53:33.377481+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records」입니다.",
+  "stats": {
+    "collected": 37,
+    "summarized": 37,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "1b9b96d402ef45a5",
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n- CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file r",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 04 Nov 2026 22:30:38 +0530"
+    },
+    {
+      "id": "78de6ffe4e2d3ce4",
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 04 Nov 2026 21:36:43 +0530"
+    },
+    {
+      "id": "5e99d13bfbb2b68f",
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\"The injected JavaScrip",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Wed, 04 Nov 2026 19:57:52 +0530"
+    },
+    {
+      "id": "ecf2013fdfbbaac4",
+      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.\nOne recent case shows what that gap looks like in ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 04 Nov 2026 17:04:20 +0530"
+    },
+    {
+      "id": "0fd87eaf33b4e085",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials.\nThe vulnerability, tracked as CVE-2026-107441, is an out-of-bounds write flaw in the switches' web manag",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Wed, 04 Nov 2026 15:58:19 -0500"
+    },
+    {
+      "id": "f121b002be2ba369",
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "4th November 2026\nFixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.\nRecent articles\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026\n- The U.S. Census Burea",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-04T15:26:02+00:00"
+    },
+    {
+      "id": "c3dba756698ba6ec",
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "4th November 2026\nDatasette Apps adds support for hosting and editing custom HTML applications inside of Datasette.\nThese can be created by hand, but it's easier to create them using LLMs via Datasette Agent. This release improves that integration:\n- Apps can now be tagged in Datasette Agent chat me",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-04T00:29:36+00:00"
+    },
+    {
+      "id": "196e073af215c4a0",
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "3rd November 2026\nThis is a significant release of Datasette Agent. The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.\nWhen combined with datasette-apps this means you can prompt a database-back",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-03T23:13:45+00:00"
+    },
+    {
+      "id": "f3f4f568585b6de9",
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Very few people are using personal AI agents to order Ubers, apparently. On the transportation giant’s third-quarter earnings call on Wednesday, the company said that only four rides were ordered through an AI agent during its busiest week in October: the week of Halloween.\nWhile more people used an",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 04 Nov 2026 21:56:01 +0000"
+    },
+    {
+      "id": "f5f168ec4f0cd17b",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nSecuring the agentic enterprise with data lineage\nData lineage is the new security perimeter, providing the visibility needed for governance, accountability, and trust, without impeding AI adoption at scale.\nIn partnership withCyberhaven\nA sales representative asks an AI agent for customer",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 04 Nov 2026 13:00:00 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "f121b002be2ba369",
+      "title": "datasette-llm 0.1a10",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "4th November 2026\nFixes a bug that affected my agent.datasette.io demo site, where the set of available LLM models was not correctly restricted to just those in the configuration.\nRecent articles\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026\n- The U.S. Census Burea",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-04T15:26:02+00:00"
+    },
+    {
+      "id": "c3dba756698ba6ec",
+      "title": "datasette-apps 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/4/datasette-apps/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "4th November 2026\nDatasette Apps adds support for hosting and editing custom HTML applications inside of Datasette.\nThese can be created by hand, but it's easier to create them using LLMs via Datasette Agent. This release improves that integration:\n- Apps can now be tagged in Datasette Agent chat me",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-04T00:29:36+00:00"
+    },
+    {
+      "id": "196e073af215c4a0",
+      "title": "datasette-agent 0.5a0",
+      "url": "https://simonwillison.net/2026/Nov/3/datasette-agent/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "3rd November 2026\nThis is a significant release of Datasette Agent. The most notable new feature is called the panel - it lets the agent chat open and then sit next to pages from Datasette, for example a table or query page.\nWhen combined with datasette-apps this means you can prompt a database-back",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-03T23:13:45+00:00"
+    },
+    {
+      "id": "1b9b96d402ef45a5",
+      "title": "SonicWall Won't Patch EoL GMS Flaws That Could Expose Files, Alter Database Records",
+      "url": "https://thehackernews.com/2026/11/sonicwall-wont-patch-eol-gms-flaws-that.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "SonicWall has warned of two vulnerabilities impacting end-of-life Global Management System (GMS) systems that it said will not be patched.\nDetails of the security flaws, which affect SonicWall GMS 9.5.2 and earlier versions, are below -\n- CVE-2026-109593 (CVSS score: 9.1) - An unauthenticated file r",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 04 Nov 2026 22:30:38 +0530"
+    },
+    {
+      "id": "78de6ffe4e2d3ce4",
+      "title": "Researchers Uncover Prompt Adware Hidden in OpenAI Codex Jailbreak Toolkit",
+      "url": "https://thehackernews.com/2026/11/researchers-uncover-prompt-adware.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of an OpenAI Codex jailbreak bundle that's designed to modify an artificial intelligence (AI) agent's trusted instructions to insert advertisements for a third-party AI gateway.\nThe phenomenon has been codenamed prompt adware by Check Point Research.\n",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 04 Nov 2026 21:36:43 +0530"
+    },
+    {
+      "id": "5e99d13bfbb2b68f",
+      "title": "APT29-Linked Hackers Hijack Web Analytics Script to Deliver iOS and Android Exploits",
+      "url": "https://thehackernews.com/2026/11/apt29-linked-hackers-hijack-web.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The Russia-linked threat actor known as APT29 is said to be behind a large-scale watering hole campaign targeting iOS and Android users through compromised websites, fake domains, and a supply chain attack involving a Ukrainian web analytics service called Plerdy SEO Tracker.\n\"The injected JavaScrip",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Wed, 04 Nov 2026 19:57:52 +0530"
+    },
+    {
+      "id": "ecf2013fdfbbaac4",
+      "title": "Radio With No Radar: Why Agent Runtime Security Fails Without the Layers Beneath It",
+      "url": "https://thehackernews.com/2026/11/radio-with-no-radar-why-agent-runtime.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Nearly every agent security pitch now ends on the same promise: the product stops the bad action in real time. The promise holds for one kind of agent, the kind whose traffic passes through a gateway the enterprise owns. Most agents never touch one.\nOne recent case shows what that gap looks like in ",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 04 Nov 2026 17:04:20 +0530"
+    },
+    {
+      "id": "0fd87eaf33b4e085",
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials.\nThe vulnerability, tracked as CVE-2026-107441, is an out-of-bounds write flaw in the switches' web manag",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Wed, 04 Nov 2026 15:58:19 -0500"
+    },
+    {
+      "id": "f3f4f568585b6de9",
+      "title": "Almost no one uses AI agents to book their Uber, company says",
+      "url": "https://techcrunch.com/2026/11/04/almost-no-one-uses-ai-agents-to-book-their-uber-company-says/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Very few people are using personal AI agents to order Ubers, apparently. On the transportation giant’s third-quarter earnings call on Wednesday, the company said that only four rides were ordered through an AI agent during its busiest week in October: the week of Halloween.\nWhile more people used an",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 04 Nov 2026 21:56:01 +0000"
+    },
+    {
+      "id": "f5f168ec4f0cd17b",
+      "title": "Securing the agentic enterprise with data lineage",
+      "url": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nSecuring the agentic enterprise with data lineage\nData lineage is the new security perimeter, providing the visibility needed for governance, accountability, and trust, without impeding AI adoption at scale.\nIn partnership withCyberhaven\nA sales representative asks an AI agent for customer",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 04 Nov 2026 13:00:00 +0000"
+    },
+    {
+      "id": "e17a54acdaac397a",
+      "title": "Barracuda ESG Authentication Bypass Flaw Opens Path to Root",
+      "url": "https://www.securityweek.com/barracuda-email-security-gateway-authentication-bypass-opens-path-to-root/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Barracuda has released patches for two vulnerabilities that can be chained to gain root access to its Email Security Gateway (ESG) appliances.\nThe first, tracked as CVE-2026-116606 (CVSS score of 9.3), is an authentication bypass that affects only ESG. The second, CVE-2026-111560 (CVSS score of 8.6)",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 04 Nov 2026 14:24:54 +0000"
+    },
+    {
+      "id": "9726794b0c182f1c",
+      "title": "Malicious cPGuard Updates Served in OpsShield Supply Chain Attack",
+      "url": "https://www.securityweek.com/malicious-cpguard-updates-served-in-opsshield-supply-chain-attack/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Indian IT security company OpsShield on Monday fell victim to a cyberattack that resulted in malicious versions of cPGuard being served to its customers.\nOpsShield specializes in server protection and web security software, and cPGuard is its most notable product, designed for Linux web hosting serv",
+      "importance": 3.0,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Wed, 04 Nov 2026 10:54:48 +0000"
+    },
+    {
+      "id": "07065efd722751e2",
+      "title": "llm 0.37.1",
+      "url": "https://simonwillison.net/2026/Nov/3/llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "3rd November 2026\nA bugfix release for LLM, with contributions from Steven Huang, Tao An, Arjan Mossel, and XQ.\nRecent articles\n- Qwen 3.8 27B on my laptop can interpret model weights, too - 3rd November 2026\n- The U.S. Census Bureau and “Super Intelligence” - 2nd November 2026\n- The October inflect",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-03T21:41:42+00:00"
+    },
+    {
+      "id": "3632eace057e58a0",
+      "title": "Debian and Ubuntu APT Flaw Lets MitM Attackers Swap Verified Packages and Run Code as Root",
+      "url": "https://thehackernews.com/2026/11/debian-and-ubuntu-apt-flaw-lets-mitm.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A flaw in APT, the package manager for Debian and Ubuntu, allows an attacker who can modify package downloads to swap a checked package for their own.\nThe attacker's code then runs as root, according to advisories that Debian, Ubuntu, and APT's developers published on November 4. The attack needs AP",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 22:30:46 +0530"
+    },
+    {
+      "id": "d013e25bf4065f18",
+      "title": "Critical Rails Flaw Lets Attackers Write Server Files via Crafted ImageMagick Uploads",
+      "url": "https://thehackernews.com/2026/11/critical-rails-flaw-lets-attackers.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A critical flaw in Ruby on Rails could allow an unauthenticated attacker to write arbitrary files on an app's server by uploading a crafted file if the app processes uploads using ImageMagick. The Rails project disclosed the flaw in an advisory and fixed it in versions 8.1.4.1 and 8.0.5.2.\nThe flaw ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 17:37:04 +0530"
+    },
+    {
+      "id": "de8bbdd0e39a7667",
+      "title": "Xen Hypervisor Flaws Let One Malicious VM Read and Write Any Other VM's Memory",
+      "url": "https://thehackernews.com/2026/11/xen-hypervisor-flaws-let-one-malicious.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Two flaws in the Xen hypervisor allow a malicious guest virtual machine (VM) to read and write the memory of other VMs on the same host, including dom0.\nDom0 is the VM that, by default, has full permissions and manages the others. Patches are out, and there is no known mitigation, the Xen Project sa",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 17:16:27 +0530"
+    },
+    {
+      "id": "8384c224e801ca20",
+      "title": "China-Aligned Hackers Hijack Sogou Input Method DNS Requests to Deploy DarkVigil Backdoor",
+      "url": "https://thehackernews.com/2026/11/china-aligned-hackers-hijack-sogou.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A China-aligned threat actor known as SlippyNunchucks has been attributed to a Domain Name System (DNS) hijacking operation abusing insecure HTTP communications in Windows versions of Sogou Input Method as part of a surveillance campaign designed to deploy an implant called DarkVigil (aka FDMTP).\nTh",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 16:54:31 +0530"
+    },
+    {
+      "id": "de78875600613269",
+      "title": "Vercel rolls out new protection against stolen session cookie attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware.\nThe new feature, announced by Vercel's CTO Malte Ubl on X, binds a login session to the user's device with a private key stored in a TPM, so even if the sessi",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 16:31:18 -0500"
+    },
+    {
+      "id": "1413af0079f42d2d",
+      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords.\nThis follows the American web hosting provider and domain registrar's announcement that it suffered a cybersecurity incident requirin",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 14:05:19 -0500"
+    },
+    {
+      "id": "801b944f5621a71c",
+      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
+      "url": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products.\nThe French Blood Establishment (Établissement français du sang or EFS), which manages b",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 13:02:56 -0500"
+    },
+    {
+      "id": "9c8bdd95a7d55ce7",
+      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
+      "url": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data.\nAccording to a notice published on X, a client update was issued on Nove",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 11:58:46 -0500"
+    },
+    {
+      "id": "4ba7cadb265aa20a",
+      "title": "mSecure password manager hack prompts password reset warnings",
+      "url": "https://www.bleepingcomputer.com/news/security/msecure-password-manager-hack-prompts-password-reset-warnings/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "mSeven Software is warning current and former mSecure password manager customers to change passwords, reset two-factor authentication, and remove passkeys following a cyberattack in which a hacker reportedly stole an encrypted customer database..\nIn a security notification sent to customers on Novem",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 11:00:18 -0500"
+    },
+    {
+      "id": "d6dd46466a93ebf8",
+      "title": "Google Calendar phishing campaign hijacks sessions, bypasses MFA",
+      "url": "https://www.bleepingcomputer.com/news/security/google-calendar-phishing-campaign-hijacks-sessions-bypasses-mfa/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Since mid-August 2026, a phishing operation has been harvesting live Google sessions from corporate users. Every signal defenders usually rely on to judge a link returned a reassuring answer, and the operator built the chain that way on purpose.\nMaterial Security’s Threat Research team identified th",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 10:00:10 -0500"
+    },
+    {
+      "id": "63cdf286f06a4994",
+      "title": "SonicWall warns of unpatched flaws in end-of-life GMS software",
+      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-unpatched-flaws-in-end-of-life-gms-software/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "SonicWall warned customers of two security flaws affecting end-of-life Global Management System (GMS) systems that will not be patched.\nGlobal Management System (GMS) helps IT admins deploy and manage thousands of SonicWall security appliances from a single interface, but SonicWall has officially re",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 09:42:25 -0500"
+    },
+    {
+      "id": "5afc49da7bd40515",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out\nA 2-billion-parameter model that extracts exactly the fields you ask for, from any document type, outperforming every frontier LLM we tested, at a fraction of the cost.\nIn April, we released DharmaOCR-LITE, a model specialized fo",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 17:50:10 GMT"
+    },
+    {
+      "id": "1c7da4acfcdd25cb",
+      "title": "Apple is reportedly cutting budgets for its internal AI usage",
+      "url": "https://techcrunch.com/2026/11/04/apple-is-reportedly-cutting-budgets-for-its-internal-ai-usage/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Apple is cutting the daily amount its engineering teams can spend on AI, Bloomberg reported Wednesday. It’s a big change for a company that has worked to integrate the technology into its engineering processes.\nIn October, Apple lowered the daily AI spending cap for its engineering teams, decreasing",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 05 Nov 2026 01:26:22 +0000"
+    },
+    {
+      "id": "2c368bf7ce921244",
+      "title": "After the midterms, a bigger clash over data centers could be coming",
+      "url": "https://techcrunch.com/2026/11/04/after-the-midterms-a-bigger-clash-over-data-centers-could-be-coming/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The November 3 midterm results gave Democrats full control of Congress, setting the stage for what could be one of the most divided U.S. governments this decade, with Republicans in the White House.\nTuesday’s results suggest that anger over data centers, the large facilities that house the computers",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 05 Nov 2026 01:02:14 +0000"
+    },
+    {
+      "id": "33a7076609087ff9",
+      "title": "AI PACs spent millions trying to shape Congress — here’s how they fared",
+      "url": "https://techcrunch.com/2026/11/04/ai-pacs-spent-millions-trying-to-shape-congress-heres-how-they-fared/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Political groups both supporting and opposing the AI industry spent millions of dollars trying to influence Tuesday’s midterm elections and shape the future of AI regulation. That spending produced mixed results, with some of the most heavily backed candidates losing their races.\nOn the industry sid",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 22:45:09 +0000"
+    },
+    {
+      "id": "90248c1ffce43a9b",
+      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
+      "url": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nothing, the smartphone startup behind the distinctive Nothing Phone, is working on an AI product, but what it is remains unclear.\nOn Wednesday, CEO Carl Pei posted on X that the company’s first “AI-native product” ships in December. “It’s a tool, but one built with the personality and care that hav",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 22:13:16 +0000"
+    },
+    {
+      "id": "6050c43be029e750",
+      "title": "OpenAI is already trying to shape the 2028 election",
+      "url": "https://techcrunch.com/2026/11/04/openai-is-already-trying-to-shape-the-2028-election/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI’s chief global affairs officer Chris Lehane thinks the 2028 presidential election could be a defining moment for AI. And he wants politicians to start developing policies that address Americans’ concerns about the technology, rather than simply paying lip service to anti-AI sentiment and the ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 21:25:44 +0000"
+    },
+    {
+      "id": "70e60e39b2082f35",
+      "title": "Meta acquires AI coding startup Conductor",
+      "url": "https://techcrunch.com/2026/11/04/meta-acquires-ai-coding-startup-conductor/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Meta has acquired Conductor, an AI coding startup that allows users to spin up software projects by deploying multiple agents into parallel workspaces.\nThe news was originally reported by Axios, and Conductor shared news of its acquisition on its blog.\n“I have big news: Conductor is joining Meta,” w",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 21:10:56 +0000"
+    },
+    {
+      "id": "604513e69c2ae428",
+      "title": "Open source AI is booming. Hugging Face explains who profits.",
+      "url": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 19:30:04 +0000"
+    },
+    {
+      "id": "2550523e2a0eb13f",
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Texas was the new epicenter of the AI data center buildout. That might be kaput.\nSome of the largest AI infrastructure projects in the world are underway in Texas. A dramatic political shift could slow their construction—and deepen concerns about the economics of the AI boom.\nTexas is the fastest-gr",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 18:50:55 +0000"
+    },
+    {
+      "id": "6b6d8b64e2bfd03c",
+      "title": "Sysdig Adds Runtime Security and Governance for AI Agents",
+      "url": "https://www.securityweek.com/sysdig-adds-runtime-security-and-governance-for-ai-agents/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Without adequate governance, agentic AI threatens to autonomously, invisibly and rapidly morph from a business boon into a business disaster.\nSysdig has turned its runtime visibility skills into providing governance to agentic AI. The need is clear: “AI is moving from answering to acting. It used to",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 14:34:44 +0000"
+    },
+    {
+      "id": "1cb3088dd861e775",
+      "title": "Agentic Data Security Firm Sentra Raises $150 Million",
+      "url": "https://www.securityweek.com/agentic-data-security-firm-sentra-raises-150-million/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Agentic data security company Sentra today announced raising $150 million in a Series C funding round that brings the total raised by the company to over $260 million. The investment round was led by Capital One Ventures.\nFounded in 2021 and co-headquartered in New York City and Tel Aviv, Sentra has",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 14:09:20 +0000"
+    },
+    {
+      "id": "2f5877591bfda5a4",
+      "title": "AI-Linked Breaches Mount as WorkOS, Northflank, Trigger.dev Disclose Hacks",
+      "url": "https://www.securityweek.com/ai-linked-breaches-mount-as-workos-northflank-trigger-dev-disclose-hacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "AI-related cyberattacks are surging, with hackers stealing AI access keys to monetize them and using AI tools to speed up their intrusions.\nOver the past month, at least a dozen AI developer platforms were hit, with the most recent incidents involving CommandCode, Northflank, Trigger.dev, Chainstack",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 12:43:20 +0000"
+    },
+    {
+      "id": "9c2441032957c5c4",
+      "title": "Canadian Extradited to US Over Cryptomining Hacks on University Supercomputers",
+      "url": "https://www.securityweek.com/canadian-extradited-to-us-over-cryptomining-hacks-on-university-supercomputers/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Two Canadian men face federal prosecution in New York after allegedly orchestrating a multi-year cyber incursion campaign that hijacked computing resources across American universities to secretly mine cryptocurrency.\nA federal grand jury indicted Ryan James Roach, 35, of Saskatchewan, and Mathiew J",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 04 Nov 2026 12:27:58 +0000"
+    }
+  ]
+}
