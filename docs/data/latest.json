@@ -1,609 +1,203 @@
 {
-  "date": "2026-11-07",
-  "generated_at": "2026-11-07T10:23:49.761894+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time」입니다.",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T09:57:17.437613+09:00",
+  "briefing": "오늘 8건이 수집되었습니다. 가장 주목할 항목은 「SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins」입니다.",
   "stats": {
-    "collected": 40,
-    "summarized": 40,
-    "picked": 10,
+    "collected": 8,
+    "summarized": 8,
+    "picked": 8,
     "llm": "live"
   },
   "items": [
     {
-      "id": "9fe769e3c933c11e",
-      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-      "source": "The Hacker News",
+      "id": "986edfc864db12c6",
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "source": "SecurityWeek",
       "category": "security",
-      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the",
+      "summary": "SonicWall has patched a SonicOS vulnerability that can be used to bypass SAML authentication, warning customers that it may have been exploited in attacks.\nTracked as CVE-2026-19868, the flaw affects the SSL VPN component of SonicOS, the operating system that runs on SonicWall firewalls. It’s one of",
       "why": "",
-      "importance": 3.4,
-      "matched": [
-        "actively exploited"
-      ],
-      "published": "Fri, 06 Nov 2026 21:38:38 +0530"
-    },
-    {
-      "id": "a40dff3d749a64ac",
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux system",
-      "why": "",
-      "importance": 3.4,
+      "importance": 3.0,
       "matched": [
         "CVE-2026"
       ],
-      "published": "Fri, 06 Nov 2026 20:51:49 +0530"
+      "published": "Sat, 07 Nov 2026 10:16:23 +0000"
     },
     {
-      "id": "649e0d8b078ebcc3",
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
+      "id": "804a43c3361e7807",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\nThe fla",
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in",
       "why": "",
-      "importance": 3.4,
-      "matched": [
-        "RCE",
-        "CVE-2026"
-      ],
-      "published": "Fri, 06 Nov 2026 17:36:43 +0530"
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 07 Nov 2026 12:14:17 +0530"
     },
     {
-      "id": "ca1a9396bb6596ea",
-      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
+      "id": "ded94754be202b29",
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks.\nThe vulnerability, tracked as CVE-2026-19868, allows attackers with valid credentials for an alternate authentication method to bypass SAML",
+      "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.\nThe bank says that the attacker used its own account to initiate transactions to other banking organizations, but",
       "why": "",
-      "importance": 3.4,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Fri, 06 Nov 2026 19:00:55 -0500"
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 07 Nov 2026 10:25:35 -0500"
     },
     {
-      "id": "b99b441690fc8bf8",
-      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
+      "id": "5a765cf499c2e694",
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company.\nThe developer platform disclosed the breach earli",
+      "summary": "Fraudulent reward portals and fake gift card giveaways are surging globally, tricking users into deceptive verification loops and paid subscriptions.\nThese scams lure victims with a simple pitch: click an ad featuring a celebrity endorsement, claim a free gift card from a well-known brand, and compl",
       "why": "",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 06 Nov 2026 17:27:25 -0500"
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 07 Nov 2026 09:10:19 -0500"
     },
     {
-      "id": "46e88a02e03424f2",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Meta recently launched its Muse agents — a new generation of cuddly agentic helpers. Now, the company has launched Spaces, a new way to communicate and collaborate with them.\nAs far as I can tell, Spaces are basically breakout conversations that revolve around a particular topic — although Meta refe",
-      "why": "",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 06 Nov 2026 18:44:20 +0000"
-    },
-    {
-      "id": "ab4846bbc512d790",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Amazon is jumping on the currently most popular bandwagon for interacting with AI agents: texting. The company on Friday said it is launching a feature that lets customers chat with its Alexa AI agent over text messages to help them shop, much like you can with AI agents like Muse or Instinct.\nThe m",
-      "why": "",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 06 Nov 2026 14:10:00 +0000"
-    },
-    {
-      "id": "04ff5155f60621be",
-      "title": "Quoting Nilay Patel",
-      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "id": "3880bf849bb943e9",
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "6th November 2026\nThe products aren't good enough to sell people on the costs.\nYou cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.\nIt's not worth it. It just isn't worth it to anyone",
+      "summary": "7th November 2026 - Link Blog\ndatasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages. I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table.\nThis was ",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-06T17:13:12+00:00"
+      "published": "2026-11-07T23:57:46+00:00"
     },
     {
-      "id": "be1ba71e55b7f125",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "source": "Hugging Face Blog",
+      "id": "ed263cbbe1a45523",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "ToyBlocks: A controlled world for robot learning and evaluation\n💻 Code | 📊 Data | 🤖 Models | 📖 Documentation\nRobots are learning to fold laundry, sort parts, and handle unfamiliar objects. But those demonstrations are often rather narrow and don't explain what a robot has learned or why it fails.\nTo",
+      "summary": "Democrats’ historic victory in this week’s midterm elections could also have a dramatic effect on the tech industry.\nIn dozens of local ballot measures, voters rejected data centers. And even when they weren’t voting on the issue directly, they were electing politicians — like Texas’ new governor-el",
       "why": "",
-      "importance": 2.4,
+      "importance": 2.2,
       "matched": [],
-      "published": "Fri, 06 Nov 2026 14:00:48 GMT"
+      "published": "Sat, 07 Nov 2026 22:07:22 +0000"
     },
     {
-      "id": "82196d4ece0a644e",
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "source": "Hugging Face Blog",
+      "id": "69c75581d56ff5e1",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "RW-Voice EQ ASR\nExplore and compare English speech‑recognition model performance\nA few months ago, we added private data to the Open ASR Leaderboard: 11 splits from Appen and DataOceanAI covering scripted and conversational speech from five accents (blog). The community response was great, with many",
+      "summary": "A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports.\nThe New York Times, which had previously said Nvidia’s chief executive had been the target of ",
       "why": "",
-      "importance": 2.4,
+      "importance": 2.2,
       "matched": [],
-      "published": "Fri, 06 Nov 2026 00:00:00 GMT"
+      "published": "Sat, 07 Nov 2026 21:17:08 +0000"
+    },
+    {
+      "id": "36231604b2886429",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Crusoe, an eight-year-old, Denver-based data center developer recently valued at $30.9 billion, confirmed Friday it has sold an unfinished data center project in southeastern Wyoming to Google.\nGoogle, which Crusoe had tried and failed to land as a customer for the project, is taking over the develo",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 07 Nov 2026 01:40:28 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "9fe769e3c933c11e",
-      "title": "Installing the Fix for an Exploited WordPress Flaw Can Expose Some Sites One Last Time",
-      "url": "https://thehackernews.com/2026/11/installing-fix-for-exploited-wordpress.html",
-      "source": "The Hacker News",
+      "id": "986edfc864db12c6",
+      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
+      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "source": "SecurityWeek",
       "category": "security",
-      "summary": "Some WordPress sites can still be attacked while they install the fix for an actively exploited flaw, according to Umut Bayram, the Picus Security researcher who found it.\nThe update that installs the fix still unpacks its files using the site's old, unpatched code, so an attacker who strikes at the",
-      "importance": 3.4,
-      "matched": [
-        "actively exploited"
-      ],
-      "published": "Fri, 06 Nov 2026 21:38:38 +0530"
-    },
-    {
-      "id": "a40dff3d749a64ac",
-      "title": "Hackers Target OpenSSH SSHole Flaw Within Hours of Disclosure, Gain Root on Honeypot",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-openssh-sshole-flaw.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Threat actors are attempting to exploit a recently disclosed security flaw impacting OpenSSH that can enable sign-ins to accounts that have no password set, according to Previdian.\nThe vulnerability, tracked as CVE-2026-123158 (CVSS score: 8.1) and codenamed SSHole (or *sshole), impacts Linux system",
-      "importance": 3.4,
+      "summary": "SonicWall has patched a SonicOS vulnerability that can be used to bypass SAML authentication, warning customers that it may have been exploited in attacks.\nTracked as CVE-2026-19868, the flaw affects the SSL VPN component of SonicOS, the operating system that runs on SonicWall firewalls. It’s one of",
+      "importance": 3.0,
       "matched": [
         "CVE-2026"
       ],
-      "published": "Fri, 06 Nov 2026 20:51:49 +0530"
+      "published": "Sat, 07 Nov 2026 10:16:23 +0000"
     },
     {
-      "id": "649e0d8b078ebcc3",
-      "title": "Microsoft Paint RCE Fix Now Available, but Windows Update Won't Deliver It",
-      "url": "https://thehackernews.com/2026/11/microsoft-paint-rce-fix-now-available.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A fix for CVE-2026-83844, a remote code execution flaw in Windows Paint, is now in the Microsoft Store. Paint gets this fix only through a Store update, not through Windows updates.\nThe fixed build, 11.2609.401.0, was the newest Paint build in all ten countries The Hacker News checked today.\nThe fla",
-      "importance": 3.4,
-      "matched": [
-        "RCE",
-        "CVE-2026"
-      ],
-      "published": "Fri, 06 Nov 2026 17:36:43 +0530"
-    },
-    {
-      "id": "ca1a9396bb6596ea",
-      "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "SonicWall has released security updates to fix seven vulnerabilities in SonicOS firewalls, including an SSL-VPN authentication bypass flaw exploited in attacks.\nThe vulnerability, tracked as CVE-2026-19868, allows attackers with valid credentials for an alternate authentication method to bypass SAML",
-      "importance": 3.4,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Fri, 06 Nov 2026 19:00:55 -0500"
-    },
-    {
-      "id": "b99b441690fc8bf8",
-      "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
-      "url": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "WorkOS says an AI-powered hacking agent that breached its internal sales application and accessed customer information was operated by a security researcher who claims the tool escaped its testing environment and unintentionally attacked the company.\nThe developer platform disclosed the breach earli",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 06 Nov 2026 17:27:25 -0500"
-    },
-    {
-      "id": "f8e9629a67be56c3",
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "url": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers.\nChainalysis provides blockchain analysis tools to trace cryptocurrency transactions and investigate crimes such as fraud, ransomware, and money l",
-      "importance": 3.4,
-      "matched": [
-        "ransomware"
-      ],
-      "published": "Fri, 06 Nov 2026 09:17:07 -0500"
-    },
-    {
-      "id": "46e88a02e03424f2",
-      "title": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-      "url": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Meta recently launched its Muse agents — a new generation of cuddly agentic helpers. Now, the company has launched Spaces, a new way to communicate and collaborate with them.\nAs far as I can tell, Spaces are basically breakout conversations that revolve around a particular topic — although Meta refe",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 06 Nov 2026 18:44:20 +0000"
-    },
-    {
-      "id": "ab4846bbc512d790",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "url": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Amazon is jumping on the currently most popular bandwagon for interacting with AI agents: texting. The company on Friday said it is launching a feature that lets customers chat with its Alexa AI agent over text messages to help them shop, much like you can with AI agents like Muse or Instinct.\nThe m",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Fri, 06 Nov 2026 14:10:00 +0000"
-    },
-    {
-      "id": "04ff5155f60621be",
-      "title": "Quoting Nilay Patel",
-      "url": "https://simonwillison.net/2026/Nov/6/nilay-patel/",
+      "id": "3880bf849bb943e9",
+      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
+      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "6th November 2026\nThe products aren't good enough to sell people on the costs.\nYou cannot tell people that you have to listen to the whine of a data center in their backyard for AI overviews and some of the most hilarious deep fake slop in history.\nIt's not worth it. It just isn't worth it to anyone",
+      "summary": "7th November 2026 - Link Blog\ndatasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages. I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table.\nThis was ",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-06T17:13:12+00:00"
+      "published": "2026-11-07T23:57:46+00:00"
     },
     {
-      "id": "d93081553b9b4583",
-      "title": "SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection",
-      "url": "https://arxiv.org/abs/2611.07222",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 4 Nov 2026]\nTitle:SPILLWAY: Separating Target Admission from Sanitization to Defend Tool-Using Agents against Prompt Injection\nView PDF HTML (experimental)\n            Abstract:Tool-using agents act on email, files, and payments, so an ins",
-      "importance": 2.6,
-      "matched": [
-        "prompt injection"
-      ],
-      "published": "Fri, 06 Nov 2026 00:00:00 -0500"
-    },
-    {
-      "id": "17e04fbcf2b3d16d",
-      "title": "OpenAI Launches GPT-6 Cyber After AI Helps Find 81 Firefox Flaws, 948 Linux Exploits",
-      "url": "https://thehackernews.com/2026/11/openai-launches-gpt-6-cyber-after-ai.html",
+      "id": "804a43c3361e7807",
+      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
+      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "OpenAI on Thursday unveiled GPT‑6 Cyber, which it described as a major step forward in security research that brings together stronger cybersecurity capabilities with a step-change improvement in model alignment.\nThe new model is \"more capable at finding and fixing vulnerabilities, and far more reli",
+      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in",
       "importance": 2.4,
       "matched": [],
-      "published": "Fri, 06 Nov 2026 20:28:32 +0530"
+      "published": "Sat, 07 Nov 2026 12:14:17 +0530"
     },
     {
-      "id": "cea41b0360f6d357",
-      "title": "Malicious Browser Extensions Could Use Claude Dispatch to Run Code on Users' Computers",
-      "url": "https://thehackernews.com/2026/11/malicious-browser-extensions-could-use.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A browser extension that can run scripts on claude.ai could make Claude Desktop run code on a person's computer, researchers at Forever Security, an endpoint security company, showed in a test.\nThe attack needs Dispatch, a Claude feature that lets people send tasks from their phone to Claude Desktop",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 17:36:35 +0530"
-    },
-    {
-      "id": "6625b8a777d1a389",
-      "title": "The Flood is Coming And The Pipes Were Already Full",
-      "url": "https://thehackernews.com/2026/11/the-flood-is-coming-and-pipes-were.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "An update on Athena, and some unsolicited predictions on what's coming next\nOn Saturday, Dario Amodei published We Must Pace the Frontier. I agree with him. Go read it if you haven't. I've spent the summer looking at what these models find, and the gap he describes between what they can do and what ",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 17:00:00 +0530"
-    },
-    {
-      "id": "6facdf5f94dfdf61",
-      "title": "Chainalysis Breach Exposes All Users' Credentials, Forces Shutdown of Key Services",
-      "url": "https://thehackernews.com/2026/11/chainalysis-breach-exposes-all-users.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Blockchain analysis firm Chainalysis has revealed that its ongoing investigation into the agentic cyber attack targeting its systems also exposed names, usernames, password hashes and live tokens for all users.\n\"While we investigated, we removed access to Reactor and Data Solutions,\" the company sai",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 13:34:49 +0530"
-    },
-    {
-      "id": "ed60ea7fa41262b4",
-      "title": "Hackers Hide Linux Backdoor in Control Web Panel Server to Execute Commands Without Logs",
-      "url": "https://thehackernews.com/2026/11/hackers-hide-linux-backdoor-in-control.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A backdoor has been found hiding in the web server that runs Control Web Panel (CWP), a free panel for managing Linux hosting servers, researchers at QiAnXin's XLab said this week.\nThe backdoored web server executes commands that attackers send via web requests, and those requests never appear in it",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 11:28:54 +0530"
-    },
-    {
-      "id": "ba147c5fc5c98202",
-      "title": "OpenAI's new GPT-6 Cyber AI finds 81 Firefox flaws, 948 Linux bugs",
-      "url": "https://www.bleepingcomputer.com/news/security/openais-new-gpt-6-cyber-ai-finds-81-firefox-flaws-948-linux-bugs/",
+      "id": "ded94754be202b29",
+      "title": "Hackers pull off $133 million French bank heist via service provider",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "OpenAI has revealed GPT-6 Cyber, a new artificial intelligence model that has discovered 81 previously unknown high-severity Firefox vulnerabilities and developed working exploits for 948 distinct Linux kernel flaws.\nThe company announced the model on Thursday, saying it significantly improves on ea",
+      "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.\nThe bank says that the attacker used its own account to initiate transactions to other banking organizations, but",
       "importance": 2.4,
       "matched": [],
-      "published": "Fri, 06 Nov 2026 15:24:19 -0500"
+      "published": "Sat, 07 Nov 2026 10:25:35 -0500"
     },
     {
-      "id": "a97be9095b72e1db",
-      "title": "Fake security tools on GitHub push backdoors and infostealers",
-      "url": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
+      "id": "5a765cf499c2e694",
+      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
+      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware.\nThe campaign started about two years ago and initially targeted crypto wallet users, but recently the threat actor switched focus and published malicious r",
+      "summary": "Fraudulent reward portals and fake gift card giveaways are surging globally, tricking users into deceptive verification loops and paid subscriptions.\nThese scams lure victims with a simple pitch: click an ad featuring a celebrity endorsement, claim a free gift card from a well-known brand, and compl",
       "importance": 2.4,
       "matched": [],
-      "published": "Fri, 06 Nov 2026 13:46:52 -0500"
+      "published": "Sat, 07 Nov 2026 09:10:19 -0500"
     },
     {
-      "id": "c4daeac5c98ce27b",
-      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain.\nThe vendor said it had received multiple reports of suspected compromises involving customers’ network-attached storage (NAS) devices.\n\"Q",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 12:04:23 -0500"
-    },
-    {
-      "id": "af6d1b8b9d253e74",
-      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-      "url": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors.\nThe company's Software Appliance VMs are pre-configured, Linux-based virtual machines that let admins run the Veeam Backup & Replication backup software suite on Linux de",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 10:25:31 -0500"
-    },
-    {
-      "id": "3647bbef0072cccd",
-      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-      "url": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "In April 2026, BleepingComputer reported that Canadian authorities arrested three men for operating an “SMS blaster,” a device that pretends to be a cell tower to send phishing texts to nearby phones.\nIt’s a close cousin of the IMSI catcher, the fake-tower device used for surveillance. Both work by ",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 10:00:10 -0500"
-    },
-    {
-      "id": "be1ba71e55b7f125",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "ToyBlocks: A controlled world for robot learning and evaluation\n💻 Code | 📊 Data | 🤖 Models | 📖 Documentation\nRobots are learning to fold laundry, sort parts, and handle unfamiliar objects. But those demonstrations are often rather narrow and don't explain what a robot has learned or why it fails.\nTo",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 14:00:48 GMT"
-    },
-    {
-      "id": "82196d4ece0a644e",
-      "title": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-      "url": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "RW-Voice EQ ASR\nExplore and compare English speech‑recognition model performance\nA few months ago, we added private data to the Open ASR Leaderboard: 11 splits from Appen and DataOceanAI covering scripted and conversational speech from five accents (blog). The community response was great, with many",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 00:00:00 GMT"
-    },
-    {
-      "id": "314bd089789a0995",
-      "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-      "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
+      "id": "ed263cbbe1a45523",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "OpenAI has reportedly raised $11 billion so far in a new funding round that values the AI lab at $1.25 trillion.\nBloomberg reported on the new funding on Friday, citing sources familiar with the matter. The $11 billion is part of a larger funding round that hasn’t closed yet, according to the outlet",
+      "summary": "Democrats’ historic victory in this week’s midterm elections could also have a dramatic effect on the tech industry.\nIn dozens of local ballot measures, voters rejected data centers. And even when they weren’t voting on the issue directly, they were electing politicians — like Texas’ new governor-el",
       "importance": 2.2,
       "matched": [],
-      "published": "Fri, 06 Nov 2026 22:53:46 +0000"
+      "published": "Sat, 07 Nov 2026 22:07:22 +0000"
     },
     {
-      "id": "4758b3e084074531",
-      "title": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-      "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
+      "id": "69c75581d56ff5e1",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Security researchers have discovered hundreds of copies of a Chinese-made AI hacking tool publicly exposed to the internet for anyone to access, potentially allowing outsiders to launch cyberattacks against unsuspecting targets.\nThe hacking software, called Artex, is an open source autonomous penetr",
+      "summary": "A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports.\nThe New York Times, which had previously said Nvidia’s chief executive had been the target of ",
       "importance": 2.2,
       "matched": [],
-      "published": "Fri, 06 Nov 2026 18:44:38 +0000"
+      "published": "Sat, 07 Nov 2026 21:17:08 +0000"
     },
     {
-      "id": "860444638104df4b",
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
+      "id": "36231604b2886429",
+      "title": "Crusoe sells troubled Wyoming data center project to Google",
+      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry.\nThe public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers we",
+      "summary": "Crusoe, an eight-year-old, Denver-based data center developer recently valued at $30.9 billion, confirmed Friday it has sold an unfinished data center project in southeastern Wyoming to Google.\nGoogle, which Crusoe had tried and failed to land as a customer for the project, is taking over the develo",
       "importance": 2.2,
       "matched": [],
-      "published": "Fri, 06 Nov 2026 18:00:00 +0000"
-    },
-    {
-      "id": "ead671d25881cf90",
-      "title": "After the midterms, is the AI industry in for a rough two years?",
-      "url": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry.\nThe public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers we",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 17:23:52 +0000"
-    },
-    {
-      "id": "d275be2a1267c8e7",
-      "title": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-      "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Companies are using more AI than ever, but they’re not spending more on it.\nA new report from Ramp shows AI spending flatlined over late summer even as token volumes rose, a sign that price competition and savvier customers may be capping revenue for OpenAI and Anthropic. According to Ramp’s data, t",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 15:54:47 +0000"
-    },
-    {
-      "id": "fbf575ba8ccde9fe",
-      "title": "Underdog shows off a 32MB speech model in new demo",
-      "url": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "AI companies across the world are racing to make bigger and better models, but the problem is all of them need massive amounts of processing power. On the other end, some researchers and startups are creating smaller models that can run on edge devices, like your phone or computer.\nOne such startup,",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 13:02:16 +0000"
-    },
-    {
-      "id": "e804e0e792890345",
-      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
-      "url": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.\nThe startup Tau Robotics is sending humanoid robots to clean San Francisco homes. They still need lots of human guidance, but they’re learning.\nI’m not the sort of person who typically pays for a house cleaner. I’m to",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 10:00:00 +0000"
-    },
-    {
-      "id": "d9a0f8bfa397c301",
-      "title": "Japan Announces Emergency Cybersecurity Package Following a Wave of Attacks",
-      "url": "https://www.securityweek.com/japan-announces-emergency-cybersecurity-package-following-a-wave-of-attacks/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Japan on Friday announced an emergency cybersecurity package that includes the use of artificial intelligence and cyber rescue teams after a wave of massive data breaches hit major companies and government agencies.\nPrime Minister Sanae Takaichi told a ministerial meeting Friday that a rapid respons",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 18:28:41 +0000"
-    },
-    {
-      "id": "3819f670736191ac",
-      "title": "In Other News: Trezor Implant, LLMJacking Bills Hit $1M, SAP Flaws Weaponized Within Days",
-      "url": "https://www.securityweek.com/in-other-news-trezor-implant-llmjacking-bills-hit-1m-sap-flaws-weaponized-within-days/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.\nThis curated summary highlights key stories across vulnerability disclosures, emerging attack method",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 14:40:09 +0000"
-    },
-    {
-      "id": "28001d41675bc5dd",
-      "title": "DigiCert Data Breach Impacts Business Customer Information",
-      "url": "https://www.securityweek.com/digicert-data-breach-impacts-business-customer-information/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "DigiCert has disclosed a data breach impacting its business customers’ contact information, including names and email addresses.\nThe incident involved an internal business system used for archiving customer information, which was moved to a different network segment in February 2025, inadvertently b",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 14:00:07 +0000"
-    },
-    {
-      "id": "3ae40aec285b06a4",
-      "title": "OpenAI Says New GPT-6 Cyber Model Hunts Flaws Without Crossing the Line",
-      "url": "https://www.securityweek.com/openai-says-new-gpt-6-cyber-model-hunts-flaws-without-crossing-the-line/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "OpenAI on Thursday unveiled GPT-6 Cyber, a security model the company says is far more capable than its predecessor and more disciplined about respecting the limits researchers set for it.\nOn ExploitGym, which checks whether an AI can exploit a given flaw in a remote target, the new model achieved 4",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 13:19:52 +0000"
-    },
-    {
-      "id": "3450626e318011d3",
-      "title": "US Agencies Urge Organizations to Harden Refrigeration Controllers",
-      "url": "https://www.securityweek.com/us-agencies-urge-organizations-to-harden-refrigeration-controllers/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "The US government is urging healthcare, chemical, food, and transportation organizations to harden their industrial refrigeration and cold chain monitoring systems.\nOver the past weeks, threat actors have been hacking monitoring systems to tamper with fridges and freezers in supermarkets and blood b",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 13:02:26 +0000"
-    },
-    {
-      "id": "8694430c3bcd5114",
-      "title": "Grocery Giant Ahold Delhaize Estimates Financial Toll of October Cyberattack",
-      "url": "https://www.securityweek.com/grocery-giant-ahold-delhaize-estimates-financial-toll-of-october-cyberattack/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Dutch-Belgian grocery giant Ahold Delhaize estimates that last month’s cyberattack, which disrupted operations in the US and the Benelux, will wipe €200 million to €250 million ($224 million to $280 million) off its fourth-quarter net sales.\nThe company, whose brands include Albert Heijn, Delhaize, ",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 12:47:55 +0000"
-    },
-    {
-      "id": "bb9c3475d81115a3",
-      "title": "Beyond Proof of Possession: A Relational Theory of Authority",
-      "url": "https://arxiv.org/abs/2611.07159",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 4 Nov 2026]\nTitle:Beyond Proof of Possession: A Relational Theory of Authority\nView PDF HTML (experimental)\n            Abstract:Proof-of-Possession (PoP) establishes that an executor controls an artifact (key, token, credential, or capabi",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 00:00:00 -0500"
-    },
-    {
-      "id": "1911dfdbee1a4df3",
-      "title": "Full Provenance on the COSS Causal Axis: An Event-Level Closure of Causal Attribution and Confused-Deputy Exclusion",
-      "url": "https://arxiv.org/abs/2611.07164",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 4 Nov 2026]\nTitle:Full Provenance on the COSS Causal Axis: An Event-Level Closure of Causal Attribution and Confused-Deputy Exclusion\nView PDF HTML (experimental)\n            Abstract:Provenance Identity Continuity (PIC) represents an auth",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 00:00:00 -0500"
-    },
-    {
-      "id": "7b7c7df348c9a640",
-      "title": "Global Surveillance Under the Lens: Reconstructing Passive Dolev-Yao Intruders",
-      "url": "https://arxiv.org/abs/2611.07170",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 4 Nov 2026]\nTitle:Global Surveillance Under the Lens: Reconstructing Passive Dolev-Yao Intruders\nView PDF HTML (experimental)\n            Abstract:Global surveillance systems record large volumes of network traffic for retrospective analys",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 00:00:00 -0500"
-    },
-    {
-      "id": "b09238dcb5e35411",
-      "title": "Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation",
-      "url": "https://arxiv.org/abs/2611.06962",
-      "source": "arXiv cs.AI",
-      "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 4 Nov 2026]\nTitle:Formalizing inverse problems in the age of AI: possibilities, pitfalls, and an invitation\nView PDF HTML (experimental)\n            Abstract:Proof assistants such as Lean check mathematical proofs down to the axioms, and AI ",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 00:00:00 -0500"
-    },
-    {
-      "id": "c4775cf3737a4095",
-      "title": "KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks",
-      "url": "https://arxiv.org/abs/2611.06972",
-      "source": "arXiv cs.AI",
-      "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 4 Nov 2026]\nTitle:KDASO: Knowledge-Data Dual-Driven Automated Skill Optimization for Liability Adjudication Tasks\nView PDF HTML (experimental)\n            Abstract:Liability adjudication tasks (e.g., legal charge determination) require analy",
-      "importance": 1.6,
-      "matched": [],
-      "published": "Fri, 06 Nov 2026 00:00:00 -0500"
+      "published": "Sat, 07 Nov 2026 01:40:28 +0000"
     }
   ]
 }
