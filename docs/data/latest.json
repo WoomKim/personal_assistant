@@ -1,203 +1,107 @@
 {
-  "date": "2026-11-08",
-  "generated_at": "2026-11-08T09:57:17.437613+09:00",
-  "briefing": "오늘 8건이 수집되었습니다. 가장 주목할 항목은 「SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins」입니다.",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T10:16:55.342328+09:00",
+  "briefing": "오늘 4건이 수집되었습니다. 가장 주목할 항목은 「Iris Ohyama data cloud breach exposes info of 7.7 million customers」입니다.",
   "stats": {
-    "collected": 8,
-    "summarized": 8,
-    "picked": 8,
+    "collected": 4,
+    "summarized": 4,
+    "picked": 4,
     "llm": "live"
   },
   "items": [
     {
-      "id": "986edfc864db12c6",
-      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
+      "id": "840fc9184c683327",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used.\nThe company discovered the incident late las",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 08 Nov 2026 10:43:08 -0500"
+    },
+    {
+      "id": "9c037607d0d59f31",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "SonicWall has patched a SonicOS vulnerability that can be used to bypass SAML authentication, warning customers that it may have been exploited in attacks.\nTracked as CVE-2026-19868, the flaw affects the SSL VPN component of SonicOS, the operating system that runs on SonicWall firewalls. It’s one of",
+      "summary": "Security operations startup Brava Security has emerged from stealth mode with $15 million in a seed funding round led by F2 Venture Capital and Pitango VC, with support from several angel investors.\nTel Aviv-based Brava was founded in 2024 by Israeli intelligence alumni Idan Basre, who serves as CEO",
       "why": "",
-      "importance": 3.0,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Sat, 07 Nov 2026 10:16:23 +0000"
-    },
-    {
-      "id": "804a43c3361e7807",
-      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in",
-      "why": "",
-      "importance": 2.4,
+      "importance": 2.0,
       "matched": [],
-      "published": "Sat, 07 Nov 2026 12:14:17 +0530"
+      "published": "Sun, 08 Nov 2026 12:14:00 +0000"
     },
     {
-      "id": "ded94754be202b29",
-      "title": "Hackers pull off $133 million French bank heist via service provider",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.\nThe bank says that the attacker used its own account to initiate transactions to other banking organizations, but",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 07 Nov 2026 10:25:35 -0500"
-    },
-    {
-      "id": "5a765cf499c2e694",
-      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Fraudulent reward portals and fake gift card giveaways are surging globally, tricking users into deceptive verification loops and paid subscriptions.\nThese scams lure victims with a simple pitch: click an ad featuring a celebrity endorsement, claim a free gift card from a well-known brand, and compl",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 07 Nov 2026 09:10:19 -0500"
-    },
-    {
-      "id": "3880bf849bb943e9",
-      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
-      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "id": "9572242cc9fc8ca1",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "7th November 2026 - Link Blog\ndatasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages. I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table.\nThis was ",
+      "summary": "8th November 2026\nI was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted.\nI fired up regular Claude chat (Op",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-07T23:57:46+00:00"
+      "published": "2026-11-08T22:26:00+00:00"
     },
     {
-      "id": "ed263cbbe1a45523",
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "id": "bc55171edc52873b",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Democrats’ historic victory in this week’s midterm elections could also have a dramatic effect on the tech industry.\nIn dozens of local ballot measures, voters rejected data centers. And even when they weren’t voting on the issue directly, they were electing politicians — like Texas’ new governor-el",
+      "summary": "Nvidia’s board of directors announced Sunday that it’s launching an independent investigation following reports that CEO Jensen Huang was targeted by a Chinese spy operation.\nNvidia also published a message that Huang sent to the company admitting that he had an affair with Alice Huang, a former exe",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 07 Nov 2026 22:07:22 +0000"
-    },
-    {
-      "id": "69c75581d56ff5e1",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports.\nThe New York Times, which had previously said Nvidia’s chief executive had been the target of ",
-      "why": "",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sat, 07 Nov 2026 21:17:08 +0000"
-    },
-    {
-      "id": "36231604b2886429",
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Crusoe, an eight-year-old, Denver-based data center developer recently valued at $30.9 billion, confirmed Friday it has sold an unfinished data center project in southeastern Wyoming to Google.\nGoogle, which Crusoe had tried and failed to land as a customer for the project, is taking over the develo",
-      "why": "",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sat, 07 Nov 2026 01:40:28 +0000"
+      "published": "Sun, 08 Nov 2026 21:00:11 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "986edfc864db12c6",
-      "title": "SonicWall Patches Exploited SonicOS Vulnerability That Weakens VPN Logins",
-      "url": "https://www.securityweek.com/sonicwall-patches-exploited-sonicos-bug-that-weakens-vpn-logins/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "SonicWall has patched a SonicOS vulnerability that can be used to bypass SAML authentication, warning customers that it may have been exploited in attacks.\nTracked as CVE-2026-19868, the flaw affects the SSL VPN component of SonicOS, the operating system that runs on SonicWall firewalls. It’s one of",
-      "importance": 3.0,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Sat, 07 Nov 2026 10:16:23 +0000"
-    },
-    {
-      "id": "3880bf849bb943e9",
-      "title": "datasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages",
-      "url": "https://simonwillison.net/2026/Nov/7/link-rel-next/",
+      "id": "9572242cc9fc8ca1",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "7th November 2026 - Link Blog\ndatasette #3046: Don't serve link: rel=next HTTP headers to Firefox for HTML pages. I was looking at the Firefox network panel today when I noticed that requests to a Datasette table page were triggering an HTTP prefetch to the next page of rows in that table.\nThis was ",
+      "summary": "8th November 2026\nI was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted.\nI fired up regular Claude chat (Op",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-07T23:57:46+00:00"
+      "published": "2026-11-08T22:26:00+00:00"
     },
     {
-      "id": "804a43c3361e7807",
-      "title": "Claude Code's “Don't Ask Again” File Exposes Passwords and Keys in 1,122 Public Copies on GitHub",
-      "url": "https://thehackernews.com/2026/11/claude-codes-dont-ask-again-file.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Passwords and API keys that developers typed into commands they approved in Claude Code are sitting in public GitHub repositories, where anyone can read them.\nWhen a user selects \"Yes, and don't ask again,\" Anthropic's AI coding assistant can save the command, word-for-word, including the secret, in",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 07 Nov 2026 12:14:17 +0530"
-    },
-    {
-      "id": "ded94754be202b29",
-      "title": "Hackers pull off $133 million French bank heist via service provider",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-pull-off-133-million-french-bank-heist-via-service-provider/",
+      "id": "840fc9184c683327",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "French cooperative bank Crédit Mutuel Arkéa was targeted in a cyberattack that enabled fraudulent transactions of up to $133 million, forcing it to respond by suspending certain systems.\nThe bank says that the attacker used its own account to initiate transactions to other banking organizations, but",
+      "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used.\nThe company discovered the incident late las",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 07 Nov 2026 10:25:35 -0500"
+      "published": "Sun, 08 Nov 2026 10:43:08 -0500"
     },
     {
-      "id": "5a765cf499c2e694",
-      "title": "CTM360 Exposes Fake Gift Card Scams Exploiting Trusted Brands",
-      "url": "https://www.bleepingcomputer.com/news/security/ctm360-exposes-fake-gift-card-scams-exploiting-trusted-brands/",
-      "source": "BleepingComputer",
+      "id": "bc55171edc52873b",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia’s board of directors announced Sunday that it’s launching an independent investigation following reports that CEO Jensen Huang was targeted by a Chinese spy operation.\nNvidia also published a message that Huang sent to the company admitting that he had an affair with Alice Huang, a former exe",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 08 Nov 2026 21:00:11 +0000"
+    },
+    {
+      "id": "9c037607d0d59f31",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "source": "SecurityWeek",
       "category": "security",
-      "summary": "Fraudulent reward portals and fake gift card giveaways are surging globally, tricking users into deceptive verification loops and paid subscriptions.\nThese scams lure victims with a simple pitch: click an ad featuring a celebrity endorsement, claim a free gift card from a well-known brand, and compl",
-      "importance": 2.4,
+      "summary": "Security operations startup Brava Security has emerged from stealth mode with $15 million in a seed funding round led by F2 Venture Capital and Pitango VC, with support from several angel investors.\nTel Aviv-based Brava was founded in 2024 by Israeli intelligence alumni Idan Basre, who serves as CEO",
+      "importance": 2.0,
       "matched": [],
-      "published": "Sat, 07 Nov 2026 09:10:19 -0500"
-    },
-    {
-      "id": "ed263cbbe1a45523",
-      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
-      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Democrats’ historic victory in this week’s midterm elections could also have a dramatic effect on the tech industry.\nIn dozens of local ballot measures, voters rejected data centers. And even when they weren’t voting on the issue directly, they were electing politicians — like Texas’ new governor-el",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sat, 07 Nov 2026 22:07:22 +0000"
-    },
-    {
-      "id": "69c75581d56ff5e1",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "A memo circulated earlier this year claimed that technology executive Alice Huang was recruited by China’s Ministry of State Security to spy on Nvidia CEO Jensen Huang, according to multiple media reports.\nThe New York Times, which had previously said Nvidia’s chief executive had been the target of ",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sat, 07 Nov 2026 21:17:08 +0000"
-    },
-    {
-      "id": "36231604b2886429",
-      "title": "Crusoe sells troubled Wyoming data center project to Google",
-      "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Crusoe, an eight-year-old, Denver-based data center developer recently valued at $30.9 billion, confirmed Friday it has sold an unfinished data center project in southeastern Wyoming to Google.\nGoogle, which Crusoe had tried and failed to land as a customer for the project, is taking over the develo",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sat, 07 Nov 2026 01:40:28 +0000"
+      "published": "Sun, 08 Nov 2026 12:14:00 +0000"
     }
   ]
 }

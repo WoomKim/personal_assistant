@@ -1,0 +1,107 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T10:16:55.342328+09:00",
+  "briefing": "오늘 4건이 수집되었습니다. 가장 주목할 항목은 「Iris Ohyama data cloud breach exposes info of 7.7 million customers」입니다.",
+  "stats": {
+    "collected": 4,
+    "summarized": 4,
+    "picked": 4,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "840fc9184c683327",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used.\nThe company discovered the incident late las",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 08 Nov 2026 10:43:08 -0500"
+    },
+    {
+      "id": "9c037607d0d59f31",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Security operations startup Brava Security has emerged from stealth mode with $15 million in a seed funding round led by F2 Venture Capital and Pitango VC, with support from several angel investors.\nTel Aviv-based Brava was founded in 2024 by Israeli intelligence alumni Idan Basre, who serves as CEO",
+      "why": "",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sun, 08 Nov 2026 12:14:00 +0000"
+    },
+    {
+      "id": "9572242cc9fc8ca1",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "8th November 2026\nI was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted.\nI fired up regular Claude chat (Op",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-08T22:26:00+00:00"
+    },
+    {
+      "id": "bc55171edc52873b",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia’s board of directors announced Sunday that it’s launching an independent investigation following reports that CEO Jensen Huang was targeted by a Chinese spy operation.\nNvidia also published a message that Huang sent to the company admitting that he had an affair with Alice Huang, a former exe",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 08 Nov 2026 21:00:11 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "9572242cc9fc8ca1",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "8th November 2026\nI was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted.\nI fired up regular Claude chat (Op",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-08T22:26:00+00:00"
+    },
+    {
+      "id": "840fc9184c683327",
+      "title": "Iris Ohyama data cloud breach exposes info of 7.7 million customers",
+      "url": "https://www.bleepingcomputer.com/news/security/iris-ohyama-data-cloud-breach-exposes-info-of-77-million-customers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Japanese manufacturer Iris Ohyama, the operator of the Iris Plaza shopping platform, disclosed that personal information belonging to about 7.7 million people may have been exposed after unauthorized access to a third-party cloud service the company used.\nThe company discovered the incident late las",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 08 Nov 2026 10:43:08 -0500"
+    },
+    {
+      "id": "bc55171edc52873b",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia’s board of directors announced Sunday that it’s launching an independent investigation following reports that CEO Jensen Huang was targeted by a Chinese spy operation.\nNvidia also published a message that Huang sent to the company admitting that he had an affair with Alice Huang, a former exe",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 08 Nov 2026 21:00:11 +0000"
+    },
+    {
+      "id": "9c037607d0d59f31",
+      "title": "Brava Security Emerges From Stealth With $15 Million in Funding",
+      "url": "https://www.securityweek.com/brava-security-emerges-from-stealth-with-15-million-in-funding/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Security operations startup Brava Security has emerged from stealth mode with $15 million in a seed funding round led by F2 Venture Capital and Pitango VC, with support from several angel investors.\nTel Aviv-based Brava was founded in 2024 by Israeli intelligence alumni Idan Basre, who serves as CEO",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sun, 08 Nov 2026 12:14:00 +0000"
+    }
+  ]
+}
