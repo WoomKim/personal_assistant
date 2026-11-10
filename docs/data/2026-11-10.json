@@ -1,0 +1,590 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T12:53:08.309706+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More」입니다.",
+  "stats": {
+    "collected": 39,
+    "summarized": 39,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "2c42fb6170314159",
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack.\nElsewhere, attackers are hiding inside norm",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Mon, 09 Nov 2026 18:58:25 +0530"
+    },
+    {
+      "id": "48d9ef3d98d6483b",
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data.\nThe university confirmed the incident Monday, warning that university devices, syste",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Mon, 09 Nov 2026 18:52:12 -0500"
+    },
+    {
+      "id": "8d206c962ee8a1f7",
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems.\nSecurity resea",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Mon, 09 Nov 2026 16:26:25 -0500"
+    },
+    {
+      "id": "d7669d6db99e49f6",
+      "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.\nMultiple cybersecurity firms have confirmed the attacks, reporting that exploitation attempts began on November 5, the day a proof-of-conce",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 09 Nov 2026 11:04:57 -0500"
+    },
+    {
+      "id": "ca8912a2e710a7bf",
+      "title": "Plex2Shell Exploited Against QNAP NAS Users",
+      "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors are exploiting Plex2Shell to hack into Plex Media Server applications on QNAP NAS devices, Taiwanese storage and networking solutions provider QNAP warns.\nPlex2Shell is a chain of four vulnerabilities (CVE-2026-96652, CVE-2026-96654, CVE-2026-96655 and CVE-2026-96656) in Plex Media Ser",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 09 Nov 2026 13:13:28 +0000"
+    },
+    {
+      "id": "fe9001b06ea620d4",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. In its release, Meta said Ember was “designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction,",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 09 Nov 2026 18:00:00 +0000"
+    },
+    {
+      "id": "c93c64172e07cb1e",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "9th November 2026\nAnthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this:\nuv tool install llm\nllm install llm-anthropic\nllm keys set anthropic\n# paste key here\nllm -m claude-fable-5.2 \"Generate an SVG of a pelican r",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-09T23:58:46+00:00"
+    },
+    {
+      "id": "d363b026f0d913e8",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Locating the source of a mysterious beep with Claude\n9th November 2026\nOur house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-09T23:57:21+00:00"
+    },
+    {
+      "id": "5b851a3023343d96",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "9th November 2026\nOK, this comment convinced me to give that a shot.\nHere's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB)\nI just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port t",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-09T04:32:33+00:00"
+    },
+    {
+      "id": "a92667754bb129c0",
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Hide your slop PR descriptions behind <details><summary>\n9th November 2026\nMost of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complet",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-09T04:25:05+00:00"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "2c42fb6170314159",
+      "title": "⚡ Weekly Recap: SSHole Exploited, APT Root RCE, Robot Takeovers, 15K Hacked Sites, and More",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-sshole-exploited-apt-root.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A system doesn't always need a complicated bug to let someone in. Sometimes, a blank password is enough. That's one of the bigger stories this week. And it gets worse when the tools meant to keep systems updated or running safely become part of the attack.\nElsewhere, attackers are hiding inside norm",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Mon, 09 Nov 2026 18:58:25 +0530"
+    },
+    {
+      "id": "48d9ef3d98d6483b",
+      "title": "Vanderbilt University hit in BYOD ransomware attack, data theft claimed",
+      "url": "https://www.bleepingcomputer.com/news/security/vanderbilt-university-hit-in-byod-ransomware-attack-data-theft-claimed/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Vanderbilt University warns it is responding to a cyberattack claimed by the BYOD ransomware gang, which claims to have encrypted the university's databases and stolen sensitive student, employee, and research data.\nThe university confirmed the incident Monday, warning that university devices, syste",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Mon, 09 Nov 2026 18:52:12 -0500"
+    },
+    {
+      "id": "8d206c962ee8a1f7",
+      "title": "N-able takes cloud platform offline after 30+ \"zero-days\" published",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-takes-cloud-platform-offline-after-30-plus-zero-days-published/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "N-able has taken its hosted N-central environments offline and urged on-premises customers to shut down their servers after a security researcher publicly disclosed more than 30 alleged zero-day vulnerabilities, including exploits that could let attackers take over vulnerable systems.\nSecurity resea",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Mon, 09 Nov 2026 16:26:25 -0500"
+    },
+    {
+      "id": "d7669d6db99e49f6",
+      "title": "Hackers exploit SSHole OpenSSH flaw to breach Linux systems",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-sshole-openssh-flaw-to-breach-linux-systems/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers are actively exploiting the \"SSHole\" vulnerability (CVE-2026-123158) in OpenSSH to execute commands, steal credentials, and establish persistent access.\nMultiple cybersecurity firms have confirmed the attacks, reporting that exploitation attempts began on November 5, the day a proof-of-conce",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 09 Nov 2026 11:04:57 -0500"
+    },
+    {
+      "id": "fe9001b06ea620d4",
+      "title": "Meta releases Muse Ember, a new lightweight model for agent execution",
+      "url": "https://techcrunch.com/2026/11/09/meta-releases-muse-ember-a-new-lightweight-model-for-agent-execution/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Meta Superintelligence Lab released a new AI model on Monday called Muse Ember, the lab’s lightest and most cost-efficient AI model yet. In its release, Meta said Ember was “designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction,",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 09 Nov 2026 18:00:00 +0000"
+    },
+    {
+      "id": "ca8912a2e710a7bf",
+      "title": "Plex2Shell Exploited Against QNAP NAS Users",
+      "url": "https://www.securityweek.com/plex2shell-exploited-against-qnap-nas-users/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors are exploiting Plex2Shell to hack into Plex Media Server applications on QNAP NAS devices, Taiwanese storage and networking solutions provider QNAP warns.\nPlex2Shell is a chain of four vulnerabilities (CVE-2026-96652, CVE-2026-96654, CVE-2026-96655 and CVE-2026-96656) in Plex Media Ser",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 09 Nov 2026 13:13:28 +0000"
+    },
+    {
+      "id": "de97195118397262",
+      "title": "Hackers Exploiting ‘SSHole’ Authentication Bypass in OpenSSH",
+      "url": "https://www.securityweek.com/hackers-exploiting-sshole-authentication-bypass-in-openssh/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors have started exploiting SSHole, a recently patched high-severity authentication bypass vulnerability in OpenSSH.\nTracked as CVE-2026-123158, the flaw is “related to misinterpretation of whether a string is intended to be a password hash” and could let attackers access certain accounts ",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 09 Nov 2026 12:13:32 +0000"
+    },
+    {
+      "id": "c93c64172e07cb1e",
+      "title": "llm-anthropic 0.31",
+      "url": "https://simonwillison.net/2026/Nov/9/llm-anthropic/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "9th November 2026\nAnthropic released Fable 5.2 and Mythos 5.2 today. I've added them to llm-anthropic, so you can now run prompts through Fable 5.2 like this:\nuv tool install llm\nllm install llm-anthropic\nllm keys set anthropic\n# paste key here\nllm -m claude-fable-5.2 \"Generate an SVG of a pelican r",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-09T23:58:46+00:00"
+    },
+    {
+      "id": "d363b026f0d913e8",
+      "title": "Locating the source of a mysterious beep with Claude",
+      "url": "https://simonwillison.net/2026/Nov/9/mysterious-beeps/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Locating the source of a mysterious beep with Claude\n9th November 2026\nOur house has a box room, full of boxes that we still haven’t unpacked from our last move. A couple of weeks ago something in that room started intermittently beeping. The beeps were far enough apart that standing in the room and",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-09T23:57:21+00:00"
+    },
+    {
+      "id": "5b851a3023343d96",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "9th November 2026\nOK, this comment convinced me to give that a shot.\nHere's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB)\nI just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port t",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-09T04:32:33+00:00"
+    },
+    {
+      "id": "a92667754bb129c0",
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Hide your slop PR descriptions behind <details><summary>\n9th November 2026\nMost of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complet",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-09T04:25:05+00:00"
+    },
+    {
+      "id": "bd73ebc7b854e9ac",
+      "title": "Hackers Exploit Qubole's Trusted AWS Access to Breach Customer Accounts and Steal Data",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-quboles-trusted-aws.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker broke into AWS accounts belonging to multiple Qubole customers between October 14 and October 26 and stole stored secrets and data, cloud security company Wiz said today.\nThe attacker used credentials for an AWS account that Qubole's platform uses to reach those customers. How the attack",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 23:21:21 +0530"
+    },
+    {
+      "id": "7cd796fba406d97a",
+      "title": "Hackers Compromise Ethersphere's bee-js and Swarm Desktop to Deliver Wallet-Stealing Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-etherspheres-bee-js.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers used the Ethersphere project's own release automation to publish malicious versions of two of its tools for the Swarm decentralized storage network: bee-js 13.3.0 and Swarm Desktop 0.56.2.\nBoth releases download and run code built to steal the wallet key that Swarm Desktop keeps for its no",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 23:06:28 +0530"
+    },
+    {
+      "id": "7bdf0c6dc5dcaaf0",
+      "title": "Bitter Hackers Deploy New PapRAT Backdoor in Cyberespionage Campaign Targeting South Asia",
+      "url": "https://thehackernews.com/2026/11/bitter-hackers-deploy-new-paprat.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The South Asian cyber espionage group known as Bitter (aka APT-C-08, APT-Q-37, Hazy Tiger, Orange Yali, T-APT-17, and TA397) has been observed targeting South Asian organizations with a previously unreported remote access trojan called PapRAT.\n\"PapRAT has both C++ and Rust implementations,\" Fortinet",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 20:01:29 +0530"
+    },
+    {
+      "id": "c5154d08fadfed61",
+      "title": "Default 'admin:admin' Server Password Helps Researchers Hack Two Automakers, Unlock and Start Cars",
+      "url": "https://thehackernews.com/2026/11/default-adminadmin-server-password.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The login systems behind two car brands' mobile apps could be taken over completely, two security researchers found, allowing them to access any customer's account and, for an owner with a connected car, unlock the doors and start the engine.\nBoth apps signed customers in through ForgeRock, an ident",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 16:57:53 +0530"
+    },
+    {
+      "id": "a02fb0af291601b9",
+      "title": "Web3Auth Flaw Exploited to Steal Keplr Crypto, Provider Empties Other Wallets for Safety",
+      "url": "https://thehackernews.com/2026/11/web3auth-flaw-exploited-to-steal-keplr.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Some people who set up a Keplr crypto wallet with their Google or Apple account have had money stolen by an attacker.\nKeplr uses a company called Web3Auth to run that Google and Apple sign-in. The attacker used a security flaw at that company to reach the wallets, both companies said late last week.",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 16:26:25 +0530"
+    },
+    {
+      "id": "62af4291e17cf20f",
+      "title": "LNbits Urges All Operators to Shut Down Their Bitcoin Lightning Wallet Servers Amid Attacks",
+      "url": "https://thehackernews.com/2026/11/lnbits-urges-all-operators-to-shut-down.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Everyone running LNbits, a free, open-source Bitcoin Lightning wallet system, should shut down their servers now because of a wave of attacks, the project said yesterday.\nIt has several security fixes to release and asked operators to be careful until they are out. One operator said new accounts use",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 15:31:21 +0530"
+    },
+    {
+      "id": "e8082cc54dfbdb4b",
+      "title": "Taiwan-Based Hacker Used BOSSAI AI Agents to Steal Taipei Emergency Dispatch Records",
+      "url": "https://thehackernews.com/2026/11/taiwan-based-hacker-used-bossai-ai.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A single attacker using AI agents pulled emergency dispatch records covering seven Taipei districts, researchers at Acronis's Threat Research Unit said last week.\nThe agents also found a Taipei fire department platform exposing patient data from 2018, including ECG readings and ambulance video foota",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 14:31:50 +0530"
+    },
+    {
+      "id": "fb65eccd7583e9db",
+      "title": "SEGA newsletter data breach exposes 2.2 million email addresses",
+      "url": "https://www.bleepingcomputer.com/news/security/sega-newsletter-data-breach-exposes-22-million-email-addresses/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Japanese gaming giant SEGA has disclosed that a data breach at its third-party newsletter provider, ARARA, exposed the email addresses of 2.2 million newsletter subscribers.\nThe company says the exposed data also includes 92,300 records with additional information yet to be determined. The breach af",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 17:09:33 -0500"
+    },
+    {
+      "id": "b9b072a1ed15fab1",
+      "title": "York University breach exposed personal information dating to 2007",
+      "url": "https://www.bleepingcomputer.com/news/security/york-university-breach-exposed-personal-information-dating-to-2007/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "York University in Toronto has confirmed that a threat actor breached its systems and accessed personal information submitted through online forms.\nThe unauthorized access was discovered on October 25 and affected forms submitted on 14 university websites between 2007 and 2026.\nYork University is a ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 16:22:31 -0500"
+    },
+    {
+      "id": "e89c57c6d564ca26",
+      "title": "France blames Iranian hackers for supermarket attacks that sparked fires",
+      "url": "https://www.bleepingcomputer.com/news/security/france-blames-iranian-hackers-for-supermarket-attacks-that-sparked-fires/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "France has linked October cyberattacks that disrupted refrigeration systems at more than 700 supermarkets and other retail locations to Iranian state-backed hackers, saying the attacks caused food losses and sparked at least 15 fires.\nIn a statement issued Monday, France's Ministry for Europe and Fo",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 13:32:42 -0500"
+    },
+    {
+      "id": "073e03d22daec48f",
+      "title": "Russian cloud firm Beget rebuilds from scratch after data wiper attack",
+      "url": "https://www.bleepingcomputer.com/news/security/russian-cloud-firm-beget-rebuilds-from-scratch-after-data-wiper-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A data-wiping malware attack has forced Russian cloud services provider Beget to rebuild its cloud infrastructure from scratch, the company said.\nOn the night of November 1st, the attacker gained access to the management systems of the company's entire architecture and deployed malware that erased s",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 12:50:32 -0500"
+    },
+    {
+      "id": "094609239735cd67",
+      "title": "Binance denies data breach after alleged ShinyHunters claims",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-denies-data-breach-after-alleged-shinyhunters-claims/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Binance, the world's largest crypto exchange, has denied claims of a new security breach made by a threat actor using the 'ShinyHunters' handle on a newly emerged underground cybercrime forum.\nThis follows the threat actor, believed to impersonate the ShinyHunters extortion gang, putting up for sale",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 11:12:39 -0500"
+    },
+    {
+      "id": "057e22ab69c04fb1",
+      "title": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
+      "url": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context\nA compound AI approach to Japanese personas grounded in real-world distributions\nOpen Data Breaking Down Privacy Barriers to Pave the Way for AI in Finance\nIn the financial sector, the utilizati",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 15:05:57 GMT"
+    },
+    {
+      "id": "7b1451fc786c34f9",
+      "title": "Your Experts Have Partners. There's HOPE for Keeping Them Together",
+      "url": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Your Experts Have Partners. There's HOPE for Keeping Them Together\nHigher-Order Pruning of Experts in Mixture-of-Experts Language Models\nIntroduction\nMixture-of-Experts (MoE) models have enabled state-of-the-art LLMs to be scaled to hundreds of billions of parameters, but they come with a fundamenta",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 12:34:29 GMT"
+    },
+    {
+      "id": "98071e4b97d92c7e",
+      "title": "Anthropic reportedly plans to move forward with IPO plans",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-reportedly-plans-to-move-forward-with-ipo-plans/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Launching a major tech IPO would seem risky right now, shortly after one of Nasdaq’s biggest sell-offs and amid revelations that a CEO central to the AI boom had an affair with a suspected Chinese spy. But that isn’t deterring Anthropic, which is moving ahead with its listing plans, according to The",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 01:27:12 +0000"
+    },
+    {
+      "id": "13bdf291560a5d69",
+      "title": "Jensen Huang reportedly engaged a PR firm with a history of handling high-profile sex scandals a year ago",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-reportedly-engaged-a-pr-firm-with-a-history-of-handling-high-profile-sex-scandals-a-year-ago/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia CEO Jensen Huang hired Heller Inc., a crisis communications firm known for handling sex scandals, at least a year before he publicly acknowledged an extramarital affair with a woman suspected of spying for China, Wired reported.\nHeller Inc. founder Risa Heller has advised prominent men throug",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 23:28:37 +0000"
+    },
+    {
+      "id": "f469998b0ebdf825",
+      "title": "A short seller flagged Nvidia CEO’s ties to a suspected Chinese spy six months before the scandal",
+      "url": "https://techcrunch.com/2026/11/09/a-short-seller-flagged-nvidia-ceos-ties-to-a-suspected-chinese-spy-six-months-before-the-scandal/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Six months before the Nvidia spy scandal emerged, the New York-based short seller firm Culper Research had already raised questions about Nvidia CEO Jensen Huang’s unusually close relationship with Alice Huang, an executive at Megaspeed, a Singapore-based company that buys Nvidia chips. She is now s",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 22:46:09 +0000"
+    },
+    {
+      "id": "05d31a5bc4a78da3",
+      "title": "The race is on to sue Nvidia",
+      "url": "https://techcrunch.com/2026/11/09/the-race-is-on-to-sue-nvidia/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia’s stock slid more than 4% on Monday, the first trading day after its board said it would investigate CEO Jensen Huang over his relationship with Alice Huang, an executive U.S. intelligence believes was spying for China.\nSecurities lawyers were already moving. At least four firms, including Sc",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 22:23:42 +0000"
+    },
+    {
+      "id": "39befa3379491d53",
+      "title": "Jensen Huang pulls out of ElevenLabs Summit amid Nvidia controversy",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huang-pulls-out-of-elevenlabs-summit-amid-nvidia-controversy/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia CEO Jensen Huang has pulled out of the ElevenLabs Summit scheduled for this Wednesday in New York, ElevenLabs, the voice AI company, confirmed Monday. He has also dropped out of other speaking engagements, including the Anthropic CEO Forum. Nvidia is an investor in ElevenLabs.\nThe withdrawals",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 20:09:06 +0000"
+    },
+    {
+      "id": "2b128ff095485e1c",
+      "title": "Anthropic releases new Mythos and Fable models amid RSI concerns",
+      "url": "https://techcrunch.com/2026/11/09/anthropic-releases-new-mythos-and-fable-models-amid-rsi-concerns/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic released new versions of its most advanced models on Monday, with the launch of Mythos 5.2 and Fable 5.2. The company says the new models “show improvements in areas like coding, reasoning, and vision” and communicate more clearly with users.\nNotably, Anthropic is lowering the cost of Fabl",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 19:24:51 +0000"
+    },
+    {
+      "id": "20ff528b54959b19",
+      "title": "Jensen Huang’s affair with alleged Chinese spy puts Nvidia’s China ambitions under scrutiny",
+      "url": "https://techcrunch.com/2026/11/09/jensen-huangs-affair-with-alleged-chinese-spy-puts-nvidias-china-ambitions-under-scrutiny/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia CEO Jensen Huang has never been quiet about his belief that the U.S. should continue selling AI chips to China, rather than shutting the country off from the technology. The revelation that he had an affair with an alleged Chinese spy threatens to complicate that argument.\nThe Financial Times",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 18:09:52 +0000"
+    },
+    {
+      "id": "3ec2e278915eae81",
+      "title": "The backlash about data centers might really just be about electricity",
+      "url": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "The backlash about data centers might really just be about electricity\nBig Tech sees a culture war over progress. But the real fault line is electricity: drawing it from the grid and generating it onsite provoke different kinds of backlash, neither easily solved by public relations.\nThis story origi",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 19:35:33 +0000"
+    },
+    {
+      "id": "50d303e5bf841380",
+      "title": "Nancy Pelosi’s replacement is ready to regulate AI",
+      "url": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Nancy Pelosi’s replacement is ready to regulate AI\nScott Wiener has made AI regulation a cornerstone of his political career. Now he’s headed to Congress.\nAs a California state senator, Scott Wiener authored legislation aimed at curbing the risks of advanced AI. Now, after winning a tight congressio",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 17:05:43 +0000"
+    },
+    {
+      "id": "b044ec790c182bd0",
+      "title": "Innovating with AI in the special chemicals industry",
+      "url": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nInnovating with AI in the special chemicals industry\nConnected data, AI, and advanced modeling are helping scientists accelerate research and develop more sustainable materials.\nIn partnership withInfosys\nAs companies look to accelerate innovation with artificial intelligence, cloud comput",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 13:00:00 +0000"
+    },
+    {
+      "id": "7cf7e23f889027d0",
+      "title": "Revolve Puts Data Breach Victim Count at 1.5 Million",
+      "url": "https://www.securityweek.com/revolve-puts-data-breach-victim-count-at-1-5-million/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Online fashion retailer Revolve has informed the Indiana Attorney General’s Office that 1,515,073 individuals were impacted by the data breach it disclosed in October.\nThe company revealed the incident on October 29 in a filing with the US Securities and Exchange Commission (SEC). It started sending",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 14:08:08 +0000"
+    },
+    {
+      "id": "a278123ac0f5b1d4",
+      "title": "Iris Plaza Breach May Have Exposed Data of 7.7 Million Customers",
+      "url": "https://www.securityweek.com/iris-plaza-breach-may-have-exposed-data-of-7-7-million-customers/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Hackers may have stolen the personal information of 7.7 million people from Japanese online shopping platform Iris Plaza.\nThe incident, says household products and appliance manufacturer Iris Ohyama, which operates the platform, was discovered on October 28.\nThe Japanese company immediately suspende",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 12:41:27 +0000"
+    },
+    {
+      "id": "a3066db4d12bc769",
+      "title": "Italy’s Meloni Blames Pro-Russian Hackers for Leak of Foreign Minister’s Data on the Dark Web",
+      "url": "https://www.securityweek.com/italys-meloni-blames-pro-russian-hackers-for-leak-of-foreign-ministers-data-on-the-dark-web/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Italian Foreign Minister Antonio Tajani said Saturday that his personal data had been disseminated on the dark web, an encrypted part of the internet, and that he has been exposed to “threats and intimidation.” Italian Premier Giorgia Meloni blamed pro-Russian hackers for the leak.\nTajani made the a",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 12:22:12 +0000"
+    },
+    {
+      "id": "156a0344f3303140",
+      "title": "Amplifon Americas Data Breach Impacts 1.3 Million",
+      "url": "https://www.securityweek.com/amplifon-americas-data-breach-impacts-1-3-million/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Amplifon Hearing Health Care has disclosed a data breach impacting the information of more than 1.3 million individuals in the US.\nThe incident involves Amplifon Americas, the Minneapolis-based arm of the Italian hearing healthcare giant Amplifon, which claims to serve over 80 million members throug",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 09 Nov 2026 11:20:09 +0000"
+    }
+  ]
+}
