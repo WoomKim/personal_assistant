@@ -1,0 +1,573 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T10:33:09.111727+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Microsoft Fixes Nearly 1,100 Security Vulnerabilities」입니다.",
+  "stats": {
+    "collected": 37,
+    "summarized": 37,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "9364f9baac682a40",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month’s Patch Tuesday addresses 63 critical flaws — including a zero-day in Microsoft Outlook — and comes amid important sec",
+      "why": "",
+      "importance": 3.8,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Tue, 10 Nov 2026 21:55:03 +0000"
+    },
+    {
+      "id": "b958c227209529b5",
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 11 Nov 2026 00:49:39 +0530"
+    },
+    {
+      "id": "9398616ade4dc7e1",
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\"REST cookie parsing turns authenticationToke",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited"
+      ],
+      "published": "Tue, 10 Nov 2026 23:42:21 +0530"
+    },
+    {
+      "id": "0eb55bf1598eb50a",
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 10 Nov 2026 21:30:55 +0530"
+    },
+    {
+      "id": "50eb1dccf495275b",
+      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day By Lawrence Abrams November 10, 2026 02:07 PM 0 Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vuln",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited"
+      ],
+      "published": "Tue, 10 Nov 2026 14:07:36 -0500"
+    },
+    {
+      "id": "bd2a6830d8cf7795",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI has acquired an AI travel agent called Odessia, according to Odessia’s founder, Francis Davidson. Davidson says in a post announcing the deal that he’s now working for OpenAI, helping the AI lab with the future of travel.\nTerms of the deal were not disclosed, but this looks like an acqui-hire",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 10 Nov 2026 21:08:52 +0000"
+    },
+    {
+      "id": "c1fbfe2e3fcb7bc5",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "10th November 2026\nGemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else.\nThis is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-10T20:09:44+00:00"
+    },
+    {
+      "id": "fabe838d73f55c38",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "10th November 2026 - Link Blog\nIntroducing Our Smallest, Most Efficient Model: Muse Ember. Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as:\n[...] our smallest and most efficient model designed for complex reasoning execution and the work ag",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-10T07:28:21+00:00"
+    },
+    {
+      "id": "c8bf0b8e918f2da7",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "10th November 2026\nClaude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-10T05:34:14+00:00"
+    },
+    {
+      "id": "75546f2ae879a5a9",
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "10th November 2026\n    \n      Tool\n    \n    Yonkers Rises\n    — Yonkers Rises is an animated 3D diorama of New York City in which a giant mech, cut from the Yonkers boundary, rises from the ground and walks through Manhattan, Brooklyn, Queens, and the Bronx while a stomp counter and mech height read",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-10T03:53:04+00:00"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "9364f9baac682a40",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "url": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month’s Patch Tuesday addresses 63 critical flaws — including a zero-day in Microsoft Outlook — and comes amid important sec",
+      "importance": 3.8,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Tue, 10 Nov 2026 21:55:03 +0000"
+    },
+    {
+      "id": "b958c227209529b5",
+      "title": "SGLang RCE Exploit Breaches NEAR AI, Steals Data From 18 Agents and About 100 Users",
+      "url": "https://thehackernews.com/2026/11/sglang-rce-exploit-breaches-near-ai.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker exploited a remote code execution flaw in SGLang, an open-source inference engine, and ran code on one of NEAR AI's inference servers last Sunday.\nThe attacker could also have seen requests being processed on that server that day, including requests sent in confidential mode, the company",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 11 Nov 2026 00:49:39 +0530"
+    },
+    {
+      "id": "9398616ade4dc7e1",
+      "title": "Hackers Exploit Critical Xen Orchestra Auth Bypass Flaw to Gain Admin Access",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-xen-orchestra.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "French software company Vates VMS has warned of a critical security vulnerability in Xen Orchestra that it said is being actively exploited in the wild.\nThe authentication bypass flaw, which does not yet have a CVE identifier, is tracked as VSA-2026-062.\n\"REST cookie parsing turns authenticationToke",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited"
+      ],
+      "published": "Tue, 10 Nov 2026 23:42:21 +0530"
+    },
+    {
+      "id": "0eb55bf1598eb50a",
+      "title": "Attackers Exploit AhsayCBS Flaws to Deploy Sandbox-Evading Python Backdoor",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-ahsaycbs-flaws-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of an attack that exploited two now-patched vulnerabilities in AhsayCBS to deliver a Python-based implant.\nThe activity, observed by Huntress in early October 2026, involves the exploitation of a chain comprising CVE-2026-105133 and CVE-2026-105134 to",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 10 Nov 2026 21:30:55 +0530"
+    },
+    {
+      "id": "50eb1dccf495275b",
+      "title": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-november-2026-patch-tuesday-fixes-1-235-flaws-outlook-zero-day/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft November 2026 Patch Tuesday fixes 1,235 flaws, Outlook zero-day By Lawrence Abrams November 10, 2026 02:07 PM 0 Today is Microsoft's November 2026 Patch Tuesday, with security updates addressing a record-breaking 1,235 flaws, including one actively exploited Microsoft Outlook zero-day vuln",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "actively exploited"
+      ],
+      "published": "Tue, 10 Nov 2026 14:07:36 -0500"
+    },
+    {
+      "id": "82b5e1a648c0d248",
+      "title": "Critical Xen Orchestra auth bypass flaw exploited to hijack VM servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-xen-orchestra-auth-bypass-flaw-exploited-to-hijack-vm-servers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A critical authentication bypass vulnerability in Xen Orchestra is being actively exploited in attacks that could grant administrator privileges and allow takeover of XCP-ng virtualization hosts.\nXen Orchestra is a web-based management platform developed by French software company Vates, used to man",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited"
+      ],
+      "published": "Tue, 10 Nov 2026 11:17:16 -0500"
+    },
+    {
+      "id": "bd2a6830d8cf7795",
+      "title": "OpenAI acquires Odessia, travel startup created by Sonder founder",
+      "url": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI has acquired an AI travel agent called Odessia, according to Odessia’s founder, Francis Davidson. Davidson says in a post announcing the deal that he’s now working for OpenAI, helping the AI lab with the future of travel.\nTerms of the deal were not disclosed, but this looks like an acqui-hire",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 10 Nov 2026 21:08:52 +0000"
+    },
+    {
+      "id": "008f66d06450b9b0",
+      "title": "Exploited Outlook Zero-Day Among 1,094 Flaws Patched by Microsoft",
+      "url": "https://www.securityweek.com/exploited-outlook-zero-day-among-1094-flaws-patched-by-microsoft/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Microsoft’s November 2026 Patch Tuesday updates fix 1,094 vulnerabilities across its products, including an Outlook bug that the company says has been exploited.\nThe zero-day, tracked as CVE-2026-124194, has been classified as a spoofing flaw and stems from Outlook not alerting users before a potent",
+      "importance": 3.0,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Tue, 10 Nov 2026 19:19:46 +0000"
+    },
+    {
+      "id": "c1fbfe2e3fcb7bc5",
+      "title": "llm-gemini 0.36",
+      "url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "10th November 2026\nGemini 4 Carbon was announced two weeks ago for \"a subset of cyber defenders\", but today it's available to everyone else.\nThis is Google's best ever Gemini, priced at $2/million input and $10/million output at launch (that's GPT-6.1 Sol / Claude Sonnet 5.5 prices) but scheduled to",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-10T20:09:44+00:00"
+    },
+    {
+      "id": "fabe838d73f55c38",
+      "title": "Introducing Our Smallest, Most Efficient Model: Muse Ember",
+      "url": "https://simonwillison.net/2026/Nov/10/muse-ember/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "10th November 2026 - Link Blog\nIntroducing Our Smallest, Most Efficient Model: Muse Ember. Meta AI just launched their entry in the Claude Haiku/GPT Luna category: Muse Ember, which they describe as:\n[...] our smallest and most efficient model designed for complex reasoning execution and the work ag",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-10T07:28:21+00:00"
+    },
+    {
+      "id": "c8bf0b8e918f2da7",
+      "title": "Quoting Prompting Claude Fable 5.2",
+      "url": "https://simonwillison.net/2026/Nov/10/prompting-claude-fable-52/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "10th November 2026\nClaude Fable 5.2 responds closely to what the prompt says about who owns the code it works on. In Anthropic’s testing on small coding tasks, when a prompt said nothing about ownership or presented the code base as someone else’s, the model tended to add to the existing structure, ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-10T05:34:14+00:00"
+    },
+    {
+      "id": "75546f2ae879a5a9",
+      "title": "Yonkers Rises",
+      "url": "https://simonwillison.net/2026/Nov/10/yonkers-rises/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "10th November 2026\n    \n      Tool\n    \n    Yonkers Rises\n    — Yonkers Rises is an animated 3D diorama of New York City in which a giant mech, cut from the Yonkers boundary, rises from the ground and walks through Manhattan, Brooklyn, Queens, and the Bronx while a stomp counter and mech height read",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-10T03:53:04+00:00"
+    },
+    {
+      "id": "b86930e18372a4de",
+      "title": "Git Patches Flaw That Lets Malicious Repositories Execute Code During Recursive Clones",
+      "url": "https://thehackernews.com/2026/11/git-patches-flaw-that-lets-malicious.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A flaw in Git can let a malicious repository run an attacker's code on a computer that clones it recursively, together with its submodules. The Git project fixed it this week in Git 2.56.1, with matching fixes for the 2.50 through 2.55 series in 2.50.2, 2.51.3, 2.52.1, 2.53.1, 2.54.1 and 2.55.1.\nThe",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 00:53:10 +0530"
+    },
+    {
+      "id": "3ac35ff647369fb9",
+      "title": "Three China-Nexus Espionage Campaigns Linked Through Sparrow Malware Ecosystem",
+      "url": "https://thehackernews.com/2026/11/three-china-nexus-espionage-campaigns.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Three distinct threat activity clusters with shared infrastructure and malware code similarities have been observed targeting telecommunications providers, government organizations, military entities, research institutions, and critical infrastructure across Latin America, Asia, and Europe over the ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 23:13:23 +0530"
+    },
+    {
+      "id": "7e413807cc2f111e",
+      "title": "Blind Eagle Uses Fake Court Notices to Deliver Remote Access Trojan Across Latin America",
+      "url": "https://thehackernews.com/2026/11/blind-eagle-uses-fake-court-notices-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The threat actor known as Blind Eagle has resurfaced with a new campaign targeting organizations in Latin America through judicial and administrative-themed phishing lures to deliver a remote access trojan (RAT) that shares its lineage with AsyncRAT and DCRat.\n\"The campaign uses Portuguese and Spani",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 21:28:44 +0530"
+    },
+    {
+      "id": "7646e96e2e7b5496",
+      "title": "Fireworks AI Confirms Wider Breach Affecting Customer Datasets, Model Weights and Notion AI Chats",
+      "url": "https://thehackernews.com/2026/11/fireworks-ai-breach-widens-to-expose.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Fireworks AI disclosed on Monday that its investigation into a security incident first reported early last month uncovered further malicious activity, affecting account and billing information, alongside secrets, datasets, and incomplete models for a \"limited set of accounts.\"\nIn a notice published ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 21:03:59 +0530"
+    },
+    {
+      "id": "4271579ddeba7964",
+      "title": "Binance Warns of iOS Sandbox Escape That Could Expose Crypto Wallet Keys, No Fix Confirmed",
+      "url": "https://thehackernews.com/2026/11/binance-warns-of-ios-sandbox-escape.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An iOS sandbox escape published on GitHub lets an app read other apps' files on iPhones running iOS 26 and 27. That puts seed phrases, private keys, and login credentials at risk of exposure to malicious apps, Binance warned today. Apple's updates for iOS 26 and 27, released yesterday, do not list a",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 17:45:31 +0530"
+    },
+    {
+      "id": "16367edd00b63500",
+      "title": "Railway breach leads to $740,000 in fraudulent AI charges",
+      "url": "https://www.bleepingcomputer.com/news/apple/railway-breach-leads-to-740-000-in-fraudulent-ai-charges/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cloud hosting provider Railway says hackers exploited vulnerabilities in its infrastructure to steal customer authentication secrets and generate approximately $740,000 in fraudulent AI usage, potentially exposing credentials for up to 100,000 workspaces.\nThe company disclosed the incident on Octobe",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 17:20:19 -0500"
+    },
+    {
+      "id": "230bcad0faf39354",
+      "title": "Japanese furniture giant Nitori says hackers stole 37.6M customer records",
+      "url": "https://www.bleepingcomputer.com/news/security/japanese-furniture-giant-nitori-says-hackers-stole-376m-customer-records/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Nitori, a major Japanese furniture and home accessories retailer, discovered that an attacker accessed a system on its network and may have stolen 37.62 million customer records.\nThe intrusion was detected on November 6, and the company blocked the unauthorized access. However, an investigation into",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 15:54:55 -0500"
+    },
+    {
+      "id": "9814f0299437ed94",
+      "title": "Microsoft releases Windows 10 KB5131096 extended security update",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-releases-windows-10-kb5131096-extended-security-update/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft released the Windows 10 KB5131096 extended security update, which includes this month's November 2026 Patch Tuesday fixes and a few bug fixes and changes.\nIf you are running Windows 10 Enterprise LTSC or are enrolled in the ESU program, you can install this update as normal by going to Set",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 15:04:36 -0500"
+    },
+    {
+      "id": "09de80ae0aa44cee",
+      "title": "Hackers exploit trusted AWS access to breach multiple cloud environments",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-trusted-aws-access-to-breach-multiple-cloud-environments/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A threat actor used compromised identity and access management (IAM) credentials for a Qubole big data platform's AWS account to access and exfiltrate data from multiple customers' AWS environments.\nThe campaign ran between October 14 and 26, and affected tens of companies whose AWS environments had",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 14:31:11 -0500"
+    },
+    {
+      "id": "33bc3cf0f92e3e70",
+      "title": "Windows 11 KB5132061 & KB5131087 cumulative updates released",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/windows-11-kb5132061-and-kb5131087-cumulative-updates-released/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft has released the Patch Tuesday Windows 11 KB513261 and KB5131087 cumulative updates for versions 26H2/25H2/24H2 and 23H2 to fix security vulnerabilities and bugs and add new features.\nToday's updates are mandatory as they contain the November 2026 Patch Tuesday security patches for hundred",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 13:33:26 -0500"
+    },
+    {
+      "id": "89d6f6254d42deea",
+      "title": "Binance warns of iOS flaw that could leak crypto wallet secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/binance-warns-of-ios-flaw-that-could-leak-crypto-wallet-secrets/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Binance is warning about a vulnerability in Apple’s iOS 26.7.1, 27.0.1, and 27.2 that could allow third-party apps to read private files stored by other apps, including cryptocurrency seed phrases, secret keys, and login credentials.\nThe crypto exchange clarifies that the issue is at the iOS level a",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 10:59:19 -0500"
+    },
+    {
+      "id": "724fae9251483a53",
+      "title": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "url": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Pay for Hugging Face Hub with your Google Cloud Account\nYou can now link your Hugging Face organization to your Google Cloud account, so that your Hugging Face usage shows up on your Google Cloud bill instead of being charged to a credit card. Get started on the Google Cloud Marketplace.\nWhy pay thr",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "3229de0d919212c3",
+      "title": "Decision Models in Hugging Face",
+      "url": "https://huggingface.co/blog/decision",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Decision Models in Hugging Face\nLarge Language Models (LLMs) are exceptionally good at generating text. We use them to answer questions, write code, reason about problems, and so much more. But not every problem requires generating text.\nConsider a customer support system receiving the following mes",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "91faed0650f0d054",
+      "title": "OpenAI, Anthropic face new oversight as New York’s AI safety law takes effect",
+      "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "New York is gearing up to enforce one of the country’s most significant AI safety laws. The state opened a registration portal Tuesday, with which large frontier AI developers like Anthropic and OpenAI will be required to register by January 1, 2027.\nThe RAISE Act, New York’s safety and transparency",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 20:52:13 +0000"
+    },
+    {
+      "id": "9a5bae24e02d25cd",
+      "title": "All 7 Anthropic founders will each cash out about $250M in IPO",
+      "url": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "As Anthropic barrels toward an enormous IPO that could value it at $1.4 trillion, the company has disclosed a tidbit in its new S-1 filing about how many shares each of its seven co-founders plan to sell.\nEach will sell 3,378,378 shares. Anthropic has floated an unusually broad initial price range o",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 19:57:52 +0000"
+    },
+    {
+      "id": "fe6d70a1808af088",
+      "title": "Oura to acquire AI-native primary care startup Counsel Health for $625M",
+      "url": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Oura announced on Tuesday that it’s acquiring AI-native primary care company Counsel Health for $625 million. The deal comes a few weeks after Oura postponed its up to $2.2 billion IPO indefinitely, citing “uncertainty in the IPO market.”\nCounsel Health is an AI-powered healthcare platform that comb",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 19:23:34 +0000"
+    },
+    {
+      "id": "2800935556d85c08",
+      "title": "PSI is trying to make a business out of AI-driven scientific discovery",
+      "url": "https://techcrunch.com/2026/11/10/psi-is-trying-to-make-a-business-out-of-ai-driven-scientific-discovery/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "David Turturean, a recent MIT graduate and a member of the technical staff at the startup lab Physical Superintelligence (PSI), used early access to Anthropic’s Fable 5.2 model to solve an 18-year-old problem about quantum computing.\n“I’m totally accepting the idea that this might be the last paper ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 19:03:52 +0000"
+    },
+    {
+      "id": "ccdccf818b30a0e0",
+      "title": "OpenAI rolls out new business profiles, making ChatGPT just a little bit more like Google",
+      "url": "https://techcrunch.com/2026/11/10/openai-rolls-out-new-business-profiles-making-chatgpt-just-a-little-bit-more-like-google/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In an effort to make ChatGPT an even better consumer discovery engine, OpenAI is launching a host of new features designed to help companies control how users interact with their businesses.\nOn Tuesday, the company rolled out a Business Hub that will serve as a place where companies can create busin",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 18:49:52 +0000"
+    },
+    {
+      "id": "fd8e1c638d2dc1c1",
+      "title": "Anthropic launches Claude Meetings to turn workplace discussions into plans and tasks",
+      "url": "https://techcrunch.com/2026/11/10/anthropic-launches-claude-meetings-to-turn-workplace-discussions-into-plans-and-tasks/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic announced new workplace features on Tuesday, including Claude Meetings, which brings Claude into video calls to begin working on tasks while participants are still talking. The company also unveiled Claude Whiteboards and Claude Sheets.\nThe launch of Anthropic’s new productivity-focused fe",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 17:30:00 +0000"
+    },
+    {
+      "id": "940b8a321b942013",
+      "title": "Nvidia CEO Jensen Huang’s affair with alleged Chinese spy: a timeline",
+      "url": "https://techcrunch.com/2026/11/10/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia co-founder CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in an affair that could have ramifications beyond Huang’s person",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 17:04:19 +0000"
+    },
+    {
+      "id": "4893b7f6453d5166",
+      "title": "Adobe Patches 110 Vulnerabilities Across 9 Products",
+      "url": "https://www.securityweek.com/adobe-patches-110-vulnerabilities-across-9-products/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Adobe’s November 2026 Patch Tuesday updates fix roughly 110 vulnerabilities across nine products.\nNew patches are available for Adobe Experience Manager (AEM), Audition, After Effects, Connect, Content Credentials SDK, Dimension, Media Encoder, Photoshop, and Premiere.\nCritical-severity issues have ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 18:11:54 +0000"
+    },
+    {
+      "id": "cc845d87e8133a60",
+      "title": "Software Transparency Is Changing: Allan Friedman on SBOM, AI BOMs and What Comes Next",
+      "url": "https://www.securityweek.com/software-transparency-is-changing-allan-friedman-on-sbom-ai-boms-and-what-comes-next/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Modern software is built on layers of dependencies, open source components, third party libraries and increasingly, artificial intelligence models and external data sources. For security teams, understanding exactly what is running inside an application has become less of a compliance exercise and m",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 16:45:00 +0000"
+    },
+    {
+      "id": "38532208b5afd569",
+      "title": "Google Widens Gemini 4 Carbon Access After AI Agents Verify Signal Code",
+      "url": "https://www.securityweek.com/google-widens-gemini-4-carbon-access-after-ai-agents-verify-signal-code/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Google on Tuesday expanded access to Gemini 4 Carbon and said agents built on the model helped formally verify core security guarantees in the code behind the Signal protocol.\nPaying developers and businesses can now use Carbon via the Gemini API and Gemini for business, and Google AI Ultra subscrib",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 16:42:02 +0000"
+    },
+    {
+      "id": "f9a315b088957672",
+      "title": "Today: CISO Forum Virtual Summit 2026 – Join Global Cybersecurity Leaders",
+      "url": "https://www.securityweek.com/today-ciso-forum-virtual-summit-2026-join-global-cybersecurity-leaders/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "November 10-11, 2026 | 11:00 AM to 4:00 PM ET – Register\nThe much-anticipated CISO Forum Virtual Summit 2026 kicks off today, November 10, and runs through tomorrow, November 11. Designed exclusively for senior-level cybersecurity leaders, this immersive two-day virtual event is your premier destina",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 15:00:00 +0000"
+    },
+    {
+      "id": "77e18dcd74822934",
+      "title": "WhiteMatter Raises $20 Million in Series A Funding",
+      "url": "https://www.securityweek.com/whitematter-raises-20-million-in-series-a-funding/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Cybersecurity startup WhiteMatter on Tuesday announced raising $20 million in a Series A funding round that brings the total raised by the company to $24 million.\nThe investment round was led by Blumberg Capital, with additional support from previous investors Crew Capital and Sprout & Oak.\nFounded ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 10 Nov 2026 14:58:19 +0000"
+    }
+  ]
+}
