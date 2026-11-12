@@ -1,0 +1,597 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T11:35:25.590929+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Who Runs the Ransomware Group Qilin?」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "8cdc4a0f74c83bb2",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "The cybercrime group Qilin has emerged as the world’s most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over ",
+      "why": "",
+      "importance": 3.8,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 11 Nov 2026 18:06:01 +0000"
+    },
+    {
+      "id": "8b35f69eac704b22",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\nThe vulnerabilities are listed below -\n- CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vul",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 11 Nov 2026 21:42:46 +0530"
+    },
+    {
+      "id": "de18400249b3b348",
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\nThis helped us think thr",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 11 Nov 2026 17:31:59 +0530"
+    },
+    {
+      "id": "4c32248b415f7e41",
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Shipping giant Maersk has confirmed that a threat actor breached systems belonging to a company it previously acquired and stole data.\nRansomware group WhiteArmor claimed the attack over the weekend, threatening that it would release about 100GB of information allegedly exfiltrated from the company'",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 11 Nov 2026 11:24:18 -0500"
+    },
+    {
+      "id": "693679885746ae3d",
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline.\nThis follows N-able's decision to take all hosted N-central environm",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Wed, 11 Nov 2026 07:32:27 -0500"
+    },
+    {
+      "id": "bb485df9f4f59adb",
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026 - Link Blog\nGemini Decisions API (via) Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T22:03:25+00:00"
+    },
+    {
+      "id": "02f705171aa939fd",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026 - Link Blog\naws-emulator. Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.\nIt's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T21:18:30+00:00"
+    },
+    {
+      "id": "95dd2fdb0483e254",
+      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026 - Link Blog\nBrowse tools.simonwillison.net by tag. I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code fo",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T18:42:50+00:00"
+    },
+    {
+      "id": "d7c77ea971b934f7",
+      "title": "llm 0.37.2",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026\nFixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w.\nLLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T17:19:52+00:00"
+    },
+    {
+      "id": "a19ce5d70afc97e2",
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026 - Link Blog\nAnthropic's IPO roadshow video. Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works.\nThe section on \"Approach to compute\" with co-founder Tom Brown is particularly interes",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T15:11:59+00:00"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "8cdc4a0f74c83bb2",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "url": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "The cybercrime group Qilin has emerged as the world’s most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over ",
+      "importance": 3.8,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 11 Nov 2026 18:06:01 +0000"
+    },
+    {
+      "id": "8b35f69eac704b22",
+      "title": "Critical Zoom Workplace Flaw Could Allow Unauthenticated Remote Privilege Escalation",
+      "url": "https://thehackernews.com/2026/11/critical-zoom-workplace-flaw-could.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Zoom has released software updates to address two security flaws impacting Zoom Workplace for Windows, including a critical bug that could result in privilege escalation on affected systems.\nThe vulnerabilities are listed below -\n- CVE-2026-108186 (CVSS score: 9.6) - An improper input validation vul",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 11 Nov 2026 21:42:46 +0530"
+    },
+    {
+      "id": "de18400249b3b348",
+      "title": "We Built An Agent That Broke All of Our Security Rules. Here's What We Learned.",
+      "url": "https://thehackernews.com/2026/11/we-built-agent-that-broke-all-of-our.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "We tell customers three things about securing AI agents: they need their own identities, access that fits the job they’re given, and traceability that’s separate from any human’s. That was true for us at Token as well. Then, we built an agent that broke all three by default.\nThis helped us think thr",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 11 Nov 2026 17:31:59 +0530"
+    },
+    {
+      "id": "4c32248b415f7e41",
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Shipping giant Maersk has confirmed that a threat actor breached systems belonging to a company it previously acquired and stole data.\nRansomware group WhiteArmor claimed the attack over the weekend, threatening that it would release about 100GB of information allegedly exfiltrated from the company'",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 11 Nov 2026 11:24:18 -0500"
+    },
+    {
+      "id": "693679885746ae3d",
+      "title": "N-able releases security hotfixes for zero-day vulnerabilities",
+      "url": "https://www.bleepingcomputer.com/news/security/n-able-releases-security-hotfixes-for-zero-day-vulnerabilities/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "N-able released hotfixes to address zero-day bugs affecting its N-central remote monitoring and management (RMM) platform, which were publicly disclosed over the weekend and forced it to take vulnerable hosted environments offline.\nThis follows N-able's decision to take all hosted N-central environm",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Wed, 11 Nov 2026 07:32:27 -0500"
+    },
+    {
+      "id": "d62ab9694fcc03e3",
+      "title": "Critical Xen Orchestra Flaws Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-xen-orchestra-flaws-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A threat actor has been exploiting a critical-severity authentication bypass and a zero-day in Xen Orchestra, software maker Vates warns.\nA web-based backup, management, and disaster recovery solution for XCP-ng and XenServer virtualization environments, Xen Orchestra operates as an agentless contro",
+      "importance": 3.0,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Wed, 11 Nov 2026 15:42:47 +0000"
+    },
+    {
+      "id": "bb485df9f4f59adb",
+      "title": "Gemini Decisions API",
+      "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026 - Link Blog\nGemini Decisions API (via) Google join Jev and OpenAI in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T22:03:25+00:00"
+    },
+    {
+      "id": "02f705171aa939fd",
+      "title": "aws-emulator",
+      "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026 - Link Blog\naws-emulator. Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.\nIt's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T21:18:30+00:00"
+    },
+    {
+      "id": "95dd2fdb0483e254",
+      "title": "Browse tools.simonwillison.net by tag",
+      "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026 - Link Blog\nBrowse tools.simonwillison.net by tag. I've been wanting a better way to browse my collection of vibe-coded tools (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using tree-sitter to analyze the code fo",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T18:42:50+00:00"
+    },
+    {
+      "id": "d7c77ea971b934f7",
+      "title": "llm 0.37.2",
+      "url": "https://simonwillison.net/2026/Nov/11/llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026\nFixes a security issue reported by Daniel de Araujo in GHSA-v9h7-jj4g-f862 and GHSA-r639-rr7r-x72w.\nLLM has a mechanism called extra-openai-models.yaml - now managed by the new-in-0.37 llm openai endpoint add command - for using LLM with OpenAI-compatible API endpoints from other ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T17:19:52+00:00"
+    },
+    {
+      "id": "a19ce5d70afc97e2",
+      "title": "Anthropic's IPO roadshow video",
+      "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "11th November 2026 - Link Blog\nAnthropic's IPO roadshow video. Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works.\nThe section on \"Approach to compute\" with co-founder Tom Brown is particularly interes",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-11T15:11:59+00:00"
+    },
+    {
+      "id": "63cbf25606a5b49a",
+      "title": "AntiFox AI Pentesting Platform Linked to Attacks That Accessed AWS Production Secrets",
+      "url": "https://thehackernews.com/2026/11/antifox-ai-pentesting-platform-linked.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a campaign in which an emerging agentic penetration testing platform called AntiFox has been used to steal Amazon Web Services (AWS) credentials and pivot laterally into compromised environments.\n\"In several recently observed intrusions, Alibaba Cl",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 21:04:27 +0530"
+    },
+    {
+      "id": "7fc0ff6aee2afbb4",
+      "title": "Hackers Target Qlik Sense Servers With Reverse Shells, Stage ActiveMQ and Veeam Exploits",
+      "url": "https://thehackernews.com/2026/11/hackers-target-qlik-sense-servers-with.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors have been observed targeting Qlik Sense servers to unsuccessfully deliver PowerShell reverse shell commands against multiple environments in October 2026.\nCynet's CyOps and Research teams said they identified the suspicious activity in October 2026 against several E.U.-based customers ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 19:31:00 +0530"
+    },
+    {
+      "id": "14caa111eec698f5",
+      "title": "Over 35,000 Grok-Built Apps Exposed Online, Some Leaking Confidential Data and Passwords",
+      "url": "https://thehackernews.com/2026/11/over-35000-grok-built-apps-exposed.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Of the 37,571 Grok-built apps that security company Claroc found online, 35,578 were open to anyone without a sign-in, the researchers said yesterday.\nThey included 24 apps built by staff at the social network X and at SpaceXSI, the company that makes the Grok AI assistant. Most of the open apps wer",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 17:49:40 +0530"
+    },
+    {
+      "id": "b80a24c89312068e",
+      "title": "eMudhra Revokes 8 More CAs It Previously Declared Unaffected by Key Compromise",
+      "url": "https://thehackernews.com/2026/11/emudhra-revokes-8-more-cas-it.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The in-house Python script behind eMudhra's October key compromise has now cost the company 8 more of its intermediate certificate authorities (CAs), even though it did not weaken their keys.\nEach intermediate CA has its own private key, which the company uses to sign the certificates it issues. The",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 17:30:53 +0530"
+    },
+    {
+      "id": "44096b209ce3f997",
+      "title": "Microsoft Patches 1,259 Flaws, Including Exploited Outlook Bug That May Expose NTLMv2 Hashes",
+      "url": "https://thehackernews.com/2026/11/microsoft-patches-1259-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Microsoft on Tuesday released patches for a total of 1,259 vulnerabilities spanning its software portfolio, the second consecutive month where the patch volume has exceeded 1,000 flaws.\nThese cover 726 flaws in Windows, 174 in Office, 61 in Developer Tools, 59 in SQL Server, 53 in Developer Tools, a",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 13:47:53 +0530"
+    },
+    {
+      "id": "890bd5d68a0ae55b",
+      "title": "Railway Says Stolen Customer AI Keys Led to $740,000 in Estimated Unauthorized Usage Charges",
+      "url": "https://thehackernews.com/2026/11/railway-says-stolen-customer-ai-keys.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "AI provider keys that customers stored on Railway were stolen in an October breach and used to commit an estimated $740,000 in unauthorized spending, the platform-as-a-service provider said yesterday. It has promised to pay those charges itself when an AI provider will not refund them.\nThe company b",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 13:19:04 +0530"
+    },
+    {
+      "id": "7f241c94ac846596",
+      "title": "Baker Tilly notifies clients of data breach at third-party provider",
+      "url": "https://www.bleepingcomputer.com/news/security/baker-tilly-notifies-clients-of-data-breach-at-third-party-provider/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Baker Tilly Advisory Group is notifying clients that a data breach has compromised certain personal information about them and their dependents.\nThe company said the exposed data was stored on a platform operated by a third-party service provider Baker Tilly uses to serve clients.\nBaker Tilly le",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 18:01:31 -0500"
+    },
+    {
+      "id": "ccdd6c7f3ffe5679",
+      "title": "Active ScreenConnect attacks breach MSPs, impact dozens of organizations",
+      "url": "https://www.bleepingcomputer.com/news/security/active-screenconnect-attacks-breach-msps-impact-dozens-of-organizations/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Update 11/11/26: Added additional information from ConnectWise and Huntress.\nConnectWise is investigating an active malware campaign targeting managed service providers (MSPs) that uses compromised ScreenConnect environments to deploy rogue remote-access clients to customer devices.\nAs part of its i",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 17:56:21 -0500"
+    },
+    {
+      "id": "a4a34375ee4e181d",
+      "title": "eMudhra revokes 8 more CA certificates after private key mishap",
+      "url": "https://www.bleepingcomputer.com/news/security/emudhra-revokes-8-more-ca-certificates-after-private-key-mishap/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Certificate authority eMudhra has revoked eight additional intermediate CA certificates after an investigation into its recent certificate security incident found improper handling of private keys during the certificate-generation process.\nThe new revocations bring the total number of affected inter",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 16:27:40 -0500"
+    },
+    {
+      "id": "4555dea146472ff7",
+      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces.\nThe disclosure comes shortly after Fireworks AI confirmed that an attacker accessed its development environmen",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 15:54:20 -0500"
+    },
+    {
+      "id": "9c9df925add3b480",
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments.\nThe infrastructure hosting AntiFox was used for various malicious activities, including vulnerability exploitation, webshell ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 10:12:59 -0500"
+    },
+    {
+      "id": "a9021fd4336250c7",
+      "title": "eBPF Rootkits: Why Underground Actors Are Taking Notice",
+      "url": "https://www.bleepingcomputer.com/news/security/ebpf-rootkits-why-underground-actors-are-taking-notice/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "For years, eBPF (extended Berkeley Packet Filter) has been one of the most celebrated technologies in the Linux kernel. It lets developers run sandboxed programs inside the kernel without writing kernel modules, while powering everything from network monitoring to security tooling.\nLinux is extremel",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 10:01:11 -0500"
+    },
+    {
+      "id": "b22522d14a17f95f",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model\nFrontier cloud LLMs carry high operational costs that can fluctuate unexpectedly, and relying on such third-party models introduces vulnerabilities, as providers can modify, deny, or deprecate access at any time",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 05:01:16 GMT"
+    },
+    {
+      "id": "d2296a64c0dc3b89",
+      "title": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+      "url": "https://huggingface.co/blog/token-pooling",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Token Pooling-Aware Training for Multi-Vector Embedding Models\nMulti-vector embedding models give each query token its own opportunity to find a match in a document. This makes them wonderfully expressive for search, but those document vectors add up quickly. A corpus with millions of documents can ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "c2f163e5b083bf5f",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia co-founder CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in an affair that could have ramifications beyond Huang’s person",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 23:50:00 +0000"
+    },
+    {
+      "id": "e9253ae6619ecd71",
+      "title": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia is reportedly planning to oust its co-founder and CEO Jensen Huang, who has led the company for the last 33 years, the Wall Street Journal reports. Sources told the newspaper that the Nvidia board is meeting as soon as Wednesday to determine Huang’s future at the company.\nOn Sunday, Huang adm",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 23:28:45 +0000"
+    },
+    {
+      "id": "0ca5cf57ee5146c0",
+      "title": "Jensen Huang accused of having another affair — with an Nvidia exec",
+      "url": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia CEO Jensen Huang is already under investigation after having admitted to having an affair with a woman accused of being a Chinese spy. Now the New York Times is reporting that Huang is also suspected of having another extramarital affair, with a direct report of his at the company — Kimberly ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 23:17:05 +0000"
+    },
+    {
+      "id": "0d92f57c72e3e3cf",
+      "title": "Why the data center you dread might never even be built",
+      "url": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 20:15:15 +0000"
+    },
+    {
+      "id": "6bc57b8d8016fc8d",
+      "title": "Meta is losing its longtime head of infrastructure",
+      "url": "https://techcrunch.com/2026/11/11/meta-is-losing-its-longtime-head-of-infrastructure/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A key figure in Meta’s growth into a social media and tech industry powerhouse is leaving the company.\nSantosh Janardhan, the company’s longtime head of infrastructure and co-head of engineering, will be stepping down, Meta told TechCrunch. He will be replaced by Dave Brown, who joined the company a",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 20:12:01 +0000"
+    },
+    {
+      "id": "984513ae1fc499f6",
+      "title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+      "url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The data center boom is running into serious real-world obstacles, from widespread local opposition and permitting delays to a scramble for electricity. Before those challenges even come into play, though, there’s a more basic problem: A lot of the projects being announced may never get built in the",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 20:02:14 +0000"
+    },
+    {
+      "id": "c063829a6185b4d7",
+      "title": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+      "url": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "CoreWeave is rewriting how it pays for the AI boom, according to the company’s third-quarter earnings, reported on Tuesday. CoreWeave, a neocloud that rents out the computing power behind AI, said it’s increasingly asking customers to pay up front, borrowing against specific contracts, and even purs",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 19:54:00 +0000"
+    },
+    {
+      "id": "019cc9ec163bf853",
+      "title": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+      "url": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Fractile, a British startup developing AI chips, has raised a $720 million Series C backed by Britain’s Sovereign AI Fund with hopes of “ensuring the U.K. has a greater stake in the hardware that will underpin its future economy,” its government stated.\nAlongside the likes of Axelera, Etched, and OL",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 19:34:55 +0000"
+    },
+    {
+      "id": "7ba871700f2534f8",
+      "title": "Asus, Zoom Release Security Patches",
+      "url": "https://www.securityweek.com/asus-zoom-release-security-patches/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Asus and Zoom are among the tech companies that have released fresh security updates for their products this week.\nComputer maker Asus published an advisory describing four high- and medium-severity vulnerabilities in certain router firmware releases.\nSuccessful exploitation of the flaws could allow",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 13:58:38 +0000"
+    },
+    {
+      "id": "60ccd3ca4d451df2",
+      "title": "Citrix, Ivanti Patch Critical and High-Severity Vulnerabilities",
+      "url": "https://www.securityweek.com/citrix-ivanti-patch-critical-and-high-severity-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Citrix and Ivanti on Tuesday announced patches for 19 vulnerabilities in their products, including multiple critical- and high-severity flaws.\nIvanti fixed 13 vulnerabilities across five products, including two critical-severity defects in Cloud Services Application (CSA) and Endpoint Manager (EPM).",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 13:37:19 +0000"
+    },
+    {
+      "id": "6ef677aa3015bbd7",
+      "title": "Finite State Raises $27 Million to Secure Software and Firmware in Connected Devices",
+      "url": "https://www.securityweek.com/finite-state-raises-27-million-to-secure-software-and-firmware-in-connected-devices/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Product security firm Finite State announced on Tuesday that it raised $27 million in a Series C funding round to grow its international presence and make its connected device security platform more autonomous.\nPrivate funds managed by The O.H.I.O. Fund led the round, with participation from CIBC In",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 12:24:33 +0000"
+    },
+    {
+      "id": "6efa2d9b4d0b7c36",
+      "title": "Fortinet Patches Nearly 100 Vulnerabilities",
+      "url": "https://www.securityweek.com/fortinet-patches-nearly-100-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Fortinet on Tuesday dropped 89 new security advisories that address nearly 100 vulnerabilities across its products.\nThe massive release comes three weeks after the company announced it has integrated frontier AI models into its product security testing and can discover security defects more efficien",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 12:10:14 +0000"
+    },
+    {
+      "id": "9541b4d6b6269ca6",
+      "title": "Useful Work Can Increase Energy Use: Demand Elasticity and Proof of Useful Work",
+      "url": "https://arxiv.org/abs/2611.13131",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 9 Nov 2026]\nTitle:Useful Work Can Increase Energy Use: Demand Elasticity and Proof of Useful Work\nView PDF HTML (experimental)\n            Abstract:A serious criticism of Bitcoin's Proof-of-Work is its enormous electricity consumption. Pro",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "29370b068753c349",
+      "title": "Splitting for Stability: a Modified Reward Scheme for Transaction-Fee-Only Regimes",
+      "url": "https://arxiv.org/abs/2611.13252",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 9 Nov 2026]\nTitle:Splitting for Stability: a Modified Reward Scheme for Transaction-Fee-Only Regimes\nView PDF HTML (experimental)\n            Abstract:As Bitcoin's block subsidy declines over time, miner revenue will come to depend increas",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "ceca38b3e0ab9c11",
+      "title": "Early Rug Pull Detection on Solana",
+      "url": "https://arxiv.org/abs/2611.13342",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 9 Nov 2026]\nTitle:Early Rug Pull Detection on Solana\nView PDF HTML (experimental)\n            Abstract:Web3 platforms that help users discover and trade newly launched crypto tokens, including launchpads, decentralized-exchange (DEX) inter",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Wed, 11 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
