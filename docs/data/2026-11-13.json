@@ -1,0 +1,613 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T11:14:25.466202+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Siemens Desigo, Gridscale」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "3fc70062a296fc32",
+      "title": "Siemens Desigo, Gridscale",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Desigo, Gridscale\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that cou",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 12 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "0b6d9bcd8811c95a",
+      "title": "Siemens Building Automation and Energy Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Building Automation and Energy Products\nSummary\nOn October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). ",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 12 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "0326dcbca7c7fa26",
+      "title": "Siemens Industrial Edge Management",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Industrial Edge Management\nSummary\nSiemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is in",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 12 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "193a689f6d043f7f",
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds Six Known Exploited Vulnerabilities to Catalog\nCISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability\n- CVE-",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 10 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "1acaa8e77a2e5854",
+      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.\nThe proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion fi",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Thu, 12 Nov 2026 23:20:27 +0530"
+    },
+    {
+      "id": "1a628d755dc37d52",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "After initially testing the feature in September, Meta’s consumer AI agent Muse is now able to place calls to U.S. businesses on behalf of its users. However, only paid subscribers have access to the feature, the company says.\nMeta’s Muse, which now has over 10 million users, the company said last m",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 12 Nov 2026 22:22:28 +0000"
+    },
+    {
+      "id": "f7effce2db920f5c",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nectar, an AI-powered operating system for marketing, is launching a new AI agent designed to take a lot of the manual work out of influencer marketing, from finding the right creators to contacting them, managing partnerships, and tracking results.\nFounded by sisters Misbah and Farah Uraizee, both ",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 12 Nov 2026 19:11:00 +0000"
+    },
+    {
+      "id": "8d30336b14bfe5e0",
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "12th November 2026\nGoogle launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family.\nIt's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme:\nCarbon and Argon are the same",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-12T22:55:19+00:00"
+    },
+    {
+      "id": "a88bddb17214a029",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B\nLLMs rely on their context to generate the next set of tokens. Over a long trajectory, the context fills with numerous types of components: a system prompt, past conversation turns, instructions that act on retrieved documents, tool ",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 19:07:35 GMT"
+    },
+    {
+      "id": "56dac742ff29ffe2",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "The Definitive Fine-Tuning Guide for 3D Generation Models\nTLDR; In this blog, we provide fine-tuning scripts and containers to fine-tune TRELLIS.2, a popular 3D model on your 3D assets, that can run both locally and on Hugging Face Jobs. If you are interested in fine-tuning, you can use our scripts ",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 00:00:00 GMT"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "3fc70062a296fc32",
+      "title": "Siemens Desigo, Gridscale",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Desigo, Gridscale\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that cou",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 12 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "0b6d9bcd8811c95a",
+      "title": "Siemens Building Automation and Energy Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Building Automation and Energy Products\nSummary\nOn October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). ",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 12 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "0326dcbca7c7fa26",
+      "title": "Siemens Industrial Edge Management",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Industrial Edge Management\nSummary\nSiemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is in",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 12 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "193a689f6d043f7f",
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds Six Known Exploited Vulnerabilities to Catalog\nCISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability\n- CVE-",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 10 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "1acaa8e77a2e5854",
+      "title": "New SignDrop Zero-Day Exploit Turns Windows CLFS Security Feature Into SYSTEM Access",
+      "url": "https://thehackernews.com/2026/11/new-signdrop-zero-day-exploit-turns.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Public exploit code released earlier this week claims that a local Windows user can gain SYSTEM privileges through the Common Log File System driver.\nThe proof of concept, called SignDrop, targets a log-authentication feature added to the driver last year. It abuses how clfs.sys creates companion fi",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Thu, 12 Nov 2026 23:20:27 +0530"
+    },
+    {
+      "id": "5e7c3d53ea737937",
+      "title": "New N-able \"4EverAble2Shell\" zero-day exploited hours after PoC released",
+      "url": "https://www.bleepingcomputer.com/news/security/new-n-able-4everable2shell-zero-day-exploited-hours-after-poc-released/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers are actively exploiting a newly disclosed N-able N-central zero-day vulnerability dubbed \"4EverAble2Shell\" to compromise servers and deploy cryptocurrency miners, with researchers reporting at least 21 affected systems, including 19 running the company's latest security update.\nThe attacks f",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Thu, 12 Nov 2026 14:51:16 -0500"
+    },
+    {
+      "id": "fac8887887ba8ddd",
+      "title": "Apache HTTP Server patches critical HTTP/2 remote code execution flaw",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-http-server-patches-critical-http-2-remote-code-execution-flaw/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A critical vulnerability in the HTTP/2 module of Apache HTTP Server could be exploited by an unauthenticated attacker to obtain remote code execution (RCE).\nThe Apache Software Foundation has fixed the issue, now tracked as CVE-2026-119618, but a significant number of servers are vulnerable and reac",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Thu, 12 Nov 2026 14:12:55 -0500"
+    },
+    {
+      "id": "ad9757975fce9e1b",
+      "title": "New Windows SignDrop zero-day gives hackers SYSTEM privileges",
+      "url": "https://www.bleepingcomputer.com/news/security/new-windows-signdrop-zero-day-gives-hackers-system-privileges/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Security researcher Abdelhamid Naceri (also known as Nightmare Eclipse) has released a new Windows zero-day exploit that can let attackers gain SYSTEM privileges.\nNamed SignDrop, it exploits mitigations Microsoft introduced in October 2025 to defend against authentication attacks targeting vulnerabi",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Thu, 12 Nov 2026 11:04:00 -0500"
+    },
+    {
+      "id": "1a628d755dc37d52",
+      "title": "Muse can now place calls to US businesses — if you pay",
+      "url": "https://techcrunch.com/2026/11/12/muse-can-now-place-calls-to-u-s-businesses-if-you-pay/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "After initially testing the feature in September, Meta’s consumer AI agent Muse is now able to place calls to U.S. businesses on behalf of its users. However, only paid subscribers have access to the feature, the company says.\nMeta’s Muse, which now has over 10 million users, the company said last m",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 12 Nov 2026 22:22:28 +0000"
+    },
+    {
+      "id": "f7effce2db920f5c",
+      "title": "Nectar launches an AI agent to automate creator discovery and outreach for brands",
+      "url": "https://techcrunch.com/2026/11/12/nectar-launches-an-ai-agent-to-automate-creator-discovery-and-outreach-for-brands/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nectar, an AI-powered operating system for marketing, is launching a new AI agent designed to take a lot of the manual work out of influencer marketing, from finding the right creators to contacting them, managing partnerships, and tracking results.\nFounded by sisters Misbah and Farah Uraizee, both ",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 12 Nov 2026 19:11:00 +0000"
+    },
+    {
+      "id": "d1b92d164acb5a89",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens RUGGEDCOM APE1808\nSummary\nPalo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the workarou",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Thu, 12 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "3fea90422b4e52d4",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens RUGGEDCOM APE1808\nSummary\nPalo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the workarou",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Thu, 12 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "16b72427cf58165b",
+      "title": "Apache Patches Critical HTTP Server RCE Found by Anthropic, Google",
+      "url": "https://www.securityweek.com/apache-patches-critical-http-server-rce-found-by-anthropic-google/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Apache has patched a critical HTTP Server vulnerability that could allow unauthenticated remote code execution (RCE), following independent discoveries by Anthropic and Google researchers.\nTracked as CVE-2026-119618, the flaw affects Apache HTTP Server versions 2.4.55 through 2.4.70. The issue was a",
+      "importance": 3.0,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Thu, 12 Nov 2026 15:38:31 +0000"
+    },
+    {
+      "id": "8d30336b14bfe5e0",
+      "title": "llm-gemini 0.37",
+      "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "12th November 2026\nGoogle launched Gemini 4 Hydrogen today - the lowest cost member of the Gemini 4 family.\nIt's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing really confusing. Here's the pricing scheme:\nCarbon and Argon are the same",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-12T22:55:19+00:00"
+    },
+    {
+      "id": "950205e16691a515",
+      "title": "Webinar: See How Identity Blind Spots Put Your SOC at Risk and How to Close Them",
+      "url": "https://thehackernews.com/2026/11/your-soc-sees-alert-but-does-it-know.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Security teams have more alerts, logs, and monitoring tools than ever. Yet when an attack happens, one simple question can still take too long to answer: Who or what is behind this activity, and what can they access?\nA suspicious login might belong to an employee. An unusual API call could come from",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 23:37:15 +0530"
+    },
+    {
+      "id": "0215fb6873aed2b7",
+      "title": "ThreatsDay: 59 Linux Kernel Bugs, Falcon Spyware, GSocket Backdoors + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-59-linux-kernel-bugs-falcon.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A search result isn't always safe. An access request isn't always harmless. And a familiar account doesn't always mean a familiar person is using it. Simple things to remember. Yet a surprising amount of this week's trouble starts right there.\nAttackers are using fake websites, stolen access, and tr",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 23:32:51 +0530"
+    },
+    {
+      "id": "093b008afb96e695",
+      "title": "Critical Red Hat Quay Flaw Lets Attackers Read and Overwrite All Private Container Images in a Registry",
+      "url": "https://thehackernews.com/2026/11/critical-red-hat-quay-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A critical flaw in Red Hat Quay allows an attacker who can access a Quay registry to read and overwrite private container images in every repository.\nQuay enables anonymous access by default, and while it is enabled, the attacker needs no account. When it is off, anyone with a valid account can stil",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 21:57:01 +0530"
+    },
+    {
+      "id": "c398aa3e92265ca6",
+      "title": "Citrix Patches 12 NetScaler and Secure Access Client Flaws, Including Authentication Bypass",
+      "url": "https://thehackernews.com/2026/11/citrix-patches-12-netscaler-and-secure.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Citrix has released patches for multiple critical security flaws impacting NetScaler ADC, Citrix NetScaler Gateway, and NetScaler Console that could lead to denial-of-service (DoS) or an authentication bypass.\nThe critical vulnerabilities that impact NetScaler ADC and NetScaler Gateway are listed be",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 21:08:49 +0530"
+    },
+    {
+      "id": "50b7d482cfd778ee",
+      "title": "186 Fake AI Domains Redirect Users to ClickFix Lures, Browser Malware, and Search Hijackers",
+      "url": "https://thehackernews.com/2026/11/186-fake-ai-domains-redirect-users-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have found that lookalike domains masquerading as artificial intelligence (AI) tools are being used to serve ClickFix-style lures, browser-hijacking malware, and a set of extensions that hijack user searches.\nThis delivery pattern has been codenamed TypoPrompting by Island.",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 20:45:40 +0530"
+    },
+    {
+      "id": "daa356fef18a497b",
+      "title": "SCKit Malware Turns ScreenConnect Support Sessions Into Potential MSP Attack Paths",
+      "url": "https://thehackernews.com/2026/11/sckit-malware-targets-screenconnect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The ongoing campaign targeting ConnectWise ScreenConnect deployments involves the exploitation of a now-patched critical security flaw in the remote access software, and not a new vulnerability, it has emerged.\nBlackpoint Cyber's Adversary Pursuit Group (APG), which shared the details with The Hacke",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 18:38:28 +0530"
+    },
+    {
+      "id": "5af74d5ce665225d",
+      "title": "Google Cloud Warns Three AMD Turin CPU Flaws Could Leak Data Across Processes in VMs",
+      "url": "https://thehackernews.com/2026/11/google-cloud-warns-three-amd-turin-cpu.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Google Cloud VMs on AMD Turin chips need a guest OS patch and a stop-and-start to protect against three CPU side-channel flaws, Google said this week.\nThe company has already applied mitigations against attacks between VMs, and between VMs and the host. Inside a VM, the flaws may let an attacker wit",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 17:39:14 +0530"
+    },
+    {
+      "id": "3b8d7732462b6761",
+      "title": "New worm-like 'SCKit' malware targets MSPs in ScreenConnect attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/new-worm-like-sckit-malware-targets-msps-in-screenconnect-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A new worm-like malware toolkit named SCKit was deployed in the recent ScreenConnect attacks targeting managed service providers (MSPs), designed to spread from infected customer devices to MSP technicians' computers and compromise additional managed networks.\nThe malware toolkit uses a worm-like te",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 17:53:10 -0500"
+    },
+    {
+      "id": "674c4b85088a00ce",
+      "title": "Hackers compromise 4,800 GitHub accounts to steal cloud credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-4-800-github-accounts-to-steal-cloud-credentials/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Tens of thousands of GitHub repositories were targeted in a campaign dubbed ‘wfx-loot’ that uses malicious workflows to steal GitHub Actions secrets and cloud credentials.\nAlthough not all repositories ran the payload, researchers confirmed that the threat actor stole secrets from at least 1,835 tar",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 17:25:30 -0500"
+    },
+    {
+      "id": "fd416d58448acaf0",
+      "title": "Massive Microsoft 365 outage disrupts Outlook, Teams, Copilot worldwide",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/massive-microsoft-365-outage-disrupts-outlook-teams-copilot-worldwide/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft is investigating a widespread outage affecting multiple Microsoft 365 services, including Outlook, Microsoft Teams, and Copilot, as users report connectivity problems worldwide.\nBleepingComputer has received numerous reports from users experiencing problems accessing Microsoft's services, ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 15:15:16 -0500"
+    },
+    {
+      "id": "62ff99ae778bcb02",
+      "title": "Police dismantle Gootloader, CastleRAT, StealC malware infrastructure",
+      "url": "https://www.bleepingcomputer.com/news/security/police-dismantles-gootloader-castlerat-stealc-malware-infrastructure/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Europol and law enforcement partners from nine countries have seized hundreds of servers and domains used by the Gootloader, CastleRAT, and StealC malware operations.\nGootloader is a malware loader active since 2020, StealC is an infostealer that helps exfiltrate credentials, cryptocurrency wallets,",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 10:07:20 -0500"
+    },
+    {
+      "id": "28ab9a11f8377371",
+      "title": "Your Endpoint Management Platform Could Be Your Biggest Security Risk",
+      "url": "https://www.bleepingcomputer.com/news/security/your-endpoint-management-platform-could-be-your-biggest-security-risk/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Author: Gene Moody, Field CTO at Action1\nEndpoint management platforms have become essential in modern IT operations and enterprise security. They allow administrators to deploy patches, install software, execute scripts, enforce configurations, and remotely manage thousands of devices from a centra",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 10:00:10 -0500"
+    },
+    {
+      "id": "a88bddb17214a029",
+      "title": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "url": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B\nLLMs rely on their context to generate the next set of tokens. Over a long trajectory, the context fills with numerous types of components: a system prompt, past conversation turns, instructions that act on retrieved documents, tool ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 19:07:35 GMT"
+    },
+    {
+      "id": "56dac742ff29ffe2",
+      "title": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "url": "https://huggingface.co/blog/3d-lora-finetuning",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "The Definitive Fine-Tuning Guide for 3D Generation Models\nTLDR; In this blog, we provide fine-tuning scripts and containers to fine-tune TRELLIS.2, a popular 3D model on your 3D assets, that can run both locally and on Hugging Face Jobs. If you are interested in fine-tuning, you can use our scripts ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "55d7d41513d8574a",
+      "title": "Democrats launch Nvidia investigation, write scathing letter on Huang’s ‘scheme’ with Trump",
+      "url": "https://techcrunch.com/2026/11/12/democrats-launch-nvidia-investigation-write-scathing-letter-on-huangs-scheme-with-trump/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Democrats on Thursday opened an inquiry into how the Trump administration handled Nvidia’s chip sales to China. Earlier on Thursday, the company ousted its CEO Jensen Huang. He also agreed to testify to a different set of Republican-led Congressional committees.\nHuang was removed from the company he",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 22:42:51 +0000"
+    },
+    {
+      "id": "5e5f306d785f1157",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia co-founder and now former CEO Jensen Huang has never been as flashy or controversy-prone as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. Now, the 63-year-old industry kingpin has admitted that he cheated on his wife of 40 years in affairs that could have ramifications beyond H",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 21:35:00 +0000"
+    },
+    {
+      "id": "412b4e746837e240",
+      "title": "Nebius tests the neocloud playbook with $40 billion in planned spending",
+      "url": "https://techcrunch.com/2026/11/12/nebius-tests-the-neocloud-playbook-with-40-billion-in-planned-spending/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In its third-quarter earnings call Thursday, the neocloud company Nebius laid out $40 billion in planned spending for 2027, far more than Wall Street had expected. It’s an ambitious plan, but it rests on a string of planned projects that are already starting to show cracks.\nNebius plans to fund the ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 21:27:10 +0000"
+    },
+    {
+      "id": "e153c4dc0f7fcb29",
+      "title": "Jensen Huang was having a third affair, Reuters reports",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huang-was-having-a-third-affair-reuters-reports/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia founder Jensen Huang was having a separate affair with an employee that has not been previously reported, Reuters reported on Thursday.\nHuang stepped down as CEO and board member for the company earlier today, in the wake of news of extramarital affairs with accused spy Alice Huang and Nvidia",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 20:26:47 +0000"
+    },
+    {
+      "id": "ce9a468b53e9785d",
+      "title": "Google’s latest Search upgrade promises better answers to your most complicated questions",
+      "url": "https://techcrunch.com/2026/11/12/googles-latest-search-upgrade-promises-better-answers-to-your-most-complicated-questions/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Google Search is getting better at understanding complicated questions, including those with multiple parts, highly specific requests, or confusing typos. The updates are coming via the company’s newly released Gemini 4 Hydrogen model, which Google claims is its “biggest model improvement to Search ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 19:27:45 +0000"
+    },
+    {
+      "id": "baccdaa9b5505527",
+      "title": "Jensen Huang’s exit puts Nvidia’s support for open source in question",
+      "url": "https://techcrunch.com/2026/11/12/jensen-huangs-exit-puts-nvidias-support-for-open-source-in-question/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The open source community just lost one of its strongest advocates.\nNvidia CEO Jensen Huang resigned Thursday after he admitted to an affair with an alleged Chinese spy, raising concerns about U.S. national security and the motives behind the executive’s support for softer chip export controls on Ch",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 18:39:23 +0000"
+    },
+    {
+      "id": "07356858caea4ddc",
+      "title": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility",
+      "url": "https://www.technologyreview.com/2026/11/12/1148483/nvidia-chip-tracking/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Nvidia privately confirmed it could track chips to fight smuggling, even as industry publicly questioned feasibility\nThe Chip Security Act is getting renewed attention following Nvidia CEO Jensen Huang’s resignation and reported affair with an alleged Chinese spy.\nRepresentatives from Nvidia told Il",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 20:16:24 +0000"
+    },
+    {
+      "id": "f394da5f2166ea82",
+      "title": "Microsoft 365 Outage Disrupts Outlook, Exchange Online and Teams",
+      "url": "https://www.securityweek.com/microsoft-365-outage-disrupts-outlook-exchange-online-and-teams/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Microsoft 365 suffered a widespread outage Thursday, disrupting access to business email and other cloud services across multiple regions. Microsoft initially reported that users in the Americas were having trouble connecting to Exchange Online mailboxes. It later identified potential disruption to ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 20:55:30 +0000"
+    },
+    {
+      "id": "116311b702141149",
+      "title": "Chrome, Firefox Updates Patch Over 180 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-firefox-updates-patch-180-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Google and Mozilla have released fresh Chrome and Firefox security updates that resolve more than 180 vulnerabilities.\nThe Chrome refresh fixes 83 security defects, including five critical-severity use-after-free issues in ServiceWorker, CSS, Layout, Skia, and Accessibility.\nAll the remaining 78 bug",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 13:42:09 +0000"
+    },
+    {
+      "id": "7139bcf40a7d0eda",
+      "title": "Attacker Targets 60,000 GitHub Repositories in Credential Theft Campaign",
+      "url": "https://www.securityweek.com/attacker-targets-60000-github-repositories-in-credential-theft-campaign/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "An attacker has tested stolen access to more than 60,000 GitHub repositories and inserted credential-stealing code in thousands of them, several security firms report.\nAikido Security said the operation, which it calls wfx-loot, began on November 10. It identified roughly 4,800 compromised accounts ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 13:39:03 +0000"
+    },
+    {
+      "id": "0ea3d75301ac0136",
+      "title": "Daylight Lands $80 Million for AI-Powered Security Operations",
+      "url": "https://www.securityweek.com/daylight-lands-80-million-for-ai-powered-security-operations/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Israeli-American cybersecurity startup Daylight has raised $80 million in a Series B funding round that brings the total raised by the company to $120 million.\nThe investment round was led by Goldman Sachs Alternatives’ Growth Equity, with additional support from Okta Ventures, Bain Capital, Craft V",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 13:12:11 +0000"
+    },
+    {
+      "id": "0fd5862fb594858b",
+      "title": "Notion Customer Data Compromised in Fireworks AI Hack",
+      "url": "https://www.securityweek.com/notion-customer-data-compromised-in-fireworks-ai-hack/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "All-in-one collaborative workspace and productivity platform Notion is notifying a small set of customers that their information was compromised in a data breach involving Fireworks AI.\nA cloud platform for running and fine-tuning open source AI models, Fireworks AI was hacked twice in October: once",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 12 Nov 2026 11:08:52 +0000"
+    }
+  ]
+}
