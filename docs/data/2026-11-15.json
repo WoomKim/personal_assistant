@@ -1,0 +1,315 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T10:24:43.014311+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection」입니다.",
+  "stats": {
+    "collected": 16,
+    "summarized": 16,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "b58e8e6c37edfa61",
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\nThe vulnerability, tra",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 18:08:35 +0530"
+    },
+    {
+      "id": "403e4bdfaeb6831b",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI.\nThe breach also let attackers access internal systems and steal customer data, including histo",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 12:27:25 -0500"
+    },
+    {
+      "id": "e253199b5be00456",
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. government has disrupted a North Korean social engineering campaign called ‘FaceStealer’, responsible for stealing more than $400 million in cryptocurrency.\nThe attacks used multiple social engineering techniques, including deepfakes and ClickFix, to target individuals in the cryptocurrency",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 10:15:49 -0500"
+    },
+    {
+      "id": "3772cdf174b05671",
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "I was recently asked to speak at an event but was unable to accept due to a prior speaking commitment on the same day. This, in and of itself, is not unusual – it happens fairly often. What happened about a week later, however, gave me some interesting food for thought.\nSomeone that was available an",
+      "why": "",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 14:00:00 +0000"
+    },
+    {
+      "id": "f694138aff43c168",
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Apple has published a detailed description of Secure Exclaves, a security architecture in its silicon designed to keep camera and microphone data used for ambient sensing isolated from the main operating system.\nAmbient sensing lets a device listen for “Hey Siri”. On the recently introduced HomeView",
+      "why": "",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 11:00:00 +0000"
+    },
+    {
+      "id": "2059ff8340bbc5f6",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "14th November 2026\ndatasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.\nThis release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-14T23:59:28+00:00"
+    },
+    {
+      "id": "cd67e7c432145cf1",
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "14th November 2026\nA new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite) against data in a table or custom query. The last release was in July 2018!\nI finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it wo",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-14T17:09:09+00:00"
+    },
+    {
+      "id": "511f6df35fdc98dd",
+      "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+      "url": "https://arxiv.org/abs/2611.14654",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 10 Nov 2026]\nTitle:Cleaning an Agent's History Hurts When the World Still Holds the Error\nView PDF HTML (experimental)\n            Abstract:Tool-using language-model agents accumulate histories of their own mistakes, and a system that compac",
+      "why": "",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Sat, 14 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "acaf00569e865f08",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Outsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August. Just two and a half months later, CEO Jensen Huang himself left the company over growing questions about his extramarital relationships — starting with an executiv",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 00:08:07 +0000"
+    },
+    {
+      "id": "a4a92fbcda03532a",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon.\nThe petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders. Not",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 21:41:22 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "2059ff8340bbc5f6",
+      "title": "datasette-llm 0.1a11",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "14th November 2026\ndatasette-llm is the intermediate plugin for Datasette that supports configuring LLMs for use with other Datasette plugins.\nThis release adds support for OpenAI-compatible endpoints, so you can configure Datasette to use an LLM hosted anywhere that talks the OpenAI pseudo-standard",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-14T23:59:28+00:00"
+    },
+    {
+      "id": "cd67e7c432145cf1",
+      "title": "datasette-vega 0.7",
+      "url": "https://simonwillison.net/2026/Nov/14/datasette-vega/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "14th November 2026\nA new release of Datasette's longest untouched plugin, for rendering charts (using Vega-Lite) against data in a table or custom query. The last release was in July 2018!\nI finally bumped it for compatibility with the latest Datasette alphas, plus some cosmetic tweaks to make it wo",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-14T17:09:09+00:00"
+    },
+    {
+      "id": "511f6df35fdc98dd",
+      "title": "Cleaning an Agent's History Hurts When the World Still Holds the Error",
+      "url": "https://arxiv.org/abs/2611.14654",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 10 Nov 2026]\nTitle:Cleaning an Agent's History Hurts When the World Still Holds the Error\nView PDF HTML (experimental)\n            Abstract:Tool-using language-model agents accumulate histories of their own mistakes, and a system that compac",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Sat, 14 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "b58e8e6c37edfa61",
+      "title": "Attackers Exploit UnrealIRCd Flaw That Enables Server-Level Command Injection",
+      "url": "https://thehackernews.com/2026/11/attackers-exploit-unrealircd-flaw-that.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added a high-severity security flaw impacting UnrealIRCd, an open-source Internet Relay Chat (IRC) server, to its Known Exploited Vulnerabilities (KEV) catalog, following reports of active exploitation.\nThe vulnerability, tra",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 18:08:35 +0530"
+    },
+    {
+      "id": "403e4bdfaeb6831b",
+      "title": "Cursor confirms security breach led to malicious Claude Code extension",
+      "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cursor confirmed it suffered a security breach that let hackers distribute a malicious Claude Code extension through its marketplace after stealing credentials from AI infrastructure provider Fireworks AI.\nThe breach also let attackers access internal systems and steal customer data, including histo",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 12:27:25 -0500"
+    },
+    {
+      "id": "e253199b5be00456",
+      "title": "US disrupts North Korean campaign behind $400 million crypto theft",
+      "url": "https://www.bleepingcomputer.com/news/security/us-disrupts-north-korean-campaign-behind-400-million-crypto-theft/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. government has disrupted a North Korean social engineering campaign called ‘FaceStealer’, responsible for stealing more than $400 million in cryptocurrency.\nThe attacks used multiple social engineering techniques, including deepfakes and ClickFix, to target individuals in the cryptocurrency",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 10:15:49 -0500"
+    },
+    {
+      "id": "acaf00569e865f08",
+      "title": "Where was Nvidia’s security team?",
+      "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Outsiders had little reason to notice when Nvidia’s longtime chief security officer and head of product security stepped down in August. Just two and a half months later, CEO Jensen Huang himself left the company over growing questions about his extramarital relationships — starting with an executiv",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 00:08:07 +0000"
+    },
+    {
+      "id": "a4a92fbcda03532a",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "url": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A petition calling on Nvidia to reinstate the company’s recently ousted CEO Jensen Huang appears to have attracted more than 115,000 signatures as of Saturday afternoon.\nThe petition website said the signers include 5,965 current Nvidia employees, 1,108 former employees, and 63,063 shareholders. Not",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 21:41:22 +0000"
+    },
+    {
+      "id": "7134e7e1ad670b60",
+      "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
+      "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Last month, chatbot platform Character.ai filed for bankruptcy just five years after launching. More recently, privacy-focused AI assistant Ollie announced its shutdown a few weeks ago. \nAside from Character.ai and Ollie, plenty of AI bets never even survive inside the companies that build them. Acc",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 17:30:00 +0000"
+    },
+    {
+      "id": "075bbfb634c2a8a5",
+      "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Jensen Huang’s departure from Nvidia has drawn a range of responses across Asia, with some governments moving to confirm chip supply commitments, while others are monitoring the impact on local projects or addressing ongoing investigations.\nOn Sunday, November 8, Nvidia’s board launched an independe",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 16:34:15 +0000"
+    },
+    {
+      "id": "3772cdf174b05671",
+      "title": "Is AI Making Us Worse at Cybersecurity?",
+      "url": "https://www.securityweek.com/is-ai-making-us-worse-at-cybersecurity/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "I was recently asked to speak at an event but was unable to accept due to a prior speaking commitment on the same day. This, in and of itself, is not unusual – it happens fairly often. What happened about a week later, however, gave me some interesting food for thought.\nSomeone that was available an",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 14:00:00 +0000"
+    },
+    {
+      "id": "f694138aff43c168",
+      "title": "Apple Reveals How Secure Exclaves Shield Camera and Microphone Data",
+      "url": "https://www.securityweek.com/apple-reveals-how-secure-exclaves-shield-camera-and-microphone-data/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Apple has published a detailed description of Secure Exclaves, a security architecture in its silicon designed to keep camera and microphone data used for ambient sensing isolated from the main operating system.\nAmbient sensing lets a device listen for “Hey Siri”. On the recently introduced HomeView",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 11:00:00 +0000"
+    },
+    {
+      "id": "9cdb1de4d4867300",
+      "title": "No Signs of Hacking in FAA Ground Stop as FBI Reportedly Probes Software Update",
+      "url": "https://www.securityweek.com/no-signs-of-hacking-in-faa-ground-stop-as-fbi-reportedly-probes-software-update/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "US officials have found no evidence that hackers caused the outage that led the Federal Aviation Administration (FAA) to halt flight departures nationwide on Friday, and the FBI is reportedly examining whether a software update was responsible.\nThe FAA issued the ground stop on November 13 after a c",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 08:40:22 +0000"
+    },
+    {
+      "id": "473743245dad9789",
+      "title": "Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets",
+      "url": "https://arxiv.org/abs/2611.14544",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 26 Oct 2026]\nTitle:Zugwise: Domain-Aware Game Reconstruction for Digitizing Handwritten Chess Scoresheets\nView PDF HTML (experimental)\n            Abstract:Digitizing handwritten chess scoresheets has been studied as a handwriting-recognitio",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "71e20d332c041f83",
+      "title": "Together Compiler: Continual Compilation for AI Inference",
+      "url": "https://arxiv.org/abs/2611.14681",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 10 Nov 2026]\nTitle:Together Compiler: Continual Compilation for AI Inference\nView PDF HTML (experimental)\n            Abstract:Today's AI workloads are rapidly changing: new models are released more often, model architectures are increasingl",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "f34ea820506f5b10",
+      "title": "When Should Semantic Priors Enter Partially-Identified Causal Discovery?",
+      "url": "https://arxiv.org/abs/2611.14736",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 10 Nov 2026]\nTitle:When Should Semantic Priors Enter Partially-Identified Causal Discovery?\nView PDF HTML (experimental)\n            Abstract:Observational causal discovery often leaves causal di- rections unresolved or unstable. Large langu",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
