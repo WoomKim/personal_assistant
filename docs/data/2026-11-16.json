@@ -1,0 +1,293 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T10:27:44.772011+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent」입니다.",
+  "stats": {
+    "collected": 14,
+    "summarized": 14,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "04c1c102f5a737e8",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\nThe Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' phot",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 16:57:31 +0530"
+    },
+    {
+      "id": "960f41318ea903dd",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 13:52:04 +0530"
+    },
+    {
+      "id": "4201db3ac6828cb2",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments.\nIn a FLASH advisory released Friday, t",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 13:29:53 -0500"
+    },
+    {
+      "id": "bbb8a67270856461",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction.\nThe technology giant said the incident affected current and former employees but doesn’t impa",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 10:23:48 -0500"
+    },
+    {
+      "id": "c8b26857299e57fb",
+      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The Pentagon on Friday renamed its Chief Digital and Artificial Intelligence Office (CDAO) the Super Intelligence Office, adopting the terminology President Donald Trump has directed federal agencies to use instead of Artificial Intelligence (AI).\nCameron Stanley continues to lead the office as Chie",
+      "why": "",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 12:51:33 +0000"
+    },
+    {
+      "id": "cc7b7d65085832de",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nAccumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:\nRecent articles\n- Locating th",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-15T03:49:47+00:00"
+    },
+    {
+      "id": "128a04bf78b6cc3a",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nThe first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap, the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub.)\nI built most of this with a single prompt to Claude Fable 5.2:\nL",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-15T23:58:36+00:00"
+    },
+    {
+      "id": "67eb98ac1cd8e0ee",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nI've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete.\nThe biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can reg",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-15T23:20:27+00:00"
+    },
+    {
+      "id": "3f50af67247cd945",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nI backported a minor security fix from 1.0a43:\nFixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...]\nRecent articles\n",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-15T23:18:17+00:00"
+    },
+    {
+      "id": "968e4ab4d9bb9e07",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nDatasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.\n0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use th",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-15T04:02:45+00:00"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "cc7b7d65085832de",
+      "title": "datasette-agent 0.6a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-agent/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nAccumulated small fixes for Datasette Agent, my agent plugin for Datasette that lets you ask questions about your data. Most notably, it now adds an agent prompt directly to the Datasette homepage, with support for hash-mentions of tables and queries:\nRecent articles\n- Locating th",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-15T03:49:47+00:00"
+    },
+    {
+      "id": "128a04bf78b6cc3a",
+      "title": "datasette-maplibre 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-maplibre/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nThe first new Datasette geospatial plugin in quite a while! This one combines the excellent MapLibre GL library with OpenFreeMap, the free vector map server operated by Zsolt Ero (you should sponsor Zsolt on GitHub.)\nI built most of this with a single prompt to Claude Fable 5.2:\nL",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-15T23:58:36+00:00"
+    },
+    {
+      "id": "67eb98ac1cd8e0ee",
+      "title": "datasette 1.0a43",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nI've been leaning hard into Claude Fable 5.2 to help knock things off the 1.0 milestone, which is now 53% complete.\nThe biggest 1.0 item in this release is streaming support for output renderers - the built-in TSV and CSV export mechanisms now use this as well, and plugins can reg",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-15T23:20:27+00:00"
+    },
+    {
+      "id": "3f50af67247cd945",
+      "title": "datasette 0.65.6",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-2/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nI backported a minor security fix from 1.0a43:\nFixed a security issue where a database registered using add_database(db, name=..., route=...) with a route that differs from its name could be downloaded from /<route>.db by actors who were denied access to it. [...]\nRecent articles\n",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-15T23:18:17+00:00"
+    },
+    {
+      "id": "968e4ab4d9bb9e07",
+      "title": "datasette-apps 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/15/datasette-apps/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "15th November 2026\nDatasette Apps are sandboxed HTML and JavaScript applications that live inside Datasette - think Claude Artifacts, but these ones can run SQL queries against your data.\n0.4a0 adds support for linking: you can link to an app with #fragments in the URL and the app can see and use th",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-15T04:02:45+00:00"
+    },
+    {
+      "id": "04c1c102f5a737e8",
+      "title": "Italy Fines Meta €805 Million Over Facebook's Android Gallery Access Without Explicit Consent",
+      "url": "https://thehackernews.com/2026/11/italy-fines-meta-805-million-over.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Meta was fined €805 million in Italy yesterday over a Facebook for Android feature that suggests photos and videos from users' phone galleries for them to post.\nThe Garante, Italy's data protection authority, found that the feature was enabled by default and that the app accessed Italian users' phot",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 16:57:31 +0530"
+    },
+    {
+      "id": "960f41318ea903dd",
+      "title": "Cursor Says Stolen Fireworks AI Key Led to Trojanized Claude Code Extension Incident",
+      "url": "https://thehackernews.com/2026/11/stolen-fireworks-ai-key-led-to-cursor.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The compromise of Anthropic's official Claude Code extension on Cursor's extension marketplace was the result of the theft of an access key that was exposed in the wake of a breach targeting Fireworks AI.\n\"An attacker obtained an access key we had issued to Fireworks,\" Cursor said in a Friday update",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 13:52:04 +0530"
+    },
+    {
+      "id": "4201db3ac6828cb2",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments.\nIn a FLASH advisory released Friday, t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 13:29:53 -0500"
+    },
+    {
+      "id": "bbb8a67270856461",
+      "title": "TSMC employee data breach linked to cloud provider",
+      "url": "https://www.bleepingcomputer.com/news/security/tsmc-employee-data-breach-linked-to-cloud-provider/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Taiwan Semiconductor Manufacturing Company (TSMC) confirmed that personal employee data has been leaked online after a threat actor put 6.9GB of information allegedly stolen from the company up for auction.\nThe technology giant said the incident affected current and former employees but doesn’t impa",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 10:23:48 -0500"
+    },
+    {
+      "id": "fa232e2aaf8a1962",
+      "title": "Indian chip startup Bharat Semi lands $24M seed round as it eyes global AI sensor market",
+      "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Bharat Semi, an Indian semiconductor startup, has raised $24 million in seed funding to develop AI-enabled image sensors, as it seeks to win customers in the United States and elsewhere.\nThe investment comes as the nearly five-year-old, pre-revenue startup says it has secured design wins with U.S. d",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 23:30:00 +0000"
+    },
+    {
+      "id": "9e3d554c6cb56d83",
+      "title": "Is bad news for Jensen Huang also bad news for the AI industry?",
+      "url": "https://techcrunch.com/2026/11/15/is-bad-news-for-jensen-huang-also-bad-news-for-the-ai-industry/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "We didn’t see this coming. Or at least, I didn’t — a week ago, when I wrote about Nvidia’s board opening an investigation into then-CEO Jensen Huang, I assumed his job was safe.\nOn the latest episode of TechCrunch’s Equity podcast, Rebecca Bellan, Tim De Chant, and I discussed how Huang’s ouster wen",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 21:56:35 +0000"
+    },
+    {
+      "id": "d9bb72c7b4b43418",
+      "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
+      "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "While awkward, creepy tech executives have become a recurring theme on Saturday Night Live, this week’s episode gave the cast a chance to show off all their impressions at once.\nIn a single sketch, we got James Austin Johnson as Peter Thiel, Ben Marshall as Sam Altman, Jane Wickline as Dario Amodei,",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 20:20:57 +0000"
+    },
+    {
+      "id": "c8b26857299e57fb",
+      "title": "Pentagon Renames CDAO ‘Super Intelligence Office’",
+      "url": "https://www.securityweek.com/pentagon-renames-cdao-super-intelligence-office/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The Pentagon on Friday renamed its Chief Digital and Artificial Intelligence Office (CDAO) the Super Intelligence Office, adopting the terminology President Donald Trump has directed federal agencies to use instead of Artificial Intelligence (AI).\nCameron Stanley continues to lead the office as Chie",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sun, 15 Nov 2026 12:51:33 +0000"
+    },
+    {
+      "id": "f316d41a09fed9d0",
+      "title": "Meta Fined $887 Million in Italy Over Android Gallery Photos and Videos on Facebook",
+      "url": "https://www.securityweek.com/meta-fined-887-million-in-italy-over-android-gallery-photos-and-videos-on-facebook/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Italy announced an €805 million ($887 million) fine against Meta on Saturday for using photos and videos from Android users’ galleries on Facebook without specific consent or adequate disclosure.\nThe Italian Data Protection Authority said the feature, called “Get suggestions from gallery when browsi",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Sat, 14 Nov 2026 19:00:00 +0000"
+    }
+  ]
+}
