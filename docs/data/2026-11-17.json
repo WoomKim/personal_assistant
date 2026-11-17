@@ -1,0 +1,607 @@
+{
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T13:14:54.995587+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "5adf36e942dec2e1",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity.\nI",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 19:30:00 +0530"
+    },
+    {
+      "id": "f159cf23a7b20d4c",
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\nThe records, which Amazon's threat intelligence team captured with decoy servers, describe stolen ke",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 13:04:21 +0530"
+    },
+    {
+      "id": "50204565d4ff3ec5",
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS d",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Mon, 16 Nov 2026 21:12:17 -0500"
+    },
+    {
+      "id": "67c2edf757288722",
+      "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+      "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Credentials compromised in the hack of AI inference platform Fireworks AI allowed attackers to steal more secrets and push malicious Claude Code extension copies, Cursor says.\nThe supply chain attack was discovered on October 29 and resulted in threat actors making two modified versions of the anthr",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Mon, 16 Nov 2026 15:45:43 +0000"
+    },
+    {
+      "id": "79abf73e84bb561b",
+      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+      "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Kaspersky has warned that a vulnerability in Telegram’s newly launched widgets may have been exploited in the wild to deliver the WebRAT malware. The warning came shortly after researchers showed what they described as remote code execution through the new feature.\nIn a November 13 post on its Russi",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Mon, 16 Nov 2026 12:48:03 +0000"
+    },
+    {
+      "id": "b16b5f3f20484c92",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI is facing a new lawsuit from the California Attorney General’s office, alleging that the company’s training practices and lax security pose an ongoing danger to the public.\nAt the center of the case is the July 2026 Hugging Face compromise, in which a pre-release model within OpenAI compromis",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 20:07:13 +0000"
+    },
+    {
+      "id": "6d05b4dbd591c899",
+      "title": "OpenAI will embed safety researchers to investigate AI subversion",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI will embed safety evaluators from Apollo Research, Goodfire, METR, and Transluce in its organization as part of a pilot, OpenAI said Monday. The news follows a series of safety incidents, including one in which an OpenAI agent swarm broke out of its sandbox and hacked into Hugging Face during",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 17:02:43 +0000"
+    },
+    {
+      "id": "3ae3a490dc724670",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "16th November 2026\nA bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software.\nHomebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's logging code.\nShort version: in SQLite 3.54.0 the following SQL:\nselect json_object('a', ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-16T23:57:26+00:00"
+    },
+    {
+      "id": "853b24ff0d6ecd3f",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Hugging Face and OpenRouter join forces to make open-weight models easy to run\nHugging Face and OpenRouter are teaming up to make open-weight models easy to run. Every major open-weight release is already being published on the Hugging Face Hub, and OpenRouter serves those models at scale, routing e",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "aae8c4832e631e5c",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said. Corma offers AI models and agents trained for cybersecurity defense. It has now raised a total of $185 million from backers, inc",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 23:32:32 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "5adf36e942dec2e1",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "url": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Google on Monday revealed that adversarial use of artificial intelligence (AI) by threat actors has gone beyond manual prompting to deploying autonomous multi-agent offensive frameworks like ARTEX, CAIRN, CyberStrikeAI, and PentAGI to execute multi-stage intrusions at greater operational velocity.\nI",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 19:30:00 +0530"
+    },
+    {
+      "id": "f159cf23a7b20d4c",
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "url": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers' AI agents have been hunting for weak spots in internet-exposed AI apps such as LiteLLM, One API, and Dify to steal the AI provider keys stored inside, according to the agents' own records.\nThe records, which Amazon's threat intelligence team captured with decoy servers, describe stolen ke",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 13:04:21 +0530"
+    },
+    {
+      "id": "50204565d4ff3ec5",
+      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
+      "url": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A supply chain attack targeting Optimizely has led to malicious JavaScript being loaded on numerous popular websites, including Zoom, CNN, Fox News, BBC, Salesforce, and GitLab, exposing visitors to scripts designed to steal cryptocurrency and payment information and exploit vulnerabilities in iOS d",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Mon, 16 Nov 2026 21:12:17 -0500"
+    },
+    {
+      "id": "b16b5f3f20484c92",
+      "title": "California state AG sues OpenAI over rogue agent incidents",
+      "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI is facing a new lawsuit from the California Attorney General’s office, alleging that the company’s training practices and lax security pose an ongoing danger to the public.\nAt the center of the case is the July 2026 Hugging Face compromise, in which a pre-release model within OpenAI compromis",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 20:07:13 +0000"
+    },
+    {
+      "id": "6d05b4dbd591c899",
+      "title": "OpenAI will embed safety researchers to investigate AI subversion",
+      "url": "https://techcrunch.com/2026/11/16/openai-will-embed-apollo-researchers-to-investigate-ai-subversion/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI will embed safety evaluators from Apollo Research, Goodfire, METR, and Transluce in its organization as part of a pilot, OpenAI said Monday. The news follows a series of safety incidents, including one in which an OpenAI agent swarm broke out of its sandbox and hacked into Hugging Face during",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 17:02:43 +0000"
+    },
+    {
+      "id": "67c2edf757288722",
+      "title": "Cursor Supply Chain Attack Started at Fireworks AI",
+      "url": "https://www.securityweek.com/cursor-supply-chain-attack-started-at-fireworks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Credentials compromised in the hack of AI inference platform Fireworks AI allowed attackers to steal more secrets and push malicious Claude Code extension copies, Cursor says.\nThe supply chain attack was discovered on October 29 and resulted in threat actors making two modified versions of the anthr",
+      "importance": 3.0,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Mon, 16 Nov 2026 15:45:43 +0000"
+    },
+    {
+      "id": "79abf73e84bb561b",
+      "title": "Telegram Widgets Hit by RCE Demos, Malware Warning Days After Launch",
+      "url": "https://www.securityweek.com/telegram-widgets-hit-by-rce-demos-malware-warning-days-after-launch/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Kaspersky has warned that a vulnerability in Telegram’s newly launched widgets may have been exploited in the wild to deliver the WebRAT malware. The warning came shortly after researchers showed what they described as remote code execution through the new feature.\nIn a November 13 post on its Russi",
+      "importance": 3.0,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Mon, 16 Nov 2026 12:48:03 +0000"
+    },
+    {
+      "id": "f67825a82ae87958",
+      "title": "Recent UnrealIRCd Vulnerability Exploited in Attacks",
+      "url": "https://www.securityweek.com/recent-unrealircd-vulnerability-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors started exploiting a high-severity vulnerability in the open source Internet Relay Chat (IRC) server UnrealIRCd one day after public disclosure.\nTracked as CVE-2026-114713 (CVSS score: 8.6), the flaw is described as an improper neutralization of delimiters and allows attackers to execu",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 16 Nov 2026 11:15:48 +0000"
+    },
+    {
+      "id": "3ae3a490dc724670",
+      "title": "llm 0.37.3",
+      "url": "https://simonwillison.net/2026/Nov/16/llm/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "16th November 2026\nA bug fix release for LLM, mainly to cover a problem with the most recent Homebrew package of the software.\nHomebrew now ships the latest SQLite, 3.54.1, which includes a fix that broke LLM's logging code.\nShort version: in SQLite 3.54.0 the following SQL:\nselect json_object('a', ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-16T23:57:26+00:00"
+    },
+    {
+      "id": "8854ba56eb21d5ee",
+      "title": "I2C-GRPO: Insight Importance Checklist for Reinforcement Learning in a Multi-Agent DDoS Alert Triage Workflow",
+      "url": "https://arxiv.org/abs/2611.17534",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 12 Nov 2026]\nTitle:I2C-GRPO: Insight Importance Checklist for Reinforcement Learning in a Multi-Agent DDoS Alert Triage Workflow\nView PDF HTML (experimental)\n            Abstract:Large language model (LLM) agents are increasingly used for ",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "f9828b77234b7e3a",
+      "title": "⚡ Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A default password opened doors it never should have. A trusted update delivered malware. Even a security feature became a way to break in. Different stories, same problem: the things meant to protect us aren't always doing their job.\nMeanwhile, AI is making bug hunting faster, old flaws are still p",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 18:57:20 +0530"
+    },
+    {
+      "id": "119c79e2a8170634",
+      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "url": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Six flaws in Danfoss AK-SM800A refrigeration controllers could let a remote attacker take over a controller without logging in, Dutch security consultancy Midnight Blue said earlier this week.\nNo patch is available, and the researchers say the newest firmware, version 5.4.0, does not fix the flaws.\n",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 18:04:21 +0530"
+    },
+    {
+      "id": "8c37ef3c2776f4da",
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "url": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a new variant of CoffeeLoader, a malware designed to deliver additional payloads to infected machines.\n\"On launch, the NSIS-based installer executable dropped a file named '7z.dll' into a temporary directory and ran it through rundll32.exe,\" Kasper",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 18:03:18 +0530"
+    },
+    {
+      "id": "f0b3319bef6277d6",
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "url": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A financially motivated threat activity cluster tracked as REF3364 has been attributed to a Linux-focused cryptocurrency mining operation that tampers with the readings used to detect high GPU workloads.\nCentral to the intrusion is a toolkit called SANSAR, a Rust-based orchestrator that receives com",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 15:02:57 +0530"
+    },
+    {
+      "id": "1a13d7025b37d20c",
+      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "url": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An investigation into suspicious activity within a Russian software developer's network has uncovered a months-long compromise of its development infrastructure and a software code-signing server.\nThe activity, documented by Kaspersky's ICS CERT team after it was contacted by the affected developer ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 12:23:34 +0530"
+    },
+    {
+      "id": "60f99194645fc286",
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Google's Gemini AI agents repeatedly attempted to hack a real organization's website during AI model safety testing, finding ways to circumvent increasingly restrictive security controls designed to prevent them from accessing live systems.\nThe security incidents occurred in October as AI safety res",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 17:54:00 -0500"
+    },
+    {
+      "id": "6cd4bc50c4facab1",
+      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+      "url": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Google Project Zero will replace its “90+30” disclosure policy with shorter, fixed deadlines in response to AI-accelerated vulnerability discovery and exploitation.\nThe transition is gradual and began on November 13, when the 30-day extension was removed from the vulnerability disclosure timeline.\nO",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 16:31:44 -0500"
+    },
+    {
+      "id": "f7229d91014fb235",
+      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "url": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "California Attorney General Rob Bonta sued OpenAI on Monday, alleging the company knowingly continued testing advanced artificial intelligence models despite repeated security failures that allowed autonomous AI agents to escape isolated environments and launch cyberattacks against real-world organi",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 15:59:44 -0500"
+    },
+    {
+      "id": "f66e964ba9d367ad",
+      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers who breached the cloud environment of network and email security company Barracuda earlier this month used a stolen cloud access key and the ARTEX AI penetration testing framework.\nThe company says the attacker accessed approximately 10 of its cloud accounts over a 44-hour period between Nov",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 14:57:13 -0500"
+    },
+    {
+      "id": "18b00fe2b40c75f5",
+      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft says a software bug introduced in July caused last week's worldwide Microsoft 365 outage, triggering a cascading failure that left more than 80% of its networking gateway servers unresponsive.\nThe nearly 24-hour outage on November 12 disrupted Microsoft 365 services worldwide, including Ou",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 11:43:24 -0500"
+    },
+    {
+      "id": "d29e040f404457ab",
+      "title": "Fandango says hackers stole payment card details from checkout pages",
+      "url": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Ticket seller Fandango Media is notifying customers about a data breach that exposed payment card details entered on its checkout pages.\nThe company says the details were exposed between October 8 and 11, and it impacts customers who made purchases through its official website.\nCard skimmer code inj",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 10:44:21 -0500"
+    },
+    {
+      "id": "1cea14202697e149",
+      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+      "url": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Compromised passwords and gaps in multi-factor authentication (MFA) remain common ways attackers gain access to sensitive systems. For law enforcement agencies handling criminal justice information (CJI), protecting against these threats is also a matter of CJIS compliance.\nThe FBI's latest CJIS Sec",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 10:01:11 -0500"
+    },
+    {
+      "id": "853b24ff0d6ecd3f",
+      "title": "Hugging Face and OpenRouter join forces to make open-weight models easy to run",
+      "url": "https://huggingface.co/blog/openrouter",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Hugging Face and OpenRouter join forces to make open-weight models easy to run\nHugging Face and OpenRouter are teaming up to make open-weight models easy to run. Every major open-weight release is already being published on the Hugging Face Hub, and OpenRouter serves those models at scale, routing e",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "aae8c4832e631e5c",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said. Corma offers AI models and agents trained for cybersecurity defense. It has now raised a total of $185 million from backers, inc",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 23:32:32 +0000"
+    },
+    {
+      "id": "ac8ed7d9657ddc76",
+      "title": "All the questions Nvidia should answer on Tuesday — but probably won’t",
+      "url": "https://techcrunch.com/2026/11/16/all-the-questions-nvidia-should-answer-on-tuesday-but-probably-wont/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia interim CEO and longtime CFO Colette Kress is about to have one of the biggest days of her career on Tuesday when the company reports its third-quarter results.\nFor the first time, Kress will be running through the numbers and sharing guidance without Nvidia’s charismatic but now-disgraced fo",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 22:03:02 +0000"
+    },
+    {
+      "id": "d1bee759e86a69db",
+      "title": "Trump says ex-Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy did not threaten national security",
+      "url": "https://techcrunch.com/2026/11/16/trump-says-ex-nvidia-ceo-jensen-huangs-affair-with-an-alleged-chinese-spy-did-not-threaten-national-security/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "U.S. President Donald Trump told reporters on Monday that he does not believe the country’s national security was put at risk as a result of former Nvidia CEO Jensen Huang’s affair with an alleged Chinese spy.\n“It was not put at risk,” Trump said when asked by reporters in light of his own friendshi",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 19:12:02 +0000"
+    },
+    {
+      "id": "0b5fe7dce536bb45",
+      "title": "Sam Altman on Nvidia without Jensen Huang: The industry will be ‘fine’",
+      "url": "https://techcrunch.com/2026/11/16/sam-altman-on-nvidia-without-jensen-huang-the-industry-will-be-fine/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI CEO Sam Altman says the AI industry will be “fine” without Nvidia CEO Jensen Huang at the helm, even as he acknowledged the special role Huang has played in the AI boom.\nHuang resigned last week from Nvidia after admitting to having an affair with an alleged Chinese spy.\nAltman made his first",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 18:11:10 +0000"
+    },
+    {
+      "id": "690a9aa8938dfa2f",
+      "title": "FBI says Artex AI open source hacking tool used to breach networks in ‘under three hours’",
+      "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The FBI is warning that hackers are relying on autonomous AI hacking tools to launch cyberattacks across the U.S. and globally. The campaigns include a widespread hack of customers of American IT company ConnectWise and across South Korea’s financial industry.\nIn its latest flash cybersecurity advis",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 17:36:43 +0000"
+    },
+    {
+      "id": "98a6b93915396a17",
+      "title": "Jordan Belfort’s new AI voice startup, Tone, wants to sell like the ‘Wolf of Wall Street’",
+      "url": "https://techcrunch.com/2026/11/16/jordan-belforts-new-ai-voice-startup-tone-wants-to-sell-like-the-wolf-of-wall-street/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Years ago, as questions mounted about WeWork’s soaring valuation, I sat down with co-founder Adam Neumann. We were negotiating a stage interview, and he asked to meet me twice in the weeks leading up to it, once at a WeWork in San Francisco and again at his office in New York.\nI knew full well that ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 17:10:00 +0000"
+    },
+    {
+      "id": "9c493a96e3fa6482",
+      "title": "The open-source movement wants Jensen Huang back",
+      "url": "https://www.technologyreview.com/2026/11/16/1148624/the-open-source-movement-wants-jensen-huang-back/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "The open-source movement wants Jensen Huang back\nSupporters are signing a petition to reinstate Huang. But findings on Nvidia chips in China and a new Commerce rule are threatening open-source AI’s reputation and progress regardless.\nThis story originally appeared in The Algorithm, our weekly newsle",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 18:38:47 +0000"
+    },
+    {
+      "id": "adba844aff176e0b",
+      "title": "Building trustworthy AI by fencing it in, not predicting it",
+      "url": "https://www.technologyreview.com/2026/11/16/1148565/building-trustworthy-ai-by-fencing-it-in-not-predicting-it/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nBuilding trustworthy AI by fencing it in, not predicting it\nWhile we’re used to predictable technology, AI challenges that assumption. Therefore, the goal must be bounded, observable, and controllable AI.\nProvided byUL Solutions\nIn October this year, OpenAI disclosed that two of its AI age",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 16:04:28 +0000"
+    },
+    {
+      "id": "e6b37f5da94e2fd1",
+      "title": "Building AI that can work across the enterprise",
+      "url": "https://www.technologyreview.com/2026/11/16/1146070/building-ai-that-can-work-across-the-enterprise/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nBuilding AI that can work across the enterprise\nMoving AI beyond isolated pilots requires a strong data foundation, clear business outcomes, and governance built for enterprise scale.\nIn partnership withInfosys\nFor years, enterprises have approached AI as a series of discrete experiments. ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 13:00:00 +0000"
+    },
+    {
+      "id": "6fd5298e49bad549",
+      "title": "Trump Administration Moves to Block China From Indirect Access to American AI Technology",
+      "url": "https://www.securityweek.com/trump-administration-moves-to-block-china-from-indirect-access-to-american-ai-technology/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The Trump administration on Monday issued new rules to restrict remote access to advanced U.S. computing chips and servers, marking the latest step to limit China’s abilities to use U.S. chips to train their best artificial intelligence models.\nThe rule also was issued days after Nvidia co-founder J",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 20:00:00 +0000"
+    },
+    {
+      "id": "eea617c7ce178745",
+      "title": "Google Project Zero Sets Course for 30-Day Disclosure Deadline",
+      "url": "https://www.securityweek.com/google-project-zero-sets-course-for-30-day-disclosure-deadline/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "In the context of AI-assisted vulnerability discovery and exploitation, Google Project Zero is significantly shrinking bug disclosure windows.\nSo far, Project Zero’s policy has been a well-known one: vendors were given 90 days to patch vulnerabilities before public disclosure and granted a 30-day gr",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 15:31:25 +0000"
+    },
+    {
+      "id": "0f4c5e346584c603",
+      "title": "Barracuda Hacked Amid Surge in Artex-Powered Cyberattacks",
+      "url": "https://www.securityweek.com/barracuda-hacked-amid-surge-in-artex-powered-cyberattacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The Artex agentic AI penetration testing framework has become a common tool in Chinese threat actors’ arsenal, and Barracuda is one of its victims.\nPublished on GitHub in July 2026, Artex relies on a planner to formulate an objective and create tasks based on it, and on agents to perform those tasks",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 15:07:32 +0000"
+    },
+    {
+      "id": "87b4279ed7a44cc1",
+      "title": "Beyond Attack-Based Accuracy: Rethinking Adversarial Robustness Evaluation Through Structural Gradient Alignment",
+      "url": "https://arxiv.org/abs/2611.17377",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 11 Nov 2026]\nTitle:Beyond Attack-Based Accuracy: Rethinking Adversarial Robustness Evaluation Through Structural Gradient Alignment\nView PDF HTML (experimental)\n            Abstract:Visual adversarial robustness remains a fundamental secur",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "4ddbf8f7d0e09180",
+      "title": "Evolutionary-based Transfer Learning for Physical Attack on End-to-End Autoencoder Communications",
+      "url": "https://arxiv.org/abs/2611.17393",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 12 Nov 2026]\nTitle:Evolutionary-based Transfer Learning for Physical Attack on End-to-End Autoencoder Communications\nView PDF HTML (experimental)\n            Abstract:End-to-end autoencoder communication has emerged as a promising means of",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "b4d5556a3fc067d9",
+      "title": "Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming",
+      "url": "https://arxiv.org/abs/2611.17395",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 12 Nov 2026]\nTitle:Can LLMs Write Backdoors? An Empirical Security Study of Weight-Space Programming\nView PDF HTML (experimental)\n            Abstract:Recent advances in weight-space programming (WSP) have demonstrated that large language ",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "1b6087c38c0a5424",
+      "title": "When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors",
+      "url": "https://arxiv.org/abs/2611.17338",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 30 Aug 2026]\nTitle:When Should LLM Agents Forget? Memory Filtering Under Query-Critical Resolver Errors\nView PDF HTML (experimental)\n            Abstract:LLM memory systems often delete facts classified as stale. We show that this hard-filte",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "4d56c5fc6100898b",
+      "title": "Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs",
+      "url": "https://arxiv.org/abs/2611.17339",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 31 Aug 2026]\nTitle:Does the Ranking Hold? A Practitioner-Facing Audit of Hallucination Detectors on Small, Quantized, On-Device LLMs\nView PDF\n            Abstract:Hallucination detection for large language models is dominated by methods eval",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Mon, 16 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
