@@ -1,0 +1,607 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T12:12:50.506833+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Critical Java Vulnerability Requires Immediate Patching」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "04fced3604e31ac8",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Critical Java Vulnerability Requires Immediate Patching\nPurpose\nCISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938. This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotS",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "877e907402b91d81",
+      "title": "Siemens Industrial Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Industrial Software Products\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds wri",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "6b530aaeb2caeb63",
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researche",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 18 Nov 2026 01:04:20 +0530"
+    },
+    {
+      "id": "7a7b2eaa4aa991d0",
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\nThe 11 vulnerabilitie",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Tue, 17 Nov 2026 20:47:36 +0530"
+    },
+    {
+      "id": "6085ef54790f43b5",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicio",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Tue, 17 Nov 2026 17:55:06 +0530"
+    },
+    {
+      "id": "acdaad578a36b211",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th November 2026 - Link Blog\nExternal sandboxes for coding agents. I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions o",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "prompt injection"
+      ],
+      "published": "2026-11-17T22:52:29+00:00"
+    },
+    {
+      "id": "2a139dc941fac1cb",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th November 2026 - Link Blog\nGPT‑6.2 Astra and GPT‑6.2 Sol. OpenAI:\nWe’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.\nThey're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.3",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-17T22:38:52+00:00"
+    },
+    {
+      "id": "5ab3ec093f2bd1cf",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide\n17th November 2026\nDatasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I’ve released a complete rewrite of Datasette Lite using se",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-17T16:48:33+00:00"
+    },
+    {
+      "id": "53b21da3b833c962",
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th November 2026\nA little copying is better than a little dependency.\n— Go Proverbs, via\nRecent articles\n- Running the full server-side Datasette Python app in the browser with service workers and Pyodide - 17th November 2026\n- Locating the source of a mysterious beep with Claude - 9th November 20",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-17T06:16:26+00:00"
+    },
+    {
+      "id": "d652f478feeed9d6",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia’s equity in private companies continues to grow: it revealed its stakes are now worth $65.5 billion on Tuesday, up from the $22 billion reported in January. The increase includes both new investments and significant markups of existing portfolio companies.\nThe company invested $16 billion int",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 01:44:21 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "04fced3604e31ac8",
+      "title": "Critical Java Vulnerability Requires Immediate Patching",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Critical Java Vulnerability Requires Immediate Patching\nPurpose\nCISA strongly urges organizations to immediately patch the recently disclosed Oracle Java vulnerability CVE-2026-114938. This critical memory-corruption vulnerability, known as “Java4Shell,” affects the Base64 decoder of the x86-64 HotS",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "877e907402b91d81",
+      "title": "Siemens Industrial Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Industrial Software Products\nSummary\nOn October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds wri",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "acdaad578a36b211",
+      "title": "External sandboxes for coding agents",
+      "url": "https://simonwillison.net/2026/Nov/17/external-sandboxes-for-coding-agents/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th November 2026 - Link Blog\nExternal sandboxes for coding agents. I've been exploring new ways to sandbox code that is executed by agents, with a focus on making it safer to try out local models without worrying that a mistake or prompt injection attack might cause them to take damaging actions o",
+      "importance": 3.6,
+      "matched": [
+        "prompt injection"
+      ],
+      "published": "2026-11-17T22:52:29+00:00"
+    },
+    {
+      "id": "6b530aaeb2caeb63",
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram’s New Android Defenses",
+      "url": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A malicious widget can bypass the security filter that Telegram added to its Android app last week and run code outside it, according to NebuSec, a security company.\nWidgets are small interactive blocks that bots send inside chat messages, and their JavaScript runs on the user's phone. The researche",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 18 Nov 2026 01:04:20 +0530"
+    },
+    {
+      "id": "7a7b2eaa4aa991d0",
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "url": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Oracle is preparing to release security patches for 11 vulnerabilities in Java SE on Tuesday, November 17, 2026, all of which may be exploited remotely without authentication, as separate reports warn of a potentially critical remote code execution (RCE) flaw affecting OpenJDK.\nThe 11 vulnerabilitie",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Tue, 17 Nov 2026 20:47:36 +0530"
+    },
+    {
+      "id": "6085ef54790f43b5",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "url": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Pinning GitHub Actions to an exact version of their code, known as SHA pinning, has become the go-to defense against software supply chain attacks. Attackers have already found a way around it.\nIn March 2026, the hackers who hijacked Trivy, a widely used open-source security scanner, planted malicio",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Tue, 17 Nov 2026 17:55:06 +0530"
+    },
+    {
+      "id": "cb74b2746cc6b172",
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "url": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Apple on Monday introduced new controls that allow Mac users to give more granular access to data they give to apps, including those that use artificial intelligence (AI) agents.\nThe changes, currently previewed in macOS 27.3 beta 2, relate to increased transparency and more options for two of its A",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 17 Nov 2026 16:37:31 +0530"
+    },
+    {
+      "id": "126567e065a77521",
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A critical vulnerability dubbed Java4Shell in OpenJDK, the open-source implementation of Java, can allow unauthenticated attackers to remotely execute code on popular enterprise applications, including Jenkins, Atlassian Jira, Confluence, and Keycloak.\nJava is one of the most widely used programming",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Tue, 17 Nov 2026 18:04:21 -0500"
+    },
+    {
+      "id": "a0f483dd422adb0a",
+      "title": "Siemens ROS#",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens ROS#\nSummary\nROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and recommends to up",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "2662cf713828e239",
+      "title": "Dorsett Controls InfoScan",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications.\nThe following versions of Dorsett Contro",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "91c22df4b393758c",
+      "title": "Siemens Mendix Studio Pro",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Mendix Studio Pro\nSummary\nMendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data access",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "dc2d43865fd43cf0",
+      "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens .NET Client Library for SIMATIC S7 Webserver API\nSummary\n.NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a ne",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "b420612fe6cb1095",
+      "title": "AI Framework Autonomously Weaponized Flaws in Real Attacks, Google Says",
+      "url": "https://www.securityweek.com/ai-framework-autonomously-weaponized-flaws-in-real-attacks-google-says/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "State-sponsored and cybercrime groups are increasingly adopting generative AI, including multi-agent offensive frameworks, to increase the speed and scale of their operations, Google Threat Intelligence Group (GTIG) reports.\nFor the first time, GTIG has identified threat actors using an AI framework",
+      "importance": 3.0,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 17 Nov 2026 18:16:17 +0000"
+    },
+    {
+      "id": "c5599644421883df",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "url": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "source": "Krebs on Security",
+      "category": "security",
+      "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw ",
+      "importance": 2.8,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 02:52:04 +0000"
+    },
+    {
+      "id": "2a139dc941fac1cb",
+      "title": "GPT‑6.2 Astra and GPT‑6.2 Sol",
+      "url": "https://simonwillison.net/2026/Nov/17/gpt62-astra-and-sol/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th November 2026 - Link Blog\nGPT‑6.2 Astra and GPT‑6.2 Sol. OpenAI:\nWe’re introducing GPT‑6.2 Astra, our new frontier model for your hardest projects, and GPT‑6.2 Sol, our efficient, versatile model for everyday work.\nThey're available in the API as gpt-6.2-astra and gpt-6.2-sol. I shipped LLM 0.3",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-17T22:38:52+00:00"
+    },
+    {
+      "id": "5ab3ec093f2bd1cf",
+      "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
+      "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide\n17th November 2026\nDatasette Lite is my port of the Datasette Python application to run directly in the browser using WebAssembly and Pyodide. I’ve released a complete rewrite of Datasette Lite using se",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-17T16:48:33+00:00"
+    },
+    {
+      "id": "53b21da3b833c962",
+      "title": "Quoting Go Proverbs",
+      "url": "https://simonwillison.net/2026/Nov/17/go-proverbs/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "17th November 2026\nA little copying is better than a little dependency.\n— Go Proverbs, via\nRecent articles\n- Running the full server-side Datasette Python app in the browser with service workers and Pyodide - 17th November 2026\n- Locating the source of a mysterious beep with Claude - 9th November 20",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-17T06:16:26+00:00"
+    },
+    {
+      "id": "033b7c10af0dad75",
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "url": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Artificial intelligence (AI), blockchain, and logistics sectors across Europe and the U.S. have emerged as the target of a large-scale, industrialized campaign dubbed Trigram.\n\"Trigram is a large-scale campaign that impersonates about 50 brands in the blockchain and AI sectors, to trick developers i",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 20:47:28 +0530"
+    },
+    {
+      "id": "b69860df42181d85",
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "url": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A now-patched flaw in Apple's audio service let apps on iPhones and iPads record audio even after the user tapped \"Don't Allow\" on the microphone prompt.\nThe first security updates with the fix came out on August 17. Neither Apple nor the two researchers who found the flaw report that it was used in",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 17:44:36 +0530"
+    },
+    {
+      "id": "5e43b1695ab68241",
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "url": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Government sectors in Asia and Africa have been targeted by an active cyber intrusion campaign that delivers to previously undocumented backdoors that leverage legitimate services like Microsoft SharePoint and GitHub for command‑and‑control (C2).\nThe activity has been codenamed Operation ShadowCloud",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 16:50:18 +0530"
+    },
+    {
+      "id": "50868e3a64c24731",
+      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
+      "url": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker exploited a flaw in Optimizely Web Experimentation to plant malicious code in some of the scripts that customers' websites load from the service, Optimizely said early today.\nVisitors to sites run by at least 178 organizations, including CNN, the BBC and Zoom, received the code yesterday",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 12:42:13 +0530"
+    },
+    {
+      "id": "ddec81ba80b1014f",
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "url": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Credentials and access secrets exposed in public Docker Hub images are being extracted and exploited by attackers within as little as eight seconds of publication.\nTwo researchers at Stony Brook University, Billy Tsouvalas and Nick Nikiforakis, measured the extraction speed by publishing a total of ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 16:27:17 -0500"
+    },
+    {
+      "id": "1dff6dd6c93a2fcc",
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "url": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Fugaku supercomputer operated by Japan's RIKEN Center for Computational Science has been taken offline following a security breach.\nThe organization says that between November 10 and 13, an unauthorized party exploited the public dashboard displaying Fugaku's operational status to gain access to",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 15:51:21 -0500"
+    },
+    {
+      "id": "6b76a35deee9b607",
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "url": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Apple is reporting service disruptions affecting several of its services, including iCloud Mail, iCloud Account & Sign In, Apple School Manager, and Schoolwork.\nAccording to Apple's System Status page, at least six services were experiencing issues or outages as of 2:10 PM ET on November 17, 2026.\nT",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 14:24:07 -0500"
+    },
+    {
+      "id": "a2076d4177b97094",
+      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+      "url": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A Lack of ownership verification on the Hugging Face platform allowed researchers to take control of Kokoro, a text-to-speech model used in projects from Google, NVIDIA, AMD, Intel, and Amazon Web Services.\nAn attacker hijacking the account could use it as a distribution channel in supply-chain atta",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 13:21:24 -0500"
+    },
+    {
+      "id": "6b32b3a765865b84",
+      "title": "Tor releases emergency update amid ongoing DDoS attack",
+      "url": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Tor Project has released a security update for its network relay software to increase defenses against an ongoing distributed denial-of-service attack that it says has overwhelmed relays and affected most operators.\nTor version 0.4.9.17 includes a series of security fixes, including one the proj",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 13:04:15 -0500"
+    },
+    {
+      "id": "3241c5d0e909d790",
+      "title": "Flipper Devices launches $399 ‘Flipper One’ Linux-based multi-tool",
+      "url": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Flipper Devices, the company behind the popular Flipper Zero pentesting device, has launched a crowdfunding campaign for Flipper One, a portable Linux computer and networking multi-tool.\nDespite global RAM shortages and unpredictable price fluctuations, the company said Flipper One will launch at $3",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 11:00:00 -0500"
+    },
+    {
+      "id": "148f7e8fc320b8f8",
+      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+      "url": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "It’s never been easier to steal credentials, thanks to a growing number of phishing kits that give aspiring attackers everything they need in one convenient interface. Some now come with admin dashboards and round-the-clock support, like a SaaS business, and they’re designed specifically to steal Mi",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 10:01:11 -0500"
+    },
+    {
+      "id": "d652f478feeed9d6",
+      "title": "Nvidia’s startup stakes ballooned to $65B, but Huang’s exit puts future deals in doubt",
+      "url": "https://techcrunch.com/2026/11/17/nvidias-startup-stakes-ballooned-to-65b-but-huangs-exit-puts-future-deals-in-doubt/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia’s equity in private companies continues to grow: it revealed its stakes are now worth $65.5 billion on Tuesday, up from the $22 billion reported in January. The increase includes both new investments and significant markups of existing portfolio companies.\nThe company invested $16 billion int",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 01:44:21 +0000"
+    },
+    {
+      "id": "83a48772429ae199",
+      "title": "Nvidia promises that revenue will keep soaring — for now",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Despite the turmoil at Nvidia following the departure of its disgraced founder and CEO Jensen Huang, the company — as expected — delivered a solid quarter on Tuesday. More importantly, Nvidia reassured investors that its streak of record-breaking revenue won’t stop.\nOn Tuesday, CFO-turned-interim CE",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 00:16:50 +0000"
+    },
+    {
+      "id": "28509d8a3a743ac7",
+      "title": "Nvidia is abandoning China after Jensen Huang’s ouster",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia will no longer sell its H200 chips in China, acting CEO Colette Kress said Tuesday, ending the company’s participation in a controversial loophole in the U.S. ban on the sale of advanced chips to the country.\nChina’s access to leading AI accelerators was an important topic during the company’",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 23:37:48 +0000"
+    },
+    {
+      "id": "3feac09277102c22",
+      "title": "Nvidia says its open source AI strategy remains intact after Jensen Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-its-open-source-ai-strategy-remains-intact-after-jensen-huangs-exit/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia interim CEO Colette Kress reaffirmed the company’s commitment to open source AI during Tuesday’s earnings call with analysts — the first since CEO Jensen Huang’s resignation.\n“At Nvidia, we are committed to fostering a vibrant open model ecosystem, so every country, company, and industry can ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 23:04:35 +0000"
+    },
+    {
+      "id": "f8045fa626e2c02a",
+      "title": "Nvidia says it doesn’t plan to reappoint Jensen Huang as CEO",
+      "url": "https://techcrunch.com/2026/11/17/nvidia-says-it-doesnt-plan-to-reappoint-jensen-huang-as-ceo/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Despite Nvidia founder and former CEO Jensen Huang’s recent offer to return to the chip company he helped build from the ground up, the company is not looking to take him back.\nDuring the company’s earnings call on Tuesday, Nvidia chairman Harvey C. Jones told listeners that Huang’s return was not s",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 22:42:27 +0000"
+    },
+    {
+      "id": "6908e71926e8ed83",
+      "title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+      "url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic on Tuesday disclosed more details about the biggest investment agreements with major cloud providers Amazon and Google.\nWhile we already knew that Amazon stood to make a killing on its Anthropic investments from the IPO, Anthropic revealed that Amazon’s total stake will come in at just shy",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 22:29:05 +0000"
+    },
+    {
+      "id": "6e2564c29c662909",
+      "title": "SEC reportedly investigating Nvidia amid Huang exit",
+      "url": "https://techcrunch.com/2026/11/17/sec-reportedly-investigating-nvidia-amid-huang-exit/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The Securities and Exchange Commission is opening a civil probe into Nvidia over whether the company’s disclosures misled investors, according to The Wall Street Journal.\nThe investigation adds to Nvidia’s stack of drama after CEO Jensen Huang resigned following news of his extramarital affairs, inc",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 21:48:07 +0000"
+    },
+    {
+      "id": "320959dca20ca092",
+      "title": "Google joins the tech outage trend by announcing it’s not having one",
+      "url": "https://techcrunch.com/2026/11/17/google-joins-the-tech-outage-trend-by-announcing-its-not-having-one/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Was Google feeling a little left out of the recent wave of tech outages? The company took to X on Tuesday to announce that its Gmail service is actually running just fine. In a post, the company said it was not currently seeing evidence of a broad Gmail service disruption and reminded users they cou",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 21:34:50 +0000"
+    },
+    {
+      "id": "86f07be892b022f0",
+      "title": "Research Reports",
+      "url": "https://www.technologyreview.com/2026/11/17/1148203/research-reports/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Research Reports\nAs a subscriber, you now have access to 4 in-depth research reports on AI, energy, and climate tech.\nDeep Dive\nArtificial intelligence\nDon’t be fooled—LLMs don’t reason\nTen years after AlphaGo’s match against Go champion Lee Sedol, today’s AI still isn’t tapping into the machinery t",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 14:39:46 +0000"
+    },
+    {
+      "id": "19347567d0aab154",
+      "title": "Classified Communications Network at the National Security Agency Goes Down, Defense Official Says",
+      "url": "https://www.securityweek.com/classified-communications-network-at-the-national-security-agency-goes-down-defense-official-says/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "An internal network the National Security Agency uses to communicate classified information was offline Tuesday after what the agency described as “routine maintenance.”\nThe problem disrupted the operations of NSANet, a classified internal network used by employees of the agency, according to a defe",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 02:15:07 +0000"
+    },
+    {
+      "id": "76496683beb3cb8e",
+      "title": "Market Research Giant Ipsos Investigating Breach of Internal System",
+      "url": "https://www.securityweek.com/market-research-giant-ipsos-investigating-breach-of-internal-system/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "French market research company Ipsos is investigating a breach that hit one of its internal information systems.\nThe company made the incident public on Monday, November 16, five days after filing a complaint with authorities.\nAccording to Ipsos, the breach has not disrupted its business. “This inci",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 14:55:30 +0000"
+    },
+    {
+      "id": "ff4ecbca8eac1905",
+      "title": "Fandango Warns Ticket Buyers of Payment Card Data Exposure",
+      "url": "https://www.securityweek.com/fandango-warns-ticket-buyers-of-payment-card-data-exposure/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "US movie ticketing company Fandango is warning customers that payment card information from some purchases made through its checkout page between October 8 and 11 may have been accessed by an unauthorized party.\nFandango says it launched an investigation, assisted by external cybersecurity experts, ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 17 Nov 2026 14:14:24 +0000"
+    }
+  ]
+}
