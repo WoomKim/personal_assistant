@@ -1,0 +1,607 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T11:52:59.610451+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "fb8b318a049ee574",
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 00:01:17 +0530"
+    },
+    {
+      "id": "11aa6bef2bfb9ae2",
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes t",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 18 Nov 2026 23:45:39 +0530"
+    },
+    {
+      "id": "9c40ff9a7698a5e7",
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 18 Nov 2026 22:40:45 +0530"
+    },
+    {
+      "id": "223101d573500516",
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\nThe flaw is present in Java 17.0.6 and later, and the vulnerable code runs o",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 18 Nov 2026 17:25:49 +0530"
+    },
+    {
+      "id": "b326b8531a9216c7",
+      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide.\nThe arrests come after a two-year investigation into a cybercrime organization comp",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 18 Nov 2026 18:08:33 -0500"
+    },
+    {
+      "id": "f689168723dc030d",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency\nToday we are releasing DaisyRose-27B, RadixArk’s first model, built on Qwen3.8-27B and trained with reinforcement learning using Miles. We trained it on long-horizon agent tasks with sessions up to 1M tokens, with just 1,200 curated tas",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 18 Nov 2026 19:54:56 GMT"
+    },
+    {
+      "id": "628eed619e2bb71f",
+      "title": "Quoting Daniel Stenberg",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "18th November 2026\nDuring the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfix",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-18T15:58:27+00:00"
+    },
+    {
+      "id": "265c410e16814a52",
+      "title": "The PSF end-of-year fundraiser",
+      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "18th November 2026 - Link Blog\nThe PSF end-of-year fundraiser. With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.\nIf your company or your work benefits from Python, please c",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-18T14:44:48+00:00"
+    },
+    {
+      "id": "75623b38e68bd27d",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Why your fine-tuning job takes longer than the FLOPs say\nPredicting end-to-end fine-tuning time on shared GPU clusters, from 272 production runs.\nA preview of our upcoming paper, Predicting End-to-End Fine-Tuning Time for Generative Language Models. The full version will be on arXiv soon.\nGPUs are a",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 18:53:43 GMT"
+    },
+    {
+      "id": "bf1424b145e4fc73",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases\nReal-time forecasting, anomaly detection, and optimization, powered by IBM time-series models with more than 50 million downloads. Now available natively on Confluent, in the cloud and on premises, running on CPUs.\nEvery business ge",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 15:00:23 GMT"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "fb8b318a049ee574",
+      "title": "10-Year-Old NGINX HTTP/2 Flaw Lets Unauthenticated Attackers Execute Code on Servers",
+      "url": "https://thehackernews.com/2026/11/10-year-old-nginx-http2-flaw-lets.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A flaw in NGINX's HTTP/2 support can allow an attacker to run code on servers with HTTP/2 enabled, without needing to log in.\nThe decade-old flaw, CVE-2026-123007, dubbed \"nginx2root,\" has been present in NGINX's open-source code since version 1.9.5, released on September 22, 2015. Fixed versions 1.",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 00:01:17 +0530"
+    },
+    {
+      "id": "11aa6bef2bfb9ae2",
+      "title": "F5 Warns 6 Critical BIG-IP Flaws Can Crash Traffic in Specific Setups, May Allow RCE",
+      "url": "https://thehackernews.com/2026/11/f5-warns-6-critical-big-ip-flaws-can.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Six critical vulnerabilities in F5 BIG-IP allow an attacker to crash the Traffic Management Microkernel (TMM) without logging in, disrupting traffic until the TMM restarts.\nEach flaw needs a specific setup on a virtual server: an iRule that uses a particular command, or an APM policy that includes t",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 18 Nov 2026 23:45:39 +0530"
+    },
+    {
+      "id": "9c40ff9a7698a5e7",
+      "title": "Critical Apache Roller RCE Flaw Under Active Exploitation, No Authentication Required",
+      "url": "https://thehackernews.com/2026/11/critical-apache-roller-rce-flaw-under.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A critical security flaw in Apache Roller, an open-source, Java-based blogging platform, has come under active exploitation in the wild, according to the Apache Software Foundation (ASF)\nThe vulnerability, tracked as CVE-2026-129448 (CVSS score: 9.8), is a case of unauthenticated deserialization in ",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 18 Nov 2026 22:40:45 +0530"
+    },
+    {
+      "id": "223101d573500516",
+      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
+      "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A Java flaw called Java4Shell can let attackers without an account run their own code on Jira, Jenkins, Keycloak, and three other widely used applications, says Calif, the security research firm that disclosed it this week.\nThe flaw is present in Java 17.0.6 and later, and the vulnerable code runs o",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 18 Nov 2026 17:25:49 +0530"
+    },
+    {
+      "id": "b326b8531a9216c7",
+      "title": "Ukraine, FBI arrest ransomware gang members tied to $40M in ransoms",
+      "url": "https://www.bleepingcomputer.com/news/security/ukraine-fbi-arrest-ransomware-gang-members-tied-to-40m-in-ransoms/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Ukrainian authorities, working with the FBI, have arrested four suspected members of an international ransomware organization linked to more than $40.5 million in ransom payments from at least 28 companies worldwide.\nThe arrests come after a two-year investigation into a cybercrime organization comp",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Wed, 18 Nov 2026 18:08:33 -0500"
+    },
+    {
+      "id": "4d21e756021aad15",
+      "title": "Microsoft’s Agent Framework PyPI package compromised to steal credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers compromised Microsoft's official Agent Framework Python package on PyPI, publishing two malicious versions designed to steal cloud credentials and other sensitive information from developers' systems.\nMicrosoft Agent Framework is Microsoft's open-source toolkit for building AI agents and coo",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 18 Nov 2026 11:58:42 -0500"
+    },
+    {
+      "id": "4f4cc6f190747ed0",
+      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Apache has released security updates to address a critical Roller flaw that threat actors are exploiting to gain code execution on vulnerable servers.\nApache Roller is an open-source, Java-based group-blogging server with a much smaller market share than modern content management systems and bloggin",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 18 Nov 2026 05:35:05 -0500"
+    },
+    {
+      "id": "f689168723dc030d",
+      "title": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency",
+      "url": "https://huggingface.co/blog/RadixArk/daisyrose-27b-pushing-the-frontier-of-post-trainin",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "DaisyRose-27B: Pushing the Frontier of Post-Training Efficiency\nToday we are releasing DaisyRose-27B, RadixArk’s first model, built on Qwen3.8-27B and trained with reinforcement learning using Miles. We trained it on long-horizon agent tasks with sessions up to 1M tokens, with just 1,200 curated tas",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 18 Nov 2026 19:54:56 GMT"
+    },
+    {
+      "id": "122413bd849f4f44",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds Four Known Exploited Vulnerabilities to Catalog\nCISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability\n",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Wed, 18 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "628eed619e2bb71f",
+      "title": "Quoting Daniel Stenberg",
+      "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "18th November 2026\nDuring the time these agents converted 185,000 lines of C code into 340,000 lines of Rust code (I counted), we merged over 300 commits in the actual curl project. We actually improved curl during these a little more than three weeks. A little over 200 bugfixes actually. 200 bugfix",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-18T15:58:27+00:00"
+    },
+    {
+      "id": "265c410e16814a52",
+      "title": "The PSF end-of-year fundraiser",
+      "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "18th November 2026 - Link Blog\nThe PSF end-of-year fundraiser. With my Python Software Foundation board director hat on: we've launched our end-of-year fundraiser for the non-profit that supports Python development and the Python community.\nIf your company or your work benefits from Python, please c",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-18T14:44:48+00:00"
+    },
+    {
+      "id": "55016e2da81bf79e",
+      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
+      "url": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The suspected Chinese advanced persistent threat (APT) group behind the sophisticated EggStreme malware has rebuilt its toolkit as it continues to target government organizations in the Philippines.\n\"When attackers are exposed, the cheap response is to rotate,\" Bitdefender said in a technical report",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 19:41:28 +0530"
+    },
+    {
+      "id": "74d12e4423207d9d",
+      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
+      "url": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "On AMD-based PCs and some Intel PCs, the TPM lockout for Windows Hello and BitLocker PINs can be reset by someone who opens the PC's case, researchers at Technische Universität Berlin say.\nThat leaves short PINs open to guessing. In lab tests, the researchers found a four-digit Hello PIN on an AMD l",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 17:58:30 +0530"
+    },
+    {
+      "id": "c9f8dc26d8d07054",
+      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
+      "url": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "TL;DR\n- Attackers move first. On average, exploitation now starts before a patch exists (Mandiant M-Trends 2026). In 1H 2026, 23% of vulnerabilities VulnCheck added to its exploited list were hit on or before disclosure day.\n- AI pentesting vendors aren't interchangeable. Most look convincing in a d",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 17:45:00 +0530"
+    },
+    {
+      "id": "63ab0fd187977a4a",
+      "title": "Quality Isn’t The Main Worry About AI Pentesting — Data Privacy and Production Safety Are",
+      "url": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "AI is speeding up how software is built, which means more code, more changes, and more chances for vulnerabilities to reach production. It's speeding up how attackers find and exploit them too, with time-to-exploit now down to a single day. Security testing has to keep up with both.\nAI pentesting ha",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 16:33:57 +0530"
+    },
+    {
+      "id": "ede0adf4c578028e",
+      "title": "Coinbase blocks $4.7 million in transfers to Elon Musk deepfake scam",
+      "url": "https://www.bleepingcomputer.com/news/security/coinbase-blocks-47-million-in-transfers-to-elon-musk-deepfake-scam/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Coinbase says it blocked $4.7 million in cryptocurrency transfers to scammers promoting a fake giveaway using an AI-generated deepfake of Elon Musk during a Tesla livestream that attracted more than 500,000 viewers.\nThe deepfake took place during Tesla's \"flying car\" demonstration, when scammers cre",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 15:49:32 -0500"
+    },
+    {
+      "id": "9f639cd35360f889",
+      "title": "Data breach impacts 40 Irish credit unions in reported IT provider hack",
+      "url": "https://www.bleepingcomputer.com/news/security/data-breach-impacts-40-irish-credit-unions-in-reported-it-provider-hack/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A reported cyberattack on Wellington IT has exposed sensitive information belonging to members of 50 credit unions, the majority of which are located in Ireland.\nWellington IT is a Belfast-based supplier whose services are used by about 50 credit unions, including 43 in Ireland.\nWhile the company ha",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 14:39:33 -0500"
+    },
+    {
+      "id": "8e8debc4b233d460",
+      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
+      "url": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "In 2024, an employee at engineering firm Arup was tricked into transferring $25 million after attending a fake video conference featuring deepfake versions of their colleagues.\nA year later, Marks & Spencer (M&S) suffered a major cyberattack after attackers used social engineering to gain access thr",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 10:00:10 -0500"
+    },
+    {
+      "id": "57cf485fa9212e04",
+      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
+      "url": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Alliance for Creativity and Entertainment (ACE) has announced the shutdown of Dizigom, one of Turkey's largest piracy sites, after a settlement agreement with the site's operators.\nBefore being taken offline, the illegal TV and movie streaming service's websites had roughly 21 million visitors e",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 06:50:25 -0500"
+    },
+    {
+      "id": "4ccf67b96d4a380e",
+      "title": "Microsoft announces Windows Server 2028 with hardened security",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft has announced Windows Server 2028, the next major release of its server operating system, at the Ignite 2026 conference on Tuesday.\nThis new Windows Server version ships with a hardened Server Core configuration by default and a new security baseline that allows admins to relax specific se",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 04:24:31 -0500"
+    },
+    {
+      "id": "75623b38e68bd27d",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Why your fine-tuning job takes longer than the FLOPs say\nPredicting end-to-end fine-tuning time on shared GPU clusters, from 272 production runs.\nA preview of our upcoming paper, Predicting End-to-End Fine-Tuning Time for Generative Language Models. The full version will be on arXiv soon.\nGPUs are a",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 18:53:43 GMT"
+    },
+    {
+      "id": "bf1424b145e4fc73",
+      "title": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases",
+      "url": "https://huggingface.co/blog/ibm-research/time-series-powered-streamhouse",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Time-Series Models in the Streamhouse: A New Frontier and Use Cases\nReal-time forecasting, anomaly detection, and optimization, powered by IBM time-series models with more than 50 million downloads. Now available natively on Confluent, in the cloud and on premises, running on CPUs.\nEvery business ge",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 15:00:23 GMT"
+    },
+    {
+      "id": "af1852b4c46dc30e",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers\nStreaming MoE experts directly from SSD gets within 6% of Strata on token generation.\nI've been trying to rely less on online models and run bigger ones locally. At home I have a PC with two RTX 4090s (let's call it O",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "a8022fb06095c478",
+      "title": "Microsoft CEO Satya Nadella explains why he asked 60K employees to quit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Microsoft CEO Satya Nadella explained Wednesday why he offered buyouts to 60,000 of his employees in October, essentially urging them to voluntarily quit instead of reducing the workforce via another massive layoff.\nShort answer: AI, but not, he insists, in the way you might expect. He’s not saying ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 00:42:56 +0000"
+    },
+    {
+      "id": "44255eb49d7cccbd",
+      "title": "Amidst fears of AI cyberattacks, Satya Nadella says lots of critical infrastructure is ‘unpatchable’",
+      "url": "https://techcrunch.com/2026/11/18/amidst-fears-of-ai-cyberattacks-satya-nadella-says-lots-of-critical-infrastructure-is-unpatchable/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "During his appearance at The New York Times’ DealBook Summit on Wednesday, Microsoft CEO Satya Nadella lamented the fact that a lot of America’s software systems — including those governing everyday hardware and transportation systems — suffer from unfixable software vulnerabilities that, in the age",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 23:45:00 +0000"
+    },
+    {
+      "id": "ae30c6152bf9ca30",
+      "title": "Elon Musk says ousting Jensen Huang is like ‘kicking Michael Jordan off your team’",
+      "url": "https://techcrunch.com/2026/11/18/elon-musk-says-ousting-jensen-huang-is-like-kicking-michael-jordan-off-your-team/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Elon Musk has already been vocal about his disapproval of the Nvidia board’s decision to oust its founder and CEO Jensen Huang after a series of extramarital affairs were made public, including one with an alleged Chinese spy who is suspected of feeding sensitive information back to Beijing. At The ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 23:25:17 +0000"
+    },
+    {
+      "id": "ebee197c44b51a8c",
+      "title": "Microsoft CEO Satya Nadella remains confident in Nvidia after Huang’s exit",
+      "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-remains-confident-in-nvidia-after-huangs-exit/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Microsoft CEO Satya Nadella weighed in on former Nvidia CEO Jensen Huang’s unexpected departure amid a series of shocking controversies.\n“It’s all sort of pretty tragic in the sense of, you know, Jensen is somebody I’ve known for a long time. I’ve admired what he’s done, and at this point, I kind of",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 23:17:28 +0000"
+    },
+    {
+      "id": "f7885a7f892bd839",
+      "title": "Satya Nadella predicts AI agents will reshuffle the economics of the web",
+      "url": "https://techcrunch.com/2026/11/18/satya-nadella-predicts-ai-agents-will-reshuffle-the-economics-of-the-web/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Microsoft CEO Satya Nadella predicts that the rise of AI agents is going to reshape the economics of the internet, impacting the business models of the companies that rely on advertising and what he referred to as “human web” traffic.\nSpeaking at The New York Times DealBook Summit on Wednesday, the ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 22:58:11 +0000"
+    },
+    {
+      "id": "6b4b11d8558c175e",
+      "title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+      "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic has reportedly priced its long-awaited IPO at $83 per share, above its initial range of $70 to $78, signaling strong investor appetite for one of the companies at the center of the AI boom, despite market jitters following the departure of Nvidia CEO Jensen Huang, which shook confidence in",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 22:11:15 +0000"
+    },
+    {
+      "id": "4544035da65a5fc4",
+      "title": "Nvidia created a weird bit of intrigue by not filing a routine SEC report",
+      "url": "https://techcrunch.com/2026/11/18/nvidia-created-a-weird-bit-of-intrigue-by-not-filing-a-routine-sec-report/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "During Nvidia’s quarterly call on Tuesday, CFO-turned-interim-CEO Colette Kress dropped this little oddity: She said Nvidia wouldn’t be immediately filing its quarterly results report, known as a 10-Q, with the SEC. “We plan to file our 10-Q in the coming weeks.” And she offered no reason why.\nThe d",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 21:57:40 +0000"
+    },
+    {
+      "id": "48feb3ab27c887a6",
+      "title": "Palmer Luckey warns AI-powered cyberattacks are outpacing defenses: ‘It’s time to start running’",
+      "url": "https://techcrunch.com/2026/11/18/palmer-luckey-warns-ai-powered-cyberattacks-are-outpacing-defenses-its-time-to-start-running/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI-powered cyberattacks are moving faster than outdated technology systems can defend against them, Palmer Luckey warned at The New York Times DealBook Summit on Wednesday. Addressing the recent spate of tech outages, the Oculus founder and Anduril Industries co-founder argued that older systems are",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 21:34:13 +0000"
+    },
+    {
+      "id": "bb3ee1cf50e29f40",
+      "title": "The AI Hype Index: AI is everywhere",
+      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "The AI Hype Index: AI is everywhere\nMIT Technology Review’s highly subjective take on the latest buzz about AI\nLike a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, a",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 14:42:44 +0000"
+    },
+    {
+      "id": "d1dd49b4f83d7a93",
+      "title": "This smell startup says its AI nose is as good as a human’s",
+      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "This smell startup says its AI nose is as good as a human’s\nOsmo’s smell model is already being used in the fragrance industry. But are medical diagnostics and threat detection a sniff too far?\nIn a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly work",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 10:20:30 +0000"
+    },
+    {
+      "id": "4007647799e11809",
+      "title": "VeroSecurity Raises $11 Million for AI Security Engineering Platform",
+      "url": "https://www.securityweek.com/verosecurity-raises-11-million-for-ai-security-engineering-platform/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "VeroSecurity, founded in 2025 by IDF 8200 alumni Elad Tessler (CEO) and Daniel Meirov (CTO), has raised $11 million in a seed funding round led by TLV Partners. The firm is building a platform for AI Security Engineering (ASE) – the process of securing AI tools and agents – and will use the funding ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 15:30:42 +0000"
+    },
+    {
+      "id": "dfcd48a830ee2555",
+      "title": "Russian APT Poses as Employee of Hacked Firm to Breach Another US Organization",
+      "url": "https://www.securityweek.com/russian-apt-poses-as-employee-of-hacked-firm-to-breach-another-us-organization/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Russia-linked APT Star Blizzard hacked a US organization by impersonating an employee at another US organization it had previously compromised, Google Threat Intelligence Group (GTIG) reports.\nAlso tracked as Callisto, Cold Relic, Cold River, UNC4057, and Gossamer Bear, and active for over a decade,",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 13:33:47 +0000"
+    },
+    {
+      "id": "2c1ddb51a4dc89a3",
+      "title": "Last of Five Defendants Sentenced in US Scattered Spider Hacking Case",
+      "url": "https://www.securityweek.com/last-of-five-defendants-sentenced-in-us-scattered-spider-hacking-case/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A British Scattered Spider hacker will spend six years in a US federal prison for his part in a conspiracy to hack companies and take at least $11.6 million in cryptocurrency from individuals across the US.\nTyler Robert Buchanan, 24, from Dundee, Scotland, was arrested in Spain in May 2024 and has b",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 13:19:32 +0000"
+    },
+    {
+      "id": "ddb3ea43dd74220f",
+      "title": "Microsoft Takes Perception Agentic Security Platform Out of Preview",
+      "url": "https://www.securityweek.com/microsoft-takes-perception-agentic-security-platform-out-of-preview/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Microsoft used its Ignite 2026 conference on Tuesday to announce the general availability of Perception, a product designed for coordinating teams of AI agents to handle security tasks.\nUnveiled in July as Project Perception, the system has been in public preview inside Microsoft Defender since Augu",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 12:14:23 +0000"
+    },
+    {
+      "id": "2df0fcea5ad6b106",
+      "title": "CISO Conversations: Patti Degnan – Part of the Job Is Deciding What Not to Do",
+      "url": "https://www.securityweek.com/ciso-conversations-patti-degnan-part-of-the-job-is-deciding-what-not-to-do/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Patti Degnan’s journey is unusual. She didn’t have an early plan to become a CISO; but perhaps life events made it inevitable.\nPatti Degnan’s first encounter with security shaped her future interest: her identity was stolen in 2006. “That was my first introduction into safeguarding data. It piqued m",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 12:00:00 +0000"
+    },
+    {
+      "id": "ac7a12437b591221",
+      "title": "Chrome 158 Patches 204 Vulnerabilities",
+      "url": "https://www.securityweek.com/chrome-158-patches-204-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Google on Tuesday announced the release of Chrome 158 to the stable channel with patches for 204 vulnerabilities, including six critical-severity bugs.\nThe critical flaws include three use-after-free issues in WebView, GarbageCollection, and WebAudio, out-of-bounds write defects in GPU and ANGLE, an",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 11:43:22 +0000"
+    },
+    {
+      "id": "8303fbc4634524ae",
+      "title": "A Critical Appraisal and Motivated Intruder Test of A Search Dataset Anonymised for the Purposes of the EU Digital Markets Act",
+      "url": "https://arxiv.org/abs/2611.21689",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 16 Nov 2026]\nTitle:A Critical Appraisal and Motivated Intruder Test of A Search Dataset Anonymised for the Purposes of the EU Digital Markets Act\nView PDF\n            Abstract:This study evaluated the European Commission's anonymisation me",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Wed, 18 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
