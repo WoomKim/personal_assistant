@@ -1,0 +1,632 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T11:44:02.305129+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「libumqtt」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "3f6682cf94420c03",
+      "title": "libumqtt",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "libumqtt\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.\nThe following versions of libumqtt are affected:\n- libumqtt <=1.1.1 (CVE-2026-125132)\nBackground\n- Critical Infrastructure Sectors:",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "7f8f338723412135",
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Autonomy Logic OpenPLC Runtime\nSummary\nSuccessful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.\nThe following versions of Autonomy Logic OpenPLC Runtime are affected:\n- OpenPLC Runtime <=4.2.4 (CVE-2026-126088)\nBackground\n- Critical Infrastructu",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "f92f66411a812200",
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\nThe release of the patch follows an advance notice in which the project maintainers alerted users ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 20:48:07 +0530"
+    },
+    {
+      "id": "193208e89084b673",
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execut",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 17:22:23 +0530"
+    },
+    {
+      "id": "ef3cecb6fd503aee",
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\"We are aware of PoCs that prove some of them can be use",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Thu, 19 Nov 2026 14:12:11 +0530"
+    },
+    {
+      "id": "8f4728ffc5b95bfc",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Apple appears to be working on its own AI agent to conduct computer work on behalf of users — including using apps, accessing websites, and coding, among other things.\nThe news was originally reported by Bloomberg, which spotted a job listing the iPhone maker recently posted for a senior engineering",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 20 Nov 2026 00:56:01 +0000"
+    },
+    {
+      "id": "f2dddf2ea7d8bc56",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "It’s going down, as the American rapper Yung Joc might say: the airline booking systems, banking platforms, and productivity platforms. In the past two weeks, the U.S.’s top businesses have faced technical outages that have disrupted the systems that run everyday life.\nApple Pay went down. NASA’s in",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 19 Nov 2026 21:42:31 +0000"
+    },
+    {
+      "id": "2919f418f3f51682",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Meta employees have raised concerns that the company’s AI agent Muse has been mixing up conversations across different accounts and exposing private user data, according to a new Reuters report that looked at internal company posts.\nIn some of these instances, employees said Muse surfaced messages a",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 19 Nov 2026 17:38:40 +0000"
+    },
+    {
+      "id": "7339d690dfb602dd",
+      "title": "PostgreSQL 19 Released",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "19th November 2026 - Link Blog\nPostgreSQL 19 Released (via) Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalyp",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-19T20:43:57+00:00"
+    },
+    {
+      "id": "fd1897fc7619b29c",
+      "title": "llm-gemini 0.38",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "18th November 2026\nToday Google introduced Gemini 4 Neon. I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse.\nPreviously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price, and Hydrogen wa",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-18T23:59:20+00:00"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "3f6682cf94420c03",
+      "title": "libumqtt",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "libumqtt\nSummary\nSuccessful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure.\nThe following versions of libumqtt are affected:\n- libumqtt <=1.1.1 (CVE-2026-125132)\nBackground\n- Critical Infrastructure Sectors:",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "7f8f338723412135",
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Autonomy Logic OpenPLC Runtime\nSummary\nSuccessful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created.\nThe following versions of Autonomy Logic OpenPLC Runtime are affected:\n- OpenPLC Runtime <=4.2.4 (CVE-2026-126088)\nBackground\n- Critical Infrastructu",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "f92f66411a812200",
+      "title": "PHP Fixes 7 Critical Flaws, Including Bugs That Could Allow Remote Code Execution",
+      "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The PHP Foundation has released security updates to address multiple critical security flaws that could be exploited to achieve remote code execution on affected deployments, including CVE-2026-115560.\nThe release of the patch follows an advance notice in which the project maintainers alerted users ",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 20:48:07 +0530"
+    },
+    {
+      "id": "193208e89084b673",
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "url": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "One of the early targets of PHP2Shell exploitation was the firewall. On October 28, Palo Alto Networks confirmed that attackers were exploiting the two PHP vulnerabilities, CVE-2026-109618 and CVE-2026-109619, against PAN-OS management interfaces exposed to the internet. Both flaws let anyone execut",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 17:22:23 +0530"
+    },
+    {
+      "id": "ef3cecb6fd503aee",
+      "title": "Ruby Releases Fixes for 7 Regex and String Flaws, Warns 5 Have Proof-of-Concept RCE",
+      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Ruby contains seven memory-safety flaws in its regular expression engine and its string case-conversion code. For five of them, its maintainers say, proof-of-concept exploits, or PoCs, have shown that crafted input can run code on the machine.\n\"We are aware of PoCs that prove some of them can be use",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Thu, 19 Nov 2026 14:12:11 +0530"
+    },
+    {
+      "id": "c5e24a06d3952b8f",
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Broadcom has released security updates to fix a critical VMware vCenter Server authentication bypass vulnerability that Chinese-linked hackers have exploited in zero-day attacks since September 2026.\nThe vulnerability, tracked as CVE-2026-123890, affects the VMware Directory Service in vCenter Serve",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 19:26:25 -0500"
+    },
+    {
+      "id": "3797ecb529a51da9",
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+      "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "ASUS released Control Center Express v1.7.29 to fix three critical vulnerabilities that could let remote attackers gain administrative control of the management console and the devices it manages.\nOf the three, one is a maximum-severity vulnerability (CVSS score: 10.0) tracked under CVE-2026-114202,",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 16:15:59 -0500"
+    },
+    {
+      "id": "c5e7bc1c42387de6",
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+      "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The PHP dev team released security updates for 18 vulnerabilities, including critical flaws that could allow unauthenticated attackers to remotely execute code on vulnerable servers.\nThe updates were released Thursday, November 19, for all supported PHP branches, with PHP 8.5.13, 8.4.28, 8.3.37, and",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Thu, 19 Nov 2026 11:28:23 -0500"
+    },
+    {
+      "id": "75044bab3e7303d3",
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "url": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Ask many IT teams how they would recognize ransomware, and the answer is still “when files start changing extensions.” By then, the intrusion may already include credential theft, privilege escalation, defense evasion, recovery sabotage, lateral movement and data exfiltration.\nEncryption is often a ",
+      "importance": 3.4,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Thu, 19 Nov 2026 10:00:10 -0500"
+    },
+    {
+      "id": "df5a560c1b8f6ae7",
+      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Drupal Security Team has patched a critical remote code execution vulnerability that can let attackers take over vulnerable sites.\nThis content management system (CMS) is commonly used by large organizations that manage multi-site installations and massive data structures, including government e",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Thu, 19 Nov 2026 08:08:08 -0500"
+    },
+    {
+      "id": "8f4728ffc5b95bfc",
+      "title": "Apple may be developing its own AI agent that runs your Mac",
+      "url": "https://techcrunch.com/2026/11/19/apple-may-be-developing-its-own-ai-agent-that-runs-your-mac/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Apple appears to be working on its own AI agent to conduct computer work on behalf of users — including using apps, accessing websites, and coding, among other things.\nThe news was originally reported by Bloomberg, which spotted a job listing the iPhone maker recently posted for a senior engineering",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Fri, 20 Nov 2026 00:56:01 +0000"
+    },
+    {
+      "id": "f2dddf2ea7d8bc56",
+      "title": "These tech outages are giving Y2K, AI agent style",
+      "url": "https://techcrunch.com/2026/11/19/these-tech-outages-are-giving-y2k-ai-agent-style/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "It’s going down, as the American rapper Yung Joc might say: the airline booking systems, banking platforms, and productivity platforms. In the past two weeks, the U.S.’s top businesses have faced technical outages that have disrupted the systems that run everyday life.\nApple Pay went down. NASA’s in",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 19 Nov 2026 21:42:31 +0000"
+    },
+    {
+      "id": "2919f418f3f51682",
+      "title": "Meta’s AI agent Muse is mixing up conversations and could be exposing private data, report says",
+      "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Meta employees have raised concerns that the company’s AI agent Muse has been mixing up conversations across different accounts and exposing private user data, according to a new Reuters report that looked at internal company posts.\nIn some of these instances, employees said Muse surfaced messages a",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 19 Nov 2026 17:38:40 +0000"
+    },
+    {
+      "id": "73e981a448216743",
+      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features.\nThe following versions of Elecbrakes EB2, VM1, ",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Thu, 19 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "51d812581aa517bc",
+      "title": "Siemens Simcenter Femap",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Siemens Simcenter Femap\nSummary\nSimcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Simcenter",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 17 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "bd2996802132899d",
+      "title": "Newly Patched VMware vCenter Flaw Exploited as Zero-Day by Chinese APT",
+      "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A China-linked espionage group exploited a VMware vCenter zero-day vulnerability for more than two months before Broadcom released a patch on Thursday, according to Google.\nTracked as CVE-2026-123890 (CVSS score of 9.8), the bug resides in the VMware Directory Service and could let remote, unauthent",
+      "importance": 3.0,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 19:21:06 +0000"
+    },
+    {
+      "id": "3049d4149a83870d",
+      "title": "PHP Patches Seven Critical RCE Vulnerabilities",
+      "url": "https://www.securityweek.com/php-patches-seven-critical-rce-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "PHP on Thursday rolled out a fresh set of security patches as part of its four-week update schedule, including fixes for seven critical-severity remote code execution (RCE) vulnerabilities.\nFirst in line is CVE-2026-115560, which was publicly disclosed last month, two days after PHP2Shell patches la",
+      "importance": 3.0,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 15:54:20 +0000"
+    },
+    {
+      "id": "abef5657ebf43b0e",
+      "title": "Nvidia Responds to Gentlemen Ransomware Claim",
+      "url": "https://www.securityweek.com/nvidia-responds-to-gentlemen-ransomware-claim/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Nvidia says it has found no indication that its systems or networks were affected after the Gentlemen ransomware group named the company on its data leak website.\nThe group’s listing includes Nvidia’s logo and a general description of the chipmaker. It offers no explanation of the alleged attack, wi",
+      "importance": 3.0,
+      "matched": [
+        "ransomware"
+      ],
+      "published": "Thu, 19 Nov 2026 14:17:32 +0000"
+    },
+    {
+      "id": "b7f6d70bce9069e8",
+      "title": "StepSecurity Secures $20 Million to Expand Supply Chain Protection",
+      "url": "https://www.securityweek.com/stepsecurity-secures-20-million-to-expand-supply-chain-protection/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Supply chain security startup StepSecurity has raised $20 million in a Series A funding round, which brings the total raised by the company to $23 million.\nThe new investment round was led by Elephant, with additional support from Runtime Ventures, Inner Loop Capital, and SaaS Ventures.\nFounded in 2",
+      "importance": 3.0,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Thu, 19 Nov 2026 12:23:34 +0000"
+    },
+    {
+      "id": "d02f8572d5f1ee4d",
+      "title": "Critical Apache Roller, Axis Vulnerabilities Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-apache-roller-axis-vulnerabilities-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Two critical vulnerabilities in Apache software are being exploited in attacks, and CISA added one of them to its Known Exploited Vulnerabilities (KEV) catalog on Wednesday.\nApache Axis vulnerability exploited in attacks\nCVE-2026-90436, disclosed on November 6, is an unsafe reflection vulnerability ",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 19 Nov 2026 12:13:24 +0000"
+    },
+    {
+      "id": "7339d690dfb602dd",
+      "title": "PostgreSQL 19 Released",
+      "url": "https://simonwillison.net/2026/Nov/19/postgresql-19/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "19th November 2026 - Link Blog\nPostgreSQL 19 Released (via) Most years PostgreSQL ships a new release in September, but this year's release came two months later thanks mainly to the flurry of issues that the PostgreSQL team needed to address as part of the ongoing AI-reported vulnerability apocalyp",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-19T20:43:57+00:00"
+    },
+    {
+      "id": "fd1897fc7619b29c",
+      "title": "llm-gemini 0.38",
+      "url": "https://simonwillison.net/2026/Nov/18/llm-gemini/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "18th November 2026\nToday Google introduced Gemini 4 Neon. I wrote recently about how confusing the pricing for the Gemini 4 series was - Neon has somehow made this even worse.\nPreviously the Gemini 4 lineup was Hydrogen, Argon, and Carbon - where Argon and Carbon were the same price, and Hydrogen wa",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-18T23:59:20+00:00"
+    },
+    {
+      "id": "25233b116d91ffbe",
+      "title": "datasette-arrows 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "18th November 2026\nDatasette 1.0a43 added the ability for plugins to implement streaming export formats. Datasette core supports streaming CSV and TSV - you can export millions of lines of data from a table without needing to load it all into memory, because those two file formats support streaming ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-18T17:09:59+00:00"
+    },
+    {
+      "id": "6c19fc2b09f2cedb",
+      "title": "Securing and Auditing Long-Horizon LLM Agents: State-Transfer Auditing and Controls in the Agent Harness",
+      "url": "https://arxiv.org/abs/2611.23346",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 17 Nov 2026]\nTitle:Securing and Auditing Long-Horizon LLM Agents: State-Transfer Auditing and Controls in the Agent Harness\nView PDF HTML (experimental)\n            Abstract:Long-horizon LLM agents across codebases, web browsers, and enter",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "53e4a59238e8a8ae",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The easiest way to fool someone is to give them something they already expect. A job offer. A message about a service outage. A familiar app. Nothing looks strange at first. And that's the problem. This week's stories show how ordinary things are being used to steal data, spread malware, and get peo",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 20 Nov 2026 00:17:58 +0530"
+    },
+    {
+      "id": "648f4746253c461c",
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "url": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "PHP's default file-based session storage can be made to return objects an attacker chose, by cutting off a session write at the right moment. When combined with a second weakness, such as a suitable gadget chain in the app, those objects can allow the attacker to run code on the server.\nToday's PHP ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 22:29:56 +0530"
+    },
+    {
+      "id": "7008c485fa38b4e8",
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A critical flaw in VMware vCenter lets an attacker with network access bypass authentication and gain unauthorized access to the system, Broadcom, which owns VMware, said in an advisory published today.\nFixed versions are out for all supported branches, and the company lists no workaround. vCenter i",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 20:41:06 +0530"
+    },
+    {
+      "id": "6e1cc48f217d3df0",
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "url": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Under specific conditions, a critical vulnerability in Drupal core can allow an attacker without login credentials to use the built-in installer to attempt to reinstall a site.\nThat can lead to a site takeover or remote code execution, and the project rates the vulnerable configurations as uncommon.",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 20:03:06 +0530"
+    },
+    {
+      "id": "67401cc888fc28c2",
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "N-able on Wednesday disclosed that unknown threat actors gained unauthorized access to one of the servers in the Mail Assure and Spam Experts Hosted Cloud, causing it to disable management interfaces and APIs.\n\"We have taken steps to mitigate the threat and are continuing to harden our services to r",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 15:01:26 +0530"
+    },
+    {
+      "id": "df29d71aedcbd867",
+      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "SBC Medical Group has warned in a filing with the U.S. Securities and Exchange Commission (SEC) that two cybersecurity incidents exposed sensitive customer and employee information, including personal data belonging to 1.6 million people.\nSBC Medical Group is a clinic management company whose main b",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 17:25:42 -0500"
+    },
+    {
+      "id": "1977168802e46550",
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Transport for London (TfL) has announced that around 265,000 Oyster photocard customers may have had their account details exposed in a data breach.\nTfL is London's public transport authority, operating the Underground, Overground, buses, trams, and the Elizabeth line. It recorded 3.53 billion passe",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 13:20:01 -0500"
+    },
+    {
+      "id": "7cc3b724b66a2eb4",
+      "title": "Critical NGINX ‘NGINX2Root’ bugs let attackers hijack servers",
+      "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Two critical NGINX vulnerabilities dubbed \"nginx2root\" allow unauthenticated attackers to execute code remotely on vulnerable web servers, with researchers demonstrating how the flaws can be chained with a Linux kernel bug to gain root access.\nThe two HTTP/2 vulnerabilities were discovered independe",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 09:57:24 -0500"
+    },
+    {
+      "id": "f1dd0bea0b97e4ab",
+      "title": "Anthropic’s 7 founders cashed out nearly $2B in record-breaking IPO",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic became a public company on Thursday, raising a total of $81.3 billion, including $1.95 billion for its seven founders. As we previously reported, each of them ponied up about 3.4 million shares apiece to sell in the IPO.\nAt the upgraded IPO price of $83 per share, that means they each pock",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Fri, 20 Nov 2026 00:43:50 +0000"
+    },
+    {
+      "id": "6f0f2d869f0fe635",
+      "title": "Meta’s new Muse Charm device may cost $300",
+      "url": "https://techcrunch.com/2026/11/19/metas-new-muse-charm-device-may-cost-300/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Meta plans to charge $300 for Muse Charm, its upcoming Tamagotchi-like AI device that was teased at the company’s Connect event earlier this year, The Information has reported.\nWhen reached for comment by TechCrunch, a Meta spokesperson didn’t deny the claims, merely providing the following statemen",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 21:58:06 +0000"
+    },
+    {
+      "id": "423b8c753c11c242",
+      "title": "The unfolding Jensen Huang scandal: a timeline",
+      "url": "https://techcrunch.com/2026/11/19/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia co-founder and now former CEO Jensen Huang has never been as prone to controversy as AI leaders like OpenAI’s Sam Altman or SpaceXAI’s Elon Musk. But the 63-year-old industry kingpin recently admitted that he cheated on his wife of 40 years in affairs that could have ramifications beyond Huan",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 20:18:49 +0000"
+    },
+    {
+      "id": "2ad2190c7ade6b93",
+      "title": "Anthropic’s IPO could deliver $156B to charity",
+      "url": "https://techcrunch.com/2026/11/19/anthropics-ipo-could-deliver-156-billion-to-charity/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic’s blockbuster IPO has made quite a few people generationally wealthy, but it will also be an enormous windfall for the causes backed by the frontier lab and its employees.\nAs you might expect from a company whose leadership emerged from the world of effective altruism (EA), Anthropic has m",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 19:10:45 +0000"
+    },
+    {
+      "id": "1054662f25c3d852",
+      "title": "Google gives Gemini the ability to use your Mac for you",
+      "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Google on Thursday announced that it is bringing computer use to its Gemini desktop application on macOS, allowing its AI to complete tasks on users’ behalf, navigating native Mac apps, and browsing websites in the background.\nThe tech giant is a little late to the game with this launch, as other le",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 18:09:11 +0000"
+    },
+    {
+      "id": "5e668a30271b8ef2",
+      "title": "Hackers Exploit Cisco Expressway Vulnerability Soon After PoC Release",
+      "url": "https://www.securityweek.com/hackers-exploit-cisco-expressway-vulnerability-soon-after-poc-release/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Hackers exploited a critical Cisco Expressway vulnerability to breach a Russian organization soon after proof-of-concept (PoC) exploit code was released publicly, according to cybersecurity firm F6.\nExpressway gateways allow remote employees, partners, and third-party users to securely connect to an",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 13:12:20 +0000"
+    },
+    {
+      "id": "49dcc0934dc844b7",
+      "title": "Asymmetric Optical Image Watermarking",
+      "url": "https://arxiv.org/abs/2611.23350",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 17 Nov 2026 (v1), last revised 19 Nov 2026 (this version, v2)]\nTitle:Asymmetric Optical Image Watermarking\nView PDF HTML (experimental)\n            Abstract:Watermark detectors held by a provider cannot be checked by third parties, and a p",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "cecba1c55c59aeaf",
+      "title": "Image Watermarking With Memory Across Reissuance",
+      "url": "https://arxiv.org/abs/2611.23363",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 17 Nov 2026]\nTitle:Image Watermarking With Memory Across Reissuance\nView PDF HTML (experimental)\n            Abstract:Publishers often revise and reissue images, yet valid watermarks may persist on superseded releases or unapproved edits. ",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Thu, 19 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
