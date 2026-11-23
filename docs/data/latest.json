@@ -1,341 +1,226 @@
 {
-  "date": "2026-11-22",
-  "generated_at": "2026-11-22T10:43:41.368558+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access」입니다.",
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T11:02:20.229581+09:00",
+  "briefing": "오늘 9건이 수집되었습니다. 가장 주목할 항목은 「Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps」입니다.",
   "stats": {
-    "collected": 18,
-    "summarized": 18,
-    "picked": 10,
+    "collected": 9,
+    "summarized": 9,
+    "picked": 9,
     "llm": "live"
   },
   "items": [
     {
-      "id": "16765aea3bd9ae9d",
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "id": "0be8ff22df4a77bf",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\nThe flaw allows an attacker with no account to write files outside",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a",
       "why": "",
       "importance": 3.4,
       "matched": [
-        "zero-day"
+        "RCE"
       ],
-      "published": "Sat, 21 Nov 2026 16:33:17 +0530"
+      "published": "Sun, 22 Nov 2026 10:33:41 +0530"
     },
     {
-      "id": "6231e48f3bee97e2",
-      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Amazon says autonomous AI agents run by a China-linked threat actor found and exploited a zero-day vulnerability in MONAI Label, an open source tool designed for AI-assisted annotation of medical images.\nThe tech giant’s threat intelligence team detected the activity in September, after coming acros",
-      "why": "",
-      "importance": 3.0,
-      "matched": [
-        "zero-day"
-      ],
-      "published": "Sat, 21 Nov 2026 12:08:50 +0000"
-    },
-    {
-      "id": "0ad755f2681c3730",
-      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "id": "78074d39dfa2deb1",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.\nThe same attack could be extended to reach the credentials Muse stores for the user's connected accounts.\nThe work was a l",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt",
       "why": "",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 17:23:07 +0530"
+      "published": "Sun, 22 Nov 2026 10:36:55 +0530"
     },
     {
-      "id": "761885e6c02d6550",
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "source": "The Hacker News",
+      "id": "e84afceb005f0d48",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "source": "BleepingComputer",
       "category": "security",
-      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\nThe GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.\nThe b",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices.\nGL.iNet manufactures network",
       "why": "",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 16:35:53 +0530"
+      "published": "Sun, 22 Nov 2026 13:45:37 -0500"
     },
     {
-      "id": "9da47b8efcbbfaa0",
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "source": "The Hacker News",
+      "id": "855a50efe0f3bb9d",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "source": "BleepingComputer",
       "category": "security",
-      "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\nThe feature applies to agentic systems built into iOS 27 and on Android versions wher",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.\nCleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payment",
       "why": "",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 14:19:20 +0530"
+      "published": "Sun, 22 Nov 2026 10:43:04 -0500"
     },
     {
-      "id": "0ceef4b235ec12c3",
-      "title": "Muru",
-      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "id": "2361e0929a29e0d7",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.\nThe protections are designed to stop Siri and Gemini, the AI assistants built into iOS and Android, from accessing private conversations while pe",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 10:15:25 -0500"
+    },
+    {
+      "id": "9b4a55165bbd72c3",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "21st November 2026 - Link Blog\nMuru. Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since.\nMuru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Py",
+      "summary": "22nd November 2026\nI got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:\nSo I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:\nBuild an HTML page that shows all of the ways a select b",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-21T23:56:28+00:00"
+      "published": "2026-11-22T19:45:06+00:00"
     },
     {
-      "id": "d63c6404d469aaa2",
-      "title": "llm-gemini 0.38.1",
-      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "20th November 2026\nGemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level.\nI missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release.\nThe xhigh setting for Hydrogen ma",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-11-20T03:01:57+00:00"
-    },
-    {
-      "id": "8d54d4add32f2fcc",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "id": "04504f1c4726c38b",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Signal announced Friday that it’s limiting users’ ability to take screenshots within the secure messaging app — a response to what President Meredith Whittaker described as the “existential threat” of operating systems that integrate agentic AI.\nWhittaker wrote that by giving AI agents the ability t",
+      "summary": "When Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet. Claude’s maker was still trailing its biggest rival, OpenAI, and DeepSeek had released its R1 model just weeks earlier, threaten",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 21:37:10 +0000"
+      "published": "Mon, 23 Nov 2026 01:25:53 +0000"
     },
     {
-      "id": "127326b87b53e7a9",
-      "title": "A tale of two Nvidias",
-      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "id": "716c53fa8fcebb04",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "We got two very different pictures of Nvidia this week, depending on whether you were focused on the company’s latest earnings report or the tech executives loudly calling for former CEO Jensen Huang’s return.\nOn the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Tim De Chant, and I",
+      "summary": "A new blog post from OpenAI’s chief scientist Jakub Pachocki discusses potential limits on AI development, with a focus on a measurement called perplexity.\nSlowing AI development became a particularly hot topic after a former OpenAI and Anthropic researcher said the companies were “gambling with our",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 21:07:42 +0000"
+      "published": "Sun, 22 Nov 2026 21:14:07 +0000"
     },
     {
-      "id": "01945f6a907c7618",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "id": "74f939e081ec8d04",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can mean scheduling an appointment, organizi",
+      "summary": "In his new book “Hyperscale,” journalist Paris Marx investigates the impact of data centers and generative AI, taking readers inside the data centers themselves and explaining how computing infrastructure that goes back decades recently became a political landmine.\nThe book is well-timed, to put it ",
       "why": "",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 17:00:00 +0000"
+      "published": "Sun, 22 Nov 2026 18:08:43 +0000"
     }
   ],
   "all_items": [
     {
-      "id": "16765aea3bd9ae9d",
-      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
-      "url": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "id": "0be8ff22df4a77bf",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Suspected China-linked hackers used autonomous AI agents to find a previously unknown flaw in MONAI Label, an open-source medical imaging server, and gain root access to a university server, Amazon Threat Intelligence said this week.\nThe flaw allows an attacker with no account to write files outside",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a",
       "importance": 3.4,
       "matched": [
-        "zero-day"
+        "RCE"
       ],
-      "published": "Sat, 21 Nov 2026 16:33:17 +0530"
+      "published": "Sun, 22 Nov 2026 10:33:41 +0530"
     },
     {
-      "id": "6231e48f3bee97e2",
-      "title": "Amazon: China-Linked Hackers’ AI Agents Exploited Medical Software Zero-Day",
-      "url": "https://www.securityweek.com/amazon-china-linked-hackers-ai-agents-exploited-medical-software-zero-day/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Amazon says autonomous AI agents run by a China-linked threat actor found and exploited a zero-day vulnerability in MONAI Label, an open source tool designed for AI-assisted annotation of medical images.\nThe tech giant’s threat intelligence team detected the activity in September, after coming acros",
-      "importance": 3.0,
-      "matched": [
-        "zero-day"
-      ],
-      "published": "Sat, 21 Nov 2026 12:08:50 +0000"
-    },
-    {
-      "id": "0ceef4b235ec12c3",
-      "title": "Muru",
-      "url": "https://simonwillison.net/2026/Nov/21/muru/",
+      "id": "9b4a55165bbd72c3",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "21st November 2026 - Link Blog\nMuru. Graham Dumpleton started mod_wsgi 20 years ago, and has been thinking about the ideal way to serve Python web applications in production ever since.\nMuru is his new, AI-assisted Rust server that aims to provide the best possible tools for running ASGI and WSGI Py",
+      "summary": "22nd November 2026\nI got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:\nSo I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:\nBuild an HTML page that shows all of the ways a select b",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-21T23:56:28+00:00"
+      "published": "2026-11-22T19:45:06+00:00"
     },
     {
-      "id": "d63c6404d469aaa2",
-      "title": "llm-gemini 0.38.1",
-      "url": "https://simonwillison.net/2026/Nov/20/llm-gemini/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "20th November 2026\nGemini 4 Carbon only supports low, medium and high reasoning levels - but Gemini 4 Hydrogen and Gemini 4 Neon both have an extra xhigh level.\nI missed that when I added those models to the llm-gemini plugin, which is now fixed in this dot release.\nThe xhigh setting for Hydrogen ma",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-11-20T03:01:57+00:00"
-    },
-    {
-      "id": "0ad755f2681c3730",
-      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
-      "url": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "id": "78074d39dfa2deb1",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A malicious webpage could extract a Meta Muse user's private conversations and stored memories from the assistant without triggering any approval prompt, researchers have shown.\nThe same attack could be extended to reach the credentials Muse stores for the user's connected accounts.\nThe work was a l",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 17:23:07 +0530"
+      "published": "Sun, 22 Nov 2026 10:36:55 +0530"
     },
     {
-      "id": "761885e6c02d6550",
-      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
-      "url": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A malicious OpenPGP key with an unusually long user ID can trigger a critical memory bug in GPGME, the standard library that programs use to work with GnuPG.\nThe GnuPG project warned yesterday that the flaw could be used to steal data from affected applications and has released fixed versions.\nThe b",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 21 Nov 2026 16:35:53 +0530"
-    },
-    {
-      "id": "9da47b8efcbbfaa0",
-      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
-      "url": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Signal has announced that it will restrict screenshots by default to stop artificial intelligence (AI) agents from reading private chats on Android and iOS devices, but conceded that the protection is \"incomplete.\"\nThe feature applies to agentic systems built into iOS 27 and on Android versions wher",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 21 Nov 2026 14:19:20 +0530"
-    },
-    {
-      "id": "a3eac34b29cf4ec4",
-      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Friday added four flaws impacting Apache Roller, Cisco Expressway, SAP NetWeaver, and Broadcom VMware vCenter to its Known Exploited Vulnerabilities (KEV), citing evidence of active exploitation.\nThe vulnerabilities are listed below",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 21 Nov 2026 14:19:13 +0530"
-    },
-    {
-      "id": "9f2af01a2aa93e76",
-      "title": "Rackspace Spot breach let hackers access customer Kubernetes secrets",
-      "url": "https://www.bleepingcomputer.com/news/security/rackspace-spot-breach-let-hackers-access-customer-kubernetes-secrets/",
+      "id": "e84afceb005f0d48",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Rackspace warned customers that hackers breached its Rackspace Spot cloud platform using compromised credentials, allowing them to deploy unauthorized workloads and access Kubernetes secrets in customer clusters.\nRackspace Spot is a cloud platform that allows organizations to deploy and manage conta",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices.\nGL.iNet manufactures network",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 17:59:58 -0500"
+      "published": "Sun, 22 Nov 2026 13:45:37 -0500"
     },
     {
-      "id": "1e1dbef95d66a94a",
-      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
-      "url": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "id": "855a50efe0f3bb9d",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Microsoft is warning organizations that it suffered a data breach after attackers exploited a vulnerability in its Entra Connect Health service to gain unauthorized access to administrator email addresses and tenant configuration information.\nMicrosoft Entra Connect Health is a cloud-based monitorin",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.\nCleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payment",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 13:01:58 -0500"
+      "published": "Sun, 22 Nov 2026 10:43:04 -0500"
     },
     {
-      "id": "4b6021947b3ef390",
-      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
-      "url": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "id": "2361e0929a29e0d7",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "The BADBOX malware botnet has returned following last year's disruptions, generating a record 40 billion fraudulent advertising bid requests per day through infected Android-based devices.\nAccording to HUMAN's Satori researchers, who uncovered and disrupted the latest variant, BADBOX 3.0 had grown i",
+      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.\nThe protections are designed to stop Siri and Gemini, the AI assistants built into iOS and Android, from accessing private conversations while pe",
       "importance": 2.4,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 10:17:27 -0500"
+      "published": "Sun, 22 Nov 2026 10:15:25 -0500"
     },
     {
-      "id": "efef5bd50b96f7db",
-      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "FBI systems have reportedly been breached for the second time in two months, this time targeting the agency's National Crime Information Center (NCIC), which is used to share information between local, state, and federal law enforcement agencies.\nThe National Crime Information Center is an FBI-opera",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sat, 21 Nov 2026 09:26:04 -0500"
-    },
-    {
-      "id": "8d54d4add32f2fcc",
-      "title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
-      "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+      "id": "04504f1c4726c38b",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Signal announced Friday that it’s limiting users’ ability to take screenshots within the secure messaging app — a response to what President Meredith Whittaker described as the “existential threat” of operating systems that integrate agentic AI.\nWhittaker wrote that by giving AI agents the ability t",
+      "summary": "When Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet. Claude’s maker was still trailing its biggest rival, OpenAI, and DeepSeek had released its R1 model just weeks earlier, threaten",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 21:37:10 +0000"
+      "published": "Mon, 23 Nov 2026 01:25:53 +0000"
     },
     {
-      "id": "127326b87b53e7a9",
-      "title": "A tale of two Nvidias",
-      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "id": "716c53fa8fcebb04",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "We got two very different pictures of Nvidia this week, depending on whether you were focused on the company’s latest earnings report or the tech executives loudly calling for former CEO Jensen Huang’s return.\nOn the latest episode of TechCrunch’s Equity podcast, Kirsten Korosec, Tim De Chant, and I",
+      "summary": "A new blog post from OpenAI’s chief scientist Jakub Pachocki discusses potential limits on AI development, with a focus on a measurement called perplexity.\nSlowing AI development became a particularly hot topic after a former OpenAI and Anthropic researcher said the companies were “gambling with our",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 21:07:42 +0000"
+      "published": "Sun, 22 Nov 2026 21:14:07 +0000"
     },
     {
-      "id": "01945f6a907c7618",
-      "title": "Here are the top AI agents that can live in your text messages",
-      "url": "https://techcrunch.com/2026/11/21/all-the-ai-agents-that-can-live-in-your-text-messages/",
+      "id": "74f939e081ec8d04",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "Rather than downloading another app, a growing number of agents can simply be texted like an ordinary person.\nYou text it what you need, and it can remember context, connect to the apps and services you already use, and complete tasks on your behalf. That can mean scheduling an appointment, organizi",
+      "summary": "In his new book “Hyperscale,” journalist Paris Marx investigates the impact of data centers and generative AI, taking readers inside the data centers themselves and explaining how computing infrastructure that goes back decades recently became a political landmine.\nThe book is well-timed, to put it ",
       "importance": 2.2,
       "matched": [],
-      "published": "Sat, 21 Nov 2026 17:00:00 +0000"
-    },
-    {
-      "id": "89298d3b7fb05770",
-      "title": "Is selling an AI version of your face to this microdrama startup the future of Hollywood?",
-      "url": "https://techcrunch.com/2026/11/21/is-selling-an-ai-version-of-your-face-to-this-microdrama-startup-the-future-of-hollywood/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "For the most part, the content offered by the microdrama startup Shortical is indistinguishable from the rest of its industry. The company produces soapy, melodramatic storylines — almost always risqué romances — that, in bite-sized two-minute episodes, compel viewers to stay glued to their phones s",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sat, 21 Nov 2026 16:00:00 +0000"
-    },
-    {
-      "id": "aeb7ef21f8ed11a6",
-      "title": "FBI Investigating Apparent Hack of Its Key National Criminal Justice Database, AP Source Says",
-      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "The FBI is investigating an apparent hack of a national law enforcement database that it maintains, a person familiar with the matter said Saturday.\nThe National Crime Information Center, known as the NCIC, is a computerized database of criminal justice information that is available to local, state ",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Sun, 22 Nov 2026 00:53:02 +0000"
-    },
-    {
-      "id": "45e8d2f82c3e3e03",
-      "title": "President Trump Taps Kirsten Davies as National Cyber Director",
-      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Kirsten Davies, currently Chief Information Officer at the Department of War, has been appointed as the new National Cyber Director.\nSworn in as DOW’s CIO in December 2025, Davies will replace Sean Cairncross, who was confirmed as the top cybersecurity official in August 2025, more than five months ",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Sat, 21 Nov 2026 13:00:00 +0000"
+      "published": "Sun, 22 Nov 2026 18:08:43 +0000"
     }
   ]
 }

@@ -1,0 +1,226 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T11:02:20.229581+09:00",
+  "briefing": "오늘 9건이 수집되었습니다. 가장 주목할 항목은 「Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps」입니다.",
+  "stats": {
+    "collected": 9,
+    "summarized": 9,
+    "picked": 9,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "0be8ff22df4a77bf",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Sun, 22 Nov 2026 10:33:41 +0530"
+    },
+    {
+      "id": "78074d39dfa2deb1",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 10:36:55 +0530"
+    },
+    {
+      "id": "e84afceb005f0d48",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices.\nGL.iNet manufactures network",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 13:45:37 -0500"
+    },
+    {
+      "id": "855a50efe0f3bb9d",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.\nCleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payment",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 10:43:04 -0500"
+    },
+    {
+      "id": "2361e0929a29e0d7",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.\nThe protections are designed to stop Siri and Gemini, the AI assistants built into iOS and Android, from accessing private conversations while pe",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 10:15:25 -0500"
+    },
+    {
+      "id": "9b4a55165bbd72c3",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "22nd November 2026\nI got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:\nSo I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:\nBuild an HTML page that shows all of the ways a select b",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-22T19:45:06+00:00"
+    },
+    {
+      "id": "04504f1c4726c38b",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "When Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet. Claude’s maker was still trailing its biggest rival, OpenAI, and DeepSeek had released its R1 model just weeks earlier, threaten",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 01:25:53 +0000"
+    },
+    {
+      "id": "716c53fa8fcebb04",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A new blog post from OpenAI’s chief scientist Jakub Pachocki discusses potential limits on AI development, with a focus on a measurement called perplexity.\nSlowing AI development became a particularly hot topic after a former OpenAI and Anthropic researcher said the companies were “gambling with our",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 21:14:07 +0000"
+    },
+    {
+      "id": "74f939e081ec8d04",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In his new book “Hyperscale,” journalist Paris Marx investigates the impact of data centers and generative AI, taking readers inside the data centers themselves and explaining how computing infrastructure that goes back decades recently became a political landmine.\nThe book is well-timed, to put it ",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 18:08:43 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "0be8ff22df4a77bf",
+      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
+      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Sun, 22 Nov 2026 10:33:41 +0530"
+    },
+    {
+      "id": "9b4a55165bbd72c3",
+      "title": "Select Styling Specimens",
+      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "22nd November 2026\nI got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:\nSo I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:\nBuild an HTML page that shows all of the ways a select b",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-22T19:45:06+00:00"
+    },
+    {
+      "id": "78074d39dfa2deb1",
+      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
+      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 10:36:55 +0530"
+    },
+    {
+      "id": "e84afceb005f0d48",
+      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices.\nGL.iNet manufactures network",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 13:45:37 -0500"
+    },
+    {
+      "id": "855a50efe0f3bb9d",
+      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
+      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.\nCleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payment",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 10:43:04 -0500"
+    },
+    {
+      "id": "2361e0929a29e0d7",
+      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
+      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.\nThe protections are designed to stop Siri and Gemini, the AI assistants built into iOS and Android, from accessing private conversations while pe",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 10:15:25 -0500"
+    },
+    {
+      "id": "04504f1c4726c38b",
+      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
+      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "When Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet. Claude’s maker was still trailing its biggest rival, OpenAI, and DeepSeek had released its R1 model just weeks earlier, threaten",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 01:25:53 +0000"
+    },
+    {
+      "id": "716c53fa8fcebb04",
+      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A new blog post from OpenAI’s chief scientist Jakub Pachocki discusses potential limits on AI development, with a focus on a measurement called perplexity.\nSlowing AI development became a particularly hot topic after a former OpenAI and Anthropic researcher said the companies were “gambling with our",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 21:14:07 +0000"
+    },
+    {
+      "id": "74f939e081ec8d04",
+      "title": "Why data centers are at the center of the Big Tech backlash",
+      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "In his new book “Hyperscale,” journalist Paris Marx investigates the impact of data centers and generative AI, taking readers inside the data centers themselves and explaining how computing infrastructure that goes back decades recently became a political landmine.\nThe book is well-timed, to put it ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Sun, 22 Nov 2026 18:08:43 +0000"
+    }
+  ]
+}
