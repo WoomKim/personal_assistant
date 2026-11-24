@@ -1,226 +1,598 @@
 {
-  "date": "2026-11-23",
-  "generated_at": "2026-11-23T11:02:20.229581+09:00",
-  "briefing": "오늘 9건이 수집되었습니다. 가장 주목할 항목은 「Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps」입니다.",
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T14:40:34.493789+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「CISA Adds Two Known Exploited Vulnerabilities to Catalog」입니다.",
   "stats": {
-    "collected": 9,
-    "summarized": 9,
-    "picked": 9,
+    "collected": 39,
+    "summarized": 39,
+    "picked": 10,
     "llm": "live"
   },
   "items": [
     {
-      "id": "0be8ff22df4a77bf",
-      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+      "id": "12b4ad14dd49d8e8",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds Two Known Exploited Vulnerabilities to Catalog\nCISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability\n- CVE-2026-134624 N-able Mail Assur",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "cb673b121b80fca4",
+      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a",
+      "summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code.\nThe vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions",
       "why": "",
       "importance": 3.4,
       "matched": [
-        "RCE"
+        "CVE-2026"
       ],
-      "published": "Sun, 22 Nov 2026 10:33:41 +0530"
+      "published": "Mon, 23 Nov 2026 18:52:20 +0530"
     },
     {
-      "id": "78074d39dfa2deb1",
-      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "id": "33d65726f50ee8a4",
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt",
+      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers.\nThe activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload ",
       "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sun, 22 Nov 2026 10:36:55 +0530"
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 2026 18:11:04 +0530"
     },
     {
-      "id": "e84afceb005f0d48",
-      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-      "source": "BleepingComputer",
+      "id": "759d50b40080dffe",
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "source": "The Hacker News",
       "category": "security",
-      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices.\nGL.iNet manufactures network",
+      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers.\nThe bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user w",
       "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sun, 22 Nov 2026 13:45:37 -0500"
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 2026 17:58:09 +0530"
     },
     {
-      "id": "855a50efe0f3bb9d",
-      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-      "source": "BleepingComputer",
+      "id": "31afdc96e80bb016",
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "source": "The Hacker News",
       "category": "security",
-      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.\nCleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payment",
+      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-131914, carries a CVSS scor",
       "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sun, 22 Nov 2026 10:43:04 -0500"
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 2026 14:41:56 +0530"
     },
     {
-      "id": "2361e0929a29e0d7",
-      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.\nThe protections are designed to stop Siri and Gemini, the AI assistants built into iOS and Android, from accessing private conversations while pe",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sun, 22 Nov 2026 10:15:25 -0500"
-    },
-    {
-      "id": "9b4a55165bbd72c3",
-      "title": "Select Styling Specimens",
-      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "id": "dea2f8e3c06e9a06",
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "22nd November 2026\nI got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:\nSo I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:\nBuild an HTML page that shows all of the ways a select b",
+      "summary": "24th November 2026\nI introduced this new charting plugin for Datasette yesterday. Today it's gained integration with Datasette Agent, so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools.\nHere's a demo video, recorded on a",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-24T04:24:29+00:00"
+    },
+    {
+      "id": "80ee2a6733f186e4",
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "24th November 2026\nI small improvement to Datasette Agent: chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the u",
+      "why": "",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-24T03:45:57+00:00"
+    },
+    {
+      "id": "efc98a45d9318282",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "23rd November 2026 - Link Blog\nGLM-5.4: Toward Generalized Coding with Our First Loop Transformer. GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:\nIn a standard Transformer, each layer runs once per fo",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-22T19:45:06+00:00"
+      "published": "2026-11-23T23:40:49+00:00"
     },
     {
-      "id": "04504f1c4726c38b",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "TechCrunch AI",
+      "id": "ca7cd22c6e9ceb90",
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "source": "Simon Willison",
       "category": "ai",
-      "summary": "When Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet. Claude’s maker was still trailing its biggest rival, OpenAI, and DeepSeek had released its R1 model just weeks earlier, threaten",
+      "summary": "Ladybird’s first alpha release\n23rd November 2026\nLadybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components—things like Harf",
       "why": "",
-      "importance": 2.2,
+      "importance": 2.6,
       "matched": [],
-      "published": "Mon, 23 Nov 2026 01:25:53 +0000"
+      "published": "2026-11-23T21:46:35+00:00"
     },
     {
-      "id": "716c53fa8fcebb04",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "source": "TechCrunch AI",
+      "id": "5f7392aa1315ab7d",
+      "title": "datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "source": "Simon Willison",
       "category": "ai",
-      "summary": "A new blog post from OpenAI’s chief scientist Jakub Pachocki discusses potential limits on AI development, with a focus on a measurement called perplexity.\nSlowing AI development became a particularly hot topic after a former OpenAI and Anthropic researcher said the companies were “gambling with our",
+      "summary": "23rd November 2026\nI've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin.\nYou can try it out in Datasette Lite here. It looks like this:\nThe new charts plug",
       "why": "",
-      "importance": 2.2,
+      "importance": 2.6,
       "matched": [],
-      "published": "Sun, 22 Nov 2026 21:14:07 +0000"
-    },
-    {
-      "id": "74f939e081ec8d04",
-      "title": "Why data centers are at the center of the Big Tech backlash",
-      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "In his new book “Hyperscale,” journalist Paris Marx investigates the impact of data centers and generative AI, taking readers inside the data centers themselves and explaining how computing infrastructure that goes back decades recently became a political landmine.\nThe book is well-timed, to put it ",
-      "why": "",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Sun, 22 Nov 2026 18:08:43 +0000"
+      "published": "2026-11-23T00:37:20+00:00"
     }
   ],
   "all_items": [
     {
-      "id": "0be8ff22df4a77bf",
-      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-      "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-      "source": "The Hacker News",
+      "id": "12b4ad14dd49d8e8",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
       "category": "security",
-      "summary": "A now-patched flaw in Ghostscript allows a crafted file to escape the program's security sandbox and run commands on the server that processes it.\nGhostscript is the interpreter that many Linux servers use to convert uploaded PDFs, PostScript files, and images into other formats, often without the a",
-      "importance": 3.4,
+      "summary": "CISA Adds Two Known Exploited Vulnerabilities to Catalog\nCISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability\n- CVE-2026-134624 N-able Mail Assur",
+      "importance": 4.0,
       "matched": [
-        "RCE"
+        "CVE-2026"
       ],
-      "published": "Sun, 22 Nov 2026 10:33:41 +0530"
+      "published": "Mon, 23 Nov 26 12:00:00 +0000"
     },
     {
-      "id": "9b4a55165bbd72c3",
-      "title": "Select Styling Specimens",
-      "url": "https://simonwillison.net/2026/Nov/22/select-styling/",
+      "id": "dea2f8e3c06e9a06",
+      "title": "datasette-charts 0.2a0",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-charts/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "22nd November 2026\nI got frustrated at how HTML <select> boxes default to looking different in different browsers, and are (I think) quite ugly in Chrome:\nSo I had Claude Fable 5.2 build me this page showing all of the ways they can be styled:\nBuild an HTML page that shows all of the ways a select b",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-11-22T19:45:06+00:00"
+      "summary": "24th November 2026\nI introduced this new charting plugin for Datasette yesterday. Today it's gained integration with Datasette Agent, so now you can ask chat for a chart and it will create one for you using the same underlying chart suggestion and generation tools.\nHere's a demo video, recorded on a",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-24T04:24:29+00:00"
     },
     {
-      "id": "78074d39dfa2deb1",
-      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+      "id": "80ee2a6733f186e4",
+      "title": "datasette-agent 0.7a1",
+      "url": "https://simonwillison.net/2026/Nov/24/datasette-agent/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "24th November 2026\nI small improvement to Datasette Agent: chat sessions can open an iframe side panel, and that panel can then navigate to different pages. This version improves navigation by fragment hashes, for deeper integration with other Datasette plugins that update fragment hashes when the u",
+      "importance": 3.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "2026-11-24T03:45:57+00:00"
+    },
+    {
+      "id": "cb673b121b80fca4",
+      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
+      "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Attackers stole data from inside three AI inference providers for months, and none of the three knew until researchers told them, the industrial cybersecurity company Dragos said this week.\nSome of the stolen requests were flagged as Zero Data Retention, the setting that is supposed to mean a prompt",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sun, 22 Nov 2026 10:36:55 +0530"
+      "summary": "A critical security flaw has been disclosed in the popular binary-parser library that could allow an attacker who controls parser definitions to execute arbitrary code.\nThe vulnerability, tracked as CVE-2026-134814 (CVSS score: 9.2 / 8.1), is a case of code injection impacting binary-parser versions",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 2026 18:52:20 +0530"
     },
     {
-      "id": "e84afceb005f0d48",
-      "title": "Hackers exploit GL.iNet cloud flaw to infect routers, KVM devices",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+      "id": "33d65726f50ee8a4",
+      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors are exploiting a now-patched security flaw in ConnectWise ScreenConnect to target managed service provider (MSP) servers.\nThe activity revolves around CVE-2026-84869 (CVSS score: 9.9), a critical ScreenConnect client flaw that allows a guest to transfer and execute a malicious payload ",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 2026 18:11:04 +0530"
+    },
+    {
+      "id": "759d50b40080dffe",
+      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
+      "url": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "N-able yesterday disclosed a critical flaw it found while investigating the breach of its Mail Assure and SpamExperts Hosted Cloud, an email filtering service it runs for managed service providers.\nThe bug, tracked as CVE-2026-134624, is a server-side request forgery (SSRF) flaw. It allowed a user w",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 2026 17:58:09 +0530"
+    },
+    {
+      "id": "31afdc96e80bb016",
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have urged users to discontinue using a legacy ASP.NET anti-CSRF library named Idunno.AntiCsrf (\"Idunno.AntiCsrf.dll\") following the discovery of a critical vulnerability that has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-131914, carries a CVSS scor",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 2026 14:41:56 +0530"
+    },
+    {
+      "id": "594a8d6fa69747ba",
+      "title": "AI Agents Are Creating a Shared Responsibility Gap",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "GL.iNet has confirmed that hackers exploited a vulnerability in its cloud remote management services to install custom malware on customers' routers and KVM devices, with some affected users reporting backdoors and reverse shells giving remote access to infected devices.\nGL.iNet manufactures network",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Sun, 22 Nov 2026 13:45:37 -0500"
+      "summary": "Frontier AI labs are very clear about their responsibilities: making the model more robust, better guarded, and harder to hijack. They are also clear about what they can’t do, which is understand the business context of an action. An agent deleting files from Google Drive could be malicious or perfe",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Mon, 23 Nov 2026 10:00:10 -0500"
     },
     {
-      "id": "855a50efe0f3bb9d",
-      "title": "Cleverbridge warns hackers stole credit card numbers, CVVs in data breach",
-      "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
+      "id": "f88275a520e7e92c",
+      "title": "phpAfterShell Vulnerability Revives PHP2Shell’s Attack Path",
+      "url": "https://www.securityweek.com/phpaftershell-vulnerability-revives-php2shells-attack-path/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "PHP last week patched a critical-severity vulnerability residing in the same dangerous state as the PHP2Shell flaws, cybersecurity firm Depthfirst says.\nDubbed phpAfterShell, the security flaw is tracked as CVE-2026-126714 (CVSS score of 9.2), and was resolved on November 19 alongside six other crit",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Mon, 23 Nov 2026 13:58:07 +0000"
+    },
+    {
+      "id": "efc98a45d9318282",
+      "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
+      "url": "https://simonwillison.net/2026/Nov/23/glm-54/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "23rd November 2026 - Link Blog\nGLM-5.4: Toward Generalized Coding with Our First Loop Transformer. GLM 5.4 is now available from Chinese AI lab Z.ai. It's their first model to use a looped transformer architecture, which they describe like this:\nIn a standard Transformer, each layer runs once per fo",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-23T23:40:49+00:00"
+    },
+    {
+      "id": "ca7cd22c6e9ceb90",
+      "title": "Ladybird's first alpha release",
+      "url": "https://simonwillison.net/2026/Nov/23/ladybird/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Ladybird’s first alpha release\n23rd November 2026\nLadybird is an astonishingly ambitious project: a new browser, in 2026, with its own implementation of most of the key components—HTML parsing, CSS engine, layout, JavaScript, even WebAssembly. It still uses a few external components—things like Harf",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-23T21:46:35+00:00"
+    },
+    {
+      "id": "5f7392aa1315ab7d",
+      "title": "datasette-charts 0.1a0",
+      "url": "https://simonwillison.net/2026/Nov/23/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "23rd November 2026\nI've been thinking about this problem for over a year now, but on Sunday I finally fired up Claude Fable 5.2 to build an initial prototype. The prototype went so well that this is now a full plugin.\nYou can try it out in Datasette Lite here. It looks like this:\nThe new charts plug",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-23T00:37:20+00:00"
+    },
+    {
+      "id": "1ab128c432ff969e",
+      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
+      "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The China-aligned threat actor known as Webworm is suspected to be using a custom version of the open-source SoftEther VPN Bridge tool in an attempt to remove recognizable detection fingerprints, while disguising it as network-monitoring software to establish covert remote access to compromised netw",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 23:15:15 +0530"
+    },
+    {
+      "id": "ca0d1bdeb307b963",
+      "title": "⚡ Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
+      "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A stolen key. A trusted message. A routine update. None of these looks like the start of a major security problem. That's partly why they work. Attackers don't always need to break down a door. Sometimes they just use one that's already open.\nThis week's stories show how quickly a small opening can ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 20:40:48 +0530"
+    },
+    {
+      "id": "791422e9c3235070",
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Hackers exploited a vulnerability in GL.iNet's GoodCloud remote management service to install malware on some customer routers and KVM devices, the maker of travel routers and remote-access KVM hardware said in a security notice updated today.\nThe company identified and fixed the flaw on Friday and ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 14:34:08 +0530"
+    },
+    {
+      "id": "80927b607c9d99a7",
+      "title": "AI-Assisted Cyber Attacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "url": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The Indian Computer Emergency Response Team (CERT-In) has warned that threat actors are carrying out artificial intelligence (AI)-assisted cyber attacks targeting information and communication technology (ICT) assets in the country.\nThis unsanctioned activity has resulted in unauthorized financial t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 13:54:15 +0530"
+    },
+    {
+      "id": "f1397973b7c60ba0",
+      "title": "South Korea’s power giant KEPCO confirms data breach impacting 1.5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "E-commerce platform Cleverbridge is warning that hackers breached its systems and stole customers' payment card information, including credit card numbers and CVV security codes.\nCleverbridge provides e-commerce services to software and SaaS companies, allowing them to sell products, process payment",
+      "summary": "A threat actor breached the internal network of Korea Electric Power Corporation (KEPCO) and accessed two systems containing customer, employee, and contractor data.\nThe attack exposed details of more than 1.5 million individuals before the company blocked access from external IP addresses and suspe",
       "importance": 2.4,
       "matched": [],
-      "published": "Sun, 22 Nov 2026 10:43:04 -0500"
+      "published": "Mon, 23 Nov 2026 15:54:51 -0500"
     },
     {
-      "id": "2361e0929a29e0d7",
-      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-      "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
+      "id": "ad3d2932dda18cd6",
+      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Signal has announced new protections that block screenshots on iOS 27 and prevent AI assistants from capturing conversations on supported Android devices.\nThe protections are designed to stop Siri and Gemini, the AI assistants built into iOS and Android, from accessing private conversations while pe",
+      "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data.\nThe company also revoked Zero Data Retention (ZDR) eligibility for 125 endpoints as a precaution and notified all potentially affected cust",
       "importance": 2.4,
       "matched": [],
-      "published": "Sun, 22 Nov 2026 10:15:25 -0500"
+      "published": "Mon, 23 Nov 2026 15:00:20 -0500"
     },
     {
-      "id": "04504f1c4726c38b",
-      "title": "How Notable Capital, GIC, and Baillie Gifford bet big on Anthropic before its IPO",
-      "url": "https://techcrunch.com/2026/11/22/how-notable-capital-gic-and-baillie-gifford-bet-big-on-anthropic-before-its-ipo/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "When Notable Capital poured roughly 10% of the U.S. portion of its $1 billion-plus fund into Anthropic’s Series E, many limited partners were perplexed by the massive bet. Claude’s maker was still trailing its biggest rival, OpenAI, and DeepSeek had released its R1 model just weeks earlier, threaten",
-      "importance": 2.2,
+      "id": "53716c4432abe034",
+      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies.\nAzure API Management is a cloud service that lets organizatio",
+      "importance": 2.4,
       "matched": [],
-      "published": "Mon, 23 Nov 2026 01:25:53 +0000"
+      "published": "Mon, 23 Nov 2026 14:42:20 -0500"
     },
     {
-      "id": "716c53fa8fcebb04",
-      "title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
-      "url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "A new blog post from OpenAI’s chief scientist Jakub Pachocki discusses potential limits on AI development, with a focus on a measurement called perplexity.\nSlowing AI development became a particularly hot topic after a former OpenAI and Anthropic researcher said the companies were “gambling with our",
-      "importance": 2.2,
+      "id": "f714b48247a9be7f",
+      "title": "Spanish LaLiga confirms hackers stole soccer fans’ personal data",
+      "url": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "LaLiga, Spain's top men's professional football league, disclosed a data breach that exposed personal information belonging to users of its services and those of some affiliated clubs.\nAccording to the organization, the incident occurred between November 14 and 16, and the attacker extracted data fr",
+      "importance": 2.4,
       "matched": [],
-      "published": "Sun, 22 Nov 2026 21:14:07 +0000"
+      "published": "Mon, 23 Nov 2026 13:38:40 -0500"
     },
     {
-      "id": "74f939e081ec8d04",
-      "title": "Why data centers are at the center of the Big Tech backlash",
-      "url": "https://techcrunch.com/2026/11/22/why-data-centers-are-at-the-center-of-the-big-tech-backlash/",
+      "id": "0af9a7510182f44f",
+      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
+      "url": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A cyberattack disrupted operations at B2B top-up solutions provider GlobeTopper, causing an estimated $2.5 million in lost revenue, while the attacker redeemed digital gift cards worth $70,000.\nParent company iQSTEL said that the intrusion was detected on October 22 and GlobeTopper responded by susp",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 11:50:01 -0500"
+    },
+    {
+      "id": "4be13f5936eab78f",
+      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft is working to fix a long-standing Windows issue that has been causing significant audio quality drops for Bluetooth headphone users.\nThis is triggered when Windows automatically switches from the headphone (A2DP stereo) profile to the headset (hands-free, phone-call-like) profile when an a",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 08:28:45 -0500"
+    },
+    {
+      "id": "f8665cc5b1ef467b",
+      "title": "Call center operator gets 8 years for helping scam 30,000 Americans",
+      "url": "https://www.bleepingcomputer.com/news/security/call-center-operator-gets-8-years-for-helping-scam-30-000-americans/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A Peruvian call center operator was sentenced to eight years in prison for helping steal millions of dollars from over 30,000 Spanish-speaking US residents in a years-long government-impersonation fraud scheme.\n45-year-old Carla Magaly Alcedo Mendoza of Lima, Peru, pleaded guilty to conspiracy to co",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 07:02:23 -0500"
+    },
+    {
+      "id": "ca38829e73128713",
+      "title": "RoboTrack: Point tracking for real-world robotic manipulation",
+      "url": "https://huggingface.co/blog/allenai/robotrack",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "RoboTrack: Point tracking for real-world robotic manipulation\n🤖 Models | 📄 Tech Report | 📊 Data | 💻 Code | 🌐 Project Page | 📈 Benchmark\nDeploying robots in real-world settings requires reliable perception throughout an interaction. To pick something up, a robot needs to follow the positions of its g",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 17:20:37 GMT"
+    },
+    {
+      "id": "6fd4c32fe34a4cba",
+      "title": "How to build and maintain an agentic evaluation",
+      "url": "https://huggingface.co/blog/agentic-evals",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "How to build and maintain an agentic evaluation\nOverview\nAI evaluations help shape which systems people build, adopt, and trust. An evaluation gives a system tasks, checks its answers or actions, and produces a score. Building and maintaining a useful evaluation therefore takes real work: defining t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "27065c561fbc5a7f",
+      "title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+      "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "In his new book “Hyperscale,” journalist Paris Marx investigates the impact of data centers and generative AI, taking readers inside the data centers themselves and explaining how computing infrastructure that goes back decades recently became a political landmine.\nThe book is well-timed, to put it ",
+      "summary": "Anthropic is moving from having Claude write code to helping developers decide when that code is ready to ship. On Monday, the newly public AI company announced the launch of Claude Ship, a suite of AI agents for automating code reviews, fixes, and approvals of routine code changes.\nThe latter is th",
       "importance": 2.2,
       "matched": [],
-      "published": "Sun, 22 Nov 2026 18:08:43 +0000"
+      "published": "Mon, 23 Nov 2026 22:05:50 +0000"
+    },
+    {
+      "id": "0d63fb1e6c01db65",
+      "title": "Supertake raises $20M to let AI agents turn your market predictions into stock portfolios",
+      "url": "https://techcrunch.com/2026/11/23/supertake-raises-20m-to-let-ai-agents-turn-your-market-predictions-into-stock-portfolios/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI investing startup Supertake has an interesting premise: What if your “takes” on the market could make you money without you having to pick stocks yourself? The service lets people turn their ideas into real investment portfolios, using frontier AI models and trading agents.\nNow, the company has r",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 22:02:05 +0000"
+    },
+    {
+      "id": "ada2460a24f685eb",
+      "title": "Elon Musk and others rejoice as Jensen Huang is reinstated at Nvidia amid scandal",
+      "url": "https://techcrunch.com/2026/11/23/elon-musk-and-others-rejoice-as-jensen-huang-is-reinstated-at-nvidia-amid-scandal/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "A handful of tech CEOs, including Elon Musk, are celebrating Jensen Huang’s return to Nvidia. Despite being caught in three affairs — including one with an alleged Chinese spy that has triggered multiple congressional investigations over national security concerns — Huang was reinstated as CEO and p",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 21:47:41 +0000"
+    },
+    {
+      "id": "9d1f6a725104cec1",
+      "title": "Megaspeed, the company at the center of the Jensen Huang scandal, appears headed for a US blacklist",
+      "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Megaspeed, the company that Alice Huang — the woman at the center of the alleged Chinese espionage scandal involving Nvidia — led for over two years, will be placed on a U.S. Commerce Department blacklist, Semafor reported Monday.\nThe company will be added to the Commerce Department’s Entity List, t",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 21:25:42 +0000"
+    },
+    {
+      "id": "2475b067992dd4ab",
+      "title": "Nvidia employees greet Jensen Huang like a hero as he returns to company’s HQ",
+      "url": "https://techcrunch.com/2026/11/23/nvidia-employees-greet-jensen-huang-like-a-hero-as-he-returns-to-companys-hq/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Jensen Huang returned to Nvidia’s offices on Monday to an applauding crowd of hundreds of employees, according to several videos circulating online.\nThe embattled Nvidia founder had stepped down earlier this month amid a series of scandals — including an affair with an alleged Chinese spy, which has",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 20:38:53 +0000"
+    },
+    {
+      "id": "7601f68fa236425c",
+      "title": "Google Search’s AI Mode can now tap into Drive and Wallet for more personalized responses",
+      "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Google announced on Monday that it’s expanding Personal Intelligence in Search’s AI Mode with integrations for Google Drive, Google Wallet, and the Gemini app. Personal Intelligence is designed to offer users more personalized, context-aware answers by connecting to their Google apps and drawing on ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 19:14:46 +0000"
+    },
+    {
+      "id": "a2f14d06f82b7f3a",
+      "title": "Jensen Huang scheduled to testify next week in Senate following reinstatement as Nvidia CEO",
+      "url": "https://techcrunch.com/2026/11/23/jensen-huang-scheduled-to-testify-next-week-in-senate-following-reinstatement-as-nvidia-ceo/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Jensen Huang is scheduled to testify before the Senate Banking Committee on December 3, according to a notice on the committee’s website.\nThe development comes just hours after Huang was reinstated as Nvidia chief executive, less than two weeks following his resignation after it was revealed that he",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 18:12:22 +0000"
+    },
+    {
+      "id": "6a7990e1ad10d3b0",
+      "title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+      "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Amazon has agreed to acquire a good chunk of Israeli startup Decart.\nThe e-commerce and cloud giant is paying $7.5 billion for the startup, according to Bloomberg.\nDecart has made a name for itself building interactive real-time world models — most recently Oasis 3 — and AI video-generation tools. B",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 17:14:23 +0000"
+    },
+    {
+      "id": "02839082ff9ffa67",
+      "title": "A legendary philosopher isn’t buying Anthropic’s consciousness argument",
+      "url": "https://www.technologyreview.com/2026/11/23/1149569/a-legendary-philosopher-isnt-buying-anthropics-consciousness-argument/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "A legendary philosopher isn’t buying Anthropic’s consciousness argument\nAnthropic warned investors that AI might be conscious—but acting accordingly could hurt its business. So what’s the plan?\nThis story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 17:36:08 +0000"
+    },
+    {
+      "id": "e101d52cda4a15a3",
+      "title": "Azure Flaw Exploited to Target Secrets at Norwegian Energy Firms",
+      "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A security issue discovered in Microsoft’s Azure API Management (APIM) service appears to have been responsible for the security incidents reported last week by two Norwegian energy firms, with impact extending beyond Norway.\nMicrosoft is notifying customers about the issue in Azure APIM, which is d",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 15:47:40 +0000"
+    },
+    {
+      "id": "ed11d95a721bf67d",
+      "title": "N-able Patches Critical Flaw Discovered After Mail Assure Cyberattack",
+      "url": "https://www.securityweek.com/n-able-patches-critical-flaw-disclosed-after-mail-assure-cyberattack/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "N-able has patched a critical server-side request forgery (SSRF) vulnerability discovered during its investigation into a cyberattack targeting its Mail Assure and SpamExperts Hosted Cloud services last week.\nOn November 16, the company disabled access to the portal and API and suspended related ser",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 15:06:49 +0000"
+    },
+    {
+      "id": "851d3d22fd3bfffd",
+      "title": "GL.iNet Routers, KVMs Compromised via Remote Management Service Flaw",
+      "url": "https://www.securityweek.com/gl-inet-routers-kvms-compromised-via-remote-management-service-flaw/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "GL.iNet has warned customers that a threat actor exploited a vulnerability in its cloud-based remote management service to deliver malware to some routers and KVM devices.\nChina-based networking hardware maker GL.iNet is well known for its pocket-sized travel routers and Comet KVM devices. The devic",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 13:26:22 +0000"
+    },
+    {
+      "id": "17e792aba6bb75ee",
+      "title": "AI Inference Providers Failed to Detect Hacking and Prompt Theft, Says Dragos",
+      "url": "https://www.securityweek.com/ai-inference-providers-failed-to-detect-hacking-and-prompt-theft-says-dragos/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors breached at least three AI inference providers and stole customer prompts, but none detected the intrusions until they were notified, according to cybersecurity firm Dragos.\nAI inference providers host AI models and sell access to them through APIs. The hacks were detected after a team",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 12:16:20 +0000"
+    },
+    {
+      "id": "c412b57f8a94b4cf",
+      "title": "BadBox 3.0 Ad Fraud Operation Generating 40 Billion Daily Bid Requests Disrupted",
+      "url": "https://www.securityweek.com/badbox-3-0-ad-fraud-operation-generating-40-billion-daily-bid-requests-disrupted/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Bot and fraud protection firm Human Security says it has disrupted the largest ad fraud botnet by bid volume.\nDubbed BadBox 3.0, it is the third iteration of a large operation targeting low-cost Android devices. The first BadBox botnet ensnared more than 190,000 devices, while BadBox 2.0 was initial",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Mon, 23 Nov 2026 11:44:18 +0000"
     }
   ]
 }
