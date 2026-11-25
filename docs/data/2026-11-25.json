@@ -1,0 +1,560 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T13:39:50.698469+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「CISA Adds Three Known Exploited Vulnerabilities to Catalog」입니다.",
+  "stats": {
+    "collected": 37,
+    "summarized": 37,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "a0ae3cb09c406305",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds Three Known Exploited Vulnerabilities to Catalog\nCISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability\n- CVE-2026-132165 Drup",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 24 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "153407077dbd1977",
+      "title": "Danfoss AK-SM 8xxA Series",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Danfoss AK-SM 8xxA Series\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.\nThe following versions of Danfoss AK-SM 8xxA Series are affected:\n- AK-SM8xxA <=5.4.0 (CVE-2026-129713)\nBackground\n- Critical Infrastructure Se",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 24 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "db22ce6bdf496569",
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication.\nThe critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Tue, 24 Nov 2026 18:58:26 +0530"
+    },
+    {
+      "id": "e1d950e00d28b4bf",
+      "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Schneider Electric EcoStruxure Power Build Rapsody software\nSummary\nSchneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your s",
+      "why": "",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "0e0d7bdcc4e24a02",
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file.\nThe following versions of AutomationDirect C-More EA",
+      "why": "",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "42cb577d7e7884cb",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Shopping with AI is becoming less of a futuristic idea and more of something companies expect us to do. Walmart is the latest retailer making that shift, teaming up with Meta to let customers shop its Black Friday deals through Muse, Meta’s AI agent.\nThe partnership, announced Tuesday, gives shopper",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 24 Nov 2026 21:32:38 +0000"
+    },
+    {
+      "id": "8caf92805426b7bd",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Three LLM inflection points in twelve months\n24th November 2026\nI gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.\nHere’s the",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-24T23:02:07+00:00"
+    },
+    {
+      "id": "c808d58c8ec473e8",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "24th November 2026 - Link Blog\nGPT 6.2 Astra Solves a Historical Mystery. Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:\nWith only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-24T16:53:59+00:00"
+    },
+    {
+      "id": "16565a3f5dc091b0",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton\nTL;DR\nAdd local obstacle avoidance to Microduck while keeping its walking policy fixed. Build varied courses with reusable SimReady assets, model ToF sensing with Newton’s raycaster, and train a controller in Isaac Lab to ad",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 16:34:13 GMT"
+    },
+    {
+      "id": "05f887d0221c3adc",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Investors cheered Jensen Huang’s return as Nvidia’s CEO on Monday, but renowned business academic Jeffrey Sonnenfeld of Yale thinks they’re celebrating a mistake. He sees a company that is largely responsible for putting sophisticated technology in the hands of the country’s adversaries, at a moment",
+      "why": "",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 00:12:02 +0000"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "a0ae3cb09c406305",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds Three Known Exploited Vulnerabilities to Catalog\nCISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability\n- CVE-2026-132165 Drup",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 24 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "153407077dbd1977",
+      "title": "Danfoss AK-SM 8xxA Series",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Danfoss AK-SM 8xxA Series\nSummary\nSuccessful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges.\nThe following versions of Danfoss AK-SM 8xxA Series are affected:\n- AK-SM8xxA <=5.4.0 (CVE-2026-129713)\nBackground\n- Critical Infrastructure Se",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Tue, 24 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "db22ce6bdf496569",
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Broadcom has shipped patches to address 23 vulnerabilities impacting VMware ESX, vCenter, Workstation, Fusion, and Avi Load Balancer, including one critical bug that could be abused to bypass authentication.\nThe critical vulnerability, tracked as CVE-2026-123903, is rated 9.8 out of 10.0 on the CVSS",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "CVE-2026"
+      ],
+      "published": "Tue, 24 Nov 2026 18:58:26 +0530"
+    },
+    {
+      "id": "42cb577d7e7884cb",
+      "title": "Walmart teams up with Meta to bring Black Friday deals to AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/24/walmart-teams-up-with-meta-to-bring-black-friday-deals-to-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Shopping with AI is becoming less of a futuristic idea and more of something companies expect us to do. Walmart is the latest retailer making that shift, teaming up with Meta to let customers shop its Black Friday deals through Muse, Meta’s AI agent.\nThe partnership, announced Tuesday, gives shopper",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Tue, 24 Nov 2026 21:32:38 +0000"
+    },
+    {
+      "id": "e1d950e00d28b4bf",
+      "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "Schneider Electric EcoStruxure Power Build Rapsody software\nSummary\nSchneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your s",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "0e0d7bdcc4e24a02",
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "View CSAF\nSummary\nSuccessful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file.\nThe following versions of AutomationDirect C-More EA",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "8caf92805426b7bd",
+      "title": "Three LLM inflection points in twelve months",
+      "url": "https://simonwillison.net/2026/Nov/24/llm-inflection-points/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "Three LLM inflection points in twelve months\n24th November 2026\nI gave a keynote at the AI Engineer Code Summit a couple of weeks ago, constructed around the idea that there have been three significant inflection points in the abilities of LLMs and coding agents in the past twelve months.\nHere’s the",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-24T23:02:07+00:00"
+    },
+    {
+      "id": "c808d58c8ec473e8",
+      "title": "GPT 6.2 Astra Solves a Historical Mystery",
+      "url": "https://simonwillison.net/2026/Nov/24/astra-historical-mystery/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "24th November 2026 - Link Blog\nGPT 6.2 Astra Solves a Historical Mystery. Here's an interesting case-study in using GPT-6.2 Astra for historical research, from history professor Mark Humphries:\nWith only minimal prompting, GPT-6.2 Astra was able to autonomously identify the creator of an anonymous 1",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-24T16:53:59+00:00"
+    },
+    {
+      "id": "6b48789d1147d2db",
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A previously undocumented Iran-aligned cyber espionage group called Volant Manticore has targeted telecommunications companies, airlines, and critical infrastructure in Cyprus.\nCentral to the group's operations is a backdoor called KuboShell that uses the InterPlanetary File System (IPFS) for comman",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 22:24:07 +0530"
+    },
+    {
+      "id": "0c4445d4ccaf59f7",
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A threat cluster previously assessed to be affiliated with the ShinyHunters extortion crew may have rebranded and continued operations under a new name called INCEPTION, according to Okta's Threat Intelligence team.\nThe cluster, dubbed O-UNC-053, is characterized by the use of voice phishing (aka vi",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 18:58:21 +0530"
+    },
+    {
+      "id": "bb2efaa9d0e695bb",
+      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "url": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A quirk in how the .NET Framework loads a program file let a local attacker run untrusted code past two separate protections on Windows built to block it, Google Project Zero researcher James Forshaw showed in a write-up published yesterday.\nThe same loading behavior bypassed Oracle VirtualBox's pro",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 17:32:00 +0530"
+    },
+    {
+      "id": "bb2aa84be5114ecb",
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "url": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "What if your biggest SOC budget problem isn't how much you spend, but how much analyst time you lose?\nAccording to ANY.RUN's estimates, SOC teams could recover 450 analyst hours per 1,000 investigated alerts through faster threat analysis and IOC research. That's a significant opportunity as manual ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 17:31:54 +0530"
+    },
+    {
+      "id": "9436fc5b47f7d00e",
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "url": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Norway's National Security Authority (NSM) has disclosed that it became aware of a security vulnerability in Microsoft's Azure API Management (APIM) that has affected multiple businesses in the country, including energy companies Equinor and Skagerak Energi.\n\"An unknown actor has been actively looki",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 16:14:49 +0530"
+    },
+    {
+      "id": "06ddd1a6880766e0",
+      "title": "WHMCS SQL Injection Could Expose Customer Data and Admin Password Hashes without Login",
+      "url": "https://thehackernews.com/2026/11/whmcs-sql-injection-flaw-could-expose.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A flaw in WHMCS's shopping cart, the billing and automation platform many web hosting companies use to run their businesses, could allow anyone on the internet to retrieve customer records and administrator password hashes from an installation's database. No login is needed.\nThe company disclosed th",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 14:04:20 +0530"
+    },
+    {
+      "id": "6c270107d3982041",
+      "title": "Rackspace shuts down Spot cloud platform after security breach",
+      "url": "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Rackspace is shutting down its Rackspace Spot cloud platform after a security breach allowed hackers to access customer Kubernetes clusters and secrets, giving customers until December 8 to migrate their services and download their data.\nRackspace Spot is a cloud platform that allows organizations t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 16:37:30 -0500"
+    },
+    {
+      "id": "0bc0f9692115f3dd",
+      "title": "New Inception extortion gang launches large-scale vishing campaign",
+      "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A newly formed data extortion group named ‘Inception’ has been linked to a large-scale campaign that targets single sign-on (SSO) credentials of multiple global brands and firms.\nThe gang surfaced on November 17, claiming seven victims on its extortion site, including chip maker AMD, PepsiCo, Cigna ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 15:21:20 -0500"
+    },
+    {
+      "id": "5f76ac4f7ca9daa3",
+      "title": "Turnitin discloses cyberattack affecting customer-facing systems",
+      "url": "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Educational technology company Turnitin disclosed that it detected unauthorized activity involving certain customer-facing systems and deployed its incident response plan.\nIn a public statement, CEO Chris Caren says that the incident is being investigated with help from external cybersecurity specia",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 13:59:52 -0500"
+    },
+    {
+      "id": "adb18ca6aea028ca",
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "url": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Cybersecurity company Radware says attackers gained access to some of its customers' account details and cloud access keys through an unsecured internal Cloud WAF (Web Application Firewall) management API that was left exposed online.\nFounded in 1996 and headquartered in Tel Aviv, Radware now provid",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 12:49:05 -0500"
+    },
+    {
+      "id": "63399c74702aaea2",
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The ShinyHunters extortion gang claims to have returned in posts on a new data leak site after a series of arrests over the past two months targeting alleged members.\nThe new Tor site, launched on November 23, contains messages in both Russian and English announcing the group's return, distancing it",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 11:30:19 -0500"
+    },
+    {
+      "id": "cad292c7e46bbd2d",
+      "title": "European Commission confirms data theft in EU Academy breach",
+      "url": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The European Commission, the European Union's main executive body, has confirmed that attackers breached its EU Academy online learning hub and stole the personal data of an undisclosed number of users.\nThis follows the Commission's Thursday disclosure that hackers breached its systems on October 22",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 11:22:44 -0500"
+    },
+    {
+      "id": "5ba708d91b205e45",
+      "title": "Hackers compromise Check Point Servers in 22 organizations",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Threat actors have exploited multiple vulnerabilities to compromise two dozen Check Point Security management servers in an ongoing campaign targeting 22 organizations.\nThreat intelligence firm GreyNoise detected the activity, noting that it resembled cyberespionage operations, although the attacker",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 11:15:23 -0500"
+    },
+    {
+      "id": "1f75de46df5160e7",
+      "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+      "url": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Law enforcement authorities from 11 countries have disrupted 57 illegal streaming services that operated hundreds of websites and drew over 7.3 million visits each year.\nSuch illegal IPTV services offer access to television channels, live sports, and movies without permission from the copyright owne",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 10:10:10 -0500"
+    },
+    {
+      "id": "16565a3f5dc091b0",
+      "title": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton",
+      "url": "https://huggingface.co/blog/nvidia/microduck-obstacle-avoidance",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Microduck Obstacle Avoidance: A Sim2Real Workflow with Isaac Lab and Newton\nTL;DR\nAdd local obstacle avoidance to Microduck while keeping its walking policy fixed. Build varied courses with reusable SimReady assets, model ToF sensing with Newton’s raycaster, and train a controller in Isaac Lab to ad",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 16:34:13 GMT"
+    },
+    {
+      "id": "05f887d0221c3adc",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Investors cheered Jensen Huang’s return as Nvidia’s CEO on Monday, but renowned business academic Jeffrey Sonnenfeld of Yale thinks they’re celebrating a mistake. He sees a company that is largely responsible for putting sophisticated technology in the hands of the country’s adversaries, at a moment",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 00:12:02 +0000"
+    },
+    {
+      "id": "7a5947019eec714b",
+      "title": "Jensen Huang still thinks a succession plan creates unnecessary hierarchy",
+      "url": "https://techcrunch.com/2026/11/24/jensen-huang-still-thinks-a-succession-plan-creates-unnecessary-hierarchy/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia CEO Jensen Huang kicked off his return to the chipmaker he co-founded by holding an all-hands meeting that covered remorse, therapy, and even the company’s code of conduct, according to accounts from multiple insiders who spoke to the media.\nThe topic of succession planning also came up — a p",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 22:27:52 +0000"
+    },
+    {
+      "id": "5f077d12f5abe5fa",
+      "title": "In all-hands meeting, Jensen Huang thanks White House and says he’s in therapy",
+      "url": "https://techcrunch.com/2026/11/24/in-all-hands-meeting-jensen-huang-thanks-white-house-and-says-hes-in-therapy/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "After a whirlwind period during which Jensen Huang’s life fell apart and then came back together again, the Nvidia founder now wants his staff to know that he’s a changed man.\nHuang held Nvidia’s first all-hands meeting on Tuesday since his reinstatement on Monday. During that meeting, CNBC reported",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 21:48:27 +0000"
+    },
+    {
+      "id": "6e5f032fb046721a",
+      "title": "Even the best AI agents struggle with everyday life",
+      "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "AI companies have spent the last couple of months marketing personal AI agents as tools to take over the digital drudgery of human existence — and millions have been sold on the vision, handing over their shopping schedules, travel plans, and everyday responsibilities to AI assistants. But new resea",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 21:33:29 +0000"
+    },
+    {
+      "id": "724878a26e68ea5b",
+      "title": "Maple raises $5.3M to build AI products that protect your data, even from itself",
+      "url": "https://techcrunch.com/2026/11/24/maple-raises-5-3m-to-build-ai-products-that-protect-your-data-even-from-itself/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "As AI assistants evolve into more capable agents that can access our files, emails, calendar, browser, and more, the amount of trust we’re expected to place in AI companies is growing. One startup called Maple, co-founded by a former Apple engineer who worked on privacy-preserving technologies, is t",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 21:19:52 +0000"
+    },
+    {
+      "id": "754f867302b7ac7a",
+      "title": "Anthropic shares fall below IPO price, a worrying sign for AI startups",
+      "url": "https://techcrunch.com/2026/11/24/anthropic-shares-fall-below-ipo-price-a-worrying-sign-for-ai-startups/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic’s stock fell below its IPO price of $83, trading as low as $76 a share by midday Tuesday, down nearly 12% from Monday’s close.\nFalling below the IPO price is often seen as a negative signal because underwriters typically price offerings at a discount to their expected trading value.\nThe AI",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 18:30:42 +0000"
+    },
+    {
+      "id": "cb0d7372f9a0d9c6",
+      "title": "UK warns AI-driven cyberattacks are exposing years of weak security",
+      "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "The U.K. government’s cybersecurity unit says it has seen a “marked rise” in AI-driven cyberattacks in recent months, as hackers increasingly rely on autonomous hacking tools to identify and exploit simple weaknesses to break into systems and networks.\nThe U.K. National Cybersecurity Center (NCSC) s",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 18:02:59 +0000"
+    },
+    {
+      "id": "22d7270e7a589d95",
+      "title": "Raising the stakes for enterprise networks with AI modernization",
+      "url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "Sponsored\nRaising the stakes for enterprise networks with AI modernization\nUnderstanding how NaaS architectures offer a flexible solution to enterprise network modernization efforts.\nIn partnership withTata Communications\nEnterprise networks are under severe strain. As companies rush to deploy artif",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 15:15:16 +0000"
+    },
+    {
+      "id": "ae79bb5847a54156",
+      "title": "An Unclassified CIA System Was Breached in a Cyberattack, AP Source Says",
+      "url": "https://www.securityweek.com/an-unclassified-cia-system-was-breached-in-a-cyberattack-ap-source-says/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "An unclassified CIA system was breached in a cyberattack, according to a person familiar with the incident who spoke to The Associated Press on condition of anonymity.\nThe breach did not involve any classified information and the issue has been resolved, said the person, who was not authorized to sp",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 22:41:58 +0000"
+    },
+    {
+      "id": "5e84d271f3fa4996",
+      "title": "VMware Updates Patch Critical ESX, vCenter Vulnerabilities",
+      "url": "https://www.securityweek.com/vmware-updates-patch-critical-esx-vcenter-vulnerabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Broadcom on Tuesday announced the release of patches for 23 vulnerabilities across multiple VMware products, including critical-severity flaws in ESX and vCenter.\nThe vCenter patches resolve seven bugs, including a critical authentication bypass issue in the VMware Directory Service tracked as CVE-2",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 16:32:56 +0000"
+    },
+    {
+      "id": "d2294fb10fbbbd5e",
+      "title": "European Commission Uncovers Data Breach in Cyberattack Investigation",
+      "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The European Commission (EC) on Monday confirmed that a recently disclosed AI-assisted cyberattack resulted in the compromise of personal information.\nThe attack, disclosed last week, prompted the temporary shutdown of several applications. At the time, the organization said it had found no evidence",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 14:49:59 +0000"
+    },
+    {
+      "id": "22bf6552c3225118",
+      "title": "Check Point Security Management Servers Hacked in AI-Assisted Campaign",
+      "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A threat actor has been using AI-enabled offensive tools in a broad campaign targeting Check Point Security Management servers, threat intelligence firm GreyNoise reports.\nAs part of the campaign, which the security firm started tracking in early October and is likely still ongoing, a threat actor t",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 14:21:56 +0000"
+    },
+    {
+      "id": "a6ac99d677c50975",
+      "title": "Anthropic Expands Enterprise Safeguards for Detecting AI Misuse",
+      "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Anthropic on Monday announced the public beta of Enterprise Frontier Safeguards (EFS), a system designed to help organizations detect malicious use of AI.\nUnveiled in September, EFS has been developed with input from over 100 Anthropic customers, with companies such as Stripe and Salesforce evaluati",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 13:30:23 +0000"
+    },
+    {
+      "id": "70ffa0cfd81dd026",
+      "title": "OpenAI, Cisco Unveil Open Source Tool to Shield Unpatched Linux Systems",
+      "url": "https://www.securityweek.com/openai-cisco-unveil-open-source-tool-to-shield-unpatched-linux-systems/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "OpenAI and Cisco on Monday unveiled Shirudo, an open source security platform that uses AI agents to prevent the exploitation of vulnerabilities in Linux systems and applications.\nThe project is an AI-focused rewrite of Cisco-owned Isovalent’s Tetragon runtime security platform. Tetragon was open-so",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Tue, 24 Nov 2026 12:20:41 +0000"
+    }
+  ]
+}
