@@ -1,0 +1,619 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T12:50:22.652902+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains」입니다.",
+  "stats": {
+    "collected": 40,
+    "summarized": 40,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "92db407f26f0f4fe",
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n- CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could ena",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 25 Nov 2026 18:18:54 +0530"
+    },
+    {
+      "id": "d52cc031d711c026",
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\nThe vulnerability, tracked as CVE-2026-132165 aka Fail2Install ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 25 Nov 2026 16:53:26 +0530"
+    },
+    {
+      "id": "916629091cfddbe4",
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had ",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 25 Nov 2026 14:36:59 +0530"
+    },
+    {
+      "id": "50a53afadcff1570",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet.\nPHP2Shell is the name for two critical PHP vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619, which allow unauthen",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 25 Nov 2026 17:05:09 -0500"
+    },
+    {
+      "id": "5d8223f882df7625",
+      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves.\nThe November InfraTrust Pulse report tr",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Wed, 25 Nov 2026 10:00:00 -0500"
+    },
+    {
+      "id": "d0a3a7f662b58965",
+      "title": "An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "An Indic Voice Agent with CUGA\nMost useful knowledge is written and digitized in English. Most of the people who need it speak, and think, in their own regional languages like Hindi, Tamil, Telugu, Gujarati, Marathi and many others. Many would rather talk than type.\nWe built a small voice agent to c",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 25 Nov 2026 10:22:09 GMT"
+    },
+    {
+      "id": "61cb6e1f95ec64ca",
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Amazon may be having a change of heart about Meta’s AI agent, Muse. The two tech giants are reportedly discussing a potential deal that would allow Meta’s popular AI agent to connect directly to Amazon’s store.\nThe talks would mark a significant reversal from just two months ago, when Muse users dis",
+      "why": "",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 25 Nov 2026 14:10:18 +0000"
+    },
+    {
+      "id": "2c33c3cedb6545ec",
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "25th November 2026\nIt’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo firs",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-25T23:26:32+00:00"
+    },
+    {
+      "id": "dce071d6582af077",
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "url": "https://arxiv.org/abs/2611.31284",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 19 Nov 2026]\nTitle:Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition\nView PDF HTML (experimental)\n            Abstract:Autonomous agent governance is commonly fram",
+      "why": "",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "37b5c9ba93266751",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Where scientists draw the line on AI agents\nDelegating research tasks to AI does not remove scientists’ responsibility for how the work is accomplished. For example, a researcher using AI to review the literature needs to check whether the system overlooks conflicting evidence or makes claims the ci",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 18:52:55 GMT"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "92db407f26f0f4fe",
+      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n- CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could ena",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 25 Nov 2026 18:18:54 +0530"
+    },
+    {
+      "id": "d52cc031d711c026",
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\nThe vulnerability, tracked as CVE-2026-132165 aka Fail2Install ",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 25 Nov 2026 16:53:26 +0530"
+    },
+    {
+      "id": "916629091cfddbe4",
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had ",
+      "importance": 3.4,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 25 Nov 2026 14:36:59 +0530"
+    },
+    {
+      "id": "50a53afadcff1570",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet.\nPHP2Shell is the name for two critical PHP vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619, which allow unauthen",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Wed, 25 Nov 2026 17:05:09 -0500"
+    },
+    {
+      "id": "5d8223f882df7625",
+      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves.\nThe November InfraTrust Pulse report tr",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Wed, 25 Nov 2026 10:00:00 -0500"
+    },
+    {
+      "id": "7bb089ac45e5adb8",
+      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday.\nDrupal is a content management system (CMS) commonly used by large organizations, including government entities, major research univers",
+      "importance": 3.4,
+      "matched": [
+        "actively exploited",
+        "RCE"
+      ],
+      "published": "Wed, 25 Nov 2026 05:10:20 -0500"
+    },
+    {
+      "id": "d0a3a7f662b58965",
+      "title": "An Indic Voice Agent with CUGA",
+      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "An Indic Voice Agent with CUGA\nMost useful knowledge is written and digitized in English. Most of the people who need it speak, and think, in their own regional languages like Hindi, Tamil, Telugu, Gujarati, Marathi and many others. Many would rather talk than type.\nWe built a small voice agent to c",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 25 Nov 2026 10:22:09 GMT"
+    },
+    {
+      "id": "61cb6e1f95ec64ca",
+      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Amazon may be having a change of heart about Meta’s AI agent, Muse. The two tech giants are reportedly discussing a potential deal that would allow Meta’s popular AI agent to connect directly to Amazon’s store.\nThe talks would mark a significant reversal from just two months ago, when Muse users dis",
+      "importance": 3.2,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 25 Nov 2026 14:10:18 +0000"
+    },
+    {
+      "id": "b368c84bce94ed6c",
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog\nCISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability\n- CVE-2023-25915 Danfoss AK-SM 800A Se",
+      "importance": 3.0,
+      "matched": [],
+      "published": "Wed, 25 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "b2ec86257c9b955b",
+      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
+      "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors are targeting two recently disclosed GeoServer vulnerabilities that can be chained with other flaws to achieve unauthenticated remote code execution (RCE).\nCybersecurity firm WatchTowr has observed attempts to exploit two high-severity GeoServer vulnerabilities tracked as CVE-2026-1207",
+      "importance": 3.0,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Wed, 25 Nov 2026 15:27:36 +0000"
+    },
+    {
+      "id": "45c257ac25c83e05",
+      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
+      "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors are exploiting an unpatched vulnerability in the open source anti-CSRF library Idunno AntiCsrf for remote code execution (RCE), security researchers warn.\nAntiCsrf is a legacy ASP.NET module for WebForms applications that has no active maintainer and is no longer actively supported. Th",
+      "importance": 3.0,
+      "matched": [
+        "RCE"
+      ],
+      "published": "Wed, 25 Nov 2026 09:05:13 +0000"
+    },
+    {
+      "id": "2c33c3cedb6545ec",
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "25th November 2026\nIt’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo firs",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-25T23:26:32+00:00"
+    },
+    {
+      "id": "dce071d6582af077",
+      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
+      "url": "https://arxiv.org/abs/2611.31284",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 19 Nov 2026]\nTitle:Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition\nView PDF HTML (experimental)\n            Abstract:Autonomous agent governance is commonly fram",
+      "importance": 2.6,
+      "matched": [
+        "agent"
+      ],
+      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "851806c24f2db9ae",
+      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline.\nThe bureau collects suspici",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 18:00:08 +0530"
+    },
+    {
+      "id": "6a8ceb0f7d1b2b64",
+      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
+      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "TL;DR\n- More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.\n- Validity-only triage misses 46% of critical secrets: Prioritize by impact i",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 17:21:48 +0530"
+    },
+    {
+      "id": "3885183f32787fc7",
+      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday.\nAbdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 16:13:07 +0530"
+    },
+    {
+      "id": "be8229fa86883728",
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world.\nThe intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 12:20:19 +0530"
+    },
+    {
+      "id": "7a5ea8907df3325d",
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts.\nThe attacks have targeted financial services, healthcare, and legal ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 12:07:06 +0530"
+    },
+    {
+      "id": "70f66acc3de798b1",
+      "title": "1Password customer data stolen after employee GitHub account breach",
+      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "1Password has disclosed a data breach after an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data.\nThe company says customer password vaults and the encryption keys protecting them were not compromised in the atta",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 16:33:33 -0500"
+    },
+    {
+      "id": "63da0c2dc0919fd6",
+      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector.\nThe two agencies listed four AI-powered penetration testing and red-teaming frameworks that have been involved in recent breaches and ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 14:39:31 -0500"
+    },
+    {
+      "id": "97df8d95478773eb",
+      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems.\nDanfoss controllers have been compromised recently in attacks at ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 11:13:40 -0500"
+    },
+    {
+      "id": "a3b682ce25929f59",
+      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+      "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Demand for penetration testing keeps rising, be it due to DORA threat-led testing, NIS2, or customer security questionnaires. However, supply often cannot keep up.\nExperienced testers are scarce, take months to hire and train, and every one of them spends part of each engagement on work that is not ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 10:00:10 -0500"
+    },
+    {
+      "id": "bd8fc62460121290",
+      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications.\nThis follows widespread reports on social media and Microsoft's support website about what affected users described as a persistent white screen or square that can",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 06:16:32 -0500"
+    },
+    {
+      "id": "37b5c9ba93266751",
+      "title": "Where scientists draw the line on AI agents",
+      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Where scientists draw the line on AI agents\nDelegating research tasks to AI does not remove scientists’ responsibility for how the work is accomplished. For example, a researcher using AI to review the literature needs to check whether the system overlooks conflicting evidence or makes claims the ci",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 18:52:55 GMT"
+    },
+    {
+      "id": "d8d6777ecf090783",
+      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
+      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000\nInkling 2 Mini came out last week and sets a new state of the art for local AI and smaller open-source models. With ~26B total parameters (3B active per token), multimodal inputs, and a 1M-token context window, it leads its weight class on t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "707319c903aa5aba",
+      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "S&P Global Ratings, one of the three major credit rating agencies, is considering downgrading Nvidia’s rating, citing concerns about the company’s management and governance practices.\nDespite Nvidia’s strong financial performance, the ouster and reinstatement of CEO Jensen Huang has raised concerns ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 22:44:32 +0000"
+    },
+    {
+      "id": "dc85126b0ac71765",
+      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a few of its users, amid criticism from some subscribers that the merger could restrict their usage.\nThe ChatGPT maker began introducing the update to a small group of Pro subscribers, product lead Thibault “Tibo” Sottia",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 20:03:27 +0000"
+    },
+    {
+      "id": "fb5a7d58c9a946b0",
+      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "When Jensen Huang gave his first all-hands address since returning as CEO, there was an odd emphasis on Nvidia’s code of conduct. He admitted to violating the code, then emphasized that no one was exempt from it. But that “does not mean, the moment you violate a code of conduct, we walk you out the ",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 19:54:57 +0000"
+    },
+    {
+      "id": "00d3c793baf99b8f",
+      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Anthropic CEO Dario Amodei is pushing back against claims that Anthropic believes we should “surrender human free will” to AI systems. In a long X post on Wednesday, Amodei called the suggestion “absurd.”\n“We should never sacrifice legitimacy or self-determination at the altar of efficiency or secur",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 19:44:24 +0000"
+    },
+    {
+      "id": "4f0b7bfbd5a5d08e",
+      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
+      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Santa won’t be delivering any AI chatbot toys to New York kids this Christmas.\nGov. Kathy Hochul this week signed a bill banning the manufacture, distribution, and sale of such toys in New York for the next five years. The bill explicitly targets toys with embedded or integrated AI chatbots, like ta",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 18:11:46 +0000"
+    },
+    {
+      "id": "16ddaf7683c8da25",
+      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "What happens to your private conversations when an AI company goes bankrupt? If it’s Character.ai, apparently, the plan is to auction them off to the highest bidder.\nNow, a coalition of 42 state attorneys general is intervening in Character.ai’s bankruptcy proceedings in an effort to stop the chatbo",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 17:35:58 +0000"
+    },
+    {
+      "id": "b47f021e12d7c019",
+      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia has made clear it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck.\nAnita Verma-Lallian",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 15:41:43 +0000"
+    },
+    {
+      "id": "cb4782794f2ff0ad",
+      "title": "AI is straining America’s open records systems",
+      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
+      "source": "MIT Tech Review AI",
+      "category": "ai",
+      "summary": "AI is straining America’s open records systems\nStartups are mining public data for AI products, while citizens use chatbots to file more requests.\nIn Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the t",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 10:00:00 +0000"
+    },
+    {
+      "id": "e13089d7b52c9b0a",
+      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
+      "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Someone claiming to represent ShinyHunters has announced the notorious cybercrime group’s alleged return. Separately, the operators of a new extortion campaign named Inception have denied having ties to ShinyHunters.\nAccording to DataBreaches, the return of ShinyHunters was announced in a message po",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 14:15:25 +0000"
+    },
+    {
+      "id": "bb4d635f16b764f2",
+      "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
+      "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The Financial Crimes Enforcement Network (FinCEN), the US Treasury Department’s financial intelligence unit, has disconnected some of its systems while investigating a cyber incident.\n“FinCEN is investigating a cybersecurity incident that resulted in unauthorized access to a limited subset of its sy",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 13:39:21 +0000"
+    },
+    {
+      "id": "5aac1dca0d010c41",
+      "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
+      "url": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "A CISO who traded enterprise budgets for higher ed on what “creativity within constraints” really means, and the one habit worth stealing from how he leads.\nI have known Matt Martin for a few years, and the first thing I tell anyone about him has nothing to do with security. It is that he treats the",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 13:30:00 +0000"
+    },
+    {
+      "id": "7d08c2d9b473a589",
+      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
+      "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Education technology platform Turnitin has disclosed a cyberattack involving certain customer-facing systems.\nA subsidiary of Advance Publications, Turnitin provides plagiarism checking solutions used by thousands of education and research institutions worldwide.\n“We are writing to let you know that",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 10:40:07 +0000"
+    },
+    {
+      "id": "b02e0bf3eddf43d7",
+      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
+      "url": "https://arxiv.org/abs/2611.31301",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 21 Nov 2026 (v1), last revised 25 Nov 2026 (this version, v2)]\nTitle:MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake\nView PDF HTML (experimental)\n            Abstract:Audio-video (AV) deepfakes can fake the face, the voice",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "9b5199cc4b2a1d2b",
+      "title": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
+      "url": "https://arxiv.org/abs/2611.31329",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 23 Nov 2026]\nTitle:Conservative Overlap Fuzzy Rough Sets for Incomplete Data\nView PDF HTML (experimental)\n            Abstract:Attribute reduction in incomplete information systems is difficult because missing values break the equivalence-cl",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "bc1d896f2583f108",
+      "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
+      "url": "https://arxiv.org/abs/2611.31345",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 23 Nov 2026]\nTitle:Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs\nView PDF HTML (experimental)\n            Abstract:In recent years, multimodal large language models (MLLMs) have achieved significant progre",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
