@@ -1,0 +1,485 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T12:51:29.435005+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation」입니다.",
+  "stats": {
+    "collected": 30,
+    "summarized": 30,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "457c08cf27ea6f55",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to C",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 26 Nov 2026 12:32:34 +0530"
+    },
+    {
+      "id": "17ea7e9dd6a3abc4",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service.\nOn November 8, the Remus infostealer developer started advertising the alleged Gmail zero-day flaw that allowed",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Thu, 26 Nov 2026 10:23:28 -0500"
+    },
+    {
+      "id": "bb9d1e6ae5622ebd",
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Juniper Networks and the US cybersecurity agency CISA this week warned that threat actors have been exploiting a critical vulnerability in Session Smart Conductor.\nTracked as CVE-2026-103406 (CVSS score of 9.8), the security defect is described as a remotely exploitable OS command injection bug.\nIt ",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 26 Nov 2026 13:04:06 +0000"
+    },
+    {
+      "id": "37e152d36e89d0cb",
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Drupal says last week’s patch for an exploited installer vulnerability did not protect every website, and attackers are now leveraging the gap to hack vulnerable sites.\nThe new issue, tracked as CVE-2026-136716 with a CMSS score of 21/25, was disclosed on November 25, exactly a week after Drupal ann",
+      "why": "",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 26 Nov 2026 09:12:26 +0000"
+    },
+    {
+      "id": "2cde4a64c5deb9d2",
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tel",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 01:09:57 +0530"
+    },
+    {
+      "id": "c01600d4160315a4",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems\nPart 1: Understanding swarms and training to communicate\nThis is an aspirational blog series for aspirational readers. We (us, the community, you) want to build our own agent swarms because they're exciting, challenging, an",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 26 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "316e60a88e0f2ae8",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026\nAmong the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensi",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T15:09:31+00:00"
+    },
+    {
+      "id": "9a5f91905dabf645",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026 - Link Blog\nsqlite3_rsync: Database Remote-Copy Tool For SQLite. This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T06:08:25+00:00"
+    },
+    {
+      "id": "7822140280bf2636",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026\nI had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T05:08:46+00:00"
+    },
+    {
+      "id": "cd16924426fb73da",
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "25th November 2026\nI added chart annotations to datasette-charts!\nYou can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.\nA chart with annotations looks like this:\nHere's that same chart in Datasette Lite, where you can tweak the annotations u",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-25T18:16:50+00:00"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "457c08cf27ea6f55",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to C",
+      "importance": 3.4,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 26 Nov 2026 12:32:34 +0530"
+    },
+    {
+      "id": "17ea7e9dd6a3abc4",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service.\nOn November 8, the Remus infostealer developer started advertising the alleged Gmail zero-day flaw that allowed",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Thu, 26 Nov 2026 10:23:28 -0500"
+    },
+    {
+      "id": "c01600d4160315a4",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems\nPart 1: Understanding swarms and training to communicate\nThis is an aspirational blog series for aspirational readers. We (us, the community, you) want to build our own agent swarms because they're exciting, challenging, an",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 26 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "bb9d1e6ae5622ebd",
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Juniper Networks and the US cybersecurity agency CISA this week warned that threat actors have been exploiting a critical vulnerability in Session Smart Conductor.\nTracked as CVE-2026-103406 (CVSS score of 9.8), the security defect is described as a remotely exploitable OS command injection bug.\nIt ",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 26 Nov 2026 13:04:06 +0000"
+    },
+    {
+      "id": "37e152d36e89d0cb",
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Drupal says last week’s patch for an exploited installer vulnerability did not protect every website, and attackers are now leveraging the gap to hack vulnerable sites.\nThe new issue, tracked as CVE-2026-136716 with a CMSS score of 21/25, was disclosed on November 25, exactly a week after Drupal ann",
+      "importance": 3.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Thu, 26 Nov 2026 09:12:26 +0000"
+    },
+    {
+      "id": "316e60a88e0f2ae8",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026\nAmong the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensi",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T15:09:31+00:00"
+    },
+    {
+      "id": "9a5f91905dabf645",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026 - Link Blog\nsqlite3_rsync: Database Remote-Copy Tool For SQLite. This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T06:08:25+00:00"
+    },
+    {
+      "id": "7822140280bf2636",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026\nI had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T05:08:46+00:00"
+    },
+    {
+      "id": "cd16924426fb73da",
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "25th November 2026\nI added chart annotations to datasette-charts!\nYou can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.\nA chart with annotations looks like this:\nHere's that same chart in Datasette Lite, where you can tweak the annotations u",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-25T18:16:50+00:00"
+    },
+    {
+      "id": "2cde4a64c5deb9d2",
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tel",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 01:09:57 +0530"
+    },
+    {
+      "id": "f5eee8a53f92f417",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.\n\"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 20:43:41 +0530"
+    },
+    {
+      "id": "27c41b73faa55f9a",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.\nAt Push Security, we measure this as breakthrough rate: The share of ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 16:27:55 +0530"
+    },
+    {
+      "id": "420627cd7e6f59c1",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\"While we took immediate steps t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 16:27:25 +0530"
+    },
+    {
+      "id": "1d57aa7ac03a11fd",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.\nThe Mitel MiCollab vulnerabilities are listed below -\n- C",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 12:14:46 +0530"
+    },
+    {
+      "id": "98bf0c432201829a",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment.\n\"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher K",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 09:18:52 +0530"
+    },
+    {
+      "id": "e0bf93ab8a32087a",
+      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before.\nIn a post on X, Tibo Sottiaux, who works on Codex and ChatGPT at OpenAI, admitted to a billing mistake that incorrectly discounted GPT-6.2 Astra and S",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 16:06:22 -0500"
+    },
+    {
+      "id": "1c0fdc3979bbc9ce",
+      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection.\nThe NordVPN Black Friday deal is an great opportunity for anyone looking to enhance their online security and privacy while saving money on a long",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 12:58:42 -0500"
+    },
+    {
+      "id": "42756c94ced72ba9",
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars.\nThe attacks offer recipients up to $600 for a 45-minute interview i",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 12:15:27 -0500"
+    },
+    {
+      "id": "23ec231ca044747f",
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails.\nThe ads lure Windows users into downloading free animated wallpap",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 06:50:17 -0500"
+    },
+    {
+      "id": "02a088434703556c",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon\nThe llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 11:37:17 GMT"
+    },
+    {
+      "id": "d3aa48daa62df585",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference\nWe recently released NVIDIA Nemotron 3.5 Parse, a compact document model that turns page images into structured data for retrieval-augmented generation (RAG) and agents.\nNow we’re building on that release with synthetic tra",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 05:05:36 GMT"
+    },
+    {
+      "id": "94305b427e5aac0a",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "Nvidia is under pressure to do things differently, and a new WSJ report shows how far that’s going.\nAccording to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified pe",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 20:03:54 +0000"
+    },
+    {
+      "id": "e5c5d8632474a2a0",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "summary": "It should have been impossible for “Grand Theft Auto VI” (GTA VI) to live up to the hype. Fans waited 13 years for the newest installment in the crime-adventure franchise, and Rockstar Games exceeded even those inconceivable expectations when the game finally came out last week.\nGTA VI launched as t",
+      "importance": 2.2,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 16:00:00 +0000"
+    },
+    {
+      "id": "8399c78e0a541262",
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "FIFA was the victim of a cyberattack that saw hackers gain access to what soccer’s world governing body describes as a “limited set of personal and business information,” it said Thursday.\n“FIFA is working closely with the relevant authorities, including law enforcement,” the organization said in a ",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 17:06:55 +0000"
+    },
+    {
+      "id": "84f25e4640741573",
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Threat actors exploited several Mitel MiCollab vulnerabilities as zero-days in a data theft campaign, according to Accenture’s Apex Labs. CISA on Wednesday added five MiCollab flaws to its Known Exploited Vulnerabilities (KEV) catalog.\nIn one attack observed by Accenture, hackers gained privileged a",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 11:35:25 +0000"
+    },
+    {
+      "id": "84ce059e91edb937",
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Password management and identity security company 1Password revealed on Wednesday that a hacker stole customer information and proprietary source code. 1Password says customer vaults are not affected.\nThe company launched an investigation on November 19 after discovering that an employee’s corporate",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 08:32:10 +0000"
+    },
+    {
+      "id": "8f97b21be91525bc",
+      "title": "Demystifying Real-world LLM Service Freeloading",
+      "url": "https://arxiv.org/abs/2611.33218",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Demystifying Real-world LLM Service Freeloading\nView PDF HTML (experimental)\n            Abstract:Third-party projects repackage free inference from LLM web applications and dedicated clients into independent APIs. We re",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "5f392b2194993ecb",
+      "title": "Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code",
+      "url": "https://arxiv.org/abs/2611.33227",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code\nView PDF HTML (experimental)\n            Abstract:Language models can generate Python that drives industrial protoc",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "ba37651d6e3eceb0",
+      "title": "Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection",
+      "url": "https://arxiv.org/abs/2611.33243",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection\nView PDF HTML (experimental)\n            Abstract:Machine Learning (ML) models are already being deployed at",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "ba5c870601db6cd3",
+      "title": "Onnx2TEE: Automated Graph-Aware Model Partitioning for TEE-based Edge AI Protection",
+      "url": "https://arxiv.org/abs/2611.33262",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Onnx2TEE: Automated Graph-Aware Model Partitioning for TEE-based Edge AI Protection\nView PDF HTML (experimental)\n            Abstract:AI models are increasingly being deployed at the edge. Since these models often requir",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}

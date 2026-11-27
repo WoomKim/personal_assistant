@@ -1,619 +1,485 @@
 {
-  "date": "2026-11-26",
-  "generated_at": "2026-11-26T12:50:22.652902+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains」입니다.",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T12:51:29.435005+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation」입니다.",
   "stats": {
-    "collected": 40,
-    "summarized": 40,
+    "collected": 30,
+    "summarized": 30,
     "picked": 10,
     "llm": "live"
   },
   "items": [
     {
-      "id": "92db407f26f0f4fe",
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "id": "457c08cf27ea6f55",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n- CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could ena",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to C",
       "why": "",
       "importance": 3.4,
       "matched": [
-        "RCE",
         "CVE-2026"
       ],
-      "published": "Wed, 25 Nov 2026 18:18:54 +0530"
+      "published": "Thu, 26 Nov 2026 12:32:34 +0530"
     },
     {
-      "id": "d52cc031d711c026",
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\nThe vulnerability, tracked as CVE-2026-132165 aka Fail2Install ",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "RCE",
-        "CVE-2026"
-      ],
-      "published": "Wed, 25 Nov 2026 16:53:26 +0530"
-    },
-    {
-      "id": "916629091cfddbe4",
-      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had ",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Wed, 25 Nov 2026 14:36:59 +0530"
-    },
-    {
-      "id": "50a53afadcff1570",
-      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "id": "17ea7e9dd6a3abc4",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet.\nPHP2Shell is the name for two critical PHP vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619, which allow unauthen",
+      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service.\nOn November 8, the Remus infostealer developer started advertising the alleged Gmail zero-day flaw that allowed",
       "why": "",
       "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Thu, 26 Nov 2026 10:23:28 -0500"
+    },
+    {
+      "id": "bb9d1e6ae5622ebd",
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Juniper Networks and the US cybersecurity agency CISA this week warned that threat actors have been exploiting a critical vulnerability in Session Smart Conductor.\nTracked as CVE-2026-103406 (CVSS score of 9.8), the security defect is described as a remotely exploitable OS command injection bug.\nIt ",
+      "why": "",
+      "importance": 3.0,
       "matched": [
         "CVE-2026"
       ],
-      "published": "Wed, 25 Nov 2026 17:05:09 -0500"
+      "published": "Thu, 26 Nov 2026 13:04:06 +0000"
     },
     {
-      "id": "5d8223f882df7625",
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-      "source": "BleepingComputer",
+      "id": "37e152d36e89d0cb",
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
+      "source": "SecurityWeek",
       "category": "security",
-      "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves.\nThe November InfraTrust Pulse report tr",
+      "summary": "Drupal says last week’s patch for an exploited installer vulnerability did not protect every website, and attackers are now leveraging the gap to hack vulnerable sites.\nThe new issue, tracked as CVE-2026-136716 with a CMSS score of 21/25, was disclosed on November 25, exactly a week after Drupal ann",
       "why": "",
-      "importance": 3.4,
+      "importance": 3.0,
       "matched": [
-        "supply chain"
+        "CVE-2026"
       ],
-      "published": "Wed, 25 Nov 2026 10:00:00 -0500"
+      "published": "Thu, 26 Nov 2026 09:12:26 +0000"
     },
     {
-      "id": "d0a3a7f662b58965",
-      "title": "An Indic Voice Agent with CUGA",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "An Indic Voice Agent with CUGA\nMost useful knowledge is written and digitized in English. Most of the people who need it speak, and think, in their own regional languages like Hindi, Tamil, Telugu, Gujarati, Marathi and many others. Many would rather talk than type.\nWe built a small voice agent to c",
-      "why": "",
-      "importance": 3.4,
-      "matched": [
-        "agent"
-      ],
-      "published": "Wed, 25 Nov 2026 10:22:09 GMT"
-    },
-    {
-      "id": "61cb6e1f95ec64ca",
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Amazon may be having a change of heart about Meta’s AI agent, Muse. The two tech giants are reportedly discussing a potential deal that would allow Meta’s popular AI agent to connect directly to Amazon’s store.\nThe talks would mark a significant reversal from just two months ago, when Muse users dis",
-      "why": "",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Wed, 25 Nov 2026 14:10:18 +0000"
-    },
-    {
-      "id": "2c33c3cedb6545ec",
-      "title": "Quoting Scott Aaronson",
-      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "25th November 2026\nIt’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo firs",
-      "why": "",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-11-25T23:26:32+00:00"
-    },
-    {
-      "id": "dce071d6582af077",
-      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-      "url": "https://arxiv.org/abs/2611.31284",
-      "source": "arXiv cs.AI",
-      "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 19 Nov 2026]\nTitle:Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition\nView PDF HTML (experimental)\n            Abstract:Autonomous agent governance is commonly fram",
-      "why": "",
-      "importance": 2.6,
-      "matched": [
-        "agent"
-      ],
-      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
-    },
-    {
-      "id": "37b5c9ba93266751",
-      "title": "Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Where scientists draw the line on AI agents\nDelegating research tasks to AI does not remove scientists’ responsibility for how the work is accomplished. For example, a researcher using AI to review the literature needs to check whether the system overlooks conflicting evidence or makes claims the ci",
+      "id": "2cde4a64c5deb9d2",
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tel",
       "why": "",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 18:52:55 GMT"
+      "published": "Fri, 27 Nov 2026 01:09:57 +0530"
+    },
+    {
+      "id": "c01600d4160315a4",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems\nPart 1: Understanding swarms and training to communicate\nThis is an aspirational blog series for aspirational readers. We (us, the community, you) want to build our own agent swarms because they're exciting, challenging, an",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "agent"
+      ],
+      "published": "Thu, 26 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "316e60a88e0f2ae8",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026\nAmong the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensi",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T15:09:31+00:00"
+    },
+    {
+      "id": "9a5f91905dabf645",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026 - Link Blog\nsqlite3_rsync: Database Remote-Copy Tool For SQLite. This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T06:08:25+00:00"
+    },
+    {
+      "id": "7822140280bf2636",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026\nI had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T05:08:46+00:00"
+    },
+    {
+      "id": "cd16924426fb73da",
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "25th November 2026\nI added chart annotations to datasette-charts!\nYou can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.\nA chart with annotations looks like this:\nHere's that same chart in Datasette Lite, where you can tweak the annotations u",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-25T18:16:50+00:00"
     }
   ],
   "all_items": [
     {
-      "id": "92db407f26f0f4fe",
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+      "id": "457c08cf27ea6f55",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Threat actors are actively exploiting two newly patched security flaws in GeoServer, according to watchTowr.\nThe vulnerabilities in question are CVE-2026-120705 and CVE-2026-129243, details of which are below -\n- CVE-2026-120705 (CVSS score: 8.6) - An arbitrary file read vulnerability that could ena",
-      "importance": 3.4,
-      "matched": [
-        "RCE",
-        "CVE-2026"
-      ],
-      "published": "Wed, 25 Nov 2026 18:18:54 +0530"
-    },
-    {
-      "id": "d52cc031d711c026",
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-      "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Tuesday added a critical flaw impacting Drupal to its Known Exploited Vulnerabilities (KEV) catalog, requiring federal agencies to apply the fixes by November 27, 2026.\nThe vulnerability, tracked as CVE-2026-132165 aka Fail2Install ",
-      "importance": 3.4,
-      "matched": [
-        "RCE",
-        "CVE-2026"
-      ],
-      "published": "Wed, 25 Nov 2026 16:53:26 +0530"
-    },
-    {
-      "id": "916629091cfddbe4",
-      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
-      "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "An attacker ran operating system commands on Monday on six production servers of Hex.pm, the package registry that Elixir and Erlang developers fetch their dependencies from.\nThe flaw used in the attack had been in the registry's code since February 2016, and the team that maintains the service had ",
-      "importance": 3.4,
-      "matched": [
-        "RCE"
-      ],
-      "published": "Wed, 25 Nov 2026 14:36:59 +0530"
-    },
-    {
-      "id": "50a53afadcff1570",
-      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Threat actors are chaining exploits for the PHP2Shell and Fragnesia vulnerabilities to target Palo Alto Networks devices with management interfaces exposed to the internet.\nPHP2Shell is the name for two critical PHP vulnerabilities tracked as CVE-2026-109618 and CVE-2026-109619, which allow unauthen",
+      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to C",
       "importance": 3.4,
       "matched": [
         "CVE-2026"
       ],
-      "published": "Wed, 25 Nov 2026 17:05:09 -0500"
+      "published": "Thu, 26 Nov 2026 12:32:34 +0530"
     },
     {
-      "id": "5d8223f882df7625",
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "id": "17ea7e9dd6a3abc4",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves.\nThe November InfraTrust Pulse report tr",
+      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service.\nOn November 8, the Remus infostealer developer started advertising the alleged Gmail zero-day flaw that allowed",
       "importance": 3.4,
       "matched": [
-        "supply chain"
+        "zero-day"
       ],
-      "published": "Wed, 25 Nov 2026 10:00:00 -0500"
+      "published": "Thu, 26 Nov 2026 10:23:28 -0500"
     },
     {
-      "id": "7bb089ac45e5adb8",
-      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "The Drupal security team has confirmed that a critical vulnerability that lets attackers hijack unpatched sites has been actively exploited since at least Thursday.\nDrupal is a content management system (CMS) commonly used by large organizations, including government entities, major research univers",
-      "importance": 3.4,
-      "matched": [
-        "actively exploited",
-        "RCE"
-      ],
-      "published": "Wed, 25 Nov 2026 05:10:20 -0500"
-    },
-    {
-      "id": "d0a3a7f662b58965",
-      "title": "An Indic Voice Agent with CUGA",
-      "url": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
+      "id": "c01600d4160315a4",
+      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
+      "url": "https://huggingface.co/blog/training-swarms",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "An Indic Voice Agent with CUGA\nMost useful knowledge is written and digitized in English. Most of the people who need it speak, and think, in their own regional languages like Hindi, Tamil, Telugu, Gujarati, Marathi and many others. Many would rather talk than type.\nWe built a small voice agent to c",
+      "summary": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems\nPart 1: Understanding swarms and training to communicate\nThis is an aspirational blog series for aspirational readers. We (us, the community, you) want to build our own agent swarms because they're exciting, challenging, an",
       "importance": 3.4,
       "matched": [
         "agent"
       ],
-      "published": "Wed, 25 Nov 2026 10:22:09 GMT"
+      "published": "Thu, 26 Nov 2026 00:00:00 GMT"
     },
     {
-      "id": "61cb6e1f95ec64ca",
-      "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
-      "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Amazon may be having a change of heart about Meta’s AI agent, Muse. The two tech giants are reportedly discussing a potential deal that would allow Meta’s popular AI agent to connect directly to Amazon’s store.\nThe talks would mark a significant reversal from just two months ago, when Muse users dis",
-      "importance": 3.2,
-      "matched": [
-        "agent"
-      ],
-      "published": "Wed, 25 Nov 2026 14:10:18 +0000"
-    },
-    {
-      "id": "b368c84bce94ed6c",
-      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Advisories",
-      "category": "security",
-      "summary": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog\nCISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability\n- CVE-2023-25915 Danfoss AK-SM 800A Se",
-      "importance": 3.0,
-      "matched": [],
-      "published": "Wed, 25 Nov 26 12:00:00 +0000"
-    },
-    {
-      "id": "b2ec86257c9b955b",
-      "title": "Two Newly Disclosed GeoServer Vulnerabilities Under Attack",
-      "url": "https://www.securityweek.com/two-newly-disclosed-geoserver-vulnerabilities-under-attack/",
+      "id": "bb9d1e6ae5622ebd",
+      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
+      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Threat actors are targeting two recently disclosed GeoServer vulnerabilities that can be chained with other flaws to achieve unauthenticated remote code execution (RCE).\nCybersecurity firm WatchTowr has observed attempts to exploit two high-severity GeoServer vulnerabilities tracked as CVE-2026-1207",
+      "summary": "Juniper Networks and the US cybersecurity agency CISA this week warned that threat actors have been exploiting a critical vulnerability in Session Smart Conductor.\nTracked as CVE-2026-103406 (CVSS score of 9.8), the security defect is described as a remotely exploitable OS command injection bug.\nIt ",
       "importance": 3.0,
       "matched": [
-        "RCE",
         "CVE-2026"
       ],
-      "published": "Wed, 25 Nov 2026 15:27:36 +0000"
+      "published": "Thu, 26 Nov 2026 13:04:06 +0000"
     },
     {
-      "id": "45c257ac25c83e05",
-      "title": "Hackers Exploit Unpatched Flaw in Defunct Idunno AntiCsrf Library",
-      "url": "https://www.securityweek.com/hackers-exploit-unpatched-flaw-in-defunct-idunno-anticsrf-library/",
+      "id": "37e152d36e89d0cb",
+      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
+      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Threat actors are exploiting an unpatched vulnerability in the open source anti-CSRF library Idunno AntiCsrf for remote code execution (RCE), security researchers warn.\nAntiCsrf is a legacy ASP.NET module for WebForms applications that has no active maintainer and is no longer actively supported. Th",
+      "summary": "Drupal says last week’s patch for an exploited installer vulnerability did not protect every website, and attackers are now leveraging the gap to hack vulnerable sites.\nThe new issue, tracked as CVE-2026-136716 with a CMSS score of 21/25, was disclosed on November 25, exactly a week after Drupal ann",
       "importance": 3.0,
       "matched": [
-        "RCE"
+        "CVE-2026"
       ],
-      "published": "Wed, 25 Nov 2026 09:05:13 +0000"
+      "published": "Thu, 26 Nov 2026 09:12:26 +0000"
     },
     {
-      "id": "2c33c3cedb6545ec",
-      "title": "Quoting Scott Aaronson",
-      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "id": "316e60a88e0f2ae8",
+      "title": "Quoting Jack Despain Zhou",
+      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "25th November 2026\nIt’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo firs",
+      "summary": "26th November 2026\nAmong the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensi",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-25T23:26:32+00:00"
+      "published": "2026-11-26T15:09:31+00:00"
     },
     {
-      "id": "dce071d6582af077",
-      "title": "Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition",
-      "url": "https://arxiv.org/abs/2611.31284",
-      "source": "arXiv cs.AI",
+      "id": "9a5f91905dabf645",
+      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
+      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "source": "Simon Willison",
       "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 19 Nov 2026]\nTitle:Irreducible Governance Structure for Autonomous Agent Systems: Fair Allocation, Strategy-Proofness, and Multi-Scale Composition\nView PDF HTML (experimental)\n            Abstract:Autonomous agent governance is commonly fram",
+      "summary": "26th November 2026 - Link Blog\nsqlite3_rsync: Database Remote-Copy Tool For SQLite. This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its ",
       "importance": 2.6,
-      "matched": [
-        "agent"
-      ],
-      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+      "matched": [],
+      "published": "2026-11-26T06:08:25+00:00"
     },
     {
-      "id": "851806c24f2db9ae",
-      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-      "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+      "id": "7822140280bf2636",
+      "title": "The New York Times warns photographers not to update Photoshop over AI features",
+      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "26th November 2026\nI had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-26T05:08:46+00:00"
+    },
+    {
+      "id": "cd16924426fb73da",
+      "title": "datasette-charts 0.3a0",
+      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "25th November 2026\nI added chart annotations to datasette-charts!\nYou can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.\nA chart with annotations looks like this:\nHere's that same chart in Datasette Lite, where you can tweak the annotations u",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-25T18:16:50+00:00"
+    },
+    {
+      "id": "2cde4a64c5deb9d2",
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The U.S. Treasury Department's Financial Crimes Enforcement Network (FinCEN) has been hit by a cybersecurity incident that resulted in \"unauthorized access to a limited subset of its systems,\" the bureau said on Tuesday. As a precaution, it has taken some systems offline.\nThe bureau collects suspici",
+      "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tel",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 18:00:08 +0530"
+      "published": "Fri, 27 Nov 2026 01:09:57 +0530"
     },
     {
-      "id": "6a8ceb0f7d1b2b64",
-      "title": "Credential Remediation Is Slow When You Don’t Know What Will Break",
-      "url": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "id": "f5eee8a53f92f417",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "TL;DR\n- More than 64% still valid after four years: GitGuardian’s State of Secrets Sprawl 2026 found that most valid secrets discovered in 2022 still worked in January 2026, because teams stall on what a revoke will break.\n- Validity-only triage misses 46% of critical secrets: Prioritize by impact i",
+      "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.\n\"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published ",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 17:21:48 +0530"
+      "published": "Thu, 26 Nov 2026 20:43:41 +0530"
     },
     {
-      "id": "3885183f32787fc7",
-      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
-      "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+      "id": "27c41b73faa55f9a",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A former OpenAI employee accused of concealing a covert recording device at the company's San Francisco offices will be allowed to be released from jail on a $1 million bond, a San Francisco federal court judge ruled Tuesday.\nAbdulrahman Alfozan, a 35-year-old Saudi national, was arrested on October",
+      "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.\nAt Push Security, we measure this as breakthrough rate: The share of ",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 16:13:07 +0530"
+      "published": "Thu, 26 Nov 2026 16:27:55 +0530"
     },
     {
-      "id": "be8229fa86883728",
-      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
-      "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "id": "420627cd7e6f59c1",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "An unknown threat actor has been using artificial intelligence (AI)-driven offensive tooling in a campaign targeting Check Point Security Management servers, impacting 22 distinct organizations across the world.\nThe intrusion activity, tracked by GreyNoise under the moniker GreyNoise Threat 13 (GT13",
+      "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\"While we took immediate steps t",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 12:20:19 +0530"
+      "published": "Thu, 26 Nov 2026 16:27:25 +0530"
     },
     {
-      "id": "7a5ea8907df3325d",
-      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
-      "url": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "id": "1d57aa7ac03a11fd",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Palo Alto Networks Unit 42 has disclosed that it's tracking and has responded to \"numerous waves of vishing attacks\" orchestrated by Com-affiliated threat actors since August 2026 that have led to data theft and extortion attempts.\nThe attacks have targeted financial services, healthcare, and legal ",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.\nThe Mitel MiCollab vulnerabilities are listed below -\n- C",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 12:07:06 +0530"
+      "published": "Thu, 26 Nov 2026 12:14:46 +0530"
     },
     {
-      "id": "70f66acc3de798b1",
-      "title": "1Password customer data stolen after employee GitHub account breach",
-      "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+      "id": "98bf0c432201829a",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment.\n\"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher K",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 09:18:52 +0530"
+    },
+    {
+      "id": "e0bf93ab8a32087a",
+      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "1Password has disclosed a data breach after an employee's corporate GitHub account was hacked and used to deploy malicious code to the company's backend services to steal customer data.\nThe company says customer password vaults and the encryption keys protecting them were not compromised in the atta",
+      "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before.\nIn a post on X, Tibo Sottiaux, who works on Codex and ChatGPT at OpenAI, admitted to a billing mistake that incorrectly discounted GPT-6.2 Astra and S",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 16:33:33 -0500"
+      "published": "Thu, 26 Nov 2026 16:06:22 -0500"
     },
     {
-      "id": "63da0c2dc0919fd6",
-      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "id": "1c0fdc3979bbc9ce",
+      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector.\nThe two agencies listed four AI-powered penetration testing and red-teaming frameworks that have been involved in recent breaches and ",
+      "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection.\nThe NordVPN Black Friday deal is an great opportunity for anyone looking to enhance their online security and privacy while saving money on a long",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 14:39:31 -0500"
+      "published": "Thu, 26 Nov 2026 12:58:42 -0500"
     },
     {
-      "id": "97df8d95478773eb",
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "id": "42756c94ced72ba9",
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems.\nDanfoss controllers have been compromised recently in attacks at ",
+      "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars.\nThe attacks offer recipients up to $600 for a 45-minute interview i",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 11:13:40 -0500"
+      "published": "Thu, 26 Nov 2026 12:15:27 -0500"
     },
     {
-      "id": "a3b682ce25929f59",
-      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-      "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "id": "23ec231ca044747f",
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "Demand for penetration testing keeps rising, be it due to DORA threat-led testing, NIS2, or customer security questionnaires. However, supply often cannot keep up.\nExperienced testers are scarce, take months to hire and train, and every one of them spends part of each engagement on work that is not ",
+      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails.\nThe ads lure Windows users into downloading free animated wallpap",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 10:00:10 -0500"
+      "published": "Thu, 26 Nov 2026 06:50:17 -0500"
     },
     {
-      "id": "bd8fc62460121290",
-      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-      "source": "BleepingComputer",
-      "category": "security",
-      "summary": "Earlier this week, Microsoft resolved a known issue that was preventing some Microsoft 365 customers from accessing Office applications.\nThis follows widespread reports on social media and Microsoft's support website about what affected users described as a persistent white screen or square that can",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Wed, 25 Nov 2026 06:16:32 -0500"
-    },
-    {
-      "id": "37b5c9ba93266751",
-      "title": "Where scientists draw the line on AI agents",
-      "url": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
+      "id": "02a088434703556c",
+      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
+      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "Where scientists draw the line on AI agents\nDelegating research tasks to AI does not remove scientists’ responsibility for how the work is accomplished. For example, a researcher using AI to review the literature needs to check whether the system overlooks conflicting evidence or makes claims the ci",
+      "summary": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon\nThe llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference ",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 18:52:55 GMT"
+      "published": "Thu, 26 Nov 2026 11:37:17 GMT"
     },
     {
-      "id": "d8d6777ecf090783",
-      "title": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000",
-      "url": "https://huggingface.co/blog/inkling-2-mini-inference-hillclimb",
+      "id": "d3aa48daa62df585",
+      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
+      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "Hill-climbing Inkling 2 Mini inference on one RTX PRO 6000\nInkling 2 Mini came out last week and sets a new state of the art for local AI and smaller open-source models. With ~26B total parameters (3B active per token), multimodal inputs, and a 1M-token context window, it leads its weight class on t",
+      "summary": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference\nWe recently released NVIDIA Nemotron 3.5 Parse, a compact document model that turns page images into structured data for retrieval-augmented generation (RAG) and agents.\nNow we’re building on that release with synthetic tra",
       "importance": 2.4,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 00:00:00 GMT"
+      "published": "Thu, 26 Nov 2026 05:05:36 GMT"
     },
     {
-      "id": "707319c903aa5aba",
-      "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
-      "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+      "id": "94305b427e5aac0a",
+      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
+      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "S&P Global Ratings, one of the three major credit rating agencies, is considering downgrading Nvidia’s rating, citing concerns about the company’s management and governance practices.\nDespite Nvidia’s strong financial performance, the ouster and reinstatement of CEO Jensen Huang has raised concerns ",
+      "summary": "Nvidia is under pressure to do things differently, and a new WSJ report shows how far that’s going.\nAccording to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified pe",
       "importance": 2.2,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 22:44:32 +0000"
+      "published": "Thu, 26 Nov 2026 20:03:54 +0000"
     },
     {
-      "id": "dc85126b0ac71765",
-      "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
-      "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+      "id": "e5c5d8632474a2a0",
+      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
+      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
       "source": "TechCrunch AI",
       "category": "ai",
-      "summary": "OpenAI has started rolling out a unified Chat and Work experience in ChatGPT to a few of its users, amid criticism from some subscribers that the merger could restrict their usage.\nThe ChatGPT maker began introducing the update to a small group of Pro subscribers, product lead Thibault “Tibo” Sottia",
+      "summary": "It should have been impossible for “Grand Theft Auto VI” (GTA VI) to live up to the hype. Fans waited 13 years for the newest installment in the crime-adventure franchise, and Rockstar Games exceeded even those inconceivable expectations when the game finally came out last week.\nGTA VI launched as t",
       "importance": 2.2,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 20:03:27 +0000"
+      "published": "Thu, 26 Nov 2026 16:00:00 +0000"
     },
     {
-      "id": "fb5a7d58c9a946b0",
-      "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
-      "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "When Jensen Huang gave his first all-hands address since returning as CEO, there was an odd emphasis on Nvidia’s code of conduct. He admitted to violating the code, then emphasized that no one was exempt from it. But that “does not mean, the moment you violate a code of conduct, we walk you out the ",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Wed, 25 Nov 2026 19:54:57 +0000"
-    },
-    {
-      "id": "00d3c793baf99b8f",
-      "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
-      "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Anthropic CEO Dario Amodei is pushing back against claims that Anthropic believes we should “surrender human free will” to AI systems. In a long X post on Wednesday, Amodei called the suggestion “absurd.”\n“We should never sacrifice legitimacy or self-determination at the altar of efficiency or secur",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Wed, 25 Nov 2026 19:44:24 +0000"
-    },
-    {
-      "id": "4f0b7bfbd5a5d08e",
-      "title": "Want to buy your kid an AI toy this Christmas? Not in New York",
-      "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Santa won’t be delivering any AI chatbot toys to New York kids this Christmas.\nGov. Kathy Hochul this week signed a bill banning the manufacture, distribution, and sale of such toys in New York for the next five years. The bill explicitly targets toys with embedded or integrated AI chatbots, like ta",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Wed, 25 Nov 2026 18:11:46 +0000"
-    },
-    {
-      "id": "16ddaf7683c8da25",
-      "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
-      "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "What happens to your private conversations when an AI company goes bankrupt? If it’s Character.ai, apparently, the plan is to auction them off to the highest bidder.\nNow, a coalition of 42 state attorneys general is intervening in Character.ai’s bankruptcy proceedings in an effort to stop the chatbo",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Wed, 25 Nov 2026 17:35:58 +0000"
-    },
-    {
-      "id": "b47f021e12d7c019",
-      "title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
-      "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Nvidia has made clear it won’t backstop an AI data center until it’s nearly ready to run, and that’s landing just as neoclouds report construction delays and more expensive debt. The message to developers is that land, power, and a finished building matter more than a pitch deck.\nAnita Verma-Lallian",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Wed, 25 Nov 2026 15:41:43 +0000"
-    },
-    {
-      "id": "cb4782794f2ff0ad",
-      "title": "AI is straining America’s open records systems",
-      "url": "https://www.technologyreview.com/2026/11/25/1149702/ai-is-straining-americas-open-records-systems/",
-      "source": "MIT Tech Review AI",
-      "category": "ai",
-      "summary": "AI is straining America’s open records systems\nStartups are mining public data for AI products, while citizens use chatbots to file more requests.\nIn Panton, Vermont, population 660, town clerk Kyle Rowe did it all. He crafted budgets, paid vendors, handled property tax disputes, and served as the t",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Wed, 25 Nov 2026 10:00:00 +0000"
-    },
-    {
-      "id": "e13089d7b52c9b0a",
-      "title": "ShinyHunters Claims Comeback, New Inception Group Rejects Alleged Ties",
-      "url": "https://www.securityweek.com/shinyhunters-claims-comeback-new-inception-group-rejects-alleged-ties/",
+      "id": "8399c78e0a541262",
+      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
+      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Someone claiming to represent ShinyHunters has announced the notorious cybercrime group’s alleged return. Separately, the operators of a new extortion campaign named Inception have denied having ties to ShinyHunters.\nAccording to DataBreaches, the return of ShinyHunters was announced in a message po",
+      "summary": "FIFA was the victim of a cyberattack that saw hackers gain access to what soccer’s world governing body describes as a “limited set of personal and business information,” it said Thursday.\n“FIFA is working closely with the relevant authorities, including law enforcement,” the organization said in a ",
       "importance": 2.0,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 14:15:25 +0000"
+      "published": "Thu, 26 Nov 2026 17:06:55 +0000"
     },
     {
-      "id": "bb4d635f16b764f2",
-      "title": "US Treasury’s FinCEN Disconnects Systems Following Cyber Incident",
-      "url": "https://www.securityweek.com/us-treasurys-fincen-disconnects-systems-following-cyber-incident/",
+      "id": "84f25e4640741573",
+      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
+      "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "The Financial Crimes Enforcement Network (FinCEN), the US Treasury Department’s financial intelligence unit, has disconnected some of its systems while investigating a cyber incident.\n“FinCEN is investigating a cybersecurity incident that resulted in unauthorized access to a limited subset of its sy",
+      "summary": "Threat actors exploited several Mitel MiCollab vulnerabilities as zero-days in a data theft campaign, according to Accenture’s Apex Labs. CISA on Wednesday added five MiCollab flaws to its Known Exploited Vulnerabilities (KEV) catalog.\nIn one attack observed by Accenture, hackers gained privileged a",
       "importance": 2.0,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 13:39:21 +0000"
+      "published": "Thu, 26 Nov 2026 11:35:25 +0000"
     },
     {
-      "id": "5aac1dca0d010c41",
-      "title": "Ground Truth: CISO Matt Martin on Building a Real Security Program Without an Enterprise Budget",
-      "url": "https://www.securityweek.com/ground-truth-ciso-matt-martin-on-building-a-real-security-program-without-an-enterprise-budget/",
+      "id": "84ce059e91edb937",
+      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
+      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "A CISO who traded enterprise budgets for higher ed on what “creativity within constraints” really means, and the one habit worth stealing from how he leads.\nI have known Matt Martin for a few years, and the first thing I tell anyone about him has nothing to do with security. It is that he treats the",
+      "summary": "Password management and identity security company 1Password revealed on Wednesday that a hacker stole customer information and proprietary source code. 1Password says customer vaults are not affected.\nThe company launched an investigation on November 19 after discovering that an employee’s corporate",
       "importance": 2.0,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 13:30:00 +0000"
+      "published": "Thu, 26 Nov 2026 08:32:10 +0000"
     },
     {
-      "id": "7d08c2d9b473a589",
-      "title": "Plagiarism Checker Turnitin Investigating Cyberattack",
-      "url": "https://www.securityweek.com/plagiarism-checker-turnitin-investigating-cyberattack/",
-      "source": "SecurityWeek",
+      "id": "8f97b21be91525bc",
+      "title": "Demystifying Real-world LLM Service Freeloading",
+      "url": "https://arxiv.org/abs/2611.33218",
+      "source": "arXiv cs.CR",
       "category": "security",
-      "summary": "Education technology platform Turnitin has disclosed a cyberattack involving certain customer-facing systems.\nA subsidiary of Advance Publications, Turnitin provides plagiarism checking solutions used by thousands of education and research institutions worldwide.\n“We are writing to let you know that",
-      "importance": 2.0,
-      "matched": [],
-      "published": "Wed, 25 Nov 2026 10:40:07 +0000"
-    },
-    {
-      "id": "b02e0bf3eddf43d7",
-      "title": "MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake",
-      "url": "https://arxiv.org/abs/2611.31301",
-      "source": "arXiv cs.AI",
-      "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 21 Nov 2026 (v1), last revised 25 Nov 2026 (this version, v2)]\nTitle:MOZAIC: An Audio-Video Deepfake Benchmark for Telling What Is Fake\nView PDF HTML (experimental)\n            Abstract:Audio-video (AV) deepfakes can fake the face, the voice",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Demystifying Real-world LLM Service Freeloading\nView PDF HTML (experimental)\n            Abstract:Third-party projects repackage free inference from LLM web applications and dedicated clients into independent APIs. We re",
       "importance": 1.6,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
     },
     {
-      "id": "9b5199cc4b2a1d2b",
-      "title": "Conservative Overlap Fuzzy Rough Sets for Incomplete Data",
-      "url": "https://arxiv.org/abs/2611.31329",
-      "source": "arXiv cs.AI",
-      "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 23 Nov 2026]\nTitle:Conservative Overlap Fuzzy Rough Sets for Incomplete Data\nView PDF HTML (experimental)\n            Abstract:Attribute reduction in incomplete information systems is difficult because missing values break the equivalence-cl",
+      "id": "5f392b2194993ecb",
+      "title": "Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code",
+      "url": "https://arxiv.org/abs/2611.33227",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code\nView PDF HTML (experimental)\n            Abstract:Language models can generate Python that drives industrial protoc",
       "importance": 1.6,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
     },
     {
-      "id": "bc1d896f2583f108",
-      "title": "Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs",
-      "url": "https://arxiv.org/abs/2611.31345",
-      "source": "arXiv cs.AI",
-      "category": "ai",
-      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 23 Nov 2026]\nTitle:Beyond Static Charts: Benchmarking Interactive Chart-to-Code Generation for MLLMs\nView PDF HTML (experimental)\n            Abstract:In recent years, multimodal large language models (MLLMs) have achieved significant progre",
+      "id": "ba37651d6e3eceb0",
+      "title": "Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection",
+      "url": "https://arxiv.org/abs/2611.33243",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection\nView PDF HTML (experimental)\n            Abstract:Machine Learning (ML) models are already being deployed at",
       "importance": 1.6,
       "matched": [],
-      "published": "Wed, 25 Nov 2026 00:00:00 -0500"
+      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "ba5c870601db6cd3",
+      "title": "Onnx2TEE: Automated Graph-Aware Model Partitioning for TEE-based Edge AI Protection",
+      "url": "https://arxiv.org/abs/2611.33262",
+      "source": "arXiv cs.CR",
+      "category": "security",
+      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Onnx2TEE: Automated Graph-Aware Model Partitioning for TEE-based Edge AI Protection\nView PDF HTML (experimental)\n            Abstract:AI models are increasingly being deployed at the edge. Since these models often requir",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
     }
   ]
 }
