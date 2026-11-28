@@ -1,485 +1,445 @@
 {
-  "date": "2026-11-27",
-  "generated_at": "2026-11-27T12:51:29.435005+09:00",
-  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation」입니다.",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T12:37:39.226861+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「CISA Adds Three Known Exploited Vulnerabilities to Catalog」입니다.",
   "stats": {
-    "collected": 30,
-    "summarized": 30,
+    "collected": 26,
+    "summarized": 26,
     "picked": 10,
     "llm": "live"
   },
   "items": [
     {
-      "id": "457c08cf27ea6f55",
-      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-      "source": "The Hacker News",
+      "id": "e66a2e1c8c17bc39",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
       "category": "security",
-      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to C",
+      "summary": "CISA Adds Three Known Exploited Vulnerabilities to Catalog\nCISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability\n- CVE-2026-129243 OSGeo GeoServer Incorrec",
       "why": "",
-      "importance": 3.4,
+      "importance": 4.0,
       "matched": [
         "CVE-2026"
       ],
-      "published": "Thu, 26 Nov 2026 12:32:34 +0530"
+      "published": "Fri, 27 Nov 26 12:00:00 +0000"
     },
     {
-      "id": "17ea7e9dd6a3abc4",
-      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "id": "99bc87f8212c6dd2",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.\n\"Evidence indicates that malicious files were generated not only when users downloaded the programs direct",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Fri, 27 Nov 2026 14:59:30 +0530"
+    },
+    {
+      "id": "706168821faab9b6",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT.\n\"I fo",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "RCE"
+      ],
+      "published": "Fri, 27 Nov 2026 11:18:20 +0530"
+    },
+    {
+      "id": "8b62149719af4472",
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service.\nOn November 8, the Remus infostealer developer started advertising the alleged Gmail zero-day flaw that allowed",
+      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers.\nThe exploit, dubbed \"4HTTP2SHELL\" (previously 4HTTP2ROOT), was published on Thanksgiving Da",
       "why": "",
       "importance": 3.4,
       "matched": [
         "zero-day"
       ],
-      "published": "Thu, 26 Nov 2026 10:23:28 -0500"
+      "published": "Fri, 27 Nov 2026 12:06:13 -0500"
     },
     {
-      "id": "bb9d1e6ae5622ebd",
-      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
-      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
-      "source": "SecurityWeek",
+      "id": "30a43f231a877acd",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
       "category": "security",
-      "summary": "Juniper Networks and the US cybersecurity agency CISA this week warned that threat actors have been exploiting a critical vulnerability in Session Smart Conductor.\nTracked as CVE-2026-103406 (CVSS score of 9.8), the security defect is described as a remotely exploitable OS command injection bug.\nIt ",
-      "why": "",
-      "importance": 3.0,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Thu, 26 Nov 2026 13:04:06 +0000"
-    },
-    {
-      "id": "37e152d36e89d0cb",
-      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
-      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Drupal says last week’s patch for an exploited installer vulnerability did not protect every website, and attackers are now leveraging the gap to hack vulnerable sites.\nThe new issue, tracked as CVE-2026-136716 with a CMSS score of 21/25, was disclosed on November 25, exactly a week after Drupal ann",
-      "why": "",
-      "importance": 3.0,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Thu, 26 Nov 2026 09:12:26 +0000"
-    },
-    {
-      "id": "2cde4a64c5deb9d2",
-      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
-      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tel",
-      "why": "",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Fri, 27 Nov 2026 01:09:57 +0530"
-    },
-    {
-      "id": "c01600d4160315a4",
-      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-      "url": "https://huggingface.co/blog/training-swarms",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems\nPart 1: Understanding swarms and training to communicate\nThis is an aspirational blog series for aspirational readers. We (us, the community, you) want to build our own agent swarms because they're exciting, challenging, an",
+      "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites.\nLast week, Drupal patched a remote code execution (RCE) flaw (tracked as CVE-2026-132165 / Fail2Install) that lets anonymous users take over vulnerable sites by",
       "why": "",
       "importance": 3.4,
       "matched": [
-        "agent"
+        "RCE",
+        "CVE-2026"
       ],
-      "published": "Thu, 26 Nov 2026 00:00:00 GMT"
+      "published": "Fri, 27 Nov 2026 05:10:15 -0500"
     },
     {
-      "id": "316e60a88e0f2ae8",
-      "title": "Quoting Jack Despain Zhou",
-      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "id": "c91c032e523155a5",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "26th November 2026\nAmong the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensi",
+      "summary": "27th November 2026\nThe new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in ",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-26T15:09:31+00:00"
+      "published": "2026-11-27T23:57:17+00:00"
     },
     {
-      "id": "9a5f91905dabf645",
-      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
-      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "id": "6481e9f2df718d99",
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "26th November 2026 - Link Blog\nsqlite3_rsync: Database Remote-Copy Tool For SQLite. This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its ",
+      "summary": "27th November 2026\nFixed for compatibility with Datasette 1.0a44.\nRecent articles\n- Three LLM inflection points in twelve months - 24th November 2026\n- Ladybird's first alpha release - 23rd November 2026\n- Running the full server-side Datasette Python app in the browser with service workers and Pyod",
       "why": "",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-26T06:08:25+00:00"
+      "published": "2026-11-27T00:26:17+00:00"
     },
     {
-      "id": "7822140280bf2636",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-      "source": "Simon Willison",
+      "id": "2d7f8b4f8454af31",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "26th November 2026\nI had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping",
+      "summary": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5\nThanks to our partnership with AWS, we were lucky enough to get access to a Trainium3 machine (trn3.48xlarge, 64 NeuronCores) for a month. We spent most of the month testing Hugging Face models on it, and getting more of them to work.\nWit",
       "why": "",
-      "importance": 2.6,
+      "importance": 2.4,
       "matched": [],
-      "published": "2026-11-26T05:08:46+00:00"
+      "published": "Fri, 27 Nov 2026 00:00:00 GMT"
     },
     {
-      "id": "cd16924426fb73da",
-      "title": "datasette-charts 0.3a0",
-      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
-      "source": "Simon Willison",
+      "id": "5aa9e3310d138da4",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "source": "arXiv cs.AI",
       "category": "ai",
-      "summary": "25th November 2026\nI added chart annotations to datasette-charts!\nYou can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.\nA chart with annotations looks like this:\nHere's that same chart in Datasette Lite, where you can tweak the annotations u",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 30 Aug 2026]\nTitle:Context Scaling: A New Frontier of AI Scaling\nView PDF HTML (experimental)\n            Abstract:Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the con",
       "why": "",
-      "importance": 2.6,
+      "importance": 1.6,
       "matched": [],
-      "published": "2026-11-25T18:16:50+00:00"
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "3965806fbc782475",
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 31 Aug 2026]\nTitle:Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection\nView PDF HTML (experimental)\n            Abstract:When an LLM or VLM produces several candidate answers, picking the best one usually relies on the mod",
+      "why": "",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
     }
   ],
   "all_items": [
     {
-      "id": "457c08cf27ea6f55",
-      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
-      "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
-      "source": "The Hacker News",
+      "id": "e66a2e1c8c17bc39",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
       "category": "security",
-      "summary": "Drupal has warned of a new \"highly critical\" security flaw impacting Drupal core that it said has been exploited in the wild.\nThe vulnerability, tracked as CVE-2026-136716 (CVSS score: N/A), has been described as a case of improper checking for unusual or exceptional conditions. It also relates to C",
-      "importance": 3.4,
+      "summary": "CISA Adds Three Known Exploited Vulnerabilities to Catalog\nCISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability\n- CVE-2026-129243 OSGeo GeoServer Incorrec",
+      "importance": 4.0,
       "matched": [
         "CVE-2026"
       ],
-      "published": "Thu, 26 Nov 2026 12:32:34 +0530"
+      "published": "Fri, 27 Nov 26 12:00:00 +0000"
     },
     {
-      "id": "17ea7e9dd6a3abc4",
-      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
-      "url": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "id": "99bc87f8212c6dd2",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.\n\"Evidence indicates that malicious files were generated not only when users downloaded the programs direct",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Fri, 27 Nov 2026 14:59:30 +0530"
+    },
+    {
+      "id": "706168821faab9b6",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT.\n\"I fo",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "RCE"
+      ],
+      "published": "Fri, 27 Nov 2026 11:18:20 +0530"
+    },
+    {
+      "id": "8b62149719af4472",
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "The Remus infostealer is stealing Gmail messages through a stealthy malicious Chrome extension, a capability the malware operators marketed as a zero-day exploit in Google's email service.\nOn November 8, the Remus infostealer developer started advertising the alleged Gmail zero-day flaw that allowed",
+      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers.\nThe exploit, dubbed \"4HTTP2SHELL\" (previously 4HTTP2ROOT), was published on Thanksgiving Da",
       "importance": 3.4,
       "matched": [
         "zero-day"
       ],
-      "published": "Thu, 26 Nov 2026 10:23:28 -0500"
+      "published": "Fri, 27 Nov 2026 12:06:13 -0500"
     },
     {
-      "id": "c01600d4160315a4",
-      "title": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems",
-      "url": "https://huggingface.co/blog/training-swarms",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems\nPart 1: Understanding swarms and training to communicate\nThis is an aspirational blog series for aspirational readers. We (us, the community, you) want to build our own agent swarms because they're exciting, challenging, an",
+      "id": "30a43f231a877acd",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites.\nLast week, Drupal patched a remote code execution (RCE) flaw (tracked as CVE-2026-132165 / Fail2Install) that lets anonymous users take over vulnerable sites by",
       "importance": 3.4,
       "matched": [
-        "agent"
-      ],
-      "published": "Thu, 26 Nov 2026 00:00:00 GMT"
-    },
-    {
-      "id": "bb9d1e6ae5622ebd",
-      "title": "Critical Juniper Session Smart Conductor Flaw Exploited in Attacks",
-      "url": "https://www.securityweek.com/critical-juniper-session-smart-conductor-flaw-exploited-in-attacks/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Juniper Networks and the US cybersecurity agency CISA this week warned that threat actors have been exploiting a critical vulnerability in Session Smart Conductor.\nTracked as CVE-2026-103406 (CVSS score of 9.8), the security defect is described as a remotely exploitable OS command injection bug.\nIt ",
-      "importance": 3.0,
-      "matched": [
+        "RCE",
         "CVE-2026"
       ],
-      "published": "Thu, 26 Nov 2026 13:04:06 +0000"
+      "published": "Fri, 27 Nov 2026 05:10:15 -0500"
     },
     {
-      "id": "37e152d36e89d0cb",
-      "title": "Drupal Installer Patch Left a Gap Attackers Are Already Exploiting",
-      "url": "https://www.securityweek.com/drupal-installer-patch-left-a-gap-attackers-are-already-exploiting/",
-      "source": "SecurityWeek",
-      "category": "security",
-      "summary": "Drupal says last week’s patch for an exploited installer vulnerability did not protect every website, and attackers are now leveraging the gap to hack vulnerable sites.\nThe new issue, tracked as CVE-2026-136716 with a CMSS score of 21/25, was disclosed on November 25, exactly a week after Drupal ann",
-      "importance": 3.0,
-      "matched": [
-        "CVE-2026"
-      ],
-      "published": "Thu, 26 Nov 2026 09:12:26 +0000"
-    },
-    {
-      "id": "316e60a88e0f2ae8",
-      "title": "Quoting Jack Despain Zhou",
-      "url": "https://simonwillison.net/2026/Nov/26/jack-despain-zhou/",
+      "id": "c91c032e523155a5",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "26th November 2026\nAmong the many already existing effects of AI has been a great de-individualization. I open a YouTube video, and I hear Claude. I sit in a conference presentation, and I hear Claude. I open my email inbox, and I find pitches and articles from ostensibly serious people with ostensi",
+      "summary": "27th November 2026\nThe new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in ",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-26T15:09:31+00:00"
+      "published": "2026-11-27T23:57:17+00:00"
     },
     {
-      "id": "9a5f91905dabf645",
-      "title": "sqlite3_rsync: Database Remote-Copy Tool For SQLite",
-      "url": "https://simonwillison.net/2026/Nov/26/sqlite3-rsync/",
+      "id": "6481e9f2df718d99",
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
       "source": "Simon Willison",
       "category": "ai",
-      "summary": "26th November 2026 - Link Blog\nsqlite3_rsync: Database Remote-Copy Tool For SQLite. This additional SQLite tool has been around for a while now - it was added as \"experimental\" in SQLite 3.47.0 in October 2024 and enhanced in SQLite 3.50.0 in May 2025. It was only today that I understood one of its ",
+      "summary": "27th November 2026\nFixed for compatibility with Datasette 1.0a44.\nRecent articles\n- Three LLM inflection points in twelve months - 24th November 2026\n- Ladybird's first alpha release - 23rd November 2026\n- Running the full server-side Datasette Python app in the browser with service workers and Pyod",
       "importance": 2.6,
       "matched": [],
-      "published": "2026-11-26T06:08:25+00:00"
+      "published": "2026-11-27T00:26:17+00:00"
     },
     {
-      "id": "7822140280bf2636",
-      "title": "The New York Times warns photographers not to update Photoshop over AI features",
-      "url": "https://simonwillison.net/2026/Nov/26/hn-50651685/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "26th November 2026\nI had a NYT photographer take my picture at my home earlier this year (for a story about Moltbook, oddly enough). At one point I asked if they could fix things up if I had a stain on my shirt and they said absolutely not - they present photographs as they were taken, with cropping",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-11-26T05:08:46+00:00"
-    },
-    {
-      "id": "cd16924426fb73da",
-      "title": "datasette-charts 0.3a0",
-      "url": "https://simonwillison.net/2026/Nov/25/datasette-charts/",
-      "source": "Simon Willison",
-      "category": "ai",
-      "summary": "25th November 2026\nI added chart annotations to datasette-charts!\nYou can now render a chart and then annotate it with lines, shaded areas, labels, or a combination of the three.\nA chart with annotations looks like this:\nHere's that same chart in Datasette Lite, where you can tweak the annotations u",
-      "importance": 2.6,
-      "matched": [],
-      "published": "2026-11-25T18:16:50+00:00"
-    },
-    {
-      "id": "2cde4a64c5deb9d2",
-      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
-      "url": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "id": "f01224df1f54e40b",
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "A website can look perfectly fine to the person running it. Log out, visit the same page, and things might look different. Something similar is happening with browser extensions, where even the way you find and install one can change what it does. Checking whether software works as expected only tel",
+      "summary": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements.\nThe previously undocumented incursion set, detailed by SOCRadar, has b",
       "importance": 2.4,
       "matched": [],
-      "published": "Fri, 27 Nov 2026 01:09:57 +0530"
+      "published": "Fri, 27 Nov 2026 22:06:11 +0530"
     },
     {
-      "id": "f5eee8a53f92f417",
-      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
-      "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "id": "4895aa5a5bc0ae74",
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "The threat actors behind the PolinRider campaign have been observed planting a Python loader in GitHub repositories, as evidence emerges that the activity may have started as far back as February 2025.\n\"The loader hides in a small utils package or in conftest.py,\" SafeDep said in a report published ",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT.\nThe intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.code",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 20:43:41 +0530"
+      "published": "Fri, 27 Nov 2026 17:19:34 +0530"
     },
     {
-      "id": "27c41b73faa55f9a",
-      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
-      "url": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "id": "415efee3262bc9c4",
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Every phishing attack has to get past email security, web filtering, and safe browsing before it reaches an employee. Some kits manage that far more often than others, and those are the kits that security teams need to know about.\nAt Push Security, we measure this as breakthrough rate: The share of ",
+      "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone ",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 16:27:55 +0530"
+      "published": "Fri, 27 Nov 2026 16:02:18 +0530"
     },
     {
-      "id": "420627cd7e6f59c1",
-      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
-      "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "id": "bdba96d745bb1de4",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
       "source": "The Hacker News",
       "category": "security",
-      "summary": "Popular password management software 1Password on Wednesday disclosed a security incident involving its backend systems that led to the unauthorized access of some customer information, but emphasized that customer password vaults and other secrets were not accessed.\n\"While we took immediate steps t",
+      "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday.\nThree of the attacks targeted critical infrastructure operators, and two of those succeeded, w",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 16:27:25 +0530"
+      "published": "Fri, 27 Nov 2026 11:34:20 +0530"
     },
     {
-      "id": "1d57aa7ac03a11fd",
-      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-      "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) on Wednesday added 10 security flaws to its Known Exploited Vulnerabilities (KEV) catalog, including five vulnerabilities impacting Mitel MiCollab that were disclosed last week.\nThe Mitel MiCollab vulnerabilities are listed below -\n- C",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 26 Nov 2026 12:14:46 +0530"
-    },
-    {
-      "id": "98bf0c432201829a",
-      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-      "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
-      "source": "The Hacker News",
-      "category": "security",
-      "summary": "Cybersecurity researchers have discovered 13 malicious NuGet packages that are designed to target Windows .NET developers under the guise of a fake take-home job assessment.\n\"Most of the packages pose as WinUI 3 and WPF [Windows Presentation Foundation] button controls,\" Socket security researcher K",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 26 Nov 2026 09:18:52 +0530"
-    },
-    {
-      "id": "e0bf93ab8a32087a",
-      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
-      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+      "id": "c33ac200edb1beb1",
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "OpenAI confirmed that it fixed a 'bug' that incorrectly discounted GPT-6.2 usage, which means you'll now hit GPT usage limits 40% faster than before.\nIn a post on X, Tibo Sottiaux, who works on Codex and ChatGPT at OpenAI, admitted to a billing mistake that incorrectly discounted GPT-6.2 Astra and S",
+      "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled.\nThe incident was first reported by numerous pCloud customers who began receiving email notifications informing them th",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 16:06:22 -0500"
+      "published": "Fri, 27 Nov 2026 14:26:04 -0500"
     },
     {
-      "id": "1c0fdc3979bbc9ce",
-      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
-      "url": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "id": "72cf1a5347d22a62",
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "NordVPN's 2026 Black Friday and Cyber Monday deal is now live, offering savings of up to 78% on VPN subscriptions, plus three extra months of protection.\nThe NordVPN Black Friday deal is an great opportunity for anyone looking to enhance their online security and privacy while saving money on a long",
+      "summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm.\nAccording to a notification sample Boston Scientific shared with U.S. authorities, the hacker used social engineering in a voice phishing (vishing) attack to gain access ",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 12:58:42 -0500"
+      "published": "Fri, 27 Nov 2026 13:57:42 -0500"
     },
     {
-      "id": "42756c94ced72ba9",
-      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
-      "url": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "id": "2778b393e6347199",
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "An ongoing phishing campaign dubbed \"GoodGuys\" impersonates major brands, including Google, Nvidia, Accenture, and SpaceX, to steal corporate Google and Okta credentials using fake invitations to paid expert interviews and webinars.\nThe attacks offer recipients up to $600 for a 45-minute interview i",
+      "summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department.\nAccording to Reuters, the intrusion was discovered within the past month during an upgrade of t",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 12:15:27 -0500"
+      "published": "Fri, 27 Nov 2026 10:09:40 -0500"
     },
     {
-      "id": "23ec231ca044747f",
-      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
-      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "id": "96edb4ed0f1cdbb3",
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
       "source": "BleepingComputer",
       "category": "security",
-      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails.\nThe ads lure Windows users into downloading free animated wallpap",
+      "summary": "When discussing IT infrastructure security, the focus is usually on firewalls, EDR, backup, vulnerability management, and network segmentation. However, all of them are effective only under one condition — if the infrastructure itself is under control.\nIncidents often begin not with the exploitation",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 06:50:17 -0500"
+      "published": "Fri, 27 Nov 2026 10:00:10 -0500"
     },
     {
-      "id": "02a088434703556c",
-      "title": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon",
-      "url": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+      "id": "814d32c90295b943",
+      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services.\nDubbed \"Block Friday,\" the Malwarebytes Bl",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 09:22:06 -0500"
+    },
+    {
+      "id": "7b714952d08e1b2f",
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system.\nIntroduced in 2005 as Software Update Services (SUS), WSUS (Windows Server Update Services) lets IT administrators manage and distribute updates for Microsoft products across c",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 06:18:36 -0500"
+    },
+    {
+      "id": "2d7f8b4f8454af31",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
       "source": "Hugging Face Blog",
       "category": "ai",
-      "summary": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon\nThe llama.cpp × AMD Benchmark dashboard is available on Hugging Face. It lets you track prompt processing and text generation performance across llama.cpp builds, models, and quantizations, so you can explore how local inference ",
+      "summary": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5\nThanks to our partnership with AWS, we were lucky enough to get access to a Trainium3 machine (trn3.48xlarge, 64 NeuronCores) for a month. We spent most of the month testing Hugging Face models on it, and getting more of them to work.\nWit",
       "importance": 2.4,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 11:37:17 GMT"
+      "published": "Fri, 27 Nov 2026 00:00:00 GMT"
     },
     {
-      "id": "d3aa48daa62df585",
-      "title": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference",
-      "url": "https://huggingface.co/blog/nvidia/building-on-nemotron-35-parse-open-data-fine-tunin",
-      "source": "Hugging Face Blog",
-      "category": "ai",
-      "summary": "Building on Nemotron 3.5 Parse: Open Data, Fine-Tuning, and Faster Inference\nWe recently released NVIDIA Nemotron 3.5 Parse, a compact document model that turns page images into structured data for retrieval-augmented generation (RAG) and agents.\nNow we’re building on that release with synthetic tra",
-      "importance": 2.4,
-      "matched": [],
-      "published": "Thu, 26 Nov 2026 05:05:36 GMT"
-    },
-    {
-      "id": "94305b427e5aac0a",
-      "title": "Nvidia hits pause on chip shipments to Southeast Asia",
-      "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "Nvidia is under pressure to do things differently, and a new WSJ report shows how far that’s going.\nAccording to the Journal, Nvidia has told manufacturing partners, including Dell and Super Micro, to hit pause on server shipments to Malaysia, Singapore, Thailand, and Indonesia for an unspecified pe",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Thu, 26 Nov 2026 20:03:54 +0000"
-    },
-    {
-      "id": "e5c5d8632474a2a0",
-      "title": "Grand Theft Auto VI proves why efficiency isn’t a virtue",
-      "url": "https://techcrunch.com/2026/11/26/as-anthropic-ipos-grand-theft-auto-vi-proves-why-efficiency-isnt-a-virtue/",
-      "source": "TechCrunch AI",
-      "category": "ai",
-      "summary": "It should have been impossible for “Grand Theft Auto VI” (GTA VI) to live up to the hype. Fans waited 13 years for the newest installment in the crime-adventure franchise, and Rockstar Games exceeded even those inconceivable expectations when the game finally came out last week.\nGTA VI launched as t",
-      "importance": 2.2,
-      "matched": [],
-      "published": "Thu, 26 Nov 2026 16:00:00 +0000"
-    },
-    {
-      "id": "8399c78e0a541262",
-      "title": "FIFA Says It Has Been Victim of a Cyberattack Accessing ‘Personal and Business Information’",
-      "url": "https://www.securityweek.com/fifa-says-it-has-been-victim-of-a-cyberattack-accessing-personal-and-business-information/",
+      "id": "db4a5f90bd411011",
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "FIFA was the victim of a cyberattack that saw hackers gain access to what soccer’s world governing body describes as a “limited set of personal and business information,” it said Thursday.\n“FIFA is working closely with the relevant authorities, including law enforcement,” the organization said in a ",
+      "summary": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.\nThis curated summary highlights key stories across vulnerability disclosures, emerging attack method",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 17:06:55 +0000"
+      "published": "Fri, 27 Nov 2026 11:00:00 +0000"
     },
     {
-      "id": "84f25e4640741573",
-      "title": "Mitel MiCollab Zero-Days Exploited in Suspected AI-Assisted Attacks",
-      "url": "https://www.securityweek.com/mitel-micollab-zero-days-exploited-in-suspected-ai-assisted-attacks/",
+      "id": "564b5565654ac562",
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Threat actors exploited several Mitel MiCollab vulnerabilities as zero-days in a data theft campaign, according to Accenture’s Apex Labs. CISA on Wednesday added five MiCollab flaws to its Known Exploited Vulnerabilities (KEV) catalog.\nIn one attack observed by Accenture, hackers gained privileged a",
+      "summary": "The Colorado Governor’s Office of Information Technology (OIT) has disclosed a data breach impacting data that residents uploaded to the myColorado application.\nColorado’s official mobile application, myColorado is used for digital identification, state services, and document storage. It has approxi",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 11:35:25 +0000"
+      "published": "Fri, 27 Nov 2026 09:30:54 +0000"
     },
     {
-      "id": "84ce059e91edb937",
-      "title": "1Password Breach Exposes Customer Data, Internal Source Code",
-      "url": "https://www.securityweek.com/1password-breach-exposes-customer-data-internal-source-code/",
+      "id": "c51ad7ce4d32c740",
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
       "source": "SecurityWeek",
       "category": "security",
-      "summary": "Password management and identity security company 1Password revealed on Wednesday that a hacker stole customer information and proprietary source code. 1Password says customer vaults are not affected.\nThe company launched an investigation on November 19 after discovering that an employee’s corporate",
+      "summary": "Hex, the package manager for Elixir and Erlang, fell victim to a cyberattack involving unauthorized access to its web servers.\nThe incident occurred on November 23, when the attackers exploited a vulnerability in hex.pm to execute commands. The attack was immediately blocked, and the underlying secu",
       "importance": 2.0,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 08:32:10 +0000"
+      "published": "Fri, 27 Nov 2026 07:44:49 +0000"
     },
     {
-      "id": "8f97b21be91525bc",
-      "title": "Demystifying Real-world LLM Service Freeloading",
-      "url": "https://arxiv.org/abs/2611.33218",
-      "source": "arXiv cs.CR",
+      "id": "62ce00fb3a46f09e",
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "source": "SecurityWeek",
       "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Demystifying Real-world LLM Service Freeloading\nView PDF HTML (experimental)\n            Abstract:Third-party projects repackage free inference from LLM web applications and dedicated clients into independent APIs. We re",
-      "importance": 1.6,
+      "summary": "Enterprise software giant SAP has confirmed it is investigating a cybersecurity incident following reports that threat actors targeted its development infrastructure.\nGerman publication Der Spiegel [paywalled] broke the news on Thursday, citing SAP insiders and an internal notification sent to emplo",
+      "importance": 2.0,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+      "published": "Fri, 27 Nov 2026 07:36:14 +0000"
     },
     {
-      "id": "5f392b2194993ecb",
-      "title": "Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code",
-      "url": "https://arxiv.org/abs/2611.33227",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Real Package, Wrong Controller: Static Auditing of Vendor--Protocol Mismatches in LLM-Generated PLC Code\nView PDF HTML (experimental)\n            Abstract:Language models can generate Python that drives industrial protoc",
+      "id": "5aa9e3310d138da4",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 30 Aug 2026]\nTitle:Context Scaling: A New Frontier of AI Scaling\nView PDF HTML (experimental)\n            Abstract:Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the con",
       "importance": 1.6,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
     },
     {
-      "id": "ba37651d6e3eceb0",
-      "title": "Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection",
-      "url": "https://arxiv.org/abs/2611.33243",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Beyond the Efficiency-Efficacy Dilemma: A Critical Analysis of Transferability in Adversarial Malware Detection\nView PDF HTML (experimental)\n            Abstract:Machine Learning (ML) models are already being deployed at",
+      "id": "3965806fbc782475",
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 31 Aug 2026]\nTitle:Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection\nView PDF HTML (experimental)\n            Abstract:When an LLM or VLM produces several candidate answers, picking the best one usually relies on the mod",
       "importance": 1.6,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
     },
     {
-      "id": "ba5c870601db6cd3",
-      "title": "Onnx2TEE: Automated Graph-Aware Model Partitioning for TEE-based Edge AI Protection",
-      "url": "https://arxiv.org/abs/2611.33262",
-      "source": "arXiv cs.CR",
-      "category": "security",
-      "summary": "Computer Science > Cryptography and Security\n  [Submitted on 24 Nov 2026]\nTitle:Onnx2TEE: Automated Graph-Aware Model Partitioning for TEE-based Edge AI Protection\nView PDF HTML (experimental)\n            Abstract:AI models are increasingly being deployed at the edge. Since these models often requir",
+      "id": "be1cc5587b8cedd5",
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "url": "https://arxiv.org/abs/2611.33165",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 4 Oct 2026]\nTitle:AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics\nView PDF HTML (experimental)\n            Abstract:AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical ",
       "importance": 1.6,
       "matched": [],
-      "published": "Thu, 26 Nov 2026 00:00:00 -0500"
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "c8682f048617465f",
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "url": "https://arxiv.org/abs/2611.33190",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 15 Nov 2026]\nTitle:General-Purpose Decision Models for AI Configuration Tuning\nView PDF HTML (experimental)\n            Abstract:AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget.",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
     }
   ]
 }

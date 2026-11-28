@@ -1,0 +1,445 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T12:37:39.226861+09:00",
+  "briefing": "오늘 10건이 수집되었습니다. 가장 주목할 항목은 「CISA Adds Three Known Exploited Vulnerabilities to Catalog」입니다.",
+  "stats": {
+    "collected": 26,
+    "summarized": 26,
+    "picked": 10,
+    "llm": "live"
+  },
+  "items": [
+    {
+      "id": "e66a2e1c8c17bc39",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds Three Known Exploited Vulnerabilities to Catalog\nCISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability\n- CVE-2026-129243 OSGeo GeoServer Incorrec",
+      "why": "",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 27 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "99bc87f8212c6dd2",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.\n\"Evidence indicates that malicious files were generated not only when users downloaded the programs direct",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Fri, 27 Nov 2026 14:59:30 +0530"
+    },
+    {
+      "id": "706168821faab9b6",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT.\n\"I fo",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "RCE"
+      ],
+      "published": "Fri, 27 Nov 2026 11:18:20 +0530"
+    },
+    {
+      "id": "8b62149719af4472",
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers.\nThe exploit, dubbed \"4HTTP2SHELL\" (previously 4HTTP2ROOT), was published on Thanksgiving Da",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Fri, 27 Nov 2026 12:06:13 -0500"
+    },
+    {
+      "id": "30a43f231a877acd",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites.\nLast week, Drupal patched a remote code execution (RCE) flaw (tracked as CVE-2026-132165 / Fail2Install) that lets anonymous users take over vulnerable sites by",
+      "why": "",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Fri, 27 Nov 2026 05:10:15 -0500"
+    },
+    {
+      "id": "c91c032e523155a5",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "27th November 2026\nThe new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in ",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-27T23:57:17+00:00"
+    },
+    {
+      "id": "6481e9f2df718d99",
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "27th November 2026\nFixed for compatibility with Datasette 1.0a44.\nRecent articles\n- Three LLM inflection points in twelve months - 24th November 2026\n- Ladybird's first alpha release - 23rd November 2026\n- Running the full server-side Datasette Python app in the browser with service workers and Pyod",
+      "why": "",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-27T00:26:17+00:00"
+    },
+    {
+      "id": "2d7f8b4f8454af31",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5\nThanks to our partnership with AWS, we were lucky enough to get access to a Trainium3 machine (trn3.48xlarge, 64 NeuronCores) for a month. We spent most of the month testing Hugging Face models on it, and getting more of them to work.\nWit",
+      "why": "",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "5aa9e3310d138da4",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 30 Aug 2026]\nTitle:Context Scaling: A New Frontier of AI Scaling\nView PDF HTML (experimental)\n            Abstract:Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the con",
+      "why": "",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "3965806fbc782475",
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 31 Aug 2026]\nTitle:Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection\nView PDF HTML (experimental)\n            Abstract:When an LLM or VLM produces several candidate answers, picking the best one usually relies on the mod",
+      "why": "",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+    }
+  ],
+  "all_items": [
+    {
+      "id": "e66a2e1c8c17bc39",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/27/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Advisories",
+      "category": "security",
+      "summary": "CISA Adds Three Known Exploited Vulnerabilities to Catalog\nCISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog, based on evidence of active exploitation.\n- CVE-2026-120705 OSGeo GeoServer XML Injection Vulnerability\n- CVE-2026-129243 OSGeo GeoServer Incorrec",
+      "importance": 4.0,
+      "matched": [
+        "CVE-2026"
+      ],
+      "published": "Fri, 27 Nov 26 12:00:00 +0000"
+    },
+    {
+      "id": "99bc87f8212c6dd2",
+      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+      "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a software supply chain attack that has tampered with Q-Dir and DesktopOK installation files distributed via the official SoftwareOK website.\n\"Evidence indicates that malicious files were generated not only when users downloaded the programs direct",
+      "importance": 3.4,
+      "matched": [
+        "supply chain"
+      ],
+      "published": "Fri, 27 Nov 2026 14:59:30 +0530"
+    },
+    {
+      "id": "706168821faab9b6",
+      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+      "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Details have emerged about a new zero-day vulnerability in Cacti, an open-source network monitoring tool, that could be exploited to achieve remote code execution.\nThe proof-of-concept (PoC) exploit, which has yet to be assigned a CVE identifier, has been tracked as 4HTTP2SHELL and 4HTTP2ROOT.\n\"I fo",
+      "importance": 3.4,
+      "matched": [
+        "zero-day",
+        "RCE"
+      ],
+      "published": "Fri, 27 Nov 2026 11:18:20 +0530"
+    },
+    {
+      "id": "8b62149719af4472",
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "url": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "A zero-day vulnerability in the Cacti network monitoring platform has been publicly disclosed, along with a proof-of-concept exploit that lets unauthenticated attackers execute commands on vulnerable servers.\nThe exploit, dubbed \"4HTTP2SHELL\" (previously 4HTTP2ROOT), was published on Thanksgiving Da",
+      "importance": 3.4,
+      "matched": [
+        "zero-day"
+      ],
+      "published": "Fri, 27 Nov 2026 12:06:13 -0500"
+    },
+    {
+      "id": "30a43f231a877acd",
+      "title": "Drupal warns of new site takeover flaw exploited in attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The Drupal security team says attackers are exploiting a second critical vulnerability that lets them breach and hijack unpatched websites.\nLast week, Drupal patched a remote code execution (RCE) flaw (tracked as CVE-2026-132165 / Fail2Install) that lets anonymous users take over vulnerable sites by",
+      "importance": 3.4,
+      "matched": [
+        "RCE",
+        "CVE-2026"
+      ],
+      "published": "Fri, 27 Nov 2026 05:10:15 -0500"
+    },
+    {
+      "id": "c91c032e523155a5",
+      "title": "datasette-charts 0.4a0",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-charts/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "27th November 2026\nThe new datasette-charts plugin has its own plugin hook to allow other plugins to define new chart types, but I hadn't actually used it for anything yet. I had Claude Opus 5.5 build an experimental plugins just to try out the hook and it came up with a bunch of friction points in ",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-27T23:57:17+00:00"
+    },
+    {
+      "id": "6481e9f2df718d99",
+      "title": "datasette-mcp 0.4",
+      "url": "https://simonwillison.net/2026/Nov/27/datasette-mcp/",
+      "source": "Simon Willison",
+      "category": "ai",
+      "summary": "27th November 2026\nFixed for compatibility with Datasette 1.0a44.\nRecent articles\n- Three LLM inflection points in twelve months - 24th November 2026\n- Ladybird's first alpha release - 23rd November 2026\n- Running the full server-side Datasette Python app in the browser with service workers and Pyod",
+      "importance": 2.6,
+      "matched": [],
+      "published": "2026-11-27T00:26:17+00:00"
+    },
+    {
+      "id": "f01224df1f54e40b",
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "A Vietnam-sponsored hacking group has been attributed to attacks targeting Southeast Asian military, government, and legislative organizations with an aim to gather intelligence on South China Sea defense and military agreements.\nThe previously undocumented incursion set, detailed by SOCRadar, has b",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 22:06:11 +0530"
+    },
+    {
+      "id": "4895aa5a5bc0ae74",
+      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
+      "url": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Cybersecurity researchers have disclosed details of a cyber attack in which a threat actor leveraged a Microsoft Store application to deliver a remote access trojan (RAT) called Vinci RAT.\nThe intrusion, according to eSentire, begins with a redirection to a bogus site for a sniping tool (\"snipp.code",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 17:19:34 +0530"
+    },
+    {
+      "id": "415efee3262bc9c4",
+      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
+      "url": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Most security metrics are not built to be used. They are built to be shown. Somewhere between the quarterly review and the next status update, a set of numbers gets assembled that looks reassuring in a room and tells almost no one what is actually happening across the environment that week. Someone ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 16:02:18 +0530"
+    },
+    {
+      "id": "bdba96d745bb1de4",
+      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+      "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+      "source": "The Hacker News",
+      "category": "security",
+      "summary": "Attackers using AI agents have broken into computer systems at Swiss organizations in four of five confirmed attacks, the first such cases in the country, the country's cybersecurity agency said yesterday.\nThree of the attacks targeted critical infrastructure operators, and two of those succeeded, w",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 11:34:20 +0530"
+    },
+    {
+      "id": "c33ac200edb1beb1",
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "The pCloud Pass password manager suffered a cyberattack, with users reporting that unknown devices had connected to their accounts even with two-factor authentication (2FA) enabled.\nThe incident was first reported by numerous pCloud customers who began receiving email notifications informing them th",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 14:26:04 -0500"
+    },
+    {
+      "id": "72cf1a5347d22a62",
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Medical technology company Boston Scientific is sending data breach notices to individuals affected by a cyberattack on the firm.\nAccording to a notification sample Boston Scientific shared with U.S. authorities, the hacker used social engineering in a voice phishing (vishing) attack to gain access ",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 13:57:42 -0500"
+    },
+    {
+      "id": "2778b393e6347199",
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Hackers have reportedly breached the US Air Force's Cloud One computing platform, adding to a recent wave of cyberattacks affecting US government agencies, including the FBI, CIA, and Treasury Department.\nAccording to Reuters, the intrusion was discovered within the past month during an upgrade of t",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 10:09:40 -0500"
+    },
+    {
+      "id": "96edb4ed0f1cdbb3",
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "url": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "When discussing IT infrastructure security, the focus is usually on firewalls, EDR, backup, vulnerability management, and network segmentation. However, all of them are effective only under one condition — if the infrastructure itself is under control.\nIncidents often begin not with the exploitation",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 10:00:10 -0500"
+    },
+    {
+      "id": "814d32c90295b943",
+      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
+      "url": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Malwarebytes' 2026 Black Friday and Cyber Monday sale is now live, offering 50% off security subscriptions for individuals, families, and small businesses, including its antivirus software, VPN, identity theft protection, and personal data removal services.\nDubbed \"Block Friday,\" the Malwarebytes Bl",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 09:22:06 -0500"
+    },
+    {
+      "id": "7b714952d08e1b2f",
+      "title": "Microsoft removes WSUS server role in Windows Server 2028",
+      "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
+      "source": "BleepingComputer",
+      "category": "security",
+      "summary": "Microsoft will remove the WSUS server role from Windows Server 2028, the next major release of its server operating system.\nIntroduced in 2005 as Software Update Services (SUS), WSUS (Windows Server Update Services) lets IT administrators manage and distribute updates for Microsoft products across c",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 06:18:36 -0500"
+    },
+    {
+      "id": "2d7f8b4f8454af31",
+      "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+      "url": "https://huggingface.co/blog/video-trainium3",
+      "source": "Hugging Face Blog",
+      "category": "ai",
+      "summary": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5\nThanks to our partnership with AWS, we were lucky enough to get access to a Trainium3 machine (trn3.48xlarge, 64 NeuronCores) for a month. We spent most of the month testing Hugging Face models on it, and getting more of them to work.\nWit",
+      "importance": 2.4,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 GMT"
+    },
+    {
+      "id": "db4a5f90bd411011",
+      "title": "In Other News: Tanker Cyberattacks, EU Quantum Act, New VirusTotal Capabilities",
+      "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "SecurityWeek’s weekly cybersecurity news roundup offers a concise overview of important developments that may not receive full standalone coverage yet remain relevant to the broader threat landscape.\nThis curated summary highlights key stories across vulnerability disclosures, emerging attack method",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 11:00:00 +0000"
+    },
+    {
+      "id": "564b5565654ac562",
+      "title": "100,000 Potentially Impacted by Colorado Data Breach",
+      "url": "https://www.securityweek.com/100000-potentially-impacted-by-colorado-data-breach/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "The Colorado Governor’s Office of Information Technology (OIT) has disclosed a data breach impacting data that residents uploaded to the myColorado application.\nColorado’s official mobile application, myColorado is used for digital identification, state services, and document storage. It has approxi",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 09:30:54 +0000"
+    },
+    {
+      "id": "c51ad7ce4d32c740",
+      "title": "Hex Package Manager Warns of Potential Data Breach",
+      "url": "https://www.securityweek.com/hex-package-manager-warns-of-potential-data-breach/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Hex, the package manager for Elixir and Erlang, fell victim to a cyberattack involving unauthorized access to its web servers.\nThe incident occurred on November 23, when the attackers exploited a vulnerability in hex.pm to execute commands. The attack was immediately blocked, and the underlying secu",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 07:44:49 +0000"
+    },
+    {
+      "id": "62ce00fb3a46f09e",
+      "title": "SAP Confirms Cyberattack, Source Code Reportedly Compromised",
+      "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised/",
+      "source": "SecurityWeek",
+      "category": "security",
+      "summary": "Enterprise software giant SAP has confirmed it is investigating a cybersecurity incident following reports that threat actors targeted its development infrastructure.\nGerman publication Der Spiegel [paywalled] broke the news on Thursday, citing SAP insiders and an internal notification sent to emplo",
+      "importance": 2.0,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 07:36:14 +0000"
+    },
+    {
+      "id": "5aa9e3310d138da4",
+      "title": "Context Scaling: A New Frontier of AI Scaling",
+      "url": "https://arxiv.org/abs/2611.33160",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 30 Aug 2026]\nTitle:Context Scaling: A New Frontier of AI Scaling\nView PDF HTML (experimental)\n            Abstract:Many failures of deployed AI arise not from weak inference but from a mismatch between the state a task depends on and the con",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "3965806fbc782475",
+      "title": "Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection",
+      "url": "https://arxiv.org/abs/2611.33161",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 31 Aug 2026]\nTitle:Constraint-Aware Test-Time Scoring for LLM and VLM Candidate Selection\nView PDF HTML (experimental)\n            Abstract:When an LLM or VLM produces several candidate answers, picking the best one usually relies on the mod",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "be1cc5587b8cedd5",
+      "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+      "url": "https://arxiv.org/abs/2611.33165",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 4 Oct 2026]\nTitle:AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics\nView PDF HTML (experimental)\n            Abstract:AI systems are increasingly capable of producing machine-checked Lean proofs of advanced mathematical ",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+    },
+    {
+      "id": "c8682f048617465f",
+      "title": "General-Purpose Decision Models for AI Configuration Tuning",
+      "url": "https://arxiv.org/abs/2611.33190",
+      "source": "arXiv cs.AI",
+      "category": "ai",
+      "summary": "Computer Science > Artificial Intelligence\n  [Submitted on 15 Nov 2026]\nTitle:General-Purpose Decision Models for AI Configuration Tuning\nView PDF HTML (experimental)\n            Abstract:AI configuration tuning searches for settings that improve the performance of AI systems under a limited budget.",
+      "importance": 1.6,
+      "matched": [],
+      "published": "Fri, 27 Nov 2026 00:00:00 -0500"
+    }
+  ]
+}
